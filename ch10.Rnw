@@ -1,0 +1,12 @@
+% Set the parent document so that this file can be compiled independently.
+\Sexpr{set_parent("book.Rnw")}
+
+%blankpage
+
+\chapter{Land Use and Urban Planning}
+\label{ch10}
+
+
+
+\clearpage
+
