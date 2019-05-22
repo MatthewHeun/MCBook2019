@@ -1,0 +1,12 @@
+% Set the parent document so that this file can be compiled independently.
+\Sexpr{set_parent("book.Rnw")}
+
+%blankpage
+
+\chapter{Housing and Households}
+\label{ch09}
+
+
+
+\clearpage
+
