@@ -1,7 +1,9 @@
+% Set the parent document so that this file can be compiled independently.
+\Sexpr{set_parent("book.Rnw")}
 
 %blankpage
 
-\chapter{Math}
+\chapter{Air and Water}
 \label{ch05}
 
 \section{Bold Math}

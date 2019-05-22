@@ -1,7 +1,7 @@
 % Set the parent document so that this file can be compiled independently.
 \Sexpr{set_parent("book.Rnw")}
 
-\chapter{Information Theory and Rate Distortion Theory}
+\chapter{Introduction}
 \label{ch01}
 
 

@@ -1,7 +1,9 @@
+% Set the parent document so that this file can be compiled independently.
+\Sexpr{set_parent("book.Rnw")}
 
 %blankpage
 
-\chapter{Shaded Areas}
+\chapter{Energy}
 \label{ch04}
 
 M\&C provides a macro called \verb+mcframe+ that allows us to
