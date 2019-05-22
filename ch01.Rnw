@@ -17,7 +17,7 @@ remark, rules, theorem, etc.
 What if you need an environment that the macros do not provide,
 like ``guesswork?'' You create it with \verb+newMCtheorem+:
 
-\verb+newMCtheorem}{guesswork}{GuessWork}+
+\verb+newMCtheorem{guesswork}{GuessWork}+
 
 \newMCtheorem{guesswork}{GuessWork}
 
