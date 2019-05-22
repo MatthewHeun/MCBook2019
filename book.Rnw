@@ -49,19 +49,21 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     \input{fm}                  % we'll need an Abstract and Keywords
 								% please see the abs-pref folder for some pdf examples
 
- \mainmatter                    % sample chapters
-    % \input{ch01}                % various environments like theorem,
-    % \input{ch02}                % example, etc.
-    % \input{ch03}                % algorithm sample
-    % \input{ch04}                % shaded blocks in your pages
-    % \input{ch05}                % bold math and math variables
-    % \input{ch06}                % bibliography using Author-Year
+ \mainmatter
     \Sexpr{knit_child("ch01.Rnw")}
     \Sexpr{knit_child("ch02.Rnw")}
     \Sexpr{knit_child("ch03.Rnw")}
     \Sexpr{knit_child("ch04.Rnw")}
     \Sexpr{knit_child("ch05.Rnw")}
     \Sexpr{knit_child("ch06.Rnw")}
+    \Sexpr{knit_child("ch07.Rnw")}
+    \Sexpr{knit_child("ch08.Rnw")}
+    \Sexpr{knit_child("ch09.Rnw")}
+    \Sexpr{knit_child("ch10.Rnw")}
+    \Sexpr{knit_child("ch11.Rnw")}
+    \Sexpr{knit_child("ch12.Rnw")}
+    \Sexpr{knit_child("ch13.Rnw")}
+    \Sexpr{knit_child("ch14.Rnw")}
 
     \input{biblio}              % bibliography
 
