@@ -256,5 +256,9 @@ Compare your result to a random variable with equally likely values.
 
 \end{problems}
 
+\bibliographystyle{unsrt}
+\bibliography{MCBook2019}  %chktex 11
+
+
 \clearpage
 

@@ -72,5 +72,8 @@ Description~\citep{SHP:1986}.
 
 Please see the bibliography on the next page and the file \verb+biblio.tex+.
 
+\bibliographystyle{unsrt}
+\bibliography{MCBook2019}  %chktex 11
+
 \clearpage
 
