@@ -1,5 +1,5 @@
 % Set the parent document so that this file can be compiled independently.
-\Sexpr{set_parent("book.Rnw")}
+% \Sexpr{set_parent("book.Rnw")}
 
 %blankpage
 
@@ -71,6 +71,7 @@ grammar tradition include Functional Generative
 Description~\citep{SHP:1986}.
 
 Please see the bibliography on the next page and the file \verb+biblio.tex+.
+
 
 \clearpage
 
