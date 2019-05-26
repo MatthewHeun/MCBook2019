@@ -4,12 +4,11 @@
 \chapter{Introduction}
 \label{ch01}
 
-
 Please see below examples of equations using \verb+\begin{equation}+ \ldots
 \verb+\end{equation}+ and \verb+align+.
 
 The M\&C macros support various environments like:
-constraint, construction, 
+constraint, construction,
 convention, conventions, corollary, definition, dictionary,
 example, lemma, note, notation, observation, property, proposition,
 remark, rules, theorem, etc.
@@ -40,14 +39,14 @@ it has been used, we have purposely been imprecise as to its meaning.
 \centering
   \includegraphics[width=3.3in]{line-spaces.eps}
 \caption{Communication system block diagram.}
-\label{ch01.fig1} 
+\label{ch01.fig1}
 \end{figure}
 
 \begin{figure}[hbt] % 01
 \centering
   \figboxes
 \caption{Communication system block diagram.}
-\label{ch01.fig2} 
+\label{ch01.fig2}
 \end{figure}
 
 Examples of side-by-side figures.
@@ -57,7 +56,7 @@ Examples of side-by-side figures.
 \centering
 \begin{subfigure}[t]{0.45\textwidth}%
 	\smfigboxes
-\caption{Annotated visualization of the structure of a biological neuron, reconstructed from electron microscope images of 30nm-thick slices of a mouse 
+\caption{Annotated visualization of the structure of a biological neuron, reconstructed from electron microscope images of 30nm-thick slices of a mouse
 brain~\cite{tesniere59}.}%
 \label{fig:bioneuron}%
 \end{subfigure}%
@@ -152,7 +151,7 @@ mutual information for the probability assignments
 \label{ch01.ex3}
 The source output is a ternary-valued random variable that takes on the
 values $\{ u_1, u_2, u_3 \}$ with probabilities
-$P(u_1) = 0.7, P(u_2) = 0.15 = P(u_3)$. 
+$P(u_1) = 0.7, P(u_2) = 0.15 = P(u_3)$.
 \end{example}
 
 \begin{theorem}[(Source Coding Theorem).]
@@ -184,11 +183,11 @@ alternative method is used here.
 
 \begin{table}[hbt]
 \caption{Timer0 Compare Output Mode, non-PWM Mode}
-\label{ch01.tab1} 
+\label{ch01.tab1}
 \begin{center}
 \begin{tabular}{|c|l|}
     \cb COM0x1-0
-  & \cb Description 
+  & \cb Description
 \\
     \cw 00
   & \cw Normal port operation
@@ -211,7 +210,7 @@ alternative method is used here.
 \begin{center}
 \begin{tabular}{|cl|}
     \cb COM0x1-0
-  & \cb Description 
+  & \cb Description
 \\
     \cw 00
   & \cw Normal port operation
@@ -256,8 +255,8 @@ Compare your result to a random variable with equally likely values.
 
 \end{problems}
 
-\bibliographystyle{unsrt}
-\bibliography{MCBook2019}  %chktex 11
+% \bibliographystyle{unsrt}
+% \bibliography{MCBook2019}  %chktex 11
 
 
 \clearpage

@@ -59,8 +59,8 @@ it is (almost) essential to use $A -\lambda I$, as using
 $\lambda I - A$ would introduce lots of spurious minus signs.
 \end{remark}
 
-\bibliographystyle{unsrt}
-\bibliography{MCBook2019}  %chktex 11
+% \bibliographystyle{unsrt}
+% \bibliography{MCBook2019}  %chktex 11
 
 
 \clearpage

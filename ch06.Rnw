@@ -23,7 +23,7 @@ The \verb+biblio.tex+ files shows the syntax that \verb+natbib.sty+
 requires and notice how we use
 that package in~\verb+book.tex+ and in~\verb+ch01.tex+. 
 You can find the details about \verb+natbib+ and Author-Year bibliographies
-in~\citet[pages~218-221]{KD:2004}.
+in~\cite[pages~218-221]{KD:2004}.
 
 Note that we have bibliographic references like \verb+carroll98+,
 \verb+KD:2004+, and \verb+weber-97+. Pick a style that works for you
@@ -72,8 +72,8 @@ Description~\citep{SHP:1986}.
 
 Please see the bibliography on the next page and the file \verb+biblio.tex+.
 
-\bibliographystyle{unsrt}
-\bibliography{MCBook2019}  %chktex 11
+% \bibliographystyle{unsrt}
+% \bibliography{MCBook2019}  %chktex 11
 
 \clearpage
 
