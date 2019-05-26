@@ -1,5 +1,5 @@
 % Set the parent document so that this file can be compiled independently.
-\Sexpr{set_parent("book.Rnw")}
+% \Sexpr{set_parent("book.Rnw")}
 
 %blankpage
 
@@ -108,6 +108,7 @@ advance by their programmers. The systems themselves might as well be
 tele-operated.\\
 \verb+\end{mcframe}+
 \end{mcframe}
+
 
 \clearpage
 

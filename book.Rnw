@@ -12,8 +12,19 @@
 %\morgansetup{fontsetup=times}
 
 % bibliography
-\usepackage[square,comma,sort]{natbib}         % author-year
-%usepackage[square,comma,sort,numbers]{natbib} % numbered
+\usepackage[comma,sort,authoryear]{natbib}         % author-year
+% \usepackage[square,comma,sort,numbers]{natbib} % numbered
+% \usepackage[square,comma,sort,numbers,sectionbib]{natbib} % numbered
+
+% 
+% Begin packages imported by the authors.
+% 
+
+\usepackage{wrapfig}     % To wrap text around figures.
+
+%
+% End packages imported by the authors.
+%
 
 \setcounter{secnumdepth}{2}
 
@@ -36,12 +47,10 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 \renewcommand{\ALG@name}{\color{black}Algorithm}
 \makeatother
 
-% Begin packages imported by the authors.
-\usepackage{wrapfig}  % To wrap text around figures.
 
 
 
-%\makeindex                     % if you are creating an index for your book
+\makeindex{}                     % if you are creating an index for your book
 
 \begin{document}
 
@@ -65,13 +74,16 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     \Sexpr{knit_child("ch13.Rnw")}
     \Sexpr{knit_child("ch14.Rnw")}
 
-    \input{biblio}              % bibliography
+    % \input{biblio}              % bibliography
+    \bibliographystyle{unsrtnat}
+    \bibliography{MCBook2019}   %chktex 11
+
 
  \backmatter                    % back matter
     \input{bio}                 % author(s)'s short bio(s)
 								% please see the bios folder for some pdf examples
 
-%   \input{book.ind}            % if you have an Index
+    \input{book.ind}            % if you have an Index
 
 \end{document}
 

@@ -1,12 +1,13 @@
 % Set the parent document so that this file can be compiled independently.
-\Sexpr{set_parent("book.Rnw")}
+% \Sexpr{set_parent("book.Rnw")}
 
 %blankpage
 
 \chapter{Food and Agriculture}
 \label{ch07}
 
-
+Sustainability\index{sustainability!difficulty}
+is a difficult concept.
 
 \clearpage
 

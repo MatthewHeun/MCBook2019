@@ -192,7 +192,7 @@ TSWLatexianTemp*
 .Rproj.user
 # macOS file
 .DS_Store
-# Generated files for book and chapter 
+# Generated files for book and chapter
 book.pdf
 book.tex
 ch01.pdf
@@ -223,3 +223,4 @@ ch13.pdf
 ch13.tex
 ch14.pdf
 ch14.tex
+NEWS.html
