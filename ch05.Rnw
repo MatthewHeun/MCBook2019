@@ -102,8 +102,6 @@ $$
 \Abcd = \Abcd^2 - \sqrt{\Abcd} + \Abcd.
 $$
 
-% \bibliographystyle{unsrt}
-% \bibliography{MCBook2019}  %chktex 11
 
 \clearpage
 

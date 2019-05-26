@@ -109,8 +109,6 @@ tele-operated.\\
 \verb+\end{mcframe}+
 \end{mcframe}
 
-% \bibliographystyle{unsrt}
-% \bibliography{MCBook2019}  %chktex 11
 
 \clearpage
 

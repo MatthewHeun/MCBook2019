@@ -57,13 +57,13 @@ Examples of side-by-side figures.
 \begin{subfigure}[t]{0.45\textwidth}%
 	\smfigboxes
 \caption{Annotated visualization of the structure of a biological neuron, reconstructed from electron microscope images of 30nm-thick slices of a mouse
-brain~\cite{tesniere59}.}%
+brain~\citep{tesniere59}.}%
 \label{fig:bioneuron}%
 \end{subfigure}%
 \qquad%
 \begin{subfigure}[t]{0.45\textwidth}%
 	\smfigboxes
-\caption{The shape of an action potential. A small external voltage stimulus (blue) triggers a cascade of charge build-up inside a neuron (red) via voltage-gated ion channels. The activation threshold is shown as a dotted line. Simulated using a Hodgkin-Huxley model of a neuron~\protect\cite{weber-97}.}%
+\caption{The shape of an action potential. A small external voltage stimulus (blue) triggers a cascade of charge build-up inside a neuron (red) via voltage-gated ion channels. The activation threshold is shown as a dotted line. Simulated using a Hodgkin-Huxley model of a neuron~\protect\citep{weber-97}.}%
 \label{fig:ap}%
 \end{subfigure}%
 \caption{The structure and operation of biological neurons.}%
@@ -147,7 +147,7 @@ mutual information for the probability assignments
 \end{equation}
 \end{example}
 
-\begin{example}[\cite{Boeringer}]
+\begin{example}[\citep{Boeringer}]
 \label{ch01.ex3}
 The source output is a ternary-valued random variable that takes on the
 values $\{ u_1, u_2, u_3 \}$ with probabilities
@@ -164,7 +164,7 @@ can be made as close to $H(U)$
 as desired for some suitably chosen code.
 \end{theorem}
 
-\begin{theorem}[(Channel Coding Theorem~\cite{Wen-ChungLiu2005}).]
+\begin{theorem}[(Channel Coding Theorem~\citep{Wen-ChungLiu2005}).]
 \label{ch01.th2}
 Given a DMS
 with entropy $H$ bits/source letter and a DMC with capacity $C$
@@ -177,7 +177,7 @@ probability is bounded away from $0$.
 
 \begin{proof}
 This result can be proved in several ways, including calculus of
-variations~\cite{WenWangetal2005} inequality; however, an
+variations~\citep{WenWangetal2005} inequality; however, an
 alternative method is used here.
 \end{proof}
 
@@ -254,9 +254,6 @@ $P(u_3) = 0.05, P(u_4)=0.05$, calculate the entropy of $U$.
 Compare your result to a random variable with equally likely values.
 
 \end{problems}
-
-% \bibliographystyle{unsrt}
-% \bibliography{MCBook2019}  %chktex 11
 
 
 \clearpage

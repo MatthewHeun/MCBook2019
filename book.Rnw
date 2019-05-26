@@ -12,15 +12,21 @@
 %\morgansetup{fontsetup=times}
 
 % bibliography
-\usepackage[square,comma,sort]{natbib}         % author-year
+\usepackage[comma,sort,authoryear]{natbib}         % author-year
+% \usepackage[comma,sort,authoryear]{natbib}         % author-year
+% \usepackage[square,comma,sort,numbers]{natbib} % numbered
 % \usepackage[square,comma,sort,numbers,sectionbib]{natbib} % numbered
 
+% 
 % Begin packages imported by the authors.
+% 
+
 \usepackage{wrapfig}     % To wrap text around figures.
-\usepackage{chapterbib}  % For bibliographies at the end of each chapter
+% \usepackage{chapterbib}  % For bibliographies at the end of each chapter
 
-
+%
 % End packages imported by the authors.
+%
 
 \setcounter{secnumdepth}{2}
 
@@ -56,23 +62,23 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 
  \mainmatter
     \Sexpr{knit_child("ch01.Rnw")}
-    % \Sexpr{knit_child("ch02.Rnw")}
-    % \Sexpr{knit_child("ch03.Rnw")}
-    % \Sexpr{knit_child("ch04.Rnw")}
-    % \Sexpr{knit_child("ch05.Rnw")}
+    \Sexpr{knit_child("ch02.Rnw")}
+    \Sexpr{knit_child("ch03.Rnw")}
+    \Sexpr{knit_child("ch04.Rnw")}
+    \Sexpr{knit_child("ch05.Rnw")}
     \Sexpr{knit_child("ch06.Rnw")}
-    % \Sexpr{knit_child("ch07.Rnw")}
-    % \Sexpr{knit_child("ch08.Rnw")}
-    % \Sexpr{knit_child("ch09.Rnw")}
-    % \Sexpr{knit_child("ch10.Rnw")}
-    % \Sexpr{knit_child("ch11.Rnw")}
-    % \Sexpr{knit_child("ch12.Rnw")}
-    % \Sexpr{knit_child("ch13.Rnw")}
-    % \Sexpr{knit_child("ch14.Rnw")}
+    \Sexpr{knit_child("ch07.Rnw")}
+    \Sexpr{knit_child("ch08.Rnw")}
+    \Sexpr{knit_child("ch09.Rnw")}
+    \Sexpr{knit_child("ch10.Rnw")}
+    \Sexpr{knit_child("ch11.Rnw")}
+    \Sexpr{knit_child("ch12.Rnw")}
+    \Sexpr{knit_child("ch13.Rnw")}
+    \Sexpr{knit_child("ch14.Rnw")}
 
     % \input{biblio}              % bibliography
-    \bibliographystyle{unsrt}
-    \bibliography{MCBook2019}  %chktex 11
+    \bibliographystyle{unsrtnat}
+    \bibliography{MCBook2019}   %chktex 11
 
 
  \backmatter                    % back matter

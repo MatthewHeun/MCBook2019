@@ -7,8 +7,6 @@
 \label{ch11}
 
 
-% \bibliographystyle{unsrt}
-\bibliography{MCBook2019}  %chktex 11
 
 \clearpage
 
