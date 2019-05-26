@@ -13,7 +13,6 @@
 
 % bibliography
 \usepackage[comma,sort,authoryear]{natbib}         % author-year
-% \usepackage[comma,sort,authoryear]{natbib}         % author-year
 % \usepackage[square,comma,sort,numbers]{natbib} % numbered
 % \usepackage[square,comma,sort,numbers,sectionbib]{natbib} % numbered
 
