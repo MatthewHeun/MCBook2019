@@ -1,0 +1,34 @@
+% Set the parent document so that this file can be compiled independently.
+% \Sexpr{set_parent("book.Rnw")}
+
+%blankpage
+
+\chapter{Food and Agriculture}
+\label{ch07}
+
+Sustainability\index{sustainability!difficulty}
+is a difficult concept.
+
+
+Figure~\ref{fig:GHG_food} shows proportions of greenhouse gas~(GHG)
+emissions from food conumption.
+
+The obvious implication is that GHG emissions are reduced 
+by consuming food that is closer to the base of the food chain.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/GHGfromFoodConsumption.pdf}
+\caption[GHG emissions from food.]{Percentages of greenhouse gas emissions from food.}
+\label{fig:GHG_food}
+\end{figure}
+
+If we want to create the same graph in ggplot, 
+it looks like this:
+
+
+
+
+
+\clearpage
+
