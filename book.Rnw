@@ -21,7 +21,6 @@
 % 
 
 \usepackage{wrapfig}     % To wrap text around figures.
-% \usepackage{chapterbib}  % For bibliographies at the end of each chapter
 
 %
 % End packages imported by the authors.
