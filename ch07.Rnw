@@ -6,7 +6,8 @@
 \chapter{Food and Agriculture}
 \label{ch07}
 
-
+Sustainability\index{sustainability!difficulty}
+is a difficult concept.
 
 \clearpage
 

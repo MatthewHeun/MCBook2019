@@ -52,7 +52,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 
 
 
-%\makeindex                     % if you are creating an index for your book
+\makeindex{}                     % if you are creating an index for your book
 
 \begin{document}
 
@@ -85,7 +85,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     \input{bio}                 % author(s)'s short bio(s)
 								% please see the bios folder for some pdf examples
 
-%   \input{book.ind}            % if you have an Index
+    \input{book.ind}            % if you have an Index
 
 \end{document}
 
