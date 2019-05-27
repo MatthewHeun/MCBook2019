@@ -3,6 +3,14 @@
 
 %blankpage
 
+<<Setup>>=
+library(ggplot2)  # For graphing functions
+library(magrittr) # For pipe operator "%>%"
+@
+
+
+
+
 \chapter{Food and Agriculture}
 \label{ch07}
 
@@ -24,9 +32,44 @@ by consuming food that is closer to the base of the food chain.
 \end{figure}
 
 If we want to create the same graph in ggplot, 
-it looks like this:
+it looks like Figure~\ref{fig:GHG_from_food}:
 
-
+<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.height = 4>>=
+# This is an R chunk embedded in the LaTeX code.
+# Define this vector of category names in the order that we want to avoid retyping later.
+food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs", 
+                               "Vegetables", "Fruit", "Grain products", 
+                               "Sugars, sweeteners, fats, and oils", "Other")
+# Create a data frame that contains the information for the graph.
+Food_GHG <- data.frame(food_categories = food_cats, 
+           percentages = c(47.6, 18.9, 13.9, 4.9, 3.6, 3.0, 7.5, 0.5), 
+           ang = c(0, 0, 0, -35, -50, -65, -80, -90)) %>% 
+  dplyr::mutate(
+    # Sets the order of the categories in the pie chart
+    food_categories = factor(food_categories, levels = food_cats), 
+    # Calculates the location for the percentage labels
+    label_ypos = 100 - (cumsum(percentages) - percentages/2)
+  )  
+  # Send to ggplot to make the graph
+  ggplot2::ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categories)) + 
+  # The next two lines give a pie chart
+  ggplot2::geom_bar(width = 1, stat = "identity") + 
+  coord_polar("y", start = 0, direction = -1) +
+  # Add percentage labels
+  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3) +
+  # Eliminate all of the labels on the axes.
+  labs(x = "", y = "", fill = "") +
+  # Apply a consistent theme for text and label colors.
+  MKHthemes::xy_theme() + 
+  # Eliminate percentages around the outside of the pie
+  theme(axis.text.x = element_blank()) +
+  # Eliminate the frame around the whole plot
+  theme(panel.border = element_blank()) + 
+  # Change size of legend text
+  theme(legend.text = element_text(size = 10)) + 
+  # Change size of legend squares
+  theme(legend.key.size = unit(0.3, "cm"))
+@
 
 
 
