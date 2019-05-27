@@ -41,6 +41,7 @@ food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs",
                                "Vegetables", "Fruit", "Grain products", 
                                "Sugars, sweeteners, fats, and oils", "Other")
 # Create a data frame that contains the information for the graph.
+# These data could also be read in from an external .csv file.
 Food_GHG <- data.frame(food_categories = food_cats, 
            percentages = c(47.6, 18.9, 13.9, 4.9, 3.6, 3.0, 7.5, 0.5), 
            ang = c(0, 0, 0, -35, -50, -65, -80, -90)) %>% 
