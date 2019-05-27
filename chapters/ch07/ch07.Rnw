@@ -34,7 +34,7 @@ by consuming food that is closer to the base of the food chain.
 If we want to create the same graph in ggplot, 
 it looks like Figure~\ref{fig:GHG_from_food}:
 
-<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.height = 4>>=
+<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.width = 5, fig.height = 2.5>>=
 # This is an R chunk embedded in the LaTeX code.
 # Define this vector of category names in the order that we want to avoid retyping later.
 food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs", 
@@ -69,7 +69,8 @@ ggplot2::ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = f
   # Change size of legend text
   theme(legend.text = element_text(size = 10)) + 
   # Change size of legend squares
-  theme(legend.key.size = unit(0.3, "cm"))
+  theme(legend.key.size = unit(0.3, "cm")) +
+  theme(plot.margin = unit(c(0,0,0,0),"mm"))
 @
 
 
