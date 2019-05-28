@@ -19,7 +19,7 @@ is a difficult concept.
 
 
 Figure~\ref{fig:GHG_food} shows proportions of greenhouse gas~(GHG)
-emissions from food conumption.
+emissions from food consumption.
 
 The obvious implication is that GHG emissions are reduced 
 by consuming food that is closer to the base of the food chain.
