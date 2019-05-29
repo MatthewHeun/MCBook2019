@@ -14,7 +14,6 @@
 % bibliography
 \usepackage[comma,sort,authoryear]{natbib}         % author-year
 % \usepackage[square,comma,sort,numbers]{natbib} % numbered
-% \usepackage[square,comma,sort,numbers,sectionbib]{natbib} % numbered
 
 % 
 % Begin packages imported by the authors.
@@ -22,9 +21,11 @@
 
 \usepackage{wrapfig}     % To wrap text around figures.
 
+
 %
-% End packages imported by the authors.
-%
+% End author additions
+% 
+
 
 \setcounter{secnumdepth}{2}
 
@@ -46,6 +47,8 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \renewcommand{\ALG@name}{\color{black}Algorithm}
 \makeatother
+
+\newcommand{\cd}{CO$_2$}
 
 
 
