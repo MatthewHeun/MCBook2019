@@ -32,7 +32,8 @@ by consuming food that is closer to the base of the food chain.
 \end{figure}
 
 If we want to create the same graph in ggplot, 
-it looks like Figure~\ref{fig:GHG_from_food}:
+it looks like Figure~\ref{fig:GHG_from_food}.
+We can, of course, change colors and other features of the plot.
 
 <<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.height = 4>>=
 # This is an R chunk embedded in the LaTeX code.
