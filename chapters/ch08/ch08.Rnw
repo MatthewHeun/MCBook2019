@@ -1,0 +1,20 @@
+% Set the parent document so that this file can be compiled independently.
+% \Sexpr{set_parent("book.Rnw")}
+
+%blankpage
+
+\chapter{Transportation}
+\label{ch08}
+
+Figure~\ref{fig:US_mpg} shows U.S.\ fleet average fuel economy
+as a function of time for cars, trucks, and both.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/MPGByModelYear_1975-2017.pdf}
+\caption[U.S.\ fuel economy.]{U.S.\ Fuel economy by year and vehicle type.}
+\label{fig:US_mpg}
+\end{figure}
+
+\clearpage
+
