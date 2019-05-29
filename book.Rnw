@@ -23,8 +23,9 @@
 \usepackage{wrapfig}     % To wrap text around figures.
 
 %
-% End packages imported by the authors.
-%
+% End author additions
+% 
+
 
 \setcounter{secnumdepth}{2}
 
@@ -46,6 +47,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \renewcommand{\ALG@name}{\color{black}Algorithm}
 \makeatother
+
 
 
 

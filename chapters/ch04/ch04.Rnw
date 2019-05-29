@@ -6,20 +6,60 @@
 \chapter{Energy}
 \label{chap:energy}
 
-One of today's most significant sustainability challenges is climate change.
-The accumulation of greenhouse gases (GHGs, CO$_2$, CH$_4$, N$_2$O, HFCs, and PFC) 
-in Earth's atmosphere warms the Earth,
-disrupting natural climate systems that were in balance for millennia.
+% Energy is a significant sustainabilty challenge 
+% because of both resource depletion and emissions concerns.
+% As discussed in Chapter~\ref{chap:introduction}, 
+% examination of sources and sinks is a helpful way to understand sustainabiltiy challenges,
+% and we use that approach here.
+% Energy \emph{sources} can be classified as 
+% renewable (solar, wind, and hydro)
+% or
+% non-renewable (fossil fuels).
+% Non-renewable sources face resource depletion concerns.
+% Energy \emph{sinks} include the atmosphere, Earth's crust, and bodies of water which absorb 
+% products of combusion including
+% gases (\CO2) and lightweight solids (CO$_2$, H$_2$O, and particulate matter)
+% and 
+% heavy solids (ash and heavy metals)
+% wastes
+% from energy consumption, respectively. 
+% emissions of particulate matter and emissions, the products of combusion.
+% In the sections that follow, we discuss resource depletion and emissions in turn.
 
-****Reframe in terms of sources and sinks.*****
 
-There are many causes of GHG accumulation in the atmosphere.
-Fossil fuel consumption emits CO$_2$.
-Land use changes (especially deforestation) reduce CO$_2$ sequestration by plants and trees,
-reducing the planet's capacity to remove CO$_2$.
-Agricultural activity (especially livestock) emit CH$_4$ in copious amounts.
-Decomposing landfill waste (especially organic matter) releases methane and nitrous oxide.
-The proportions of GHG emissions from these and other sources can be seen in Figure~\ref{fig:ghg_sankey}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Resource depletion}
+\label{sec:energy:resource_depletion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+Link to energy sources here.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Emissions}
+\label{sec:energy:emissions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Emissions from energy consumption include greenhouse gases (GHGs), primarily CO$_2$.
+% In the Earth's atmosphere, 
+% accumulation of all types of greenhouse gases 
+% (CH$_4$, N$_2$O, HFCs, and PFCsin addition to CO$_2$) 
+% warms the Earth and
+% disrupting natural climate systems that were in balance for millennia
+% before the dawn of the industrial revolution.
+% 
+% 
+% ****Reframe in terms of sources and sinks.*****
+% 
+% There are many causes of GHG accumulation in the atmosphere.
+% Fossil fuel consumption emits CO$_2$.
+% Land use changes (especially deforestation) reduce CO$_2$ sequestration by plants and trees,
+% reducing the planet's capacity to remove CO$_2$.
+% Agricultural activity (especially livestock) emit CH$_4$ in copious amounts.
+% Decomposing landfill waste (especially organic matter) releases methane and nitrous oxide.
+% The proportions of GHG emissions from these and other sources can be seen in Figure~\ref{fig:ghg_sankey}.
 
 \begin{figure}
 \centering

@@ -4,7 +4,7 @@
 %blankpage
 
 \chapter{Land Use and Urban Planning}
-\label{ch10}
+\label{chap:land_use}
 
 
 \clearpage

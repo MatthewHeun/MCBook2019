@@ -4,7 +4,7 @@
 %blankpage
 
 \chapter{Transportation}
-\label{ch08}
+\label{chap:transportation}
 
 Figure~\ref{fig:US_mpg} shows U.S.\ fleet average fuel economy
 as a function of time for cars, trucks, and both.
