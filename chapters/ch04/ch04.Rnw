@@ -4,110 +4,196 @@
 %blankpage
 
 \chapter{Energy}
-\label{ch04}
+\label{chap:energy}
 
-M\&C provides a macro called \verb+mcframe+ that allows us to
-create a frame around some text which automatically breaks its contents
-across pages. 
+Providing energy for modern society is a significant sustainabilty challenge
+due to both resource depletion and emissions concerns.
+As discussed in Chapter~\ref{chap:introduction},
+examination of sources and sinks is a helpful way to understand sustainabiltiy challenges,
+and we use the source/sink framework here.
+Energy \emph{sources} can be classified as
+renewable (solar, wind, and hydro)
+or
+non-renewable (fossil fuels).
+Non-renewable sources face resource depletion concerns.
+Energy \emph{sinks} include the atmosphere, plants and trees, the Earth's crust, and bodies of water.
+Sinks absorb the wastes from energy consumption, including
+gases (CO$_2$ and H$_2$O),
+lightweight solids (particulate matter), and 
+heavy solids (ash and heavy metals).
+In the sections that follow, we discuss resource depletion and emissions in turn.
 
-\verb+\begin{mcframe}[width](text-width)<background-color>+\\
 
-\ldots
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Resource depletion}
+\label{sec:energy:resource_depletion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\verb+\end{mcframe}+
 
-The optional arguments are:
-\begin{itemize}
-\item
-\verb+width+ defaults to the width of the page
-\item
-\verb+text-width+ defaults to an indent of 10pt in each margin
-\item
-\verb+background-color+ defaults to the \verb+bluetwenty+ color of the
-	M\&C books.
-\end{itemize}
 
-\blankline
-Here are a few examples using some text from the book \textit{General Game 
-Playing} by M. Genesereth and M. Thielscher that was published by M\&C in 
-March, 2014:
+Link to energy sources here.
 
-\begin{mcframe}
-\verb+\begin{mcframe}+\\
-Games of strategy, such as Chess, couple intellectual activity with
-competition.
-We can exercise and improve our intellectual skills by playing such games.
-The competition adds excitement and allows us to
-compare our skills to those of others.
-The same motivation accounts for
-interest in Computer Game Playing as a testbed for Artificial Intelligence.
-Programs that think better should be able to win more
-games, and so we can use competitions as an evaluation technique for
-intelligent systems.
 
-Unfortunately, building programs to play specific games has limited
-value in AI.  (1)~To begin with, specialized game players are very narrow.
-They can be good at one game but not another. Deep Blue may have beaten
-the world Chess champion, but it has no clue how to play checkers.  (2)~A
-second problem with specialized game playing systems is that they do only
-part of the work. Most of the interesting analysis and design is done in
-advance by their programmers. The systems themselves might as well be
-tele-operated.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Emissions}
+\label{sec:energy:emissions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-All is not lost. The idea of game playing can be used to good effect
-to inspire and evaluate good work in Artificial Intelligence, but it
-requires moving more of the design work to the computer itself.
-This can be done by focussing attention on General Game Playing.\\
-\verb+\end{mcframe}+
-\end{mcframe}
+Emissions from energy consumption include greenhouse gases (GHGs), primarily CO$_2$.
+In the Earth's atmosphere,
+accumulation of all types of greenhouse gases
+(CH$_4$, N$_2$O, HFCs, and PFCs in addition to CO$_2$)
+warms the Earth and
+disrupting natural climate systems that were in balance for millennia
+before the dawn of the industrial revolution.
 
-\begin{mcframe}[.7\textwidth](.6\textwidth)
-\verb+\begin{mcframe}[.7\textwidth](.6\textwidth)+\\
-Games of strategy, such as Chess, couple intellectual activity with
-competition.
-We can exercise and improve our intellectual skills by playing such games.
-The competition adds excitement and allows us to
-compare our skills to those of others.
-The same motivation accounts for
-interest in Computer Game Playing as a testbed for Artificial Intelligence.
-Programs that think better should be able to win more
-games, and so we can use competitions as an evaluation technique for
-intelligent systems.
 
-Unfortunately, building programs to play specific games has limited
-value in AI.  (1)~To begin with, specialized game players are very narrow.
-They can be good at one game but not another. Deep Blue may have beaten
-the world Chess champion, but it has no clue how to play checkers.  (2)~A
-second problem with specialized game playing systems is that they do only
-part of the work. Most of the interesting analysis and design is done in
-advance by their programmers. The systems themselves might as well be
-tele-operated.\\
-\verb+\end{mcframe}+
-\end{mcframe}
+****Reframe in terms of sources and sinks.*****
 
-\begin{mcframe}[.8\textwidth](.7\textwidth)<green>
-\verb+\begin{mcframe}[.8\textwidth](.7\textwidth)<green>+\\
-Games of strategy, such as Chess, couple intellectual activity with
-competition.
-We can exercise and improve our intellectual skills by playing such games.
-The competition adds excitement and allows us to
-compare our skills to those of others.
-The same motivation accounts for
-interest in Computer Game Playing as a testbed for Artificial Intelligence.
-Programs that think better should be able to win more
-games, and so we can use competitions as an evaluation technique for
-intelligent systems.
+There are many causes of GHG accumulation in the atmosphere.
+Fossil fuel consumption emits CO$_2$.
+Land use changes (especially deforestation) reduce CO$_2$ sequestration by plants and trees,
+reducing the planet's capacity to remove CO$_2$.
+Agricultural activity (especially livestock) emit CH$_4$ in copious amounts.
+Decomposing landfill waste (especially organic matter) releases methane and nitrous oxide.
+The proportions of GHG emissions from these and other sources can be seen in Figure~\ref{fig:ghg_sankey}.
 
-Unfortunately, building programs to play specific games has limited
-value in AI.  (1)~To begin with, specialized game players are very narrow.
-They can be good at one game but not another. Deep Blue may have beaten
-the world Chess champion, but it has no clue how to play checkers.  (2)~A
-second problem with specialized game playing systems is that they do only
-part of the work. Most of the interesting analysis and design is done in
-advance by their programmers. The systems themselves might as well be
-tele-operated.\\
-\verb+\end{mcframe}+
-\end{mcframe}
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{chapters/ch04/World_GHG_Emissions_Flow_Chart.pdf}
+\caption[World GHG emissions]{World greenhouse gas emissions, 2012~\citep{ASN-Bank:2014aa}.}
+\label{fig:ghg_sankey}
+\end{figure}
+
+Economic activity (see chapter~\ref{chap:energy}) drives energy consumption, and 
+when primary energy is supplied by carbon-intensive fossil fuels, GHG emissions are the result.
+
+
+
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch04/IEASankeyDiagram2016.pdf}
+\caption[World Sankey]{World energy flows Sankey diagram~\citep{International-Energy-Agency:aa}.}
+\label{fig:IEA_sankey}
+\end{figure}
+
+
+
+
+
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\linewidth]{chapters/ch04/Fouquet2011_energy_transitions.png}
+\caption[UK energy transitions]{UK primary energy transitions, 1500--2000~\citep[Fig.~5]{Fouquet:2010tq}.}
+\label{fig:foquet2010}
+\end{figure}
+
+
+% M\&C provides a macro called \verb+mcframe+ that allows us to
+% create a frame around some text which automatically breaks its contents
+% across pages. 
+% 
+% \verb+\begin{mcframe}[width](text-width)<background-color>+\\
+% 
+% \ldots
+% 
+% \verb+\end{mcframe}+
+% 
+% The optional arguments are:
+% \begin{itemize}
+% \item
+% \verb+width+ defaults to the width of the page
+% \item
+% \verb+text-width+ defaults to an indent of 10pt in each margin
+% \item
+% \verb+background-color+ defaults to the \verb+bluetwenty+ color of the
+% 	M\&C books.
+% \end{itemize}
+% 
+% \blankline
+% Here are a few examples using some text from the book \textit{General Game 
+% Playing} by M. Genesereth and M. Thielscher that was published by M\&C in 
+% March, 2014:
+% 
+% \begin{mcframe}
+% \verb+\begin{mcframe}+\\
+% Games of strategy, such as Chess, couple intellectual activity with
+% competition.
+% We can exercise and improve our intellectual skills by playing such games.
+% The competition adds excitement and allows us to
+% compare our skills to those of others.
+% The same motivation accounts for
+% interest in Computer Game Playing as a testbed for Artificial Intelligence.
+% Programs that think better should be able to win more
+% games, and so we can use competitions as an evaluation technique for
+% intelligent systems.
+% 
+% Unfortunately, building programs to play specific games has limited
+% value in AI.  (1)~To begin with, specialized game players are very narrow.
+% They can be good at one game but not another. Deep Blue may have beaten
+% the world Chess champion, but it has no clue how to play checkers.  (2)~A
+% second problem with specialized game playing systems is that they do only
+% part of the work. Most of the interesting analysis and design is done in
+% advance by their programmers. The systems themselves might as well be
+% tele-operated.
+% 
+% All is not lost. The idea of game playing can be used to good effect
+% to inspire and evaluate good work in Artificial Intelligence, but it
+% requires moving more of the design work to the computer itself.
+% This can be done by focussing attention on General Game Playing.\\
+% \verb+\end{mcframe}+
+% \end{mcframe}
+% 
+% \begin{mcframe}[.7\textwidth](.6\textwidth)
+% \verb+\begin{mcframe}[.7\textwidth](.6\textwidth)+\\
+% Games of strategy, such as Chess, couple intellectual activity with
+% competition.
+% We can exercise and improve our intellectual skills by playing such games.
+% The competition adds excitement and allows us to
+% compare our skills to those of others.
+% The same motivation accounts for
+% interest in Computer Game Playing as a testbed for Artificial Intelligence.
+% Programs that think better should be able to win more
+% games, and so we can use competitions as an evaluation technique for
+% intelligent systems.
+% 
+% Unfortunately, building programs to play specific games has limited
+% value in AI.  (1)~To begin with, specialized game players are very narrow.
+% They can be good at one game but not another. Deep Blue may have beaten
+% the world Chess champion, but it has no clue how to play checkers.  (2)~A
+% second problem with specialized game playing systems is that they do only
+% part of the work. Most of the interesting analysis and design is done in
+% advance by their programmers. The systems themselves might as well be
+% tele-operated.\\
+% \verb+\end{mcframe}+
+% \end{mcframe}
+% 
+% \begin{mcframe}[.8\textwidth](.7\textwidth)<green>
+% \verb+\begin{mcframe}[.8\textwidth](.7\textwidth)<green>+\\
+% Games of strategy, such as Chess, couple intellectual activity with
+% competition.
+% We can exercise and improve our intellectual skills by playing such games.
+% The competition adds excitement and allows us to
+% compare our skills to those of others.
+% The same motivation accounts for
+% interest in Computer Game Playing as a testbed for Artificial Intelligence.
+% Programs that think better should be able to win more
+% games, and so we can use competitions as an evaluation technique for
+% intelligent systems.
+% 
+% Unfortunately, building programs to play specific games has limited
+% value in AI.  (1)~To begin with, specialized game players are very narrow.
+% They can be good at one game but not another. Deep Blue may have beaten
+% the world Chess champion, but it has no clue how to play checkers.  (2)~A
+% second problem with specialized game playing systems is that they do only
+% part of the work. Most of the interesting analysis and design is done in
+% advance by their programmers. The systems themselves might as well be
+% tele-operated.\\
+% \verb+\end{mcframe}+
+% \end{mcframe}
 
 
 \clearpage

@@ -4,7 +4,7 @@
 %blankpage
 
 \chapter{Economy}
-\label{ch03}
+\label{chap:economy}
 
 The navigation oriented heuristic ($h3$) considers the site topology.
 Accesses to cached pages are not recorded in the

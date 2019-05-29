@@ -12,7 +12,7 @@ library(magrittr) # For pipe operator "%>%"
 
 
 \chapter{Food and Agriculture}
-\label{ch07}
+\label{chap:food_and_agriculture}
 
 Sustainability\index{sustainability!difficulty}
 is a difficult concept.
