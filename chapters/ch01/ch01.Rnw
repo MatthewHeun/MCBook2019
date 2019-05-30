@@ -1,5 +1,4 @@
-% Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+\Sexpr{set_parent("../../book.Rnw")}
 
 \chapter{Introduction}
 \label{chap:introduction}
@@ -254,6 +253,10 @@ $P(u_3) = 0.05, P(u_4)=0.05$, calculate the entropy of $U$.
 Compare your result to a random variable with equally likely values.
 
 \end{problems}
+
+% \bibliographystyle{unsrt}
+% \bibliography{MCBook2019}   %chktex 11
+
 
 
 \cleardoublepage
