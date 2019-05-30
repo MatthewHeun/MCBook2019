@@ -22,6 +22,7 @@ gases (CO$_2$ and H$_2$O),
 lightweight solids (particulate matter), and 
 heavy solids (ash and heavy metals).
 In the sections that follow, we discuss resource depletion and emissions in turn.
+We'll focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -39,23 +40,31 @@ Link to energy sources here.
 \label{sec:energy:emissions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Emissions from energy consumption include greenhouse gases (GHGs), primarily CO$_2$.
+Emissions from fossil consumption include greenhouse gases, primarily CO$_2$.
 In the Earth's atmosphere,
 accumulation of all types of greenhouse gases
 (CH$_4$, N$_2$O, HFCs, and PFCs in addition to CO$_2$)
 warms the Earth and
-disrupting natural climate systems that were in balance for millennia
-before the dawn of the industrial revolution.
+disrupts natural climate systems that were in balance for millennia
+until the industrial revolution.
+To avoid irreversible effects of climate change, 
+climate scientists say that we should limit global average temperature increase  
+to 1.5 \degC\ ro less.
 
+Applying the source/sink framework to GHGs in the atmosphere,
+we see that GHG emissions from fossil fuel combustion are a significant \emph{source}.
+Agricultural activity (especially livestock) emits CH$_4$ in copious amounts.
+Decomposing landfill waste (especially organic matter) releases methane and nitrous oxide.
 
-****Reframe in terms of sources and sinks.*****
-
-There are many causes of GHG accumulation in the atmosphere.
-Fossil fuel consumption emits CO$_2$.
+An important \emph{sink} for GHGs is plants and trees which absorb CO$_2$
+to fuel their growth.
 Land use changes (especially deforestation) reduce CO$_2$ sequestration by plants and trees,
 reducing the planet's capacity to remove CO$_2$.
-Agricultural activity (especially livestock) emit CH$_4$ in copious amounts.
-Decomposing landfill waste (especially organic matter) releases methane and nitrous oxide.
+Furthermore, energy, especially diesel for heavy equipment, is required to cut down forests, 
+showing that deforestation both reduced GHG sequestration and contributes to GHG emissions.
+Thus, the continuous rise of fossil fuel consumption and the steady pace of deforestation
+have both amplified the sources and reduced the sinks of GHGs on Earth,
+leading to annual increases in CO$_2$ concentration.
 The proportions of GHG emissions from these and other sources can be seen in Figure~\ref{fig:ghg_sankey}.
 
 \begin{figure}
@@ -65,31 +74,75 @@ The proportions of GHG emissions from these and other sources can be seen in Fig
 \label{fig:ghg_sankey}
 \end{figure}
 
-Economic activity (see chapter~\ref{chap:energy}) drives energy consumption, and 
-when primary energy is supplied by carbon-intensive fossil fuels, GHG emissions are the result.
+Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
+a significant source of GHG emissions. 
+Figure~\ref{fig:ghg_sankey} also shows the proportions of GHG emissions caused by 
+industry, buildings, transport, agriculture, waste disposal, and energy production activities.
+It is not a stretch to say that the economy as a whole drives energy demand and 
+serves as the ultimate cause of GHG emissions.
+
+Figure~\ref{fig:LLNL_sankey} identifies, at a broad level, 
+the economic sources of demand for energy in the U.S.
+We see that transportation is largest single source of demand,
+followed by the industrial sector, the residential sector, and the commercial sector.
+
+\begin{sidewaysfigure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch04/Energy_US_2018.pdf}
+\caption[World Sankey]{U.S.\ energy flows Sankey diagram, 2018~\citep{Lawrence-Livermore-National-Laboratory:2019aa}.}
+\label{fig:LLNL_sankey}
+\end{sidewaysfigure}
+
+In addition, Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency of each sector,
+as it shows the amount of energy that provides useful service to society
+relative to the amount of energy that is wasted.
+For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector is
+%
+\begin{equation} \label{eq:eff_elec_sect}
+  \eta = \frac{12.9 \; \mathrm{Quads}}{38.2 \; \mathrm{Quads}} = 34 \; \% \; .
+\end{equation}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Energy transitions}
+\label{sec:energy_transitions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy is supplied from renewable sources
+(solar, hydro, wind, geothermal, and biomass) at the present time.
+A transition away from fossil fuels (natural gas, coal, and petroleum) 
+toward renewable primary energy sources 
+could eliminate GHG emissions from fossil fuel consumption,
+while still meeting the energy needs of society and the economy. 
+However, there are several challenges to a renewable energy transition:
+time, money, and efficiency. 
+
+Throughout history, societies have used different primary energy sources in varying proportions. 
+Longitudinal analysis of those proportions indicates the speed of past energy transitions and
+may suggest the time needed for a future fossil-to-renewables transition. 
+Figure~\ref{fig:foquet2010} shows a longitudinal analysis of UK primary energy transitions
+from 1500--2000.
+The figure shows that the transition from food, feed, and biomass to coal took many centuries.
+The ongoing transition from coal to petroleum (liquid fuels) and natural gas will take at least a century.
+The time challenge is this: 
+the latest climate science~\citep[Fig.~SPM.1]{IPCC:2018aa} indicates we have only a few decades, not a full century,
+to effect the fossil-to-renewables transition and avoid 1.5 \degC\ warming.
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{chapters/ch04/IEASankeyDiagram2016.pdf}
-\caption[World Sankey]{World energy flows Sankey diagram~\citep{International-Energy-Agency:aa}.}
-\label{fig:IEA_sankey}
-\end{figure}
-
-
-
-
-
-
-
-\begin{figure}
-\centering
-\includegraphics[width=0.6\linewidth]{chapters/ch04/Fouquet2011_energy_transitions.png}
+\includegraphics[width=0.7\linewidth]{chapters/ch04/Fouquet2011_energy_transitions.png}
 \caption[UK energy transitions]{UK primary energy transitions, 1500--2000~\citep[Fig.~5]{Fouquet:2010tq}.}
 \label{fig:foquet2010}
 \end{figure}
+
+An optomistic (and often-criticized) analysis of the requirements
+for a fossil-to-renewables (wind, water, and solar or WWS) transition 
+was provided by \citeauthor{Jacobson:2011gc} \citeyearpar{Jacobson:2011gc,Delucchi:2011gb}.
+They estimated 
+``construction cost for a WWS system might be on the order of \$100 trillion worldwide, 
+over 20 years, not including transmission''~ \citep[p.~64]{Jacobson:2009wv}.
+For context, the \$5 trillion annual cost is 7.2~\% of GDP (\$69 trillion/year).
+
 
 
 % M\&C provides a macro called \verb+mcframe+ that allows us to

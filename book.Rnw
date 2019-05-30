@@ -24,8 +24,12 @@
 % Begin packages imported by the authors.
 % 
 
+\usepackage{gensymb}     % For the \degree command
+\usepackage{microtype}   % For (more) beautiful typesetting.
+\usepackage{rotating}    % For rotating figures.
 \usepackage{wrapfig}     % To wrap text around figures.
 
+\newcommand{\degC}{\degree C}
 
 %
 % End author additions
@@ -52,9 +56,6 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \renewcommand{\ALG@name}{\color{black}Algorithm}
 \makeatother
-
-\newcommand{\cd}{CO$_2$}
-
 
 
 
