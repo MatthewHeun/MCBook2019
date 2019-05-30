@@ -47,5 +47,5 @@ $\mathcal{S}=\{s_{1},...,s_{M}\}$
 \label{alg:visitingTimeAlg}
 \end{algorithm}
 
-\clearpage
+\cleardoublepage
 

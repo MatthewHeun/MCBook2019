@@ -3,7 +3,7 @@
 
 %blankpage
 
-<<Setup>>=
+<<Setup, echo=FALSE>>=
 library(ggplot2)  # For graphing functions
 library(magrittr) # For pipe operator "%>%"
 @
@@ -76,5 +76,5 @@ Food_GHG <- data.frame(food_categories = food_cats,
 
 
 
-\clearpage
+\cleardoublepage
 

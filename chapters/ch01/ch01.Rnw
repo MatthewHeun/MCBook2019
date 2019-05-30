@@ -256,5 +256,5 @@ Compare your result to a random variable with equally likely values.
 \end{problems}
 
 
-\clearpage
+\cleardoublepage
 

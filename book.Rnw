@@ -80,11 +80,15 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     % \input{biblio}              % bibliography
     \bibliographystyle{unsrtnat}
     \bibliography{MCBook2019}   %chktex 11
-
+    
+    
+    \cleardoublepage
 
  \backmatter                    % back matter
     \input{bio}                 % author(s)'s short bio(s)
 								% please see the bios folder for some pdf examples
+    
+    \cleardoublepage
 
     \input{book.ind}            % if you have an Index
 

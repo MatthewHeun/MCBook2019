@@ -1,5 +1,5 @@
 % Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+\Sexpr{set_parent("book.Rnw")}
 
 %blankpage
 
@@ -195,6 +195,5 @@ when primary energy is supplied by carbon-intensive fossil fuels, GHG emissions 
 % \verb+\end{mcframe}+
 % \end{mcframe}
 
-
-\clearpage
+\cleardoublepage
 
