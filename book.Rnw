@@ -15,6 +15,11 @@
 \usepackage[comma,sort,authoryear]{natbib}         % author-year
 % \usepackage[square,comma,sort,numbers]{natbib} % numbered
 
+% Attempting per-chapter bibliographies. Not working yet.
+% \usepackage[sectionbib,compress]{natbib}% provides a bibliography for each chapter
+% \usepackage{chapterbib}
+
+
 % 
 % Begin packages imported by the authors.
 % 
@@ -78,6 +83,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     \Sexpr{knit_child("chapters/ch14/ch14.Rnw")} % Personal actions
 
     % \input{biblio}              % bibliography
+    
     \bibliographystyle{unsrtnat}
     \bibliography{MCBook2019}   %chktex 11
     
