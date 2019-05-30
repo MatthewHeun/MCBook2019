@@ -60,6 +60,4 @@ $\lambda I - A$ would introduce lots of spurious minus signs.
 \end{remark}
 
 
-
-\clearpage
-
+\cleardoublepage

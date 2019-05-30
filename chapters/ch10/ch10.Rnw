@@ -7,5 +7,5 @@
 \label{chap:land_use}
 
 
-\clearpage
+\cleardoublepage
 

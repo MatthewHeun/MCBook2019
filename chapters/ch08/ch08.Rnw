@@ -16,5 +16,5 @@ as a function of time for cars, trucks, and both.
 \label{fig:US_mpg}
 \end{figure}
 
-\clearpage
+\cleardoublepage
 
