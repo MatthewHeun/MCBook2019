@@ -3,7 +3,7 @@
 
 %blankpage
 
-<<Setup>>=
+<<Setup, echo=FALSE>>=
 library(ggplot2)  # For graphing functions
 library(magrittr) # For pipe operator "%>%"
 @
@@ -12,14 +12,14 @@ library(magrittr) # For pipe operator "%>%"
 
 
 \chapter{Food and Agriculture}
-\label{ch07}
+\label{chap:food_and_agriculture}
 
 Sustainability\index{sustainability!difficulty}
 is a difficult concept.
 
 
 Figure~\ref{fig:GHG_food} shows proportions of greenhouse gas~(GHG)
-emissions from food conumption.
+emissions from food consumption.
 
 The obvious implication is that GHG emissions are reduced 
 by consuming food that is closer to the base of the food chain.
@@ -32,9 +32,10 @@ by consuming food that is closer to the base of the food chain.
 \end{figure}
 
 If we want to create the same graph in ggplot, 
-it looks like Figure~\ref{fig:GHG_from_food}:
+it looks like Figure~\ref{fig:GHG_from_food}.
+We can, of course, change colors and other features of the plot.
 
-<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.height = 4>>=
+<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.width = 5, fig.height = 2.5>>=
 # This is an R chunk embedded in the LaTeX code.
 # Define this vector of category names in the order that we want to avoid retyping later.
 food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs", 
@@ -43,16 +44,16 @@ food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs",
 # Create a data frame that contains the information for the graph.
 # These data could also be read in from an external .csv file.
 Food_GHG <- data.frame(food_categories = food_cats, 
-           percentages = c(47.6, 18.9, 13.9, 4.9, 3.6, 3.0, 7.5, 0.5), 
-           ang = c(0, 0, 0, -35, -50, -65, -80, -90)) %>% 
+                       percentages = c(47.6, 18.9, 13.9, 4.9, 3.6, 3.0, 7.5, 0.5), 
+                       ang = c(0, 0, 0, -35, -50, -65, -80, -90)) %>% 
   dplyr::mutate(
     # Sets the order of the categories in the pie chart
-    food_categories = factor(food_categories, levels = food_cats), 
+    food_categories = factor(food_cats, levels = food_cats), 
     # Calculates the location for the percentage labels
     label_ypos = 100 - (cumsum(percentages) - percentages/2)
   )  
   # Send to ggplot to make the graph
-  ggplot2::ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categories)) + 
+  ggplot2::ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_cats)) + 
   # The next two lines give a pie chart
   ggplot2::geom_bar(width = 1, stat = "identity") + 
   coord_polar("y", start = 0, direction = -1) +
@@ -69,10 +70,11 @@ Food_GHG <- data.frame(food_categories = food_cats,
   # Change size of legend text
   theme(legend.text = element_text(size = 10)) + 
   # Change size of legend squares
-  theme(legend.key.size = unit(0.3, "cm"))
+  theme(legend.key.size = unit(0.3, "cm")) +
+  theme(plot.margin = unit(c(0,0,0,0),"mm"))
 @
 
 
 
-\clearpage
+\cleardoublepage
 

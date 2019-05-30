@@ -4,7 +4,7 @@
 %blankpage
 
 \chapter{Population}
-\label{ch02}
+\label{chap:population}
 
 \section{The Diagonalizable Case}
 
@@ -60,6 +60,4 @@ $\lambda I - A$ would introduce lots of spurious minus signs.
 \end{remark}
 
 
-
-\clearpage
-
+\cleardoublepage

@@ -1,8 +1,7 @@
-% Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+\Sexpr{set_parent("../../book.Rnw")}
 
 \chapter{Introduction}
-\label{ch01}
+\label{chap:introduction}
 
 Please see below examples of equations using \verb+\begin{equation}+ \ldots
 \verb+\end{equation}+ and \verb+align+.
@@ -255,6 +254,10 @@ Compare your result to a random variable with equally likely values.
 
 \end{problems}
 
+% \bibliographystyle{unsrt}
+% \bibliography{MCBook2019}   %chktex 11
 
-\clearpage
+
+
+\cleardoublepage
 
