@@ -94,7 +94,8 @@ Furthermore, extraction costs as a function of $s(t)$ must be predictable,
 meaning that price and technology forecasts are needed.
 Predicting the future is a tricky business, indeed.
 
-But simple calculations can be performed to obtain estimates 
+Despite the complexity,
+simple calculations can be performed to obtain estimates 
 of remaining time available for various resources.
 \citet[p.~22]{Rutledge:2018aa} estimates the initial stock of coal to be $s_0 = 784 \; \mathrm{Gt}$.%
 \footnote{
