@@ -1,232 +1,125 @@
 % Set the parent document so that this file can be compiled independently.
 % \Sexpr{set_parent("book.Rnw")}
 
-\chapter{Introduction}
+\chapter{Foundational concepts related to sustainability}%{Introducty Terms and Concepts}
 \label{ch01}
 
-Please see below examples of equations using \verb+\begin{equation}+ \ldots
-\verb+\end{equation}+ and \verb+align+.
+The question of whether humanity is living "sustainably" is an existential one,
+in that, if we are not, then humanity will (eventyally) cease to exist as a species,
+or, at the very least, experieince drastic changes to our standard of living.
+This book attempts to summarize the evidence that humans are not living
+sustainably and to outline what sustainable societies would look like. We hope
+that readers will come to appreciate the complex and interconnected challenges
+associated with transitioning to a sustainable existence. 
 
-The M\&C macros support various environments like:
-constraint, construction,
-convention, conventions, corollary, definition, dictionary,
-example, lemma, note, notation, observation, property, proposition,
-remark, rules, theorem, etc.
-
-What if you need an environment that the macros do not provide,
-like ``guesswork?'' You create it with \verb+newMCtheorem+:
-
-\verb+newMCtheorem{guesswork}{GuessWork}+
-
-\newMCtheorem{guesswork}{GuessWork}
-
-\noindent
-and use then use it:
-\begin{guesswork}
-This is pure guess work.
-\end{guesswork}
+\section{Definitions of Sustainability}
+\label{ch01.defn}
+Sustain means to endure, to continue, and to last. 
+%The etymology is from
+%Old French, by way of the Latin roots "sub," meaning from below, and 
+%"sustinere," meaning to hold up, support or endure. 
+\index{Sustainaiblity!defintion}
+Many authors have written about sustainability and it may seem that
+every publication has a unique definition of sustainability. The most commonly
+cited definiation of sustainability is that sustainability means meeting 
+"the needs of the present without compromising the ability of future 
+generations to meet their own needs" \cite{Brund87}.
 
 
-\section{Introduction}
-\label{ch01.sec1}
-
-Thus far in the book, the term \textit{information}
-\index{information}%
-has been used sparingly and when
-it has been used, we have purposely been imprecise as to its meaning.
-
+\subsection{The scope of sustainability}
+When considering the meaning of sustainability, it is natural to ask 
+"sustaining what?" and "for how long?"
+The second of these question is perhaps easier to answer. While humans seem to 
+have difficulty planning for time scales significantly longer than the human 
+lifespan, true sustainaibilty only comes when the answer is "indefinitely" or "forever."
 \begin{figure}[hbt] % 01
 \centering
-  \includegraphics[width=3.3in]{line-spaces.eps}
-\caption{Communication system block diagram.}
+  \includegraphics[width=3.3in]{../figures/Sustainability_heirarchy_Ch1.pdf}
+\caption{Nested scopes of sustainability.}
 \label{ch01.fig1}
 \end{figure}
-
 \begin{figure}[hbt] % 01
 \centering
-  \figboxes
-\caption{Communication system block diagram.}
-\label{ch01.fig2}
+  \includegraphics[width=3.3in]{../figures/TriangleDiagram.pdf}
+\caption{Three areas of sustainability.}
+\label{ch01.3pillars}
 \end{figure}
+The narrowest answer for what needs sustaining is human life and society, which
+perforce entails those ecosystem services necessary for human health and 
+wellbeing (see Figure \ref{ch01.fig1}. 
+Beyond these basics, some people view the nonhuman world has having 
+inherent worth or standing and, as such, to also be worth perserving, even if
+it has no (or negative, for example smallpox) impact on human continuity. 
+Unfortunately,humans don't know clearly what pieces of the ecosystem are, in the long run, 
+necessary for survival and which aren't. For instance, would we be able to survive 
+in a world without dandelions? Maybe. On the other hand, dandelions might be necessary
+for other organisms. Environmental science views the ecosystem in its entirety as a web,
+with all parts depending on all other parts. The ecosystem is viewed then, not as a individual
+components with binary "needed" "not needed" classifications but as a whole that exists 
+on a continuum of "functional" to "nonfunctional."
 
-Examples of side-by-side figures.
+Planetary boundaries describe limits beyond which the Earth's ability to support
+human life is diminished or destroyed. 
 
-%  F 2
-\begin{figure}[hbt]%
-\centering
-\begin{subfigure}[t]{0.45\textwidth}%
-	\smfigboxes
-\caption{Annotated visualization of the structure of a biological neuron, reconstructed from electron microscope images of 30nm-thick slices of a mouse
-brain~\citep{tesniere59}.}%
-\label{fig:bioneuron}%
-\end{subfigure}%
-\qquad%
-\begin{subfigure}[t]{0.45\textwidth}%
-	\smfigboxes
-\caption{The shape of an action potential. A small external voltage stimulus (blue) triggers a cascade of charge build-up inside a neuron (red) via voltage-gated ion channels. The activation threshold is shown as a dotted line. Simulated using a Hodgkin-Huxley model of a neuron~\protect\citep{weber-97}.}%
-\label{fig:ap}%
-\end{subfigure}%
-\caption{The structure and operation of biological neurons.}%
-\end{figure}
+In the outer ring is human-created devices and systems. Humanity could survive without
+the great pyramids of Giza, although we would have lost great cultural and historical
+artifacts. On the other hand, we may not survive if we don't give up coal-fired power plants.
 
-%  F 3
-\begin{figure}[b]
-\centering
-\begin{subfigure}[t]{0.45\textwidth}
-	\smfigboxes
-\caption{Points in $\mathbb{R}^2$, subdivided by a single linear classifier. One simple way of understanding linear classifiers is as a line (or hyper-plane, in higher dimensions) which splits space into two regions. In this example, points above the line are mapped to class 1 (red); those below, to class 0 (blue).}
-\label{subfig:linclass}
-\end{subfigure}%
-\qquad%
-\begin{subfigure}[t]{0.45\textwidth}
-	\smfigboxes
-\caption{Points in $\mathbb{R}^2$, subdivided by a combination of four linear classifiers. Each classifier maps \emph{all} points to class 0 or 1, and an additional linear classifier is used to combine the four. This hierarchical model is strictly more expressive than any linear classifier by itself.}
-\label{subfig:circclass}
-\end{subfigure}%
-\caption{Simple elements can be combined to express more complex relationships.
-This is one basic tenet of deep neural networks.}
-\label{fig:classifiers}
-\end{figure}
+Sustainability involves social and economic aspects as well as environmental (see Figure \ref{ch01.3pillars}).
 
+\section{Human impact on the environment}
+%kaya?
+The following identity, known as the IPAT equation,
+encapsulates a useful way to conceptualize the environmental impacts of human activity.
+$$ \label{eq:ipat}
+I = P \times A \times T
+$$
+where $P$ is human population, $A$ is affluence, measured in per capita consumption, 
+and $T$ is technology, with units of environmental impact per unit of consumption.
+Although it is not commonly written in vector form, \ref{eq:ipat} could be written 
+as a double summation of vector quantities.
+$$ \label{eq:vipat}
+\bar{I}= \Sigma_i \Sigma_j P_i \times A_{ij} \times \bar{T}_j
+$$
+where index $i$ refers to a country with population $P_i$ and $j$ refers to different
+categories of goods consumed. $\bar{T}_j$ is a vector of environmental impacts 
+from producing/consuming good of type $j$ and $\bar{I}$ is the vector of global
+environmental impacts, encompassing such things as global warming potential,
+aquifer depletion, and eutrophication.
 
-\section{Entropy and Average Mutual Information}
-\label{ch01.sec2}
+\section{Mathematics of sustainability}
+Both population (see chapter \ref{ch.03}) and affluence (see chapter \ref{ch.05}) have 
+been growing exponentially. Economies are (typically) managed specifically for
+exponential growth by having a constant growth rate. 
+Martingale
+rates and levels
+predictions and good enough
 
-Consider a discrete random variable $U$ that takes on
-the values $\{u_1, u_2, \dots, u_M\}$, where the set of possible
-values of $U$ is often called the \textit{alphabet} and the elements
-of the set are called \textit{letters} of the alphabet. Let $P_U(u)$
-denote the probability  assignment  over the alphabet, then we can
-define the \textit{self-information} of the event $ u = u_j $ by
-\begin{equation}
-  I_U \left( u_j \right) = \log \frac{1}{P_U (u_j)} = - \log P_U
-    \left( u_j \right).
-\label{ch01.eq1}
-\end{equation}
-
-\begin{example}
-\label{ch01.ex1}
-Given a random variable $U$ with four equally likely letters
-in its alphabet, we wish to find $H(U)$. Clearly, $M=4$
-and $P_U(u_i)= \tfrac{1}{4}$ for $ i = 1, 2, 3, 4 $.
-
-\begin{align}
-    I_{W;X}\left(w_j;x_k\right)
-    & = \log
-    \frac{P_{WX}\left(w_j, x_k\right)}{P_W\left(w_j\right)
-              P_X\left(x_k\right)}
-    \notag\\
-    & = \log
-    \frac{P_{X|W} \left( x_k | w_j\right)} {P_X \left(x_k\right)}
-    =
-     I_{X;W} \left(x_k; w_j\right).
-\label{ch01.eq2}
-\end{align}
-\end{example}
-
-\begin{property}
-\label{ch01.pro1}
-Let $U$ be a random variable with possible values $\{u_1,u_2,\dots, u_M\}$.
-\end{property}
-
-Example~\ref{ch01.ex1} illustrates Property~\ref{ch01.pro1}.
-
-\begin{property}
-\label{ch01.pro2}
-Let $W$ and $X$ be jointly distributed random variables.
-\end{property}
-
-\begin{example}
-\label{ch01.ex2}
-Here we wish to calculate the mutual information and the average
-mutual information for the probability assignments
-(with $M=2$ and $N=2$)
-\begin{equation}
- P_W \big(w_1\big) = P_W \big(w_2\big) = \tfrac{1}{2}
-\label{ch01.eq3}
-\end{equation}
-\end{example}
-
-\begin{example}[\citep{Boeringer}]
-\label{ch01.ex3}
-The source output is a ternary-valued random variable that takes on the
-values $\{ u_1, u_2, u_3 \}$ with probabilities
-$P(u_1) = 0.7, P(u_2) = 0.15 = P(u_3)$.
-\end{example}
-
-\begin{theorem}[(Source Coding Theorem).]
-\label{ch01.th1}
-For a DMS with entropy $H(U)$,
-the minimum average codeword length per source letter $(\bar{n})$ for any
-code is lower
-bounded by $H(U)$, that is, $\bar{n} \geq H(U)$, and further, $\bar{n}$
-can be made as close to $H(U)$
-as desired for some suitably chosen code.
-\end{theorem}
-
-\begin{theorem}[(Channel Coding Theorem~\citep{Wen-ChungLiu2005}).]
-\label{ch01.th2}
-Given a DMS
-with entropy $H$ bits/source letter and a DMC with capacity $C$
-bits/source letter,
-if $H \leq C$, the source output can be encoded for transmission over
-the channel with
-an arbitrarily small bit error probability. Further, if $H > C$, the bit error
-probability is bounded away from $0$.
-\end{theorem}
-
-\begin{proof}
-This result can be proved in several ways, including calculus of
-variations~\citep{WenWangetal2005} inequality; however, an
-alternative method is used here.
-\end{proof}
-
-\begin{table}[hbt]
-\caption{Timer0 Compare Output Mode, non-PWM Mode}
-\label{ch01.tab1}
-\begin{center}
-\begin{tabular}{|c|l|}
-    \cb COM0x1-0
-  & \cb Description
-\\
-    \cw 00
-  & \cw Normal port operation
-\\
-    \cy 01
-  & \cy Toggle on Compare Match
-\\
-    \cw 10
-  & \cw Clear on Compare Match
-\\
-    \cy 11
-  & \cy Set on Compare Match
-\\
-\hline
-\end{tabular}
-\end{center}
-\end{table}
+\section{Sources and sinks}
 
 
-\begin{center}
-\begin{tabular}{|cl|}
-    \cb COM0x1-0
-  & \cb Description
-\\
-    \cw 00
-  & \cw Normal port operation
-\\
-    \cy 01
-  & \cy Toggle on Compare Match
-\\
-    \cw 10
-  & \cw Clear on Compare Match
-\\
-    \cy 11
-  & \cy Set on Compare Match
-\\
-\hline
-\end{tabular}
-\end{center}
+\section{What makes sustainability challenging}
+\paragraph*{Complexity} OUr understanding of systems, natural as well as social, is limited.
+\paragraph*{Interconnectedness} Everything relates to everything else.
+\paragraph*{Tradeoffs} You can't ever do just one thing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \section*{Summary}
