@@ -90,7 +90,10 @@ The Kaya identity is similar to the IPAT equation but is specifically for
 greenhouse gases.
 
 \section{Sources and sinks}
+The IPAT equation works equally well for describing environmental \emph{impacts} or
+the \emph{resources} needed to support a certain level of consumption.
 
+Human economic and social activity 
 
 
 \section{Mathematics of sustainability}
