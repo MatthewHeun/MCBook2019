@@ -12,18 +12,14 @@ Providing energy for modern society is a significant sustainability challenge
 due to both resource depletion and emissions concerns.
 As discussed in Chapter~\ref{chap:introduction},
 examination of sources and sinks is a helpful way to understand sustainability challenges,
-and we use the source/sink framework here.
-Energy \emph{sources} can be classified as
-renewable (solar, wind, and hydro)
+and we apply that framework in this chapter.
+Energy sources can be classified as
+renewable (solar, wind, hydro, and biomass)
 or
 non-renewable (fossil fuels).
-Non-renewable sources entail resource depletion concerns.
-Energy and products of combustion \emph{sinks} include 
-the atmosphere, plants and trees, the Earth's crust, and bodies of water.
-Sinks absorb the wastes from energy consumption, including
-gases (CO$_2$ and H$_2$O),
-lightweight solids (particulate matter), and 
-heavy solids (ash and heavy metals).
+(Energy sinks, or more precisely, sinks for products of combustion,
+will be discussed below.)
+And both resource depletion and emissions concerns arise from the consumption of non-renewable energy resources.
 In the sections that follow, we discuss resource depletion and emissions in turn.
 We'll focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions.
 
@@ -32,6 +28,10 @@ We'll focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions
 \section{Resource depletion}
 \label{sec:energy:resource_depletion}\index{resources!depletion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+By definition, the replacement rate of non-renewable energy resources by natural processes
+is significantly less than our present consumption rate, and
+non-renewable resources are depleted by their use.
 
 
 
@@ -65,12 +65,13 @@ from several sources.
 Applying the source/sink framework to GHGs in the atmosphere,
 we see that GHG emissions from fossil fuel combustion\index{combustion!fossil fuels} 
 are a significant \emph{source}.
-Agricultural\index{agriculture}
-activity (especially livestock farming\index{livestock}) 
+Othe sources include agricultural\index{agriculture}
+activity (especially livestock farming\index{livestock} which  
 emits CH$_4$
-in copious amounts.
-Decomposing landfill waste\index{waste!landfill}
-(especially organic matter) releases methane and nitrous oxide.
+in copious amounts) and 
+decomposition of landfill waste\index{waste!landfill}
+(especially organic matter) which releases methane and nitrous oxide
+into the atmosphere.
 
 \begin{figure}
 \centering
@@ -79,23 +80,38 @@ Decomposing landfill waste\index{waste!landfill}
 \label{fig:ghg_sankey}
 \end{figure}
 
-An important \emph{sink} for GHGs is plants and trees which absorb CO$_2$
+\emph{Sinks} for products of combustion include
+the atmosphere, the Earth's crust, and bodies of water.
+Sinks absorb the wastes from fossil fuel consumption, including
+gases (CO$_2$ and H$_2$O),
+lightweight solids (particulate matter), and
+heavy solids (ash and heavy metals).
+
+An important sink for GHGs is plants and trees which absorb CO$_2$
 to fuel their growth.
-Land use changes (especially deforestation\index{deforestation}) 
-reduce CO$_2$ sequestration\index{sequestration!carbon dioxide} 
-by plants and trees,
-reducing the planet's capacity to remove CO$_2$.
-Furthermore, energy, especially diesel to operate heavy equipment, is required to cut down forests, 
-showing that deforestation both reduces GHG sequestration and contributes to GHG emissions.
-Thus, the continuous rise of fossil fuel consumption and the steady pace of deforestation
-have both amplified the sources and reduced the sinks of GHGs,
-leading to annual increases in CO$_2$ concentration in Earth's atmosphere.
+However, land use changes (especially deforestation\index{deforestation}) 
+reduce the CO$_2$ sequestration\index{sequestration!carbon dioxide} 
+ability of plants and trees,
+reducing the planet's capacity to remove CO$_2$ from the atmosphere.
+Furthermore, energy, especially diesel to operate heavy equipment, is required to cut down trees.
+Thus, deforestation both reduces GHG sequestration and contributes to GHG emissions.
 (Afforestation\index{afforestation} 
 enhances the planet's capacity to remove CO$_2$ from the atmosphere.)
+Taken together, the continuous rise of fossil fuel consumption and the steady pace of deforestation
+have both amplified the sources and reduced the sinks of atmospheric GHGs,
+leading to annual increases in CO$_2$ concentration since measurements began in the late 1950s.
+(See the Keeling curve, Figure~\ref{fig:keeling_curve}~\citep{Delorme:2019aa}.)
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{chapters/ch04/2000px-Mauna_Loa_CO2_monthly_mean_concentration.pdf}
+\caption[CO$_2$ concentration]{Atmospheric CO$_2$ concentration, 1958--2018~\citep{Delorme:2019aa}.\index{Keeling curve}}
+\label{fig:keeling_curve}
+\end{figure}
 
 Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
 the largest source of GHG emissions. 
-Figure~\ref{fig:ghg_sankey} also shows the proportions of GHG emissions caused by 
+Figure~\ref{fig:ghg_sankey} indicates the proportions of GHG emissions caused by 
 industry, buildings, transport, agriculture, waste disposal, and energy production activities.
 It is not a stretch to say that the economy as a whole drives energy demand and 
 serves as the ultimate cause of GHG emissions.
@@ -131,30 +147,34 @@ For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector
 \label{sec:energy_transitions}\index{energy transition} \index{transition!energy|see {energy transition}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy\index{United States!energy consumption}
-is supplied at the present time by renewable sources
-(solar, hydro, wind, geothermal, and biomass)\index{renewable energy}.
-A transition away from fossil fuels (natural gas, coal, and petroleum) 
-toward renewable primary energy sources 
+A transition 
+to renewable primary energy sources 
+and away from fossil fuels (natural gas, coal, and petroleum) 
 could eliminate GHG emissions from fossil fuel consumption,
 while still meeting the energy needs of society and the economy. 
-However, there are several challenges to a renewable energy transition:
-time, money, and efficiency backfire. 
+But Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy\index{United States!energy consumption}
+is supplied at present by renewable sources
+(solar, hydro, wind, geothermal, and biomass)\index{renewable energy}.
+There is a long way to go, and 
+there are several challenges to overcome, 
+three of which are time, money, and efficiency backfire.
 
 Throughout history, societies have used different primary energy\index{energy!primary}
 sources in varying proportions. 
-Longitudinal analysis of those proportions indicates the speed of past energy transitions\index{energy transition!speed of} and
+Longitudinal analysis of those proportions reveals
+the speed of past energy transitions\index{energy transition!speed of} and
 may suggest the time needed for a future fossil-to-renewables transition. 
 Figure~\ref{fig:foquet2010} shows a longitudinal analysis of UK\index{United Kingdom}
 primary energy transitions
 from 1500--2000.
-The figure shows that the transition from food, feed, and biomass to coal\index{energy transition!biomass to coal}
+The figure shows that the UK's transition from food, feed, and biomass 
+to coal\index{energy transition!biomass to coal}
 took many centuries.
 The ongoing transition from coal to petroleum (liquid fuels) and natural gas will take at least a century.
 However, the latest climate science~\citep[Fig.~SPM.1]{IPCC:2018aa} 
 indicates we have only a few decades, not a full century, before reaching the 1.5 \degC\ warming level.
 The time challenge is this: 
-can effect the fossil-to-renewables transition in the decade or two that we have available?
+can we effect the fossil-to-renewables transition in the decade or two that is available?
 
 \begin{figure}
 \centering
@@ -170,10 +190,10 @@ was provided by \citeauthor{Jacobson:2011gc} \citeyearpar{Jacobson:2011gc,Delucc
 They estimated 
 ``construction cost for a WWS system might be on the order of \$100 trillion worldwide, 
 over 20 years, not including transmission''~\citep[p.~64]{Jacobson:2009wv}.
-For context, the \$5 trillion annual cost is 7.2~\% of GDP\index{gross domestic product (GDP)}
+For context, the \$5 trillion annual cost is 7.2~\% of world GDP\index{gross domestic product (GDP)}
 (\$69 trillion/year).
 The money challenge is this: 
-what source will provide the necessary funds for a fossil-to-renewables transition
+what funding source will provide the necessary monetary resources for a fossil-to-renewables transition
 in the timeframe of a decade or two?\index{energy transition!funding}
 
 Many suggest that investing in technical efficiency improvements for energy conversion machines
@@ -208,9 +228,9 @@ efficiency led to dramatically increased coal consumption in the UK
 at the dawn of the industrial revolution\index{industrial revolution}. 
 See \citet[p.~1787]{Sorrell:2010ul}.)
 The efficiency backfire challenge is this:
-can energy efficiency be deployed to reduce GHG emissions 
+can energy efficiency be deployed to reduce energy-related GHG emissions 
 \emph{without} inadvertantly stimulating the economy,
-thereby increasing energy consumption and energy-related GHG emissions?
+thereby increasing energy consumption and GHG emissions?
 
 
 \section*{Questions}
@@ -249,6 +269,8 @@ What is the energy efficiency of each economic sector in Figure~\ref{fig:LLNL_sa
 \item How much is spent annually on the fossil-to-renewable transition worldwide? 
       Is the spending commensurate with the investment needed for a complete transition
       in the timeframe available before reaching 1.5 \degC\ climate warming?
+      
+\item Where have you experienced the rebound effect in your life?
 
 \end{problems}
 
