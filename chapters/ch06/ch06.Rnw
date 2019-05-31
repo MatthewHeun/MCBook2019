@@ -4,7 +4,7 @@
 %blankpage
 
 \chapter{Plants and Animals}
-\label{ch06}
+\label{plants_and_animals}
 
 An alternative to numerical \LaTeX\ citations makes reference to published
 works by citing the author's name and year of publication. The entries in 
@@ -73,5 +73,5 @@ Description~\citep{SHP:1986}.
 Please see the bibliography on the next page and the file \verb+biblio.tex+.
 
 
-\clearpage
+\cleardoublepage
 

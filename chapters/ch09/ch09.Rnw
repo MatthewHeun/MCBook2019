@@ -4,8 +4,8 @@
 %blankpage
 
 \chapter{Housing and Households}
-\label{ch09}
+\label{chap:housing_and_households}
 
 
-\clearpage
+\cleardoublepage
 

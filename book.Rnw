@@ -14,17 +14,28 @@
 % bibliography
 \usepackage[comma,sort,authoryear]{natbib}         % author-year
 % \usepackage[square,comma,sort,numbers]{natbib} % numbered
-% \usepackage[square,comma,sort,numbers,sectionbib]{natbib} % numbered
+
+% Attempting per-chapter bibliographies. Not working yet.
+% \usepackage[sectionbib,compress]{natbib}% provides a bibliography for each chapter
+% \usepackage{chapterbib}
+
 
 % 
 % Begin packages imported by the authors.
 % 
 
+\usepackage[inline]{enumitem}  % For inline enumerate* lists
+\usepackage{gensymb}     % For the \degree command
+\usepackage{microtype}   % For (more) beautiful typesetting.
+\usepackage{rotating}    % For rotating figures.
 \usepackage{wrapfig}     % To wrap text around figures.
 
+\newcommand{\degC}{\degree C}
+
 %
-% End packages imported by the authors.
-%
+% End author additions
+% 
+
 
 \setcounter{secnumdepth}{2}
 
@@ -46,7 +57,6 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
 \renewcommand{\ALG@name}{\color{black}Algorithm}
 \makeatother
-
 
 
 
@@ -75,13 +85,18 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     \Sexpr{knit_child("chapters/ch14/ch14.Rnw")} % Personal actions
 
     % \input{biblio}              % bibliography
+    
     \bibliographystyle{unsrtnat}
     \bibliography{MCBook2019}   %chktex 11
-
+    
+    
+    \cleardoublepage
 
  \backmatter                    % back matter
     \input{bio}                 % author(s)'s short bio(s)
 								% please see the bios folder for some pdf examples
+    
+    \cleardoublepage
 
     \input{book.ind}            % if you have an Index
 

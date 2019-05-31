@@ -1,8 +1,8 @@
-% Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+\Sexpr{set_parent("../../book.Rnw")}
 
 \chapter{Foundational concepts related to sustainability}%{Introducty Terms and Concepts}
 \label{ch01}
+\label{chap:intro}\label{ch:introduction}
 
 The question of whether humanity is living "sustainably" is an existential one,
 in that, if we are not, then humanity will (eventyally) cease to exist as a species,
@@ -148,6 +148,10 @@ Compare your result to a random variable with equally likely values.
 
 \end{problems}
 
+% \bibliographystyle{unsrt}
+% \bibliography{MCBook2019}   %chktex 11
 
-\clearpage
+
+
+\cleardoublepage
 

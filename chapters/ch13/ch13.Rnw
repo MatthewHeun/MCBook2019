@@ -4,8 +4,8 @@
 %blankpage
 
 \chapter{Values and Religion}
-\label{ch13}
+\label{chap:values_and_religion}
 
 
-\clearpage
+\cleardoublepage
 

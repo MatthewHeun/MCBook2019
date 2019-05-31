@@ -4,7 +4,7 @@
 %blankpage
 
 \chapter{Air and Water}
-\label{ch05}
+\label{chap:air_and_water}
 
 \section{Bold Math}
 Sometimes you have a math symbol in bold to indicate, for example,
@@ -103,5 +103,5 @@ $$
 $$
 
 
-\clearpage
+\cleardoublepage
 

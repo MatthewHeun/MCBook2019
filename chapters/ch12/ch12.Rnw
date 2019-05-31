@@ -4,8 +4,8 @@
 %blankpage
 
 \chapter{Systems Thinking}
-\label{ch12}
+\label{chap:systems_thinking}
 
 
-\clearpage
+\cleardoublepage
 

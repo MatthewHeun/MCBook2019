@@ -1,114 +1,382 @@
 % Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+\Sexpr{set_parent("book.Rnw")}
 
 %blankpage
 
+%#############################################################
 \chapter{Energy}
-\label{ch04}
+\label{chap:energy}
+%#############################################################
 
-M\&C provides a macro called \verb+mcframe+ that allows us to
-create a frame around some text which automatically breaks its contents
-across pages. 
+Providing energy for modern society is a significant sustainability challenge
+due to both resource depletion and emissions concerns.
+As discussed in Chapter~\ref{chap:introduction},
+examination of sources and sinks is a helpful way to understand sustainability challenges,
+and we apply that framework in this chapter.
+Energy sources can be classified as
+renewable (solar, wind, hydro, and biomass)
+or
+non-renewable (fossil fuels).
+(Energy sinks, or more precisely, sinks for products of combustion,
+will be discussed below.)
+And both resource depletion and emissions concerns arise from the consumption of non-renewable energy resources.
+In the sections that follow, we discuss resource depletion and emissions in turn.
+We'll focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions.
 
-\verb+\begin{mcframe}[width](text-width)<background-color>+\\
 
-\ldots
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Resource depletion}
+\label{sec:energy:resource_depletion}\index{resources!depletion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\verb+\end{mcframe}+
+By definition, the replacement rate of non-renewable energy resources by natural processes
+is significantly less than our present consumption rate, and
+non-renewable resources are depleted by their use.
 
-The optional arguments are:
+
+
+Link to energy sources here.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Emissions}
+\label{sec:energy:emissions}\index{emissions!greenhouse gases}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Emissions from fossil fuel
+consumption include greenhouse gases, primarily CO$_2$.
+In the Earth's atmosphere,
+accumulation of all types of greenhouse gases
+(CH$_4$\index{methane (CH$_4$)},
+N$_2$O\index{nitrous oxide (N$_2$O)},
+HFCs\index{hydroflurocarbons (HFCs)},
+and PFCs\index{perfluorocarbons (PFCs)}
+in addition to CO$_2$)
+warms the Earth and
+disrupts natural climate systems that were in balance for millennia
+until the industrial revolution\index{industrial revolution}.
+To avoid irreversible effects of climate change\index{climate change}, 
+climate scientists say that we should limit global average temperature increase  
+to 1.5 \degC\ or less.
+
+Figure~\ref{fig:ghg_sankey} shows 
+the proportions of GHG emissions 
+from several sources.
+Applying the source/sink framework to GHGs in the atmosphere,
+we see that GHG emissions from fossil fuel combustion\index{combustion!fossil fuels} 
+are a significant \emph{source}.
+Othe sources include agricultural\index{agriculture}
+activity (especially livestock farming\index{livestock} which  
+emits CH$_4$
+in copious amounts) and 
+decomposition of landfill waste\index{waste!landfill}
+(especially organic matter) which releases methane and nitrous oxide
+into the atmosphere.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{chapters/ch04/World_GHG_Emissions_Flow_Chart.pdf}
+\caption[World GHG emissions]{World greenhouse gas emissions, 2012~\citep{ASN-Bank:2014aa}.\index{emissions!greenhouse gases}}
+\label{fig:ghg_sankey}
+\end{figure}
+
+\emph{Sinks} for products of combustion include
+the atmosphere, the Earth's crust, and bodies of water.
+Sinks absorb the wastes from fossil fuel consumption, including
+gases (CO$_2$ and H$_2$O),
+lightweight solids (particulate matter), and
+heavy solids (ash and heavy metals).
+
+An important sink for GHGs is plants and trees which absorb CO$_2$
+to fuel their growth.
+However, land use changes (especially deforestation\index{deforestation}) 
+reduce the CO$_2$ sequestration\index{sequestration!carbon dioxide} 
+ability of plants and trees,
+reducing the planet's capacity to remove CO$_2$ from the atmosphere.
+Furthermore, energy, especially diesel to operate heavy equipment, is required to cut down trees.
+Thus, deforestation both reduces GHG sequestration and contributes to GHG emissions.
+(Afforestation\index{afforestation} 
+enhances the planet's capacity to remove CO$_2$ from the atmosphere.)
+Taken together, the continuous rise of fossil fuel consumption and the steady pace of deforestation
+have both amplified the sources and reduced the sinks of atmospheric GHGs,
+leading to annual increases in CO$_2$ concentration since measurements began in the late 1950s.
+(See the Keeling curve, Figure~\ref{fig:keeling_curve}~\citep{Delorme:2019aa}.)
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{chapters/ch04/2000px-Mauna_Loa_CO2_monthly_mean_concentration.pdf}
+\caption[CO$_2$ concentration]{Atmospheric CO$_2$ concentration, 1958--2018~\citep{Delorme:2019aa}.\index{Keeling curve}}
+\label{fig:keeling_curve}
+\end{figure}
+
+Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
+the largest source of GHG emissions. 
+Figure~\ref{fig:ghg_sankey} indicates the proportions of GHG emissions caused by 
+industry, buildings, transport, agriculture, waste disposal, and energy production activities.
+It is not a stretch to say that the economy as a whole drives energy demand and 
+serves as the ultimate cause of GHG emissions.
+
+Figure~\ref{fig:LLNL_sankey} shows the economic sources of energy demand in the U.S.\index{United States}.
+We see that transport\index{energy demand!transport sector}
+is largest single source of demand,
+followed by the industrial sector\index{energy demand!industrial sector}, 
+the residential sector\index{energy demand!residential sector}, 
+and the commercial\index{energy demand!commercial sector} 
+sector.
+
+\begin{sidewaysfigure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch04/Energy_US_2018.pdf}
+\caption[World Sankey]{U.S.\ energy flows Sankey diagram, 2018~\citep{Lawrence-Livermore-National-Laboratory:2019aa}.}
+\label{fig:LLNL_sankey}
+\end{sidewaysfigure}
+
+In addition, Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency\index{energy efficiency}
+of each sector,
+as it shows the amount of energy that provides useful service to society
+relative to the amount of energy that is wasted.
+For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector is
+%
+\begin{equation} \label{eq:eff_elec_sect}
+  \eta = \frac{12.9 \; \mathrm{Quads}}{38.2 \; \mathrm{Quads}} = 34 \; \% \; .
+\end{equation}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Energy transitions}
+\label{sec:energy_transitions}\index{energy transition} \index{transition!energy|see {energy transition}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A transition 
+to renewable primary energy sources 
+and away from fossil fuels (natural gas, coal, and petroleum) 
+could eliminate GHG emissions from fossil fuel consumption,
+while still meeting the energy needs of society and the economy. 
+But Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy\index{United States!energy consumption}
+is supplied at present by renewable sources
+(solar, hydro, wind, geothermal, and biomass)\index{renewable energy}.
+There is a long way to go, and 
+there are several challenges to overcome, 
+three of which are time, money, and efficiency backfire.
+
+Throughout history, societies have used different primary energy\index{energy!primary}
+sources in varying proportions. 
+Longitudinal analysis of those proportions reveals
+the speed of past energy transitions\index{energy transition!speed of} and
+may suggest the time needed for a future fossil-to-renewables transition. 
+Figure~\ref{fig:foquet2010} shows a longitudinal analysis of UK\index{United Kingdom}
+primary energy transitions
+from 1500--2000.
+The figure shows that the UK's transition from food, feed, and biomass 
+to coal\index{energy transition!biomass to coal}
+took many centuries.
+The ongoing transition from coal to petroleum (liquid fuels) and natural gas will take at least a century.
+However, the latest climate science~\citep[Fig.~SPM.1]{IPCC:2018aa} 
+indicates we have only a few decades, not a full century, before reaching the 1.5 \degC\ warming level.
+The time challenge is this: 
+can we effect the fossil-to-renewables transition in the decade or two that is available?
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{chapters/ch04/Fouquet2011_energy_transitions.png}
+\caption[UK energy transitions]{UK primary energy transitions, 1500--2000~\citep[Fig.~5]{Fouquet:2010tq}.}
+\label{fig:foquet2010}
+\end{figure}
+
+An optimistic (and often-criticized) analysis of the requirements
+for a fossil-to-renewables (wind, water, and solar or WWS)\index{wind, water, and solar}\index{WWS|see wind, water, and solar}
+transition\index{energy transition!to wind, water, and solar}
+was provided by \citeauthor{Jacobson:2011gc} \citeyearpar{Jacobson:2011gc,Delucchi:2011gb}.
+They estimated 
+``construction cost for a WWS system might be on the order of \$100 trillion worldwide, 
+over 20 years, not including transmission''~\citep[p.~64]{Jacobson:2009wv}.
+For context, the \$5 trillion annual cost is 7.2~\% of world GDP\index{gross domestic product (GDP)}
+(\$69 trillion/year).
+The money challenge is this: 
+what funding source will provide the necessary monetary resources for a fossil-to-renewables transition
+in the timeframe of a decade or two?\index{energy transition!funding}
+
+Many suggest that investing in technical efficiency improvements for energy conversion machines
+(such as power plants, automobiles, and lights)
+will reduce energy consumption and GHG emissions,
+while continuing to supply the end-use energy needed for the economy. 
+However, increasing energy efficiency is associated with increasing GDP, and  
+increasing GDP is associated with increasing primary energy consumption~\citep{Heun:2019aa}.
+The relationship between efficiency and economic growth is complex and dynamic, 
+but at least two mechanisms are involved:
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item rising GDP means more money available to invest in new machines and equipment with higher energy efficiency,
+        thereby increasing the aggregate energy efficiency of the economy over time, and 
+  
+  \item rising thermodynamic efficiency means that less money is spent on purchasing energy, 
+        more money is available for other economic activity, and 
+        GDP increases as a result.
+    
+\end{enumerate*}
+%
+That is, energy efficiency--GDP feedback through the wider economy ``takes back'' 
+efficiency-driven reductions in energy consumption (and associated CO$_2$ emissions), 
+a phenomenon known as the ``rebound effect''~\citep{Saunders:2015aa,Brockway:2017a}.\index{rebound effect}
+Taken to an extreme, increases in energy efficiency can lead, 
+counterintuitively and perversely, 
+to \emph{increased} energy consumption,
+a phenomenon known as ``backfire.''\index{backfire}
+(E.g., increases in steam engine\index{steam engine} 
+efficiency led to dramatically increased coal consumption in the UK
+at the dawn of the industrial revolution\index{industrial revolution}. 
+See \citet[p.~1787]{Sorrell:2010ul}.)
+The efficiency backfire challenge is this:
+can energy efficiency be deployed to reduce energy-related GHG emissions 
+\emph{without} inadvertantly stimulating the economy,
+thereby increasing energy consumption and GHG emissions?
+
+
+\section*{Questions}
+\index{questions}%
+
+\begin{problems}
+
+\item
+What is the energy efficiency of each economic sector in Figure~\ref{fig:LLNL_sankey}?
+
+\item The cost of the WWS fossil-to-renewable transition 
+      proposed by Jacobson and Delucchi is very large.
+      Compare the estimated cost for WWS to costs for other large programs such as
+%
 \begin{itemize}
-\item
-\verb+width+ defaults to the width of the page
-\item
-\verb+text-width+ defaults to an indent of 10pt in each margin
-\item
-\verb+background-color+ defaults to the \verb+bluetwenty+ color of the
-	M\&C books.
+
+  \item the U.S.\ Apollo program\index{Apollo (space program)},
+
+  \item the fight against HIV/AIDS\index{HIV/AIDS},
+
+  \item President Lyndon B.\ Johnson's\index{Johnson, Lyndon B.} Great Society\index{Great Society} program,
+
+  \item President Ronald Reagan's\index{Reagan, Ronald} 
+        Strategic Defense Initiative (SDI)\index{Strategic Defense Initiative (SDI)}, and
+
+  \item the U.S.'s post September 11, 2001 wars in Iraq\index{Iraq} and Afghanistan\index{Afghanistan}.
+
 \end{itemize}
 
-\blankline
-Here are a few examples using some text from the book \textit{General Game 
-Playing} by M. Genesereth and M. Thielscher that was published by M\&C in 
-March, 2014:
+\item Find several critiques of the WWS proposal. 
+      Find at least three costs that the WWS proposal neglected.
+      Given the criqiques and your additional costs, 
+      what is an updated estimate for the cost of the WWS fossil-to-renewable transition?
+      On annual basis, what percentage of world GDP does the WWS transition represent?
+      
+\item How much is spent annually on the fossil-to-renewable transition worldwide? 
+      Is the spending commensurate with the investment needed for a complete transition
+      in the timeframe available before reaching 1.5 \degC\ climate warming?
+      
+\item Where have you experienced the rebound effect in your life?
 
-\begin{mcframe}
-\verb+\begin{mcframe}+\\
-Games of strategy, such as Chess, couple intellectual activity with
-competition.
-We can exercise and improve our intellectual skills by playing such games.
-The competition adds excitement and allows us to
-compare our skills to those of others.
-The same motivation accounts for
-interest in Computer Game Playing as a testbed for Artificial Intelligence.
-Programs that think better should be able to win more
-games, and so we can use competitions as an evaluation technique for
-intelligent systems.
-
-Unfortunately, building programs to play specific games has limited
-value in AI.  (1)~To begin with, specialized game players are very narrow.
-They can be good at one game but not another. Deep Blue may have beaten
-the world Chess champion, but it has no clue how to play checkers.  (2)~A
-second problem with specialized game playing systems is that they do only
-part of the work. Most of the interesting analysis and design is done in
-advance by their programmers. The systems themselves might as well be
-tele-operated.
-
-All is not lost. The idea of game playing can be used to good effect
-to inspire and evaluate good work in Artificial Intelligence, but it
-requires moving more of the design work to the computer itself.
-This can be done by focussing attention on General Game Playing.\\
-\verb+\end{mcframe}+
-\end{mcframe}
-
-\begin{mcframe}[.7\textwidth](.6\textwidth)
-\verb+\begin{mcframe}[.7\textwidth](.6\textwidth)+\\
-Games of strategy, such as Chess, couple intellectual activity with
-competition.
-We can exercise and improve our intellectual skills by playing such games.
-The competition adds excitement and allows us to
-compare our skills to those of others.
-The same motivation accounts for
-interest in Computer Game Playing as a testbed for Artificial Intelligence.
-Programs that think better should be able to win more
-games, and so we can use competitions as an evaluation technique for
-intelligent systems.
-
-Unfortunately, building programs to play specific games has limited
-value in AI.  (1)~To begin with, specialized game players are very narrow.
-They can be good at one game but not another. Deep Blue may have beaten
-the world Chess champion, but it has no clue how to play checkers.  (2)~A
-second problem with specialized game playing systems is that they do only
-part of the work. Most of the interesting analysis and design is done in
-advance by their programmers. The systems themselves might as well be
-tele-operated.\\
-\verb+\end{mcframe}+
-\end{mcframe}
-
-\begin{mcframe}[.8\textwidth](.7\textwidth)<green>
-\verb+\begin{mcframe}[.8\textwidth](.7\textwidth)<green>+\\
-Games of strategy, such as Chess, couple intellectual activity with
-competition.
-We can exercise and improve our intellectual skills by playing such games.
-The competition adds excitement and allows us to
-compare our skills to those of others.
-The same motivation accounts for
-interest in Computer Game Playing as a testbed for Artificial Intelligence.
-Programs that think better should be able to win more
-games, and so we can use competitions as an evaluation technique for
-intelligent systems.
-
-Unfortunately, building programs to play specific games has limited
-value in AI.  (1)~To begin with, specialized game players are very narrow.
-They can be good at one game but not another. Deep Blue may have beaten
-the world Chess champion, but it has no clue how to play checkers.  (2)~A
-second problem with specialized game playing systems is that they do only
-part of the work. Most of the interesting analysis and design is done in
-advance by their programmers. The systems themselves might as well be
-tele-operated.\\
-\verb+\end{mcframe}+
-\end{mcframe}
+\end{problems}
 
 
-\clearpage
+% M\&C provides a macro called \verb+mcframe+ that allows us to
+% create a frame around some text which automatically breaks its contents
+% across pages. 
+% 
+% \verb+\begin{mcframe}[width](text-width)<background-color>+\\
+% 
+% \ldots
+% 
+% \verb+\end{mcframe}+
+% 
+% The optional arguments are:
+% \begin{itemize}
+% \item
+% \verb+width+ defaults to the width of the page
+% \item
+% \verb+text-width+ defaults to an indent of 10pt in each margin
+% \item
+% \verb+background-color+ defaults to the \verb+bluetwenty+ color of the
+% 	M\&C books.
+% \end{itemize}
+% 
+% \blankline
+% Here are a few examples using some text from the book \textit{General Game 
+% Playing} by M. Genesereth and M. Thielscher that was published by M\&C in 
+% March, 2014:
+% 
+% \begin{mcframe}
+% \verb+\begin{mcframe}+\\
+% Games of strategy, such as Chess, couple intellectual activity with
+% competition.
+% We can exercise and improve our intellectual skills by playing such games.
+% The competition adds excitement and allows us to
+% compare our skills to those of others.
+% The same motivation accounts for
+% interest in Computer Game Playing as a testbed for Artificial Intelligence.
+% Programs that think better should be able to win more
+% games, and so we can use competitions as an evaluation technique for
+% intelligent systems.
+% 
+% Unfortunately, building programs to play specific games has limited
+% value in AI.  (1)~To begin with, specialized game players are very narrow.
+% They can be good at one game but not another. Deep Blue may have beaten
+% the world Chess champion, but it has no clue how to play checkers.  (2)~A
+% second problem with specialized game playing systems is that they do only
+% part of the work. Most of the interesting analysis and design is done in
+% advance by their programmers. The systems themselves might as well be
+% tele-operated.
+% 
+% All is not lost. The idea of game playing can be used to good effect
+% to inspire and evaluate good work in Artificial Intelligence, but it
+% requires moving more of the design work to the computer itself.
+% This can be done by focussing attention on General Game Playing.\\
+% \verb+\end{mcframe}+
+% \end{mcframe}
+% 
+% \begin{mcframe}[.7\textwidth](.6\textwidth)
+% \verb+\begin{mcframe}[.7\textwidth](.6\textwidth)+\\
+% Games of strategy, such as Chess, couple intellectual activity with
+% competition.
+% We can exercise and improve our intellectual skills by playing such games.
+% The competition adds excitement and allows us to
+% compare our skills to those of others.
+% The same motivation accounts for
+% interest in Computer Game Playing as a testbed for Artificial Intelligence.
+% Programs that think better should be able to win more
+% games, and so we can use competitions as an evaluation technique for
+% intelligent systems.
+% 
+% Unfortunately, building programs to play specific games has limited
+% value in AI.  (1)~To begin with, specialized game players are very narrow.
+% They can be good at one game but not another. Deep Blue may have beaten
+% the world Chess champion, but it has no clue how to play checkers.  (2)~A
+% second problem with specialized game playing systems is that they do only
+% part of the work. Most of the interesting analysis and design is done in
+% advance by their programmers. The systems themselves might as well be
+% tele-operated.\\
+% \verb+\end{mcframe}+
+% \end{mcframe}
+% 
+% \begin{mcframe}[.8\textwidth](.7\textwidth)<green>
+% \verb+\begin{mcframe}[.8\textwidth](.7\textwidth)<green>+\\
+% Games of strategy, such as Chess, couple intellectual activity with
+% competition.
+% We can exercise and improve our intellectual skills by playing such games.
+% The competition adds excitement and allows us to
+% compare our skills to those of others.
+% The same motivation accounts for
+% interest in Computer Game Playing as a testbed for Artificial Intelligence.
+% Programs that think better should be able to win more
+% games, and so we can use competitions as an evaluation technique for
+% intelligent systems.
+% 
+% Unfortunately, building programs to play specific games has limited
+% value in AI.  (1)~To begin with, specialized game players are very narrow.
+% They can be good at one game but not another. Deep Blue may have beaten
+% the world Chess champion, but it has no clue how to play checkers.  (2)~A
+% second problem with specialized game playing systems is that they do only
+% part of the work. Most of the interesting analysis and design is done in
+% advance by their programmers. The systems themselves might as well be
+% tele-operated.\\
+% \verb+\end{mcframe}+
+% \end{mcframe}
+
+\cleardoublepage
 

@@ -4,8 +4,8 @@
 %blankpage
 
 \chapter{Personal Actions}
-\label{ch14}
+\label{chap:personal_actions}
 
 
-\clearpage
+\cleardoublepage
 
