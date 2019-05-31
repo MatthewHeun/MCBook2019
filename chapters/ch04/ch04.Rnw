@@ -3,20 +3,23 @@
 
 %blankpage
 
+%#############################################################
 \chapter{Energy}
 \label{chap:energy}
+%#############################################################
 
-Providing energy for modern society is a significant sustainabilty challenge
+Providing energy for modern society is a significant sustainability challenge
 due to both resource depletion and emissions concerns.
 As discussed in Chapter~\ref{chap:introduction},
-examination of sources and sinks is a helpful way to understand sustainabiltiy challenges,
+examination of sources and sinks is a helpful way to understand sustainability challenges,
 and we use the source/sink framework here.
 Energy \emph{sources} can be classified as
 renewable (solar, wind, and hydro)
 or
 non-renewable (fossil fuels).
-Non-renewable sources face resource depletion concerns.
-Energy \emph{sinks} include the atmosphere, plants and trees, the Earth's crust, and bodies of water.
+Non-renewable sources entail resource depletion concerns.
+Energy and products of combustion \emph{sinks} include 
+the atmosphere, plants and trees, the Earth's crust, and bodies of water.
 Sinks absorb the wastes from energy consumption, including
 gases (CO$_2$ and H$_2$O),
 lightweight solids (particulate matter), and 
@@ -27,7 +30,7 @@ We'll focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Resource depletion}
-\label{sec:energy:resource_depletion}
+\label{sec:energy:resource_depletion}\index{resources!depletion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -37,54 +40,73 @@ Link to energy sources here.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Emissions}
-\label{sec:energy:emissions}
+\label{sec:energy:emissions}\index{emissions!greenhouse gases}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Emissions from fossil consumption include greenhouse gases, primarily CO$_2$.
+Emissions from fossil fuel
+consumption include greenhouse gases, primarily CO$_2$.
 In the Earth's atmosphere,
 accumulation of all types of greenhouse gases
-(CH$_4$, N$_2$O, HFCs, and PFCs in addition to CO$_2$)
+(CH$_4$\index{methane (CH$_4$)},
+N$_2$O\index{nitrous oxide (N$_2$O)},
+HFCs\index{hydroflurocarbons (HFCs)},
+and PFCs\index{perfluorocarbons (PFCs)}
+in addition to CO$_2$)
 warms the Earth and
 disrupts natural climate systems that were in balance for millennia
-until the industrial revolution.
-To avoid irreversible effects of climate change, 
+until the industrial revolution\index{industrial revolution}.
+To avoid irreversible effects of climate change\index{climate change}, 
 climate scientists say that we should limit global average temperature increase  
-to 1.5 \degC\ ro less.
+to 1.5 \degC\ or less.
 
+Figure~\ref{fig:ghg_sankey} shows 
+the proportions of GHG emissions 
+from several sources.
 Applying the source/sink framework to GHGs in the atmosphere,
-we see that GHG emissions from fossil fuel combustion are a significant \emph{source}.
-Agricultural activity (especially livestock) emits CH$_4$ in copious amounts.
-Decomposing landfill waste (especially organic matter) releases methane and nitrous oxide.
-
-An important \emph{sink} for GHGs is plants and trees which absorb CO$_2$
-to fuel their growth.
-Land use changes (especially deforestation) reduce CO$_2$ sequestration by plants and trees,
-reducing the planet's capacity to remove CO$_2$.
-Furthermore, energy, especially diesel for heavy equipment, is required to cut down forests, 
-showing that deforestation both reduced GHG sequestration and contributes to GHG emissions.
-Thus, the continuous rise of fossil fuel consumption and the steady pace of deforestation
-have both amplified the sources and reduced the sinks of GHGs on Earth,
-leading to annual increases in CO$_2$ concentration.
-The proportions of GHG emissions from these and other sources can be seen in Figure~\ref{fig:ghg_sankey}.
+we see that GHG emissions from fossil fuel combustion\index{combustion!fossil fuels} 
+are a significant \emph{source}.
+Agricultural\index{agriculture}
+activity (especially livestock farming\index{livestock}) 
+emits CH$_4$
+in copious amounts.
+Decomposing landfill waste\index{waste!landfill}
+(especially organic matter) releases methane and nitrous oxide.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.9\linewidth]{chapters/ch04/World_GHG_Emissions_Flow_Chart.pdf}
-\caption[World GHG emissions]{World greenhouse gas emissions, 2012~\citep{ASN-Bank:2014aa}.}
+\caption[World GHG emissions]{World greenhouse gas emissions, 2012~\citep{ASN-Bank:2014aa}.\index{emissions!greenhouse gases}}
 \label{fig:ghg_sankey}
 \end{figure}
 
+An important \emph{sink} for GHGs is plants and trees which absorb CO$_2$
+to fuel their growth.
+Land use changes (especially deforestation\index{deforestation}) 
+reduce CO$_2$ sequestration\index{sequestration!carbon dioxide} 
+by plants and trees,
+reducing the planet's capacity to remove CO$_2$.
+Furthermore, energy, especially diesel to operate heavy equipment, is required to cut down forests, 
+showing that deforestation both reduces GHG sequestration and contributes to GHG emissions.
+Thus, the continuous rise of fossil fuel consumption and the steady pace of deforestation
+have both amplified the sources and reduced the sinks of GHGs,
+leading to annual increases in CO$_2$ concentration in Earth's atmosphere.
+(Afforestation\index{afforestation} 
+enhances the planet's capacity to remove CO$_2$ from the atmosphere.)
+
 Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
-a significant source of GHG emissions. 
+the largest source of GHG emissions. 
 Figure~\ref{fig:ghg_sankey} also shows the proportions of GHG emissions caused by 
 industry, buildings, transport, agriculture, waste disposal, and energy production activities.
 It is not a stretch to say that the economy as a whole drives energy demand and 
 serves as the ultimate cause of GHG emissions.
 
-Figure~\ref{fig:LLNL_sankey} identifies, at a broad level, 
-the economic sources of demand for energy in the U.S.
-We see that transportation is largest single source of demand,
-followed by the industrial sector, the residential sector, and the commercial sector.
+Figure~\ref{fig:LLNL_sankey} shows the economic sources of energy demand in the U.S.\index{United States}.
+We see that transport\index{energy demand!transport sector}
+is largest single source of demand,
+followed by the industrial sector\index{energy demand!industrial sector}, 
+the residential sector\index{energy demand!residential sector}, 
+and the commercial\index{energy demand!commercial sector} 
+sector.
 
 \begin{sidewaysfigure}
 \centering
@@ -93,7 +115,8 @@ followed by the industrial sector, the residential sector, and the commercial se
 \label{fig:LLNL_sankey}
 \end{sidewaysfigure}
 
-In addition, Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency of each sector,
+In addition, Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency\index{energy efficiency}
+of each sector,
 as it shows the amount of energy that provides useful service to society
 relative to the amount of energy that is wasted.
 For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector is
@@ -105,28 +128,33 @@ For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Energy transitions}
-\label{sec:energy_transitions}
+\label{sec:energy_transitions}\index{energy transition} \index{transition!energy|see {energy transition}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy is supplied from renewable sources
-(solar, hydro, wind, geothermal, and biomass) at the present time.
+Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy\index{United States!energy consumption}
+is supplied at the present time by renewable sources
+(solar, hydro, wind, geothermal, and biomass)\index{renewable energy}.
 A transition away from fossil fuels (natural gas, coal, and petroleum) 
 toward renewable primary energy sources 
 could eliminate GHG emissions from fossil fuel consumption,
 while still meeting the energy needs of society and the economy. 
 However, there are several challenges to a renewable energy transition:
-time, money, and efficiency. 
+time, money, and efficiency backfire. 
 
-Throughout history, societies have used different primary energy sources in varying proportions. 
-Longitudinal analysis of those proportions indicates the speed of past energy transitions and
+Throughout history, societies have used different primary energy\index{energy!primary}
+sources in varying proportions. 
+Longitudinal analysis of those proportions indicates the speed of past energy transitions\index{energy transition!speed of} and
 may suggest the time needed for a future fossil-to-renewables transition. 
-Figure~\ref{fig:foquet2010} shows a longitudinal analysis of UK primary energy transitions
+Figure~\ref{fig:foquet2010} shows a longitudinal analysis of UK\index{United Kingdom}
+primary energy transitions
 from 1500--2000.
-The figure shows that the transition from food, feed, and biomass to coal took many centuries.
+The figure shows that the transition from food, feed, and biomass to coal\index{energy transition!biomass to coal}
+took many centuries.
 The ongoing transition from coal to petroleum (liquid fuels) and natural gas will take at least a century.
+However, the latest climate science~\citep[Fig.~SPM.1]{IPCC:2018aa} 
+indicates we have only a few decades, not a full century, before reaching the 1.5 \degC\ warming level.
 The time challenge is this: 
-the latest climate science~\citep[Fig.~SPM.1]{IPCC:2018aa} indicates we have only a few decades, not a full century,
-to effect the fossil-to-renewables transition and avoid 1.5 \degC\ warming.
+can effect the fossil-to-renewables transition in the decade or two that we have available?
 
 \begin{figure}
 \centering
@@ -135,14 +163,94 @@ to effect the fossil-to-renewables transition and avoid 1.5 \degC\ warming.
 \label{fig:foquet2010}
 \end{figure}
 
-An optomistic (and often-criticized) analysis of the requirements
-for a fossil-to-renewables (wind, water, and solar or WWS) transition 
+An optimistic (and often-criticized) analysis of the requirements
+for a fossil-to-renewables (wind, water, and solar or WWS)\index{wind, water, and solar}\index{WWS|see wind, water, and solar}
+transition\index{energy transition!to wind, water, and solar}
 was provided by \citeauthor{Jacobson:2011gc} \citeyearpar{Jacobson:2011gc,Delucchi:2011gb}.
 They estimated 
 ``construction cost for a WWS system might be on the order of \$100 trillion worldwide, 
-over 20 years, not including transmission''~ \citep[p.~64]{Jacobson:2009wv}.
-For context, the \$5 trillion annual cost is 7.2~\% of GDP (\$69 trillion/year).
+over 20 years, not including transmission''~\citep[p.~64]{Jacobson:2009wv}.
+For context, the \$5 trillion annual cost is 7.2~\% of GDP\index{gross domestic product (GDP)}
+(\$69 trillion/year).
+The money challenge is this: 
+what source will provide the necessary funds for a fossil-to-renewables transition
+in the timeframe of a decade or two?\index{energy transition!funding}
 
+Many suggest that investing in technical efficiency improvements for energy conversion machines
+(such as power plants, automobiles, and lights)
+will reduce energy consumption and GHG emissions,
+while continuing to supply the end-use energy needed for the economy. 
+However, increasing energy efficiency is associated with increasing GDP, and  
+increasing GDP is associated with increasing primary energy consumption~\citep{Heun:2019aa}.
+The relationship between efficiency and economic growth is complex and dynamic, 
+but at least two mechanisms are involved:
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item rising GDP means more money available to invest in new machines and equipment with higher energy efficiency,
+        thereby increasing the aggregate energy efficiency of the economy over time, and 
+  
+  \item rising thermodynamic efficiency means that less money is spent on purchasing energy, 
+        more money is available for other economic activity, and 
+        GDP increases as a result.
+    
+\end{enumerate*}
+%
+That is, energy efficiency--GDP feedback through the wider economy ``takes back'' 
+efficiency-driven reductions in energy consumption (and associated CO$_2$ emissions), 
+a phenomenon known as the ``rebound effect''~\citep{Saunders:2015aa,Brockway:2017a}.\index{rebound effect}
+Taken to an extreme, increases in energy efficiency can lead, 
+counterintuitively and perversely, 
+to \emph{increased} energy consumption,
+a phenomenon known as ``backfire.''\index{backfire}
+(E.g., increases in steam engine\index{steam engine} 
+efficiency led to dramatically increased coal consumption in the UK
+at the dawn of the industrial revolution\index{industrial revolution}. 
+See \citet[p.~1787]{Sorrell:2010ul}.)
+The efficiency backfire challenge is this:
+can energy efficiency be deployed to reduce GHG emissions 
+\emph{without} inadvertantly stimulating the economy,
+thereby increasing energy consumption and energy-related GHG emissions?
+
+
+\section*{Questions}
+\index{questions}%
+
+\begin{problems}
+
+\item
+What is the energy efficiency of each economic sector in Figure~\ref{fig:LLNL_sankey}?
+
+\item The cost of the WWS fossil-to-renewable transition 
+      proposed by Jacobson and Delucchi is very large.
+      Compare the estimated cost for WWS to costs for other large programs such as
+%
+\begin{itemize}
+
+  \item the U.S.\ Apollo program\index{Apollo (space program)},
+
+  \item the fight against HIV/AIDS\index{HIV/AIDS},
+
+  \item President Lyndon B.\ Johnson's\index{Johnson, Lyndon B.} Great Society\index{Great Society} program,
+
+  \item President Ronald Reagan's\index{Reagan, Ronald} 
+        Strategic Defense Initiative (SDI)\index{Strategic Defense Initiative (SDI)}, and
+
+  \item the U.S.'s post September 11, 2001 wars in Iraq\index{Iraq} and Afghanistan\index{Afghanistan}.
+
+\end{itemize}
+
+\item Find several critiques of the WWS proposal. 
+      Find at least three costs that the WWS proposal neglected.
+      Given the criqiques and your additional costs, 
+      what is an updated estimate for the cost of the WWS fossil-to-renewable transition?
+      On annual basis, what percentage of world GDP does the WWS transition represent?
+      
+\item How much is spent annually on the fossil-to-renewable transition worldwide? 
+      Is the spending commensurate with the investment needed for a complete transition
+      in the timeframe available before reaching 1.5 \degC\ climate warming?
+
+\end{problems}
 
 
 % M\&C provides a macro called \verb+mcframe+ that allows us to

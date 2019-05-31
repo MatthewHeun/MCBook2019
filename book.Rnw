@@ -24,6 +24,7 @@
 % Begin packages imported by the authors.
 % 
 
+\usepackage[inline]{enumitem}  % For inline enumerate* lists
 \usepackage{gensymb}     % For the \degree command
 \usepackage{microtype}   % For (more) beautiful typesetting.
 \usepackage{rotating}    % For rotating figures.
