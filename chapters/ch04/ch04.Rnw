@@ -29,13 +29,35 @@ We'll focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions
 \label{sec:energy:resource_depletion}\index{resources!depletion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-By definition, the replacement rate of non-renewable energy resources by natural processes
-is significantly less than our present consumption rate, and
-non-renewable resources are depleted by their use.
+Natural resources have generation rates and consumption rates.
+The generation rate~($\dot{g}$) 
+describes the speed with which the resource is re-created by natural or human processes.
+The consumption rate~($\dot{c}$) 
+describes the speed with which the resource is removed from nature.
+The initial stock of the resource~($s$) is given by~$s_0$.
+The stock level, the generation rate, and the consumption rate can be a function of time 
+($s(t)$, $\dot{g}(t)$, $\dot{c}(t)$)
+such that the remaining stock can be calculated at any time $t$ by  
+%
+\begin{equation} \label{eq:}
+  s(t) = s_0 + \int_{t=0}^{t=t} \left[ \dot{g}(t) - \dot{c}(t) \right] \; \mathrm{d}t \; .
+\end{equation}
 
+When $\dot{g} < \dot{c}$, a resource is depleting.
+When $\dot{g} > \dot{c}$, a resource is recovering.
+For non-renewable energy resources, such as coal, oil, and natural gas, 
+$\dot{g} \ll \dot{c}$, and 
+they are always being depleted by consumption.
+For some renewable energy resources, 
+such as solar and some geothermal sites,
+$\dot{g} \gg \dot{c}$, and the resource is virtually limitless.
+For other renewable energy resources, 
+such as biomass,
+the relationship between $\dot{g}$ and $\dot{c}$ depends on local growing conditions and harvesting.
+Afforestation entails sustainable management of a forest such that 
+$\dot{g} > \dot{c}$. 
+Deforestation occurs when $\dot{g} < \dot{c}$ due to clearcutting or other unsustainable practices.
 
-
-Link to energy sources here.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
