@@ -29,12 +29,14 @@ We'll focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions
 \label{sec:energy:resource_depletion}\index{resources!depletion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Natural resources have generation rates and consumption rates.
-The generation rate~($\dot{g}$) 
-describes the speed with which the resource is re-created by natural or human processes.
-The consumption rate~($\dot{c}$) 
-describes the speed with which the resource is removed from nature.
-The initial stock of the resource~($s$) is given by~$s_0$.
+Depletion of non-renewable natural resources is a complex process
+that involves natural processes, human wants and needs, and technology.
+To describe the processes succinctly, we use a model from calculus.
+All natural resources have a generation rate~($\dot{g}$)\index{resources!generation rate}, 
+the speed with which the resource is re-created by natural or human processes.
+Natural resources can be consumed at a rate~($\dot{c}$)\index{resources!consumption rate},
+the speed with which the resource is removed from nature and consumed by human society or animals.
+The initial stock of a resource~($s$) is given by~$s_0$.
 The stock level, the generation rate, and the consumption rate can be a function of time 
 ($s(t)$, $\dot{g}(t)$, $\dot{c}(t)$)
 such that the remaining stock can be calculated at any time $t$ by  
@@ -45,19 +47,75 @@ such that the remaining stock can be calculated at any time $t$ by
 
 When $\dot{g} < \dot{c}$, a resource is depleting.
 When $\dot{g} > \dot{c}$, a resource is recovering.
-For non-renewable energy resources, such as coal, oil, and natural gas, 
-$\dot{g} \ll \dot{c}$, and 
-they are always being depleted by consumption.
 For some renewable energy resources, 
-such as solar and some geothermal sites,
+such as solar and geothermal heat at some sites,
 $\dot{g} \gg \dot{c}$, and the resource is virtually limitless.
-For other renewable energy resources, 
-such as biomass,
-the relationship between $\dot{g}$ and $\dot{c}$ depends on local growing conditions and harvesting.
+Some energy resources are potentially renewable,
+such as biomass.
+For potentially renewable resources, 
+the relationship between $\dot{g}$ and $\dot{c}$ depends on local growing conditions and harvesting rates.
 Afforestation entails sustainable management of a forest such that 
 $\dot{g} > \dot{c}$. 
 Deforestation occurs when $\dot{g} < \dot{c}$ due to clearcutting or other unsustainable practices.
+For non-renewable energy resources, such as coal, oil, and natural gas, 
+$\dot{g} \ll \dot{c}$, and 
+they are always being depleted by consumption.
 
+For cost reasons, resources are extracted from the easiest sites first,
+such as oil from west Texas\index{Texas} or coal from near-surface seams.
+All other things being equal, as the stock of a non-renewable resource declines
+extraction costs are expected to rise 
+as increasingly-difficult sites are utilized,
+such as oil from offshore platforms or kilometers-deep subsurface coal mines.
+But all things are never equal, and 
+technological advances put downward pressure on extraction costs, 
+even as a resource depletes.  
+In the end, extraction cost of an energy resource is a race between depletion and technology.
+
+If society continues to consume a non-renewable energy resource 
+at rate $\dot{c}$ (which is $\gg \dot{g}$) indefinately,
+its stock ($s(t)$) will eventually go to $0$.
+But $s \rightarrow 0$ is not the expected long-run outcome for non-renewable resources.
+Rather, extraction (and $\dot{c}$, also) will cease when the cost of extraction exceeds the 
+market price for the non-renewable energy resource.
+The fraction~($r$) of initial resource stock~($s_0$) that is ultimately recoverable 
+is determined by the market price relative to the extraction costs.
+
+If sustainabilty is defined as continuing an activity indefinitely
+(see Chapter~\ref{chap:introduction}), 
+$\dot{c} > 0$ is unsustainable for any non-renewable resource with $\dot{c} \gg \dot{g}$.
+I.e., any consumption of non-renewable resources is, by definition, unsustainable.
+Thus, ongoing consumption of coal, oil, and natural gas is unsustainable.
+But given that modern society is thoroughly dependent upon non-renewable energy sources,
+a reasonable question arises: how long can we continue our current consumption trajectories
+of non-sustainable energy resources such as coal, oil, and natural gas.
+To answer that question, $s$ must be calculated, implying that $s_0$ must be determined. 
+Furthermore, extraction costs as a function of $s(t)$ must be predictable, 
+meaning that price and technology forecasts are needed.
+Predicting the future is a tricky business, indeed.
+
+But simple calculations can be performed to obtain estimates 
+of remaining time available for various resources.
+\citet[p.~22]{Rutledge:2018aa} estimates the initial stock of coal to be $s_0 = 784 \; \mathrm{Gt}$.%
+\footnote{
+The estimation approach assumes that non-renewable resource production
+follows a logistic curve through time.
+See \citet{Rutledge:2011} for a description of the method.
+The estimate of $s_0 = 784 \; \mathrm{Gt}$
+is from a 2018 presentation~\citep[p.~22]{Rutledge:2018aa}
+by the same author.
+}
+and the amount of coal consumed to 2017 to be $400 \; \mathrm{Gt}$, 
+leaving $384 \; \mathrm{Gt}$ remaining to be extracted.
+The world consumption rate for coal in 2017 was 
+$\dot{c} = 7549 \; \mathrm{Mt/year}$~\citep[p.~7]{International-Energy-Agency:2018a}.
+Dividing the remaining coal by today's extraction rate gives the years of coal extraction remaining ($\Delta t$)
+%
+\begin{equation} \label{eq:coal_years_remaining}
+  \Delta t = \frac{384 \; \mathrm{Gt}}{7549 \; \mathrm{Mt/year}} \frac{1000 \; \mathrm{Mt}}{1 \; \mathrm{Gt}}
+           = 50.9 \; \mathrm{years}
+\end{equation}
+%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
