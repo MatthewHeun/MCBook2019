@@ -86,6 +86,13 @@ from producing/consuming good of type $j$ and $\bar{I}$ is the vector of global
 environmental impacts, encompassing such things as global warming potential,
 aquifer depletion, and eutrophication.
 
+The Kaya identity is similar to the IPAT equation but is specifically for 
+greenhouse gases.
+
+\section{Sources and sinks}
+
+
+
 \section{Mathematics of sustainability}
 Both population (see chapter \ref{ch.03}) and affluence (see chapter \ref{ch.05}) have 
 been growing exponentially. Economies are (typically) managed specifically for
@@ -93,9 +100,6 @@ exponential growth by having a constant growth rate.
 Martingale
 rates and levels
 predictions and good enough
-
-\section{Sources and sinks}
-
 
 \section{What makes sustainability challenging}
 \paragraph*{Complexity} OUr understanding of systems, natural as well as social, is limited.
