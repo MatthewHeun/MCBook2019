@@ -12,8 +12,8 @@
 %\morgansetup{fontsetup=times}
 
 % bibliography
-\usepackage[comma,sort,authoryear]{natbib}         % author-year
-% \usepackage[square,comma,sort,numbers]{natbib} % numbered
+% \usepackage[comma,sort,authoryear]{natbib}         % author-year
+\usepackage[comma,sort,numbers]{natbib}            % numbered
 
 % Attempting per-chapter bibliographies. Not working yet.
 % \usepackage[sectionbib,compress]{natbib}% provides a bibliography for each chapter
