@@ -12,14 +12,14 @@ Providing energy for modern society is a significant sustainability challenge
 because of both resource depletion and emissions concerns.
 As discussed in Chapter~\ref{chap:introduction},
 examination of sources and sinks is a helpful way to understand sustainability challenges,
-and that framework is applied here.
+and that framework is applied in this chapter.
 Energy sources can be classified as
 renewable (solar, wind, hydro, and biomass)
 or
 nonrenewable (fossil fuels).
+Resource depletion and emissions concerns arise from the consumption of nonrenewable energy resources.
 (Energy sinks, or more precisely, sinks for products of combustion,
 will be discussed below.)
-Resource depletion and emissions concerns arise from the consumption of nonrenewable energy resources.
 In the sections that follow, resource depletion and emissions are discussed in turn, 
 with a focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions.
 
@@ -29,15 +29,15 @@ with a focus on fossil fuel resource depletion and greenhouse gas (GHG) emission
 \label{sec:energy:resource_depletion}\index{resources!depletion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Depletion of nonrenewable natural resources is a complex process
-that involves natural processes, human wants and needs, and technology.
-To describe the processes succinctly, we use a model from calculus.
+Depletion of nonrenewable natural resources is a complex processes,
+involving natural phenomena, human wants and needs, and technology.
+A calculus-based model can be used to describe depletion processes succinctly.
 All natural resources have a generation rate~($\dot{g}$)\index{resources!generation rate}, 
 the speed with which the resource is re-created by natural or human processes.
 Natural resources can be consumed at a rate~($\dot{c}$)\index{resources!consumption rate},
 the speed with which the resource is removed from nature and consumed by human society or animals.
-The initial stock of a resource~($s$) is given by~$s_0$.
-The stock level, the generation rate, and the consumption rate can be a function of time 
+The initial stock of a resource~($s$) at time $t_0$ is given by~$s_0$.
+The stock level, the generation rate, and the consumption rate can be functions of time 
 ($s(t)$, $\dot{g}(t)$, $\dot{c}(t)$)
 such that the remaining stock can be calculated at any time $t$ by  
 %
@@ -52,43 +52,46 @@ such as solar and geothermal heat at some sites,
 $\dot{g} \gg \dot{c}$, and the resource is virtually limitless.
 Some energy resources are potentially renewable,
 such as biomass.
-For potentially renewable resources, 
+For biomass, 
 the relationship between $\dot{g}$ and $\dot{c}$ depends on local growing conditions and harvesting rates.
 Afforestation entails sustainable management of a forest such that 
 $\dot{g} > \dot{c}$. 
 Deforestation occurs when $\dot{g} < \dot{c}$ due to clearcutting or other unsustainable practices.
 For nonrenewable energy resources, such as coal, oil, and natural gas, 
 $\dot{g} \ll \dot{c}$, and 
-they are always being depleted by consumption.
+these resources are always being depleted by consumption.
 
 For cost reasons, resources are extracted from the easiest sites first,
 such as oil from west Texas\index{Texas} or coal from near-surface seams.
-All other things being equal, as the stock of a nonrenewable resource declines
+All other things being equal, as the stock of nonrenewable resources declines
 extraction costs are expected to rise 
-as increasingly-difficult sites are utilized,
-such as oil from offshore platforms or kilometers-deep subsurface coal mines.
+when increasingly-difficult sites are utilized.
+Examples include oil from offshore platforms or kilometers-deep subsurface coal mines.
 But all things are never equal, and 
 technological advances put downward pressure on extraction costs, 
 even as a resource depletes.  
-In the end, extraction cost of an energy resource is a race between depletion and technology.
+In the end, extraction costs of nonrenewable energy resources is a race between depletion and technology.
 
 If society continues to consume a nonrenewable energy resource 
-at rate $\dot{c}$ (which is $\gg \dot{g}$) indefinately,
+at rate $\dot{c}$ indefinately (remember that $\dot{c} \gg \dot{g}$ for a nonrenewable resource),
 its stock ($s(t)$) will eventually go to $0$.
 But $s \rightarrow 0$ is not the expected long-run outcome for nonrenewable resources.
-Rather, extraction (and $\dot{c}$, also) will cease when the cost of extraction exceeds the 
+Rather, extraction will cease (and $\dot{c} \rightarrow 0$) when the cost of extraction exceeds the 
 market price for the nonrenewable energy resource.
-The fraction~($r$) of initial resource stock~($s_0$) that is ultimately recoverable 
-is determined by the market price relative to the extraction costs.
+The ultimately recoverable fraction~($r$) of initial resource stock~($s_0$) will be
+determined by the market price and extraction costs.
+It is very likely that society will not extract \emph{all} of any nonrenewable resource;
+the hardest-to-reach deposits will remain in the ground.
 
 If sustainabilty is defined as continuing an activity indefinitely
 (see Chapter~\ref{chap:introduction}), 
 $\dot{c} > 0$ is unsustainable for any nonrenewable resource with $\dot{c} \gg \dot{g}$.
 I.e., any consumption of nonrenewable resources is, by definition, unsustainable.
-Thus, ongoing consumption of coal, oil, and natural gas is unsustainable.
-But given that modern society is thoroughly dependent upon nonrenewable energy sources,
-a reasonable question arises: how long can we continue our current consumption trajectories
-of non-sustainable energy resources such as coal, oil, and natural gas.
+Thus, ongoing consumption of the nonrenewable resources coal, oil, and natural gas is unsustainable.
+But given that modern society is thoroughly dependent upon those nonrenewable energy resources,
+a reasonable question arises: 
+how long can society maintain its current consumption rates
+of nonsustainable energy resources?
 To answer that question, $s$ must be calculated, implying that $s_0$ must be determined. 
 Furthermore, extraction costs as a function of $s(t)$ must be predictable, 
 meaning that price and technology forecasts are needed.
@@ -96,8 +99,9 @@ Predicting the future is a tricky business, indeed.
 
 Despite the complexity,
 simple calculations can be performed to obtain estimates 
-of remaining time available for various resources.
-\citet[p.~22]{Rutledge:2018aa} estimates the initial stock of coal to be $s_0 = 784 \; \mathrm{Gt}$.%
+of remaining time available for various resources,
+using coal as an example.
+\citet[p.~22]{Rutledge:2018aa} estimates the initial stock of coal to be $s_0 = 784 \; \mathrm{Gt}$,%
 \footnote{
 The estimation approach assumes that nonrenewable resource production
 follows a logistic curve through time.
@@ -107,7 +111,7 @@ is from a 2018 presentation~\citep[p.~22]{Rutledge:2018aa}
 by the same author.
 }
 and the amount of coal consumed to 2017 to be $400 \; \mathrm{Gt}$, 
-leaving $384 \; \mathrm{Gt}$ remaining to be extracted.
+leaving $384 \; \mathrm{Gt}$ in the ground.
 The world consumption rate for coal in 2017 was 
 $\dot{c} = 7549 \; \mathrm{Mt/year}$~\citep[p.~7]{International-Energy-Agency:2018a}.
 Dividing the remaining coal by today's extraction rate gives
@@ -118,15 +122,20 @@ the years of coal extraction remaining ($\Delta t$).
            = 50.9 \; \mathrm{years}
 \end{equation}
 %
-Thus, this simple calculation indicates that the world will ``run out'' of coal in 2070.
-The dynamics of nonrenewable energy resource depletion
-will have more nuance and complexity than this simple calculation indicates. 
-But a more-detailed analysis~\citep[p.~22]{Rutledge:2018aa}
-puts the date at 2066, 
-showing that a simple approach can still yield helpful insights.
+This simple calculation indicates that the world will ``run out'' of coal in 2070.
 
-Even these simple calculations can provide a timeframe for planning a transition 
-away from nonrenewable resources before they are depleted.
+As discussed above, 
+the dynamics of nonrenewable energy resource depletion
+exhibit more nuance and complexity than this simple calculation entails.
+In fact, extraction rates are expected to decline as nonrenewable resources
+are depleted.
+Despite its obvious shortcoming, 
+the result from this simple method nearly matches
+a more-detailed analysis by~\citet[p.~22]{Rutledge:2018aa}, which 
+puts the ``end of coal'' date at 2066.
+Indeed, simple methods can sometimes yield helpful insights.
+In this case, simple methods can provide a timeframe for planning a transition 
+away from nonrenewable resources prior to their depletion.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -157,13 +166,13 @@ Applying the source/sink framework to GHGs in the atmosphere,
 we see that GHG emissions from fossil fuel combustion\index{combustion!fossil fuels} 
 are a significant source.
 Other sources include agricultural\index{agriculture}
-activity (especially livestock farming\index{livestock} which  
+activity (especially livestock farming\index{livestock}, which  
 emits CH$_4$
 in copious amounts) and 
 decomposition of landfill waste\index{waste!landfill} 
-(especially organic matter), 
+(especially organic matter, 
 which releases methane and nitrous oxide
-into the atmosphere.
+into the atmosphere).
 
 \begin{figure}
 \centering
@@ -186,16 +195,25 @@ reduce the number of trees, thereby reducing the planet's
 CO$_2$ sequestration\index{sequestration!carbon dioxide} 
 capability. 
 Furthermore, energy, especially diesel to operate heavy equipment, is required to cut down trees.
-Thus, deforestation both reduces GHG sequestration and contributes to GHG emissions.
-(Afforestation\index{afforestation} 
+Thus, deforestation both 
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item reduces GHG sequestration and
+  
+  \item contributes to GHG emissions.
+    
+\end{enumerate*}
+%
+(Afforestation\index{afforestation}, on the other hand, 
 enhances the planet's capacity to remove CO$_2$ from the atmosphere.)
 Taken together, the continuous rise of fossil fuel consumption and the steady pace of deforestation
-have both amplified the sources and reduced the sinks of atmospheric GHGs,
+have amplified the sources and reduced the sinks of atmospheric GHGs,
 leading to annual increases in CO$_2$ concentration since measurements began in the late 1950s.
 (See the Keeling curve, Figure~\ref{fig:keeling_curve}~\citep{Delorme:2019aa}.)
 The latest climate science~\citep[Fig.~SPM.1]{IPCC:2018aa} 
 indicates that humanity has only 1--2 decades
-before reaching the dangerous 1.5 \degC{} warming level caused by GHG emissions.
+before reaching the dangerous 1.5 \degC{} warming level.
 
 \begin{figure}
 \centering
@@ -206,13 +224,10 @@ before reaching the dangerous 1.5 \degC{} warming level caused by GHG emissions.
 
 Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
 the largest source of GHG emissions. 
-Figure~\ref{fig:ghg_sankey} indicates the proportions of GHG emissions caused by 
-industry, buildings, transport, agriculture, waste disposal, and energy production activities.
-It is not a stretch to say that the economy as a whole drives energy demand and 
+So it is not a stretch to say that the economy as a whole drives energy demand and 
 serves as the ultimate cause of GHG emissions.
-
 Figure~\ref{fig:LLNL_sankey} shows the economic sources of energy demand in the U.S.\index{United States}.
-We see that transport\index{energy demand!transport sector}
+Transport\index{energy demand!transport sector}
 is largest single source of demand,
 followed by the industrial sector\index{energy demand!industrial sector}, 
 the residential sector\index{energy demand!residential sector}, 
@@ -226,7 +241,7 @@ sector.
 \label{fig:LLNL_sankey}
 \end{sidewaysfigure}
 
-In addition, Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency\index{energy efficiency}
+Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency\index{energy efficiency}
 of each sector,
 as it shows the amount of energy that provides useful service to society
 relative to the amount of energy that is wasted.
@@ -244,15 +259,17 @@ For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector
 
 A transition 
 to renewable primary energy sources 
-and away from fossil fuels (natural gas, coal, and petroleum) 
+and away from unsustainable fossil fuels (natural gas, coal, and petroleum) 
 could eliminate GHG emissions from fossil fuel consumption,
-while still meeting the energy needs of society and the economy. 
-But Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy\index{United States!energy consumption}
+while still meeting the energy needs of society and the economy.
+A fossil-to-renewable energy transition\index{energy transition!fossil to renewables}
+would put the world on a sustinable energy trajectory.
+Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy\index{United States!energy consumption}
 is supplied (at present) by renewable sources
 (solar, hydro, wind, geothermal, and biomass)\index{renewable energy}.
 There is a long way to go, and 
-there are several challenges to overcome, 
-three of which are time, money, and efficiency backfire.
+a fossil-to-renewables transition
+faces several challenges, three of which are time, money, and backfire.
 
 Throughout history, societies have used different primary energy\index{energy!primary}
 sources in varying proportions. 
@@ -266,6 +283,15 @@ The figure shows that the UK's transition from food, feed, and biomass
 to coal\index{energy transition!biomass to coal}
 took many centuries.
 The ongoing transition from coal to petroleum (liquid fuels) and natural gas will take at least a century.
+The depletion and emissions timeframes 
+(51 years and 10--20 years, respectively) 
+can be compared to find that 
+the emissions timeframe is more challenging than the depletion timeframe.
+A two-decade transition from fossil fuels to renewables driven by emissions concerns would be
+unprecedented.
+The time challenge is this: 
+can society effect a worldwide fossil-to-renewables transition 
+in one or two decades to limit global warming to less than 1.5 \degC{}?
 
 \begin{figure}
 \centering
@@ -274,16 +300,12 @@ The ongoing transition from coal to petroleum (liquid fuels) and natural gas wil
 \label{fig:foquet2010}
 \end{figure}
 
-The time depletion timeframe (51 years) and the emissions timeframes (10--20 years) can be compared.
-In this case, the emissions timeframe is more challenging than the depletion timeframe.
-The time challenge is this: 
-can we effect the fossil-to-renewables transition in the decade or two that is available?
-
 An optimistic (and often-criticized) analysis of the requirements
-for a fossil-to-renewables (wind, water, and solar or WWS)\index{wind, water, and solar}\index{WWS|see wind, water, and solar}
+for a fossil-to-renewables 
+(wind, water, and solar, or WWS)\index{wind, water, and solar}\index{WWS|see wind, water, and solar}
 transition\index{energy transition!to wind, water, and solar}
 was provided by \citeauthor{Jacobson:2011gc} \citeyearpar{Jacobson:2011gc,Delucchi:2011gb}.
-They estimated 
+They estimated that
 ``construction cost for a WWS system might be on the order of \$100 trillion worldwide, 
 over 20 years, not including transmission''~\citep[p.~64]{Jacobson:2009wv}.
 For context, the \$5 trillion annual cost is 7.2~\% of world GDP\index{gross domestic product (GDP)}
@@ -294,10 +316,10 @@ in the timeframe of a decade or two?\index{energy transition!funding}
 
 Many suggest that investing in technical efficiency improvements for energy conversion machines
 (such as power plants, automobiles, and lights)
-will reduce energy consumption and GHG emissions,
+will reduce primary energy consumption and GHG emissions,
 while continuing to supply the end-use energy needed for the economy. 
-However, increasing energy efficiency is correlated with increasing GDP, and  
-increasing GDP is correlated with increasing primary energy consumption~\citep{Heun:2019aa}.
+However, rising energy efficiency is correlated with increased GDP, and  
+rising GDP is correlated with increased primary energy consumption~\citep{Heun:2019aa}.
 The relationship between efficiency and economic growth is complex and dynamic, 
 but at least two mechanisms are involved:
 %
@@ -306,9 +328,9 @@ but at least two mechanisms are involved:
   \item rising GDP means more money available to invest in new machines and equipment with higher energy efficiency,
         thereby increasing the aggregate energy efficiency of the economy over time, and 
   
-  \item rising thermodynamic efficiency means that less money is spent on purchasing energy, 
+  \item rising aggregate energy efficiency means that less money is spent to obtain energy, 
         more money is available for other economic activity, and 
-        GDP increases as a result.
+        the economy expands as a result.
     
 \end{enumerate*}
 %
@@ -348,13 +370,15 @@ thereby increasing energy consumption and GHG emissions?
       Perform a simple calculation to estimate the remaining years of the nonrenewable resource.
       Can you envision a transition away from reliance upon this nonrenewable resource 
       in the timeframe available?
-      What will be required for such a transition?
+      What would be required for such a transition?
       
 \item What is the energy efficiency of each economic sector in Figure~\ref{fig:LLNL_sankey}?
+      Are the efficiencies larger or smaller than expected?
 
 \item The cost of the WWS fossil-to-renewable transition 
       proposed by Jacobson and Delucchi is very large.
-      Compare the estimated cost for WWS to costs for other large programs such as
+      (\$100 trillion over 20 years.)
+      Compare the estimated cost for the fossil-to-WWS transition to costs for other large programs such as
 %
 \begin{itemize}
 
@@ -367,15 +391,15 @@ thereby increasing energy consumption and GHG emissions?
   \item President Ronald Reagan's\index{Reagan, Ronald} 
         Strategic Defense Initiative (SDI)\index{Strategic Defense Initiative (SDI)}, and
 
-  \item the U.S.'s post September 11, 2001 wars in Iraq\index{Iraq} and Afghanistan\index{Afghanistan}.
+  \item the U.S.' post September 11, 2001 wars in Iraq\index{Iraq} and Afghanistan\index{Afghanistan}.
 
 \end{itemize}
 
 \item Find several critiques of the WWS proposal. 
       Find at least three costs that the WWS proposal neglected.
-      Given the criqiques and the additional costs, 
-      what is an updated estimate for the cost of the WWS fossil-to-renewable transition?
-      On annual basis, what percentage of world GDP does the updated cost of a WWS transition represent?
+      Given the critiques and the additional costs, 
+      what is an updated estimate for the cost of the fossil-to-WWS transition?
+      On annual basis, what percentage of world GDP does the updated cost of the transition represent?
       
 \item How much is spent annually on the fossil-to-renewable transition worldwide? 
       Is the spending commensurate with the investment needed for a complete transition
