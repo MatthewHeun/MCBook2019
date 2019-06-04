@@ -21,7 +21,7 @@
 
 
 % 
-% Begin packages imported by the authors.
+% Begin LaTeX packages imported by the authors.
 % 
 
 \usepackage[inline]{enumitem}  % For inline enumerate* lists
@@ -30,7 +30,23 @@
 \usepackage{rotating}    % For rotating figures.
 \usepackage{wrapfig}     % To wrap text around figures.
 
+% 
+% Begin LaTeX macros created by the authors.
+% 
+
 \newcommand{\degC}{\degree C}
+
+% 
+% Begin R and knitr setup
+% 
+
+<<setup>>=
+# Per the hint at https://github.com/rstudio/bookdown/issues/536, 
+# use the tinytex package for error reporting.
+library(tinytex)
+options(tinytex.verbose = TRUE)
+@
+
 
 %
 % End author additions
