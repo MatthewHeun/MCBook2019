@@ -45,6 +45,7 @@
 # use the tinytex package for error reporting.
 library(tinytex)
 options(tinytex.verbose = TRUE)
+library(VennDiagram)
 @
 
 

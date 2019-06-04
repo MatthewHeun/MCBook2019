@@ -111,7 +111,17 @@ predictions and good enough
 
 
 
-
+<<venn_diagram, fig.height=3, fig.width=4.5, fig.align='center', echo=FALSE>>=
+# The draw.triple.venn function returns a gList object,
+# whose text we do not want to see in the output.
+# Thus, we assign the return value to a variable,
+# which has the effect of suppressing the text output from the function.
+# Note that cex = 0 sets the size of the area labels to 0, thereby suppressing the numbers.
+grid.newpage()
+suppress_output <- draw.triple.venn(area1 = 20, area2 = 20, area3 = 13, n12 = 11, n23 = 4, n13 = 5, 
+                                    n123 = 1, category = c("Economic", "Environmental", "Social"), lty = "blank", 
+                                    fill = c("skyblue", "pink1", "mediumorchid"), cex = 0, cat.fontface = "plain")
+@
 
 
 
