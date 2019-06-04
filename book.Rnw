@@ -98,7 +98,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     
     \cleardoublepage
 
-    \input{book.ind}            % if you have an Index
+    % \input{book.ind}            % if you have an Index
 
 \end{document}
 
