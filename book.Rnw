@@ -24,6 +24,7 @@
 % Begin LaTeX packages imported by the authors.
 % 
 
+\usepackage{booktabs}    % For awesome table formatting
 \usepackage[inline]{enumitem}  % For inline enumerate* lists
 \usepackage{gensymb}     % For the \degree command
 \usepackage{microtype}   % For (more) beautiful typesetting.
