@@ -174,12 +174,12 @@ decomposition of landfill waste\index{waste!landfill}
 which releases methane and nitrous oxide
 into the atmosphere).
 
-\begin{figure}
+\begin{sidewaysfigure}
 \centering
 \includegraphics[width=0.9\linewidth]{chapters/ch04/World_GHG_Emissions_Flow_Chart.pdf}
 \caption[World GHG emissions]{World greenhouse gas emissions, 2012~\citep{ASN-Bank:2014aa}.\index{emissions!greenhouse gases}}
 \label{fig:ghg_sankey}
-\end{figure}
+\end{sidewaysfigure}
 
 \emph{Sinks} for products of combustion include
 the atmosphere, the Earth's crust, and bodies of water.
