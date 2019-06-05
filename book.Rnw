@@ -41,12 +41,19 @@
 % Begin R and knitr setup
 % 
 
-<<setup>>=
+<<setup, echo=FALSE, message=FALSE>>=
 # Per the hint at https://github.com/rstudio/bookdown/issues/536, 
 # use the tinytex package for error reporting.
-library(tinytex)
+library(extrafont)   # Allows import of LibreCaslon font
+library(ggplot2)     # For graphing functions
+library(magrittr)    # For pipe operator, %>% 
+library(tinytex)     # Gives a tiny LaTeX distribution in R.
 options(tinytex.verbose = TRUE)
-library(VennDiagram)
+library(VennDiagram) # For the 3-circle sustainability diagram.
+
+# Set up LibreCaslon font. invisible() swallows the text output.
+font_import(paths = "Libre-Caslon-Text-master", prompt = FALSE)
+loadfonts()
 @
 
 
