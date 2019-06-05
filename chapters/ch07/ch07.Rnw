@@ -50,9 +50,9 @@ Food_GHG <- data.frame(food_categories = food_cats,
   ggplot2::ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_cats)) + 
   # The next two lines give a pie chart
   ggplot2::geom_bar(width = 1, stat = "identity") + 
-  coord_polar("y", start = 0, direction = -1) +
+  # coord_polar("y", start = 0, direction = -1) +
   # Add percentage labels
-  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3) +
+  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
   # Eliminate all of the labels on the axes.
   labs(x = "", y = "", fill = "") +
   # Apply a consistent theme for text and label colors.
@@ -62,7 +62,7 @@ Food_GHG <- data.frame(food_categories = food_cats,
   # Eliminate the frame around the whole plot
   theme(panel.border = element_blank()) + 
   # Change size of legend text
-  theme(legend.text = element_text(size = 10)) + 
+  theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) + 
   # Change size of legend squares
   theme(legend.key.size = unit(0.3, "cm")) +
   theme(plot.margin = unit(c(0,0,0,0),"mm"))

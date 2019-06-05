@@ -44,16 +44,15 @@
 <<setup, echo=FALSE, message=FALSE>>=
 # Per the hint at https://github.com/rstudio/bookdown/issues/536, 
 # use the tinytex package for error reporting.
-library(extrafont)   # Allows import of LibreCaslon font
+library(extrafont)   # Allows import of other fonts. We'll use it for getting the Libre Caslon font into R.
 library(ggplot2)     # For graphing functions
-library(magrittr)    # For pipe operator, %>% 
-library(tinytex)     # Gives a tiny LaTeX distribution in R.
-options(tinytex.verbose = TRUE)
-library(VennDiagram) # For the 3-circle sustainability diagram.
+library(magrittr)    # For pipe operator, (>%)
 
 # Set up LibreCaslon font. invisible() swallows the text output.
-font_import(paths = "Libre-Caslon-Text-master", prompt = FALSE)
-loadfonts()
+# font_import(paths = "Libre-Caslon-Text-master", prompt = FALSE)
+# font_import() %>% invisible() # To make all system fonts available to R
+ttf_import(paths = "Libre-Caslon-Text-master") %>% invisible()
+loadfonts() %>% invisible()
 @
 
 
