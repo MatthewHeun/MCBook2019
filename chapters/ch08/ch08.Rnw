@@ -6,6 +6,21 @@
 \chapter{Transportation}
 \label{chap:transportation}
 
+
+Transportation can be divided into two categories:
+moving people (personal transport) and
+moving goods (shipping). 
+
+One of the most significant demands for energy in modern economies is transportation. 
+
+Figure~\ref{fig:ghg_sankey} shows that greenhouse gas emissions from transportation 
+comprise 14.5~\% of total greenhouse gas emissions.
+
+Figure~\ref{fig:LLNL_sankey} shows that transportation energy is supplied almost exclusively by petroleum
+in the form of liquid fuels,
+because of high energy mass and volume density.
+
+
 Figure~\ref{fig:US_mpg} shows U.S.\ fleet average fuel economy
 as a function of time for cars, trucks, and both.
 
@@ -15,6 +30,20 @@ as a function of time for cars, trucks, and both.
 \caption[U.S.\ fuel economy.]{U.S.\ Fuel economy by year and vehicle type.}
 \label{fig:US_mpg}
 \end{figure}
+
+
+Figure~\ref{fig:transport_GHG_emissions} shows CO$_2$ transportation emissions by mode.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/CO2_and_GHG_Emissions_by_Mode.pdf}
+\caption[Emissions by transport mode.]{CO$_2$ emissions by transportation mode.}
+\label{fig:transport_GHG_emissions}
+\end{figure}
+
+
+
+
 
 \cleardoublepage
 
