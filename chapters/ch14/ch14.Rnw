@@ -7,5 +7,80 @@
 \label{chap:personal_actions}
 
 
+% \begin{table}[]
+% \begin{tabular}{@{}ll@{}}
+% \toprule
+% Question                                           & Answer                                 \\ 
+% \midrule
+% How big is your house?                             & Small and used                         \\
+% What car do you drive?                             & Small and used                         \\
+% How close do you live to work, church, and stores? & Close (to walk and cycle)              \\
+% What do you eat?                                   & Closer to the bottom of the food chain \\ 
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+Student question:
+I know you drive a car. 
+If fossil fuel consumption is the end of society, 
+how do you find that justifiable? 
+Or if you ever fly or eat anything that you don't produce or use any product that uses metals or petroleum, 
+how do you justify that consumption?
+
+Answer:
+If everyone (including me) decided today to stop using fossil fuels (FFs), 
+a large portion of our sustainability challenges would evaporate.  
+However, the world I was born into requires the consumption of electricity and the need for high-speed transport.
+(By ``high speed,'' I mean automobile speed.)  
+You can't live life in today’s society without access to refrigeration, lighting, and transport.  
+At present, those needs (refrigeration, lighting, and transport) are provided by FF consumption.  
+And even worse, if I, personally, would decide to never drive a car again, 
+I’m still not with out guilt.  
+The food I eat is enabled by FF energy sources.  
+So I would also need to grow, harvest, and preserve all my own food.  
+I don't have those skills!  
+The lights I use and the refrigerator both require coal consumption to provide the electricity they need.  
+We live in a FF web.  
+And it can get quite depressing.  
+
+There is plenty to lament.
+And there is a corporate guilt that we all face, 
+which is why I like to think at a very broad level, 
+at the societal level.  
+
+Even worse, many people don’t know about the sustainability challenges we face.  
+That's why I’ve dedicated my professional life to exploring and educating on these issues.  
+I have come to understand that I can contribute to a way forward by doing so.
+And by minimizing my impact in other areas. 
+(I think it is impossible to eliminate our environmental impacts because of the way the world is structured.)  
+You're right that I drive a car.  
+But I bought it used, it’s tiny, and it gets over 40 mpg.
+You’re right that I consume electricity, 
+but I am converting all my lights to LEDs, 
+one by one, as the incandescents reach end of life.  
+
+Table~\ref{tab:personal_actions} gives four questions to consider as you make choices that affect the rest of your life. 
+Answers that go in the direction of sustainability and make a difference without moving to an agrarian, pre-1900s lifestyle
+are also given in the table.  
+If you do those things, you haven’t solved any sustainability problems.  
+But at least you'll be pointed in the right direction, relative to the rest of society.
+
+
+\begin{table}[]
+\caption[Personal Q\&A]{Personal Q\&A}
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+Question                                                                                      & Answer                                 \\ \midrule
+How big is your house?                                                                        & Small and used                         \\
+What car do you drive?                                                                        & Small and used                         \\
+\begin{tabular}[c]{@{}l@{}}How close do you live to \\ work, church, and stores?\end{tabular} & Close (to walk and cycle)              \\
+What do you eat?                                                                              & Closer to the bottom of the food chain \\ \bottomrule
+\end{tabular}
+\label{tab:personal_actions}
+\end{table}
+
+
+
 \cleardoublepage
 

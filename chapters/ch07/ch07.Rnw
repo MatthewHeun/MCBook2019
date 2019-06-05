@@ -3,12 +3,6 @@
 
 %blankpage
 
-<<Setup, echo=FALSE>>=
-library(ggplot2)  # For graphing functions
-library(magrittr) # For pipe operator "%>%"
-@
-
-
 
 
 \chapter{Food and Agriculture}

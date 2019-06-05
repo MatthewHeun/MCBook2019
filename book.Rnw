@@ -21,16 +21,41 @@
 
 
 % 
-% Begin packages imported by the authors.
+% Begin LaTeX packages imported by the authors.
 % 
 
+\usepackage{booktabs}    % For awesome table formatting
 \usepackage[inline]{enumitem}  % For inline enumerate* lists
 \usepackage{gensymb}     % For the \degree command
 \usepackage{microtype}   % For (more) beautiful typesetting.
 \usepackage{rotating}    % For rotating figures.
 \usepackage{wrapfig}     % To wrap text around figures.
 
+% 
+% Begin LaTeX macros created by the authors.
+% 
+
 \newcommand{\degC}{\degree C}
+
+% 
+% Begin R and knitr setup
+% 
+
+<<setup, echo=FALSE, message=FALSE>>=
+# Per the hint at https://github.com/rstudio/bookdown/issues/536, 
+# use the tinytex package for error reporting.
+library(extrafont)   # Allows import of LibreCaslon font
+library(ggplot2)     # For graphing functions
+library(magrittr)    # For pipe operator, %>% 
+library(tinytex)     # Gives a tiny LaTeX distribution in R.
+options(tinytex.verbose = TRUE)
+library(VennDiagram) # For the 3-circle sustainability diagram.
+
+# Set up LibreCaslon font. invisible() swallows the text output.
+font_import(paths = "Libre-Caslon-Text-master", prompt = FALSE)
+loadfonts()
+@
+
 
 %
 % End author additions
@@ -98,7 +123,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     
     \cleardoublepage
 
-    \input{book.ind}            % if you have an Index
+    % \input{book.ind}            % if you have an Index
 
 \end{document}
 
