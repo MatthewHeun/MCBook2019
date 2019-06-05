@@ -96,7 +96,7 @@ Human economic and social activity
 
 
 \section{Mathematics of sustainability}
-Both population (see chapter \ref{ch.03}) and affluence (see chapter \ref{ch.05}) have 
+Both population (see Chapter~\ref{chap:population}) and affluence (see Chapter \ref{chap:economy}) have 
 been growing exponentially. Economies are (typically) managed specifically for
 exponential growth by having a constant growth rate. 
 Martingale
@@ -119,7 +119,8 @@ predictions and good enough
 # Note that cex = 0 sets the size of the area labels to 0, thereby suppressing the numbers.
 draw.triple.venn(area1 = 20, area2 = 20, area3 = 13, n12 = 11, n23 = 4, n13 = 5, 
                                     n123 = 1, category = c("Social", "Economic", "Environmental"), lty = "blank", 
-                                    fill = c("skyblue", "pink1", "mediumorchid"), cex = 0, cat.fontface = "plain")
+                                    fill = c("skyblue", "pink1", "mediumorchid"), cex = 0, cat.fontface = "plain") %>% 
+  invisible()
 @
 
 
