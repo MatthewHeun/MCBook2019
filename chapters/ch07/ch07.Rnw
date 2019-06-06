@@ -25,6 +25,9 @@ by consuming food that is closer to the base of the food chain.
 \label{fig:GHG_food}
 \end{figure}
 
+
+
+
 If we want to create the same graph in ggplot, 
 it looks like Figure~\ref{fig:GHG_from_food}.
 We can, of course, change colors and other features of the plot.
@@ -76,7 +79,23 @@ ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categ
   theme(plot.margin = unit(c(0,0,0,0),"mm"))
 @
 
+Figure~\ref{fig:Energy_Flow} shows the energy consumed in various fields, including the available food energy~\citep[Fig.~2]{Heller_2000}.
 
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Energy_Flow.pdf}
+\caption[Energy Flow in the US.]{Percentages of energy consumed in different industries~\citep[Fig.~2]{Heller_2000}.}
+\label{fig:Energy_Flow}
+\end{figure}
+
+Figure~\ref{fig:Frac_population} shows the percentages of population around the world that are undernourisched.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Fraction_of_population_undernourished_2015.pdf}
+\caption[Fraction of population undernourished 2015.]{Percentages of population undernourished in all countries 2015.}
+\label{fig:Frac_population}
+\end{figure}
 
 \cleardoublepage
 
