@@ -31,7 +31,12 @@ We can, of course, change colors and other features of the plot.
 
 <<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.width = 5, fig.height = 2.5>>=
 # This is an R chunk embedded in the LaTeX code.
-# Define this vector of category names in the order that we want to avoid retyping later.
+# Assign some variables to NULL, thereby avoiding some warnings.
+food_categories <- NULL
+percentages <- NULL
+label_ypos <- NULL
+ang <- NULL
+# Define this vector of category names (in the order that we want), thereby avoiding retyping later.
 food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs", 
                                "Vegetables", "Fruit", "Grain products", 
                                "Sugars, sweeteners, fats, and oils", "Other")
@@ -42,15 +47,15 @@ Food_GHG <- data.frame(food_categories = food_cats,
                        ang = c(0, 0, 0, -35, -50, -65, -80, -90)) %>% 
   dplyr::mutate(
     # Sets the order of the categories in the pie chart
-    food_categories = factor(food_cats, levels = food_cats), 
+    food_categories = factor(food_categories, levels = food_cats), 
     # Calculates the location for the percentage labels
     label_ypos = 100 - (cumsum(percentages) - percentages/2)
   )  
-  # Send to ggplot to make the graph
-  ggplot2::ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_cats)) + 
+# Make the graph
+ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categories)) + 
   # The next two lines give a pie chart
-  ggplot2::geom_bar(width = 1, stat = "identity") + 
-  # coord_polar("y", start = 0, direction = -1) +
+  geom_bar(width = 1, stat = "identity") + 
+  coord_polar("y", start = 0, direction = -1) +
   # Add percentage labels
   geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
   # Eliminate all of the labels on the axes.
