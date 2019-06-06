@@ -29,7 +29,7 @@ If we want to create the same graph in ggplot,
 it looks like Figure~\ref{fig:GHG_from_food}.
 We can, of course, change colors and other features of the plot.
 
-<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.width = 5, fig.height = 2.5>>=
+<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.scap = "Food greenhouse gas percentages.", fig.width = 5, fig.height = 2.5>>=
 # This is an R chunk embedded in the LaTeX code.
 # Assign some variables to NULL, thereby avoiding some warnings.
 food_categories <- NULL
@@ -64,6 +64,9 @@ ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categ
   MKHthemes::xy_theme() + 
   # Eliminate percentages around the outside of the pie
   theme(axis.text.x = element_blank()) +
+  theme(axis.text.y = element_blank()) +
+  # Eliminate y axis ticks
+  theme(axis.ticks = element_blank()) +
   # Eliminate the frame around the whole plot
   theme(panel.border = element_blank()) + 
   # Change size of legend text
