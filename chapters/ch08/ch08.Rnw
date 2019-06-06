@@ -97,6 +97,16 @@ Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode
 
 
 
+Figure~\ref{fig:auto_gwp} shows global warming for various phases of an automobile's life~\citep[Fig.~1]{Hawkins_2012}.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/autos_embodied_gwp.pdf}
+\caption[GWP by phase of auto life.]{Global warming potential by phase of life for various types of automobiles~\citep[Fig.~1]{Hawkins_2012}.}
+\label{fig:auto_gwp}
+\end{figure}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Challenges}
