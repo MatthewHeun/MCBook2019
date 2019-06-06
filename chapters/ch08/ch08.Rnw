@@ -86,6 +86,7 @@ Figure~\ref{fig:transport_ghg} shows the fraction of transport greenhouse gas em
 \end{figure}
 
 
+Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode of transport.
 
 \begin{figure}
 \centering
