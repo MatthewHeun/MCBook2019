@@ -42,6 +42,72 @@ Figure~\ref{fig:transport_GHG_emissions} shows CO$_2$ transportation emissions b
 \end{figure}
 
 
+Figure~\ref{fig:ev_ic_comparison} compares electric and internal combustion vehicles.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/Electric_Vehicles_vs_Internal_Combustion_Engine_Vehicles.pdf}
+\caption[EV and IC vehicle comparison.]{Electric and internal combustion vehicle comparison.}
+\label{fig:ev_ic_comparison}
+\end{figure}
+
+
+
+Figure~\ref{fig:last_mile} shows percentages of total delivery cost for several parts of a delivery journey.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/Last-mile_Delivery.pdf}
+\caption[Percentages of delivery cost.]{Percentage of delivery cost by part of journey.}
+\label{fig:last_mile}
+\end{figure}
+
+
+
+
+
+Figure~\ref{fig:freight_by_mode} shows tonne-kilometers of freight by mode of delivery.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/Total_US_tonne-kilometers_of_freight.pdf}
+\caption[Freight by mode.]{Tonne-kilometers of freight by transport mode.}
+\label{fig:freight_by_mode}
+\end{figure}
+
+
+Figure~\ref{fig:transport_ghg} shows the fraction of transport greenhouse gas emissions by mode.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/Transportation_GHG.pdf}
+\caption[Transport emissions.]{Greenhouse gas emissions due to transportation.}
+\label{fig:transport_ghg}
+\end{figure}
+
+
+Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode of transport.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/US_Transportation_to_Work.pdf}
+\caption[Commuting by mode.]{Share of commuting distance by mode.}
+\label{fig:commuting_by_mode}
+\end{figure}
+
+
+
+Figure~\ref{fig:auto_gwp} shows global warming for various phases of an automobile's life~\citep[Fig.~1]{Hawkins_2012}.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/autos_embodied_gwp.pdf}
+\caption[GWP by phase of auto life.]{Global warming potential by phase of life for various types of automobiles~\citep[Fig.~1]{Hawkins_2012}.}
+\label{fig:auto_gwp}
+\end{figure}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Challenges}
 \label{sec:transport_challenges}
