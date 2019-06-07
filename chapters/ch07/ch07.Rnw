@@ -15,7 +15,7 @@ is a difficult concept.
 
 
 Figure~\ref{fig:GHG_food} shows proportions of greenhouse gas~(GHG)
-emissions from food consumption.
+emissions from food consumption~\citep[Fig.~2]{Heller_2014}.
 
 The obvious implication is that GHG emissions are reduced 
 by consuming food that is closer to the base of the food chain.
@@ -23,7 +23,7 @@ by consuming food that is closer to the base of the food chain.
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch07/GHGfromFoodConsumption.pdf}
-\caption[GHG emissions from food.]{Percentages of greenhouse gas emissions from food.}
+\caption[GHG emissions from food.]{Percentages of greenhouse gas emissions from food~\citep[Fig.~2]{Heller_2014}.}
 \label{fig:GHG_food}
 \end{figure}
 
@@ -85,7 +85,7 @@ Figure~\ref{fig:Energy_Flow} shows the energy consumed in various fields, includ
 
 \begin{figure}
 \centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/Energy_Flow.pdf}
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Energy_flow_food_systems.pdf}
 \caption[Energy Flow in the US.]{Percentages of energy consumed in different industries~\citep[Fig.~2]{Heller_2000}.}
 \label{fig:Energy_Flow}
 \end{figure}
@@ -99,20 +99,22 @@ Figure~\ref{fig:Frac_population} shows the percentages of population around the 
 \label{fig:Frac_population}
 \end{figure}
 
-Figure~\ref{fig:pounds_serving} shows how much carbopn dioxide is released from one pound of food.
+Figure~\ref{fig:pounds_serving} shows how much carbopn dioxide is released from one pound of food~\citep[Fig.~2]{Heller_2014}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch07/Pounds_of_CO2_per_serving.pdf}
-\caption[Pounds of CO2 per serving.]{Pounds of carbon diaoxide CO2 per serving.}
+\caption[Pounds of CO2 per serving.]{Pounds of carbon diaoxide CO2 per serving~\citep[Fig.~2]{Heller_2014}.}
+\label{fig:pounds_serving}
 \end{figure}
 
-Figure~\ref{fig:material_flow} illustrates how many resources are poured into the production of food.
+Figure~\ref{fig:material_flow} illustrates how many resources are poured into the production of food~\citep[Fig.~1]{Heller_2000}.
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{chapters/ch07/Material_Flow_in_the_US_Food_System(1995_Flows_in_Million_Pounds).pdf}
-\caption[Material flow in the US food system (1995, flows in million pounds.)]{Material flow in the US food system (1995, flows in million pounds).}
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Material_Flow_in_the_US_Food_System(1995_Flows_in_Million_Pounds).pdf}
+\caption[Material flow in the US food system (1995, flows in million pounds.)]{Material flow in the US food system (1995, flows in million pounds)~\citep[Fig.~1]{Heller_2000}.}
+\label{fig:material_flow}
 \end{figure}
 
 
