@@ -68,7 +68,7 @@ If you do those things, you haven’t solved any sustainability problems.
 But at least you'll be pointed in the right direction, relative to the rest of society.
 
 
-\begin{table}[]
+\begin{table}
 \caption[Personal Q\&A]{Personal Q\&A}
 \centering
 \begin{tabular}{@{}ll@{}}
