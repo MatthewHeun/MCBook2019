@@ -6,9 +6,32 @@
 \chapter{Housing and Households}
 \label{chap:housing_and_households}
 
+Figure~\ref{fig:average_footage} displays the average square footage of new single family homes in the United States between 1970-2015~\citep[Fig.~1]{HUD_housing}.
 
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/Average_Square_Footage_of_New_Single_Family_Homes_in_the_US.pdf}
+\caption[Average square footage of new single family homes.]{Average square footage of new single family homes~\citep[Fig.~1]{HUD_housing}.}
+\label{fig:average_footage}
+\end{figure}
 
+Figure~\ref{fig:average_energy} shows how the energy is consumed within a residential home~\citep[Fig.~3]{EIA_2018}.
 
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/Average_US_Residential_Energy_Consumption.pdf}
+\caption[Average residential energy consumption.]{Average residential energy consumption~\citep[Fig.~3]{EIA_2018}.}
+\label{fig:average_energy}
+\end{figure}
+
+Figure~\ref{fig:person_household} shows the percentage of single-person households throughout the years~\citep[Fig.~2]{US_census}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/US_single-person_household.pdf}
+\caption[Percentage of single-person households 1940-2017.]{Percentage of single-person households 1940-2017~\citep[Fig.~2]{US_census}.}
+\label{fig:person_household}
+\end{figure}
 
 
 \cleardoublepage
