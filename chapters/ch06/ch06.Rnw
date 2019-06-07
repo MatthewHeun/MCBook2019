@@ -6,7 +6,7 @@
 %blankpage
 
 \chapter{Plants and Animals}
-\label{plants_and_animals}
+\label{chap:plants_and_animals}
 
 
 
