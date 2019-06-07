@@ -5,8 +5,10 @@
 
 %blankpage
 
+%#############################################################
 \chapter{Transportation}
 \label{chap:transportation}
+%#############################################################
 
 
 Transportation can be divided into two categories:
@@ -99,14 +101,49 @@ Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode
 
 
 
+\begin{mcframe}[0.9\linewidth](0.85\linewidth)
+The transportation challenge provides an example of sustainability tradeoffs and problem shifting.
 Figure~\ref{fig:auto_gwp} shows global warming for various phases of an automobile's life~\citep[Fig.~1]{Hawkins_2012}.
 
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch08/autos_embodied_gwp.pdf}
-\caption[GWP by phase of auto life.]{Global warming potential by phase of life for various types of automobiles~\citep[Fig.~1]{Hawkins_2012}.}
-\label{fig:auto_gwp}
-\end{figure}
+
+
+\end{mcframe}
+
+
+% \begin{figure}
+% \centering
+% \includegraphics[width=1\linewidth]{chapters/ch08/autos_embodied_gwp.pdf}
+% \caption[GWP by phase of auto life.]{Global warming potential by phase of life 
+%                                      for various types of automobiles.
+%                                      Data from~\citet[Fig.~1]{Hawkins_2012}.}
+% \label{fig:auto_gwp}
+% \end{figure}
+
+<<auto_gwp, fig.cap = "Environmental impacts of three different automobiles. Data from~\\citet[Fig.~1]{Hawkins_2012}.">>=
+
+# Add the data from file jiec532-sup-0001-S1.pdf, supplemental information for the Hawkins paper.
+data_string <- "Impact	Life cycle component	Li-NCM Euro	Li-NCM Coal	ICEV Gasoline\nGlobal warming potential	Base vehicle	0.11	0.11	0.11\nGlobal warming potential	Engine	0.02	0.02	0.01\nGlobal warming potential	Other powertrain	0.05	0.05	0.02\nGlobal warming potential	Battery	0.1	0.1	0\nGlobal warming potential	Use phase, non-fuel-related	0.02	0.02	0.03\nGlobal warming potential	Fuel/electricity	0.31	0.68	0.65\nGlobal warming potential	End of life	0.01	0.01	0.01\nMineral resource depletion	Base vehicle	0.22	0.22	0.22\nMineral resource depletion	Engine	0.16	0.16	0.02\nMineral resource depletion	Other powertrain	0.27	0.27	0.05\nMineral resource depletion	Battery	0.26	0.26	0\nMineral resource depletion	Use phase, non-fuel-related	0.05	0.05	0.03\nMineral resource depletion	Fuel/electricity	0.05	0.05	0.01\nMineral resource depletion	End of life	0	0	0"
+
+# Assign some variables to avoid 
+read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE) %>% 
+  tidyr::gather(key = "car_type", value = "normalized_impact", "Li.NCM.Euro", "Li.NCM.Coal", "ICEV.Gasoline") %>% 
+  dplyr::mutate(
+    Life.cycle.component = factor(Life.cycle.component, 
+                                  rev(c("Base vehicle", "Engine", "Other powertrain", 
+                                        "Battery", "Use phase, non-fuel-related", "Fuel/electricity", "End of life"))),
+    car_type = dplyr::recode(car_type, Li.NCM.Euro = "EV-Euro", Li.NCM.Coal = "EV-Coal", ICEV.Gasoline = "ICE-Gasoline")
+  ) %>% 
+  ggplot(mapping = aes(x = car_type)) + 
+  geom_bar(mapping = aes(y = normalized_impact, fill = Life.cycle.component), width = 0.6, stat = "identity") +
+  facet_wrap(~ Impact) + 
+  labs(x = element_blank(), y = "Normalized impact") +
+  scale_y_continuous(breaks = c(0, 0.5, 1)) +
+  MKHthemes::xy_theme() +
+  theme(axis.text.x = element_text(angle = 90)) +
+  theme(text = element_text(family = "Libre Caslon Text"))
+@
+
+
 
 
 
@@ -130,4 +167,5 @@ Public transort
 
 
 \cleardoublepage
+
 
