@@ -33,6 +33,15 @@ Figure~\ref{fig:person_household} shows the percentage of single-person househol
 \label{fig:person_household}
 \end{figure}
 
+Figure~\ref{fig:water_usage} shows how water is distributed in a household~\citep[Fig.~1]{epa_water}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/EPA_housold_usage.pdf}
+\caption[Indoor household use of water.]{Indoor household use of water~\citep[Fig.~1]{epa_water}.}
+\label{fig:water_usage}
+\end{figure}
+
 
 \cleardoublepage
 

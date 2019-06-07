@@ -6,6 +6,15 @@
 \chapter{Land Use and Urban Planning}
 \label{chap:land_use}
 
+Figure~\ref{fig:urban_density} shows the relation between urban denisty and transport-related energy consumption~\citep[Fig~2]{US_cities}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch10/Urban_Density_and_Transportation-Related_Energy_Consumption.pdf}
+\caption[Relation between urban denisty and transport-related energy consumption.]{Relation between urban denisty and transport-related energy consumption~\citep[Fig.~2]{US_cities}.}
+\label{fig:urban_density}
+\end{figure}
+
 
 \cleardoublepage
 
