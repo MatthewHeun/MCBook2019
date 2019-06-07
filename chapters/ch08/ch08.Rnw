@@ -11,21 +11,47 @@
 %#############################################################
 
 Modern life requires transportation services:
-people need to move for work and pleasure, and 
-goods need to be shipped to satisfy human wants and needs.
+people need to move long and short distances for work and pleasure, and 
+goods need to be shipped from far and near to satisfy human wants and needs.
+U.S.\ transportation services by mode are shown in Figures~\ref{fig:passengerkm_by_mode} 
+and~\ref{fig:freight_by_mode}.
 
-Transportation can be divided into two categories:
-moving people (personal transport) and
-moving goods (shipping). 
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/Total_US_tonne-kilometers_of_freight.pdf}
+\caption[Freight by mode.]{Tonne-kilometers of freight by transport mode.}
+\label{fig:freight_by_mode}
+\end{figure}
 
-One of the most significant demands for energy in modern economies is transportation. 
+In today's world, transportation is provided by cars, trucks, trains, boats, and planes,
+powered mostly by fossil fuels.
+Figure~\ref{fig:LLNL_sankey} shows that transportation energy is supplied almost exclusively 
+by petroleum in the form of liquid fuels,
+because of their high energy-to-mass and energy-to-volume densities.
+Burning these fossil fuels has global warming implications, and 
+greenhouse gas~(GHG) emissions from transportation are a significant sustainability concern.
+Indeed, Figure~\ref{fig:ghg_sankey} shows that greenhouse gas emissions from transportation 
+comprise 14.5~\% of all greenhouse gas emissions.
+Other emissions in the form of particulate matter raise significant health concerns as well.
+Furthermore, consumption of nonrenewable fossil fuels has implications for energy resource depletion.
+(See Chapter~\ref{chap:energy}.)
 
-Figure~\ref{fig:ghg_sankey} shows that greenhouse gas emissions from transportation 
-comprise 14.5~\% of total greenhouse gas emissions.
+Factors that drive transportation needs include 
 
-Figure~\ref{fig:LLNL_sankey} shows that transportation energy is supplied almost exclusively by petroleum
-in the form of liquid fuels,
-because of high energy mass and volume density.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Solutions}
+\label{sec:transport_solutions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Efficiency
+
+EVs
+
+
+
+
 
 
 Figure~\ref{fig:US_mpg} shows U.S.\ fleet average fuel economy
@@ -49,14 +75,14 @@ Figure~\ref{fig:transport_GHG_emissions} shows CO$_2$ transportation emissions b
 \end{figure}
 
 
-Figure~\ref{fig:ev_ic_comparison} compares electric and internal combustion vehicles.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch08/Electric_Vehicles_vs_Internal_Combustion_Engine_Vehicles.pdf}
-\caption[EV and IC vehicle comparison.]{Electric and internal combustion vehicle comparison.}
-\label{fig:ev_ic_comparison}
-\end{figure}
+% Figure~\ref{fig:ev_ic_comparison} compares electric and internal combustion vehicles.
+% 
+% \begin{figure}
+% \centering
+% \includegraphics[width=1\linewidth]{chapters/ch08/Electric_Vehicles_vs_Internal_Combustion_Engine_Vehicles.pdf}
+% \caption[EV and IC vehicle comparison.]{Electric and internal combustion vehicle comparison.}
+% \label{fig:ev_ic_comparison}
+% \end{figure}
 
 
 
@@ -73,14 +99,6 @@ Figure~\ref{fig:last_mile} shows percentages of total delivery cost for several 
 
 
 
-Figure~\ref{fig:freight_by_mode} shows tonne-kilometers of freight by mode of delivery.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch08/Total_US_tonne-kilometers_of_freight.pdf}
-\caption[Freight by mode.]{Tonne-kilometers of freight by transport mode.}
-\label{fig:freight_by_mode}
-\end{figure}
 
 
 Figure~\ref{fig:transport_ghg} shows the fraction of transport greenhouse gas emissions by mode.
