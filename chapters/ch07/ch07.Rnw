@@ -97,5 +97,24 @@ Figure~\ref{fig:Frac_population} shows the percentages of population around the 
 \label{fig:Frac_population}
 \end{figure}
 
+Figure~\ref{fig:pounds_serving} shows how much carbopn dioxide is released from one pound of food.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Pounds_of_CO2_per_serving.pdf}
+\caption[Pounds of CO2 per serving.]{Pounds of carbon diaoxide CO2 per serving.}
+\end{figure}
+
+Figure~\ref{fig:material_flow} illustrates how many resources are poured into the production of food.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch07/Material_Flow_in_the_US_Food_System(1995_Flows_in_Million_Pounds).pdf}
+\caption[Material flow in the US food system (1995, flows in million pounds.)]{Material flow in the US food system (1995, flows in million pounds).}
+\end{figure}
+
+
+
+
 \cleardoublepage
 
