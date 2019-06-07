@@ -10,6 +10,9 @@
 \label{chap:transportation}
 %#############################################################
 
+Modern life requires transportation services:
+people need to move for work and pleasure, and 
+goods need to be shipped to satisfy human wants and needs.
 
 Transportation can be divided into two categories:
 moving people (personal transport) and
@@ -100,21 +103,48 @@ Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode
 \end{figure}
 
 
-
-\begin{mcframe}[0.9\linewidth](0.85\linewidth)
+\begin{mcframe}[0.9\textwidth](0.85\textwidth)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Case study: electric vs.\ internal combustion vehicles}
+\label{sec:ev_vs_ice}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The transportation challenge provides an example of sustainability tradeoffs and problem shifting.
-Figure~\ref{fig:auto_gwp} shows two environmental impacts 
-(global warming potenatial (GWP) and mineral resource depletion (MRD))
-across the life cycle of internal automobile use,
-from manufacturing of the base vehicle to the end of life and disposal.
-Internal combustion engine (ICE) vehicles use regular gasoline and 
-electric vehicles (EV) use either the European mix of electricity sources (Euro) or
-coal electricity.
+Figure~\ref{fig:auto_gwp} shows two types of environmental impact
+(global warming potenatial and mineral resource depletion)
+across the full life cycle of automobile use,
+from base vehicle manufacturing to the end of life disposal,
+assuming 150,000~km service.
+Regular gasoline (gas) is consumed by internal combustion engine (ICE) vehicles.
+Electric vehicles (EVs) consume electricity with different primary fuel mixes:
+the European mix (Euro) or pure coal.
 
+Figure~\ref{fig:auto_gwp} shows that EVs are clearly worse than ICE vehicles 
+in terms of mineral resource depletion~(MRD).
+The material demands for engine and battery fabrication are much higher for EVs than ICE vehicles.
+However, EVs provide benefits in terms of global warming potential~(GWP)
+relative to ICE vehicles 
+if the electricity source is the European mix of primary fuels and renewables, because 
+of lower lifetime fuel/electricity emissions.
+In the case of the European electricity mix, 
+the global warming benefits of EVs are achieved
+despite much larger emissions from battery manufacturing.
+The global warming benefits of ICE vehicles evaporate
+when coal electricity is consumed, 
+because of higher electricity-related emissions.
+\citet[p.~61]{Hawkins_2012} point out that 
+``[e]nvironmental evaluations relying solely on fuel and powertrain efficiencies 
+miss key differences associated with the production of different vehicle types and 
+could lead to misguided comparisons across technologies.''
 
+Automobile technology is one of many places where sustainability tradeoffs are present.
+EVs reduce global warming impact relative to ICE vehicles at the expense of depleting mineral resources,
+a phenemonon called \emph{problem shifting}\index{problem shifting}.
 
-
-
+The challenges don't end with the GHG emissions/mineral resource depletion tradeoff.
+Whether or not GHG emissions are lower for an EV relative to an ICE vehicle also depends upon 
+the service lifetime of the vehicle. 
+An EV that is totalled shortly after manufacture will never achieve reduced emissions compared to an ICE vehicle,
+because ,anufacturing comprises a larger fraction of lifetime GHG emissions for EVs relative to ICE vehicles.
 \end{mcframe}
 
 
@@ -127,7 +157,7 @@ coal electricity.
 % \label{fig:auto_gwp}
 % \end{figure}
 
-<<auto_gwp, fig.scap = "Automobile impacts.", fig.cap = "Environmental impacts of three different automobiles. Data from~\\citet[Fig.~1]{Hawkins_2012}. GWP is global warming potential; MRD is mineral resource depletion; ICE is internal combustion engine; EV is electric vehicle; use phase excludes fuels.", fig.height = 4, echo = FALSE>>=
+<<auto_gwp, fig.scap = "Automobile impacts.", fig.cap = "Environmental impacts of three different automobiles. Data from~\\citet[Fig.~1]{Hawkins_2012}. GWP is global warming potential; MRD is mineral resource depletion; ICE is internal combustion engine; EV is electric vehicle; Euro indicates the European electricity mix; use phase excludes fuels.", fig.height = 3.5, echo = FALSE>>=
 
 # Add the data from file jiec532-sup-0001-S1.pdf, supplemental information for the Hawkins paper.
 data_string <- "Impact	Life cycle component	Li-NCM Euro	Li-NCM Coal	ICEV Gasoline\nGWP	Base vehicle	0.11	0.11	0.11\nGWP	Engine	0.02	0.02	0.01\nGWP	Other powertrain	0.05	0.05	0.02\nGWP	Battery	0.1	0.1	0\nGWP	Use phase	0.02	0.02	0.03\nGWP	Fuel/electricity	0.31	0.68	0.65\nGWP	End of life	0.01	0.01	0.01\nMRD	Base vehicle	0.22	0.22	0.22\nMRD	Engine	0.16	0.16	0.02\nMRD	Other powertrain	0.27	0.27	0.05\nMRD	Battery	0.26	0.26	0\nMRD	Use phase	0.05	0.05	0.03\nMRD	Fuel/electricity	0.05	0.05	0.01\nMRD	End of life	0	0	0"
@@ -145,7 +175,7 @@ read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FAL
   ggplot(mapping = aes(x = car_type)) + 
   geom_bar(mapping = aes(y = normalized_impact, fill = Life.cycle.component), width = 0.6, stat = "identity") +
   MKHthemes::xy_theme() +
-  theme(text = element_text(family = "Libre Caslon Text")) + 
+  # theme(text = element_text(family = "Libre Caslon Text")) + 
   facet_wrap(~ Impact) + 
   labs(x = element_blank(), y = "Normalized impact") +
   scale_y_continuous(breaks = c(0, 0.5, 1)) +
