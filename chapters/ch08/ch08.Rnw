@@ -10,11 +10,27 @@
 \label{chap:transportation}
 %#############################################################
 
-Modern life requires transportation services:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Demand for transportation services}
+\label{sec:transportation_demand}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Modern life requires transportation services\index{services!transportation}:
 people need to move long and short distances for work and pleasure, and 
-goods need to be shipped from far and near to satisfy human wants and needs.
-U.S.\ transportation services by mode are shown in Figures~\ref{fig:passengerkm_by_mode} 
+goods must be shipped from far and near to satisfy human wants and needs.
+Transport service levels are usually quantified in units of 
+passenger-km and tonne-km for personal and freight transport, respectively.
+U.S.\ transportation service provision by mode
+are shown in Figures~\ref{fig:passengerkm_by_mode} 
 and~\ref{fig:freight_by_mode}.
+
+\begin{figure}
+\centering
+**** Add a figure here. ****
+% \includegraphics[width=1\linewidth]{chapters/ch08/Total_US_tonne-kilometers_of_freight.pdf}
+\caption[Personal transport by mode.]{Passenger-km of personal transport by mode.}
+\label{fig:personal_transport_by_mode}
+\end{figure}
 
 \begin{figure}
 \centering
@@ -23,39 +39,100 @@ and~\ref{fig:freight_by_mode}.
 \label{fig:freight_by_mode}
 \end{figure}
 
-In today's world, transportation is provided by cars, trucks, trains, boats, and planes,
-powered mostly by fossil fuels.
-Figure~\ref{fig:LLNL_sankey} shows that transportation energy is supplied almost exclusively 
-by petroleum in the form of liquid fuels,
-because of their high energy-to-mass and energy-to-volume densities.
-Burning these fossil fuels has global warming implications, and 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Transportation sustainability concerns}
+\label{sec:transportation_concerns}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Today, transportation services are provided by cars, trucks, trains, boats, and planes,
+powered almost exclusively by fossil fuels\index{fossil fuels}.
+Figure~\ref{fig:LLNL_sankey} shows that energy for transportation is supplied almost exclusively 
+by liquid petroleum fuels,
+because of their high energy densities\index{energy density!liquid fuels}
+in terms of both energy-to-mass and energy-to-volume ratios.
+Burning liquid fuels to provide transportation services has global warming\index{global warming}
+implications, and 
 greenhouse gas~(GHG) emissions from transportation are a significant sustainability concern.
 Indeed, Figure~\ref{fig:ghg_sankey} shows that greenhouse gas emissions from transportation 
-comprise 14.5~\% of all greenhouse gas emissions.
-Other emissions in the form of particulate matter raise significant health concerns as well.
+comprise 14.5~\% of all greenhouse gas emissions worldwide.
+Figure~\ref{fig:transport_GHG_emissions} shows trends of CO$_2$ transportation emissions by mode
+over time.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/CO2_and_GHG_Emissions_by_Mode.pdf}
+\caption[Emissions by transport mode.]{CO$_2$ emissions by transportation mode.}
+\label{fig:transport_GHG_emissions}
+\end{figure}
+
+Other emissions from transportation in the form of particulate matter\index{particulate matter}
+raise significant health concerns as well.
 Furthermore, consumption of nonrenewable fossil fuels has implications for energy resource depletion.
 (See Chapter~\ref{chap:energy}.)
 
-Factors that drive transportation needs include 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Drivers of transportation demand}
+\label{sec:drivers_of_transportation_demand}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Factors that drive demand for transportation services include 
+daily commuting to work and school, 
+travel for business and pleasure, 
+supply chain distribution, and 
+delivery of goods and services.
+Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode of transport.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/US_Transportation_to_Work.pdf}
+\caption[Commuting by mode.]{Share of commuting distance by mode.}
+\label{fig:commuting_by_mode}
+\end{figure}
+
+Interestingly, 
+Figures~\ref{fig:personal_transport_by_mode} and~\ref{fig:freight_by_mode}
+both show distinctive declines in the demand for transport services from 2009 to 2010,
+an effect of the Great Recession\index{Great Recession}.
+Thus, it is clear that the need for transport is driven, in large part, 
+by human economic activity.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Solutions}
-\label{sec:transport_solutions}
+\section{Transportation transitions}
+\label{sec:transport_transitions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+To improve the sustainability of the modern transportation system,
+two options exist:
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item improve transportation machine efficiency and        
+  
+  \item transition to sustainable fuels.
+    
+\end{enumerate*}
 
-Efficiency
 
-EVs
+%++++++++++++++++++++++++++++++
+\subsection{Transportation efficiency}
+\label{sec:transportation_efficiency}
+%++++++++++++++++++++++++++++++
 
-
-
-
-
-
+Vehicle efficiency is usually quantified in distance travelled per volume 
+of fuel consumed.\index{efficiency!fuel}
 Figure~\ref{fig:US_mpg} shows U.S.\ fleet average fuel economy
-as a function of time for cars, trucks, and both.
+as a function of time for cars, trucks, and overall.
+Truck efficiency has lagged car efficiency by 20--30\% for decades.
+In the 1970s, overall efficiency was nearly the same as car efficiency,
+because most vehicles on the road were cars.
+However, the increasing popularity of trucks and sport utility vehicles in the U.S.\
+means that the overall fleet efficiency 
+is now about midway between car and truck efficiency. 
+If the proportion of cars and trucks were the same today as it was in the early 1970s,
+overall vehicle fleet efficiency in the U.S.\ would be about 28~miles/gallon,
+or 16~\% higher than the current value of 24~miles/gallon.
 
 \begin{figure}
 \centering
@@ -64,15 +141,46 @@ as a function of time for cars, trucks, and both.
 \label{fig:US_mpg}
 \end{figure}
 
+The most effective way for manufacturers
+to increase vehicle fuel efficiency is to reduce vehicle mass.
+Lighter vehicles can be achieved by 
+replacing steel components with aluminum or carbon fiber alternatives.
+Other design considerations that affect fuel efficiency include aerodynamics and fuel type (diesel or regular).
 
-Figure~\ref{fig:transport_GHG_emissions} shows CO$_2$ transportation emissions by mode.
+In addition to vehicle design, driving habits affect fuel efficiency. 
+Gentler driving (less acceleration, minimal dramatic braking) and 
+constant speeds (using cruise control where appropriate) 
+lead to improved vehicle efficiency as measured in distance per volume of fuel consumed..
 
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch08/CO2_and_GHG_Emissions_by_Mode.pdf}
-\caption[Emissions by transport mode.]{CO$_2$ emissions by transportation mode.}
-\label{fig:transport_GHG_emissions}
-\end{figure}
+Vehicle efficiency, by definition,
+focuses on the efficiency of the vehicle itself.
+But we don't buy fuel to move vehicles.
+We pay for fuel to move people and freight!
+So another way to measure vehicle efficiency focuses on the transportation service and 
+quantifies transportation efficiency in passenger-km/liter or tonne-km/liter.
+This simple shift exposes the absurdity of Figure~\ref{fig:commuting_by_mode}.
+When 76.4~\% of all communiting kilometers are taken in single-occupant vehicles,
+a simple way to become more efficient is to increase
+the occupancy rate of vehicles.
+Similarly for freight transport, 
+the simplest way to increase transportation efficiency is to ensure that trucks and trains
+are filled to capacity when moving freight.
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Transition to sustainable fuels}
+\label{sec:fuel_transition}
+%++++++++++++++++++++++++++++++
+
+Another way to tackle sustainability concerns related to transportation is to 
+transition to sustainable fuels.
+
+
+
+
+
+
+
 
 
 % Figure~\ref{fig:ev_ic_comparison} compares electric and internal combustion vehicles.
@@ -101,24 +209,8 @@ Figure~\ref{fig:last_mile} shows percentages of total delivery cost for several 
 
 
 
-Figure~\ref{fig:transport_ghg} shows the fraction of transport greenhouse gas emissions by mode.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch08/Transportation_GHG.pdf}
-\caption[Transport emissions.]{Greenhouse gas emissions due to transportation.}
-\label{fig:transport_ghg}
-\end{figure}
 
 
-Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode of transport.
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch08/US_Transportation_to_Work.pdf}
-\caption[Commuting by mode.]{Share of commuting distance by mode.}
-\label{fig:commuting_by_mode}
-\end{figure}
 
 
 \begin{mcframe}[0.9\textwidth](0.85\textwidth)
@@ -126,18 +218,23 @@ Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode
 \section*{Case study: electric vs.\ internal combustion vehicles}
 \label{sec:ev_vs_ice}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The transportation challenge provides an example of sustainability tradeoffs and problem shifting.
+
+The transportation challenge provides an example of sustainability tradeoffs and problem shifting\index{problem shifting}.
 Figure~\ref{fig:auto_gwp} shows two types of environmental impact
-(global warming potenatial and mineral resource depletion)
-across the full life cycle of automobile use,
+(global warming potenatial\index{global warming potential} 
+and mineral resource depletion\index{mineral resource deplation})
+across the full life cycle\index{life cycle~of automobiles}
+of automobile use,
 from base vehicle manufacturing to the end of life disposal,
 assuming 150,000~km service.
-Regular gasoline (gas) is consumed by internal combustion engine (ICE) vehicles.
-Electric vehicles (EVs) consume electricity with different primary fuel mixes:
-the European mix (Euro) or pure coal.
+Regular gasoline (gas) is consumed
+by internal combustion engine (ICE) vehicles\index{vehicle!internal combustion engine}.
+Electric vehicles (EVs)\index{vehicle!electric} consume electricity with different primary fuel mixes:
+the European mix (Euro)\index{electricity!European mix} 
+or pure coal\index{coal}\index{electricity!from coal}.
 
 Figure~\ref{fig:auto_gwp} shows that EVs are clearly worse than ICE vehicles 
-in terms of mineral resource depletion~(MRD).
+in terms of mineral resource depletion~(MRD)\index{resources!mineral!depletion of}.
 The material demands for engine and battery fabrication are much higher for EVs than ICE vehicles.
 However, EVs provide benefits in terms of global warming potential~(GWP)
 relative to ICE vehicles 
@@ -150,19 +247,20 @@ The global warming benefits of ICE vehicles evaporate
 when coal electricity is consumed, 
 because of higher electricity-related emissions.
 \citet[p.~61]{Hawkins_2012} point out that 
-``[e]nvironmental evaluations relying solely on fuel and powertrain efficiencies 
+``[e]nvironmental evaluations relying solely on fuel and powertrain efficiencies\index{efficiency!powertrain} 
 miss key differences associated with the production of different vehicle types and 
 could lead to misguided comparisons across technologies.''
 
-Automobile technology is one of many places where sustainability tradeoffs are present.
-EVs reduce global warming impact relative to ICE vehicles at the expense of depleting mineral resources,
+Automobile technology is one of many arenas where sustainability tradeoffs are observed.
+EVs reduce global warming impact relative to ICE vehicles 
+at the expense of depleting the stock of mineral resources,
 a phenemonon called \emph{problem shifting}\index{problem shifting}.
 
 The challenges don't end with the GHG emissions/mineral resource depletion tradeoff.
 Whether or not GHG emissions are lower for an EV relative to an ICE vehicle also depends upon 
 the service lifetime of the vehicle. 
 An EV that is totalled shortly after manufacture will never achieve reduced emissions compared to an ICE vehicle,
-because ,anufacturing comprises a larger fraction of lifetime GHG emissions for EVs relative to ICE vehicles.
+because manufacturing comprises a larger fraction of lifetime GHG emissions for EVs relative to ICE vehicles.
 \end{mcframe}
 
 
