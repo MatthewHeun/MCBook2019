@@ -243,7 +243,7 @@ sector.
 \label{fig:LLNL_sankey}
 \end{sidewaysfigure}
 
-Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency\index{energy efficiency}
+Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency\index{efficiency!energy}
 of each sector,
 as it shows the amount of energy that provides useful service to society
 relative to the amount of energy that is wasted.
@@ -256,7 +256,7 @@ For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Energy transitions}
-\label{sec:energy_transitions}\index{energy transition} \index{transition!energy|see {energy transition}}
+\label{sec:energy_transitions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 A transition 
