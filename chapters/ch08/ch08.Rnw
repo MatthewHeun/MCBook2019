@@ -158,43 +158,20 @@ But we don't buy fuel to move vehicles.
 We pay for fuel to move people and freight!
 So another way to measure vehicle efficiency focuses on the transportation service and 
 quantifies transportation efficiency in passenger-km/liter or tonne-km/liter.
-This simple shift exposes the absurdity of Figure~\ref{fig:commuting_by_mode}.
+This simple shift exposes the opportunity presented by Figure~\ref{fig:commuting_by_mode}.
 When 76.4~\% of all communiting kilometers are taken in single-occupant vehicles,
-a simple way to become more efficient is to increase
+a simple way to become more efficient in terms of service delivery is to increase
 the occupancy rate of vehicles.
 Similarly for freight transport, 
 the simplest way to increase transportation efficiency is to ensure that trucks and trains
-are filled to capacity when moving freight.
+are filled to capacity when delivering freight.
 
-
-%++++++++++++++++++++++++++++++
-\subsection{Transition to sustainable fuels}
-\label{sec:fuel_transition}
-%++++++++++++++++++++++++++++++
-
-Another way to tackle sustainability concerns related to transportation is to 
-transition to sustainable fuels.
-
-
-
-
-
-
-
-
-
-% Figure~\ref{fig:ev_ic_comparison} compares electric and internal combustion vehicles.
-% 
-% \begin{figure}
-% \centering
-% \includegraphics[width=1\linewidth]{chapters/ch08/Electric_Vehicles_vs_Internal_Combustion_Engine_Vehicles.pdf}
-% \caption[EV and IC vehicle comparison.]{Electric and internal combustion vehicle comparison.}
-% \label{fig:ev_ic_comparison}
-% \end{figure}
-
-
-
-Figure~\ref{fig:last_mile} shows percentages of total delivery cost for several parts of a delivery journey.
+A significant challenge to higher occupancy cars and higher capacity trucks
+is known as the \emph{last mile problem}\index{last mile problem}.
+Last mile problem refers to the difficulty of distributing goods and services 
+the last mile to end users. 
+Figure~\ref{fig:last_mile} shows percentages of total delivery cost for several parts of a delivery journey, and 
+the largest portion is the last mile.
 
 \begin{figure}
 \centering
@@ -205,23 +182,56 @@ Figure~\ref{fig:last_mile} shows percentages of total delivery cost for several 
 
 
 
+%++++++++++++++++++++++++++++++
+\subsection{Transition to sustainable fuels}
+\label{sec:fuel_transition}
+%++++++++++++++++++++++++++++++
+
+Another way to improve the sustainability of modern transportation is to 
+transition away from fossil fuels\index{fossil fuels}
+toward sustainable fuels,
+thereby eliminating the negative environmental effects of fossil fuel combustion. 
+Two solutions are often mentioned:
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item use of biofuels\index{biofuels}
+        in internal combustion engine (ICE) vehicles and
+  
+  \item adoption of electric vehicle\index{vehicle!electric} technology.
+    
+\end{enumerate*}
 
 
+%------------------------------
+\subsubsection{Biofuels} 
+\label{sec:biofuels}
+%------------------------------
+
+Biofuels are liquid or gaseous hydrocarbon fuels produced from biomass material
+and used for transportation.
+Taking carbon neutrality as the indicator of fuel sustainability,
+biofuels can be sustainable if they sequester more carbon than
+they emit across the full life cycle of the project, including 
+land preparation, planting, harvesting, refining and processing, and 
+direct combustion of the fuel itself.
+Perennial crops planted in low-carbon soils\index{soil!low-carbon}
+can be carbon negative, because
+GHG emissions\index{emissions!greenhouse gases}
+from energy consumed for land preparation and planting can be allocated
+across several harvest years of the biofuel crop~\citep{Whitaker_2017}.
+
+**** Add a graph of biofuel consumption vs. years. ****
 
 
-
-
-
-
-\begin{mcframe}[0.9\textwidth](0.85\textwidth)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Case study: electric vs.\ internal combustion vehicles}
-\label{sec:ev_vs_ice}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%------------------------------
+\subsubsection{Electric vehicles} 
+\label{sec:electric_vehicles}
+%------------------------------
 
 The transportation challenge provides an example of sustainability tradeoffs and problem shifting\index{problem shifting}.
 Figure~\ref{fig:auto_gwp} shows two types of environmental impact
-(global warming potenatial\index{global warming potential} 
+(global warming potenatial\index{global warming!potential} 
 and mineral resource depletion\index{mineral resource deplation})
 across the full life cycle\index{life cycle~of automobiles}
 of automobile use,
@@ -261,17 +271,6 @@ Whether or not GHG emissions are lower for an EV relative to an ICE vehicle also
 the service lifetime of the vehicle. 
 An EV that is totalled shortly after manufacture will never achieve reduced emissions compared to an ICE vehicle,
 because manufacturing comprises a larger fraction of lifetime GHG emissions for EVs relative to ICE vehicles.
-\end{mcframe}
-
-
-% \begin{figure}
-% \centering
-% \includegraphics[width=1\linewidth]{chapters/ch08/autos_embodied_gwp.pdf}
-% \caption[GWP by phase of auto life.]{Global warming potential by phase of life 
-%                                      for various types of automobiles.
-%                                      Data from~\citet[Fig.~1]{Hawkins_2012}.}
-% \label{fig:auto_gwp}
-% \end{figure}
 
 <<auto_gwp, fig.scap = "Automobile impacts.", fig.cap = "Environmental impacts of three different automobiles. Data from~\\citet[Fig.~1]{Hawkins_2012}. GWP is global warming potential; MRD is mineral resource depletion; ICE is internal combustion engine; EV is electric vehicle; Euro indicates the European electricity mix; use phase excludes fuels.", fig.height = 3.5, echo = FALSE>>=
 
@@ -301,26 +300,16 @@ read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FAL
 @
 
 
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Challenges}
-\label{sec:transport_challenges}
+\section*{Questions}\index{questions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Last mile problem.
+\begin{problems}
 
-Fuel efficiency.
+\item 
 
+\end{problems}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Solutions}
-\label{sec:transport_solutions}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Public transort
 
 
 \cleardoublepage

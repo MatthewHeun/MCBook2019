@@ -304,7 +304,7 @@ in one or two decades to limit global warming to less than 1.5 \degC{}?
 
 An optimistic (and often-criticized) analysis of the requirements
 for a fossil-to-renewables 
-(wind, water, and solar, or WWS)\index{wind, water, and solar}\index{WWS|see wind, water, and solar}
+(wind, water, and solar, or WWS)\index{wind, water, and solar}
 transition\index{energy transition!to wind, water, and solar}
 was provided by \citeauthor{Jacobson:2011gc} \citeyearpar{Jacobson:2011gc,Delucchi:2011gb}.
 They estimated that
@@ -353,8 +353,9 @@ can energy efficiency be deployed to reduce energy-related GHG emissions
 thereby increasing energy consumption and GHG emissions?
 
 
-\section*{Questions}
-\index{questions}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Questions}\index{questions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{problems}
 
