@@ -3,7 +3,6 @@
 % before making the book.
 %!TEX root = ../../book.Rnw
 
-%blankpage
 
 %#############################################################
 \chapter{Energy}
