@@ -312,9 +312,10 @@ read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FAL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Automobile technology is one of many arenas in which sustainability tradeoffs are observed.
-EVs reduce global warming impact relative to ICE vehicles 
+Under the right conditions, 
+EVs can reduce global warming impact relative to ICE vehicles 
 at the expense of depleting the stock of mineral resources,
-a phenemonon called \emph{problem shifting}\index{problem shifting}.
+a phenemonon known as \emph{problem shifting}\index{problem shifting}.
 
 The sustainabilty challenges of transportation transitions
 don't end with the GHG emissions/mineral resource depletion tradeoff
@@ -337,14 +338,42 @@ will never achieve its potential emissions reductions.
 
 \begin{problems}
 
+\item In Section~\ref{sec:transportation_efficiency}, 
+      the move from machine efficiency (measured in miles/gallon) to 
+      service efficiency (measured in passenger-km/gallon) 
+      revealed insights about the transportation sustainability challenge, 
+      namely that filling empty seats in cars is a simple and effective form of increasing efficiency.
+      Consider a different sustainability challenge besides transportation.
+      Develop or find a machine efficiency for your challenge 
+      that is analogous to vehicle efficiency in miles/gallon.
+      Develop or find a service efficiency for your challenge 
+      that is analogous to passenger-km/gallon.
+      What changes when you move from machine efficiency to service effiency?
+      How does the move from machine efficiency to service effiency 
+      affect the way you think about the sustainability challenge?
+      Does the move from from machine efficiency to service effiency 
+      suggest new solutions to the sustainability challenge?
+
 \item Research the term \emph{problem shifting}. 
-      Identify other examples of problem shifting in which 
-      a ``solution'' to one sustainability problem
+      Identify at least three examples of problem shifting in which 
+      a ``solution'' to one sustainability challenge
       causes problems of a different sort.
       
-\item 
+\item Under the right conditions (European electricity mix, 150,000~km service life),
+      \citet{Hawkins_2012} show that 
+      electric vehicles provide GHG emissions reductions relative to internal combustion engine vehicles
+      at the expense of increased mineral resource depletion. 
+      The GHG emissions/mineral resource depletion tradeoff is an example of a tradeoff that is
+      nearly impossible to decide on a quantitative or objective basis. 
+      Indeed, deciding this and similar tradeoffs cannot be divorced 
+      from human values and value judgments. 
+      Is it wise to trade reduced GHG emissions 
+      for increased mineral resource depletion?
+      Why or why not? 
+      What values are guiding your decision?
 
 \end{problems}
 
 
 \cleardoublepage
+
