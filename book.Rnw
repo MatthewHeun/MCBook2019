@@ -91,20 +91,20 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 								% please see the abs-pref folder for some pdf examples
 
  \mainmatter
-    \Sexpr{knit_child("chapters/ch01/ch01.Rnw")} % Introduction
-    \Sexpr{knit_child("chapters/ch02/ch02.Rnw")} % Population
-    \Sexpr{knit_child("chapters/ch03/ch03.Rnw")} % Economy
-    \Sexpr{knit_child("chapters/ch04/ch04.Rnw")} % Energy
-    \Sexpr{knit_child("chapters/ch05/ch05.Rnw")} % Air and water
-    \Sexpr{knit_child("chapters/ch06/ch06.Rnw")} % Plants and animals
-    \Sexpr{knit_child("chapters/ch07/ch07.Rnw")} % Food and agriculture
-    \Sexpr{knit_child("chapters/ch08/ch08.Rnw")} % Transportation
-    \Sexpr{knit_child("chapters/ch09/ch09.Rnw")} % Housing and households
-    \Sexpr{knit_child("chapters/ch10/ch10.Rnw")} % Land use and urban planning
-    \Sexpr{knit_child("chapters/ch11/ch11.Rnw")} % Government and regulations
-    \Sexpr{knit_child("chapters/ch12/ch12.Rnw")} % Systems thinking
-    \Sexpr{knit_child("chapters/ch13/ch13.Rnw")} % Values and religion
-    \Sexpr{knit_child("chapters/ch14/ch14.Rnw")} % Personal actions
+    \Sexpr{knit_child("chapters/ch01/ch01.Rnw")} % \ref{chap:introduction}
+    \Sexpr{knit_child("chapters/ch02/ch02.Rnw")} % \ref{chap:population}
+    \Sexpr{knit_child("chapters/ch03/ch03.Rnw")} % \ref{chap:economy}
+    \Sexpr{knit_child("chapters/ch04/ch04.Rnw")} % \ref{chap:energy}
+    \Sexpr{knit_child("chapters/ch05/ch05.Rnw")} % \ref{chap:air_and_water}
+    \Sexpr{knit_child("chapters/ch06/ch06.Rnw")} % \ref{chap:chap:plants_and_animals}
+    \Sexpr{knit_child("chapters/ch07/ch07.Rnw")} % \ref{chap:food_and_agriculture}
+    \Sexpr{knit_child("chapters/ch08/ch08.Rnw")} % \ref{chap:transportation}
+    \Sexpr{knit_child("chapters/ch09/ch09.Rnw")} % \ref{chap:housing_and_households}
+    \Sexpr{knit_child("chapters/ch10/ch10.Rnw")} % \ref{chap:land_use_and_urban_planning}
+    \Sexpr{knit_child("chapters/ch11/ch11.Rnw")} % \ref{chap:government_and_regulations}
+    \Sexpr{knit_child("chapters/ch12/ch12.Rnw")} % \ref{chap:systems_thinking}
+    \Sexpr{knit_child("chapters/ch13/ch13.Rnw")} % \ref{chap:values_and_religion}
+    \Sexpr{knit_child("chapters/ch14/ch14.Rnw")} % \ref{chap:personal_actions}
 
     % \input{biblio}              % bibliography
     

@@ -1,6 +1,9 @@
-\Sexpr{set_parent("../../book.Rnw")}
+% The next command tells RStudio to do "Compile PDF" on book.Rnw,
+% instead of this chapter, thereby eliminating the need to switch back to book.Rnw 
+% before making the book.
+%!TEX root = ../../book.Rnw
 
-\chapter{Foundational concepts related to sustainability}%{Introducty Terms and Concepts}
+\chapter{Foundational concepts related to sustainability}%{Introductory Terms and Concepts}
 \label{chap:introduction}
 
 The question of whether humanity is living "sustainably" is an existential one,
@@ -17,12 +20,12 @@ Sustain means to endure, to continue, and to last.
 %The etymology is from
 %Old French, by way of the Latin roots "sub," meaning from below, and 
 %"sustinere," meaning to hold up, support or endure. 
-\index{Sustainaiblity!defintion}
+\index{sustainability!definition}
 Many authors have written about sustainability and it may seem that
 every publication has a unique definition of sustainability. The most commonly
 cited definiation of sustainability is that sustainability means meeting 
 "the needs of the present without compromising the ability of future 
-generations to meet their own needs" \citep{Brund87}.
+generations to meet their own needs"~\citep{Brund87}.
 
 
 \subsection{The scope of sustainability}

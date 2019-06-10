@@ -1,10 +1,12 @@
-% Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+% The next command tells RStudio to do "Compile PDF" on book.Rnw,
+% instead of this chapter, thereby eliminating the need to switch back to book.Rnw 
+% before making the book.
+%!TEX root = ../../book.Rnw
 
 %blankpage
 
 \chapter{Plants and Animals}
-\label{plants_and_animals}
+\label{chap:plants_and_animals}
 
 
 

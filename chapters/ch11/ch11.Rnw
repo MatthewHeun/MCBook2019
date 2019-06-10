@@ -1,10 +1,12 @@
-% Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+% The next command tells RStudio to do "Compile PDF" on book.Rnw,
+% instead of this chapter, thereby eliminating the need to switch back to book.Rnw 
+% before making the book.
+%!TEX root = ../../book.Rnw
 
 %blankpage
 
 \chapter{Government and Regulations}
-\label{chap:government_and_regulstions}
+\label{chap:government_and_regulations}
 
 %Figure~\ref{fig:vehicle_miles} shows the imapct of a regulation given out 1968 (?) ~\citep[Fig.~1]{personal_transportation}.
 

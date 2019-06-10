@@ -1,5 +1,7 @@
-% Set the parent document so that this file can be compiled independently.
-% \Sexpr{set_parent("book.Rnw")}
+% The next command tells RStudio to do "Compile PDF" on book.Rnw,
+% instead of this chapter, thereby eliminating the need to switch back to book.Rnw 
+% before making the book.
+%!TEX root = ../../book.Rnw
 
 %blankpage
 
@@ -66,7 +68,7 @@ If you do those things, you haven’t solved any sustainability problems.
 But at least you'll be pointed in the right direction, relative to the rest of society.
 
 
-\begin{table}[]
+\begin{table}
 \caption[Personal Q\&A]{Personal Q\&A}
 \centering
 \begin{tabular}{@{}ll@{}}
