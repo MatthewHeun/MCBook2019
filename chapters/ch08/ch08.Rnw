@@ -237,7 +237,12 @@ GHG emissions\index{emissions!greenhouse gases}
 from energy consumed for land preparation and planting can be allocated
 across several harvest years of the biofuel crop~\citep{Whitaker_2017}.
 
-**** Add a graph of biofuel consumption vs. time. ****
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch08/biofuel_consumption.pdf}
+\caption[Biofuel consumption 1985-2017]{Biofuel consumption in the US 1985-2017.}
+\label{fig:biofuel_consumption}
+\end{figure}
 
 
 %..............................
