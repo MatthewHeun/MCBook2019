@@ -95,13 +95,13 @@ Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode
 \end{figure}
 
 Interestingly, 
-Figures~\ref{fig:personal_transport_by_mode} and~\ref{fig:freight_by_mode}
+Figures~\ref{fig:passengerkm_by_mode} and~\ref{fig:freight_by_mode}
 both show distinctive declines in the demand for transport services from 2009 to 2010,
 an effect of the Great Recession\index{Great Recession}.
 A reasonable conclusion is that demand for transportation services is caused, in large part, 
 by economic activity.
 
-Furthermore, figures~\ref{fig:personal_transport_by_mode} and~\ref{fig:freight_by_mode}
+Furthermore, figures~\ref{fig:passengerkm_by_mode} and~\ref{fig:freight_by_mode}
 show that the oil price spike in the runup to the Great Recession (2006--2008)
 caused drivers to move away from light-duty trucks toward
 passenger cars.
