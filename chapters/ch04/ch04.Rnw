@@ -311,13 +311,14 @@ before reaching the dangerous 1.5 \degC{} warming level.
 \begin{figure}
 \centering
 \includegraphics[width=0.9\linewidth]{chapters/ch04/2000px-Mauna_Loa_CO2_monthly_mean_concentration.pdf}
-\caption[CO$_2$ concentration]{Atmospheric CO$_2$ concentration, 1958--2018~\citep{Delorme:2019aa}.\index{Keeling curve}}
+\caption[CO$_2$ concentration]{Monthly mean CO$_2$ concentration measured in-situ at Mauna Loa, Hawaii, 1958--2018~\citep{Delorme:2019aa}.\index{Keeling curve}
+                               Data from \citet{Keeling:2019aa}.}
 \label{fig:keeling_curve}
 \end{figure}
 
 Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
 the largest source of GHG emissions. 
-So it is not a stretch to say that the economy as a whole drives energy demand and 
+So it is not a stretch to say that the global economy drives energy demand and 
 serves as the ultimate cause of GHG emissions.
 Figure~\ref{fig:LLNL_sankey} shows the economic sources of energy demand in the U.S.\index{United States}.
 Transport\index{energy demand!transport sector}
@@ -336,7 +337,7 @@ sector.
 
 Figure~\ref{fig:LLNL_sankey} provides data to calculate the energy efficiency\index{efficiency!energy}
 of each sector,
-as it shows the amount of energy that provides useful service to society
+because it shows the amount of energy that provides useful service to society
 relative to the amount of energy that is wasted.
 For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector is
 %
@@ -356,7 +357,7 @@ and away from unsustainable fossil fuels (natural gas, coal, and petroleum)
 could eliminate GHG emissions from fossil fuel consumption,
 while still meeting the energy needs of society and the economy.
 A fossil-to-renewable energy transition\index{energy transition!fossil to renewables}
-would put the world on a sustinable energy trajectory.
+would help to put the world on a sustinable energy trajectory.
 Figure~\ref{fig:LLNL_sankey} shows how little U.S.\ energy\index{United States!energy consumption}
 is supplied (at present) by renewable sources
 (solar, hydro, wind, geothermal, and biomass)\index{renewable energy}.
@@ -364,12 +365,18 @@ There is a long way to go, and
 a fossil-to-renewables transition
 faces several challenges, three of which are time, money, and backfire.
 
+
+%..............................
+\paragraph{Time} 
+\label{sec:time_challenge}
+%..............................
+
 Throughout history, societies have used different primary energy\index{energy!primary}
 sources in varying proportions. 
 Longitudinal analysis of those proportions reveals
 the speed of past energy transitions\index{energy transition!speed of} and
 may suggest the time needed for a future fossil-to-renewables transition. 
-Figure~\ref{fig:foquet2010} shows a longitudinal analysis of UK\index{United Kingdom}
+Figure~\ref{fig:foquet2010} shows a longitudinal analysis of United Kingdom\index{United Kingdom}
 primary energy transitions
 from 1500--2000.
 The figure shows that the UK's transition from food, feed, and biomass 
@@ -393,6 +400,12 @@ in one or two decades to limit global warming to less than 1.5 \degC{}?
 \label{fig:foquet2010}
 \end{figure}
 
+
+%..............................
+\paragraph{Money} 
+\label{sec:money_challenge}
+%..............................
+
 An optimistic (and often-criticized) analysis of the requirements
 for a fossil-to-renewables 
 (wind, water, and solar, or WWS)\index{wind, water, and solar}
@@ -406,6 +419,12 @@ For context, the \$5 trillion annual cost is 7.2~\% of world GDP\index{gross dom
 The money challenge is this: 
 what funding source will provide the necessary monetary resources for a fossil-to-renewables transition
 in the timeframe of a decade or two?\index{energy transition!funding}
+
+
+%..............................
+\paragraph{Backfire} 
+\label{sec:backfire_challenge}
+%..............................
 
 Many suggest that investing in technical efficiency improvements for energy conversion machines
 (such as power plants, automobiles, and lights)
@@ -467,7 +486,9 @@ thereby increasing energy consumption and GHG emissions?
       What would be required for such a transition?
       
 \item What is the energy efficiency of each economic sector in Figure~\ref{fig:LLNL_sankey}?
-      Are the efficiencies larger or smaller than expected?
+      Are the efficiencies larger or smaller than expected? 
+      Compare the efficiency of the electricity generation sector to the Carnot efficiency of a 
+      heat engine operating between a typical coal combustion temperature and atmospheric temperature.
 
 \item The cost of the WWS fossil-to-renewable transition 
       proposed by Jacobson and Delucchi is very large.
