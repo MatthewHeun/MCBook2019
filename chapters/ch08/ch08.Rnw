@@ -23,12 +23,12 @@ Provision of U.S.\ transportation service by various modes of travel
 is shown in Figures~\ref{fig:passengerkm_by_mode} 
 and~\ref{fig:freight_by_mode}.
 
+
 \begin{figure}
 \centering
-**** Add a figure here. ****
-% \includegraphics[width=1\linewidth]{chapters/ch08/Total_US_tonne-kilometers_of_freight.pdf}
+\includegraphics[width=1\linewidth]{chapters/ch08/passengerkm_by_mode.pdf}
 \caption[Personal transport by mode.]{Passenger-km of personal transport by mode.}
-\label{fig:personal_transport_by_mode}
+\label{fig:passengerkm_by_mode}
 \end{figure}
 
 \begin{figure}
