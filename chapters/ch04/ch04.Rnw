@@ -9,11 +9,39 @@
 \label{chap:energy}
 %#############################################################
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Demand for energy services}
+\label{sec:demand_for_energy_services}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Modern life requires energy for everything.
+It runs the food and agricultural system (see Chapter~\ref{chap:food_and_agriculture}), 
+provides transportation for people and goods (see Chapter~\ref{chap:transportation}),
+enables habitable homes and buildings in adverse climates (see Chapter~\ref{chap:housing_and_households}), and
+assists construction of urban and rural infrastructure (see Chapter~\ref{chap:land_use_and_urban_planning}).
+In short, energy runs modern economies (see Chapter~\ref{chap:economy}).
+
+But humans don't purchase energy for its own sake.
+Rather, humans purchase energy for the services provided
+when energy is consumed in end use devices.
+Liquid fuels provide transportation when burned in automobiles, trucks, and planes.
+Electicity provides illumination when consumed by electric lights.
+Coal provides heat when burned in a stove.
+
+Energy is quantified in joules, which represent the heat equivalent of energy.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Energy sustainability challenges}
+\label{sec:energy_sustainability_challenges}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Providing energy for modern society is a significant sustainability challenge
 because of both resource depletion and emissions concerns.
 As discussed in Chapter~\ref{chap:introduction},
 examination of sources and sinks is a helpful way to understand sustainability challenges,
-and that framework is applied in this chapter.
+and the source/sink framework is applied in this chapter.
 Energy sources can be classified as
 renewable (solar, wind, hydro, and biomass)
 or
@@ -21,20 +49,20 @@ nonrenewable (fossil fuels).
 Resource depletion and emissions concerns arise from the consumption of nonrenewable energy resources.
 (Energy sinks, or more precisely, sinks for products of combustion,
 will be discussed below.)
-In the sections that follow, resource depletion and emissions are discussed in turn, 
-with a focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions.
+This chapter discusses resource depletion and emissions in turn, 
+with a focus on fossil fuel resource depletion and greenhouse gas (GHG) emissions\index{emissions!greenhouse gases}.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Resource depletion}
+%++++++++++++++++++++++++++++++
+\subsection{Resource depletion}
 \label{sec:energy:resource_depletion}\index{resources!depletion}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%++++++++++++++++++++++++++++++
 
 Depletion of nonrenewable natural resources is a complex processes,
 involving natural phenomena, human wants and needs, and technology.
 A calculus-based model can be used to describe depletion processes succinctly.
-All natural resources have a generation rate~($\dot{g}$)\index{resources!generation rate}, 
-the speed with which the resource is re-created by natural or human processes.
+All resources have a generation rate~($\dot{g}$)\index{resources!generation rate}, 
+which is the speed with which the resource is re-created by natural or human processes.
 Natural resources can be consumed at a rate~($\dot{c}$)\index{resources!consumption rate},
 the speed with which the resource is removed from nature and consumed by human society or animals.
 The initial stock of a resource~($s$) at time $t_0$ is given by~$s_0$.
@@ -46,7 +74,7 @@ such that the remaining stock can be calculated at any time $t$ by
   s(t) = s_0 + \int_{t=0}^{t=t} \left[ \dot{g}(t) - \dot{c}(t) \right] \; \mathrm{d}t \; .
 \end{equation}
 
-When $\dot{g} < \dot{c}$, a resource is depleting.
+When $\dot{g} < \dot{c}$, a resource is being depleted
 When $\dot{g} > \dot{c}$, a resource is recovering.
 For some renewable energy resources, 
 such as solar and geothermal heat at some sites,
@@ -58,27 +86,40 @@ the relationship between $\dot{g}$ and $\dot{c}$ depends on local growing condit
 Afforestation entails sustainable management of a forest such that 
 $\dot{g} > \dot{c}$. 
 Deforestation occurs when $\dot{g} < \dot{c}$ due to clearcutting or other unsustainable practices.
-For nonrenewable energy resources, such as coal, oil, and natural gas, 
-$\dot{g} \ll \dot{c}$, and 
+For nonrenewable energy resources, 
+such as coal, oil, and natural gas, 
+the natural rate of generation is very low
+($\dot{g} \ll \dot{c}$), so
 these resources are always being depleted by consumption.
 
 For cost reasons, resources are extracted from the easiest sites first,
 such as oil from west Texas\index{Texas} or coal from near-surface seams.
-All other things being equal, as the stock of nonrenewable resources declines
+All other things being equal, as the stock of nonrenewable resources declines,
 extraction costs are expected to rise 
-when increasingly-difficult sites are utilized.
-Examples include oil from offshore platforms or kilometers-deep subsurface coal mines.
-But all things are never equal, and 
-technological advances put downward pressure on extraction costs, 
-even as a resource depletes.  
+when increasingly difficult sites are used.
+Examples include oil from offshore platforms and 
+coal from kilometers-deep mines.
+On the other hand,  
+technological advances (including new, efficient machines and techniques for resource extraction)
+put downward pressure on extraction costs, 
+even as resources deplete.  
 In the end, extraction costs of nonrenewable energy resources is a race between depletion and technology.
 
+On the other side of the supply--demand divide, 
+continued demand for a depleting, nonrenewable resource
+will tend to push its unit price upward
+as the nonrenewable resouce becomes increasingly scarce.
+
 If society continues to consume a nonrenewable energy resource 
-at rate $\dot{c}$ indefinately (remember that $\dot{c} \gg \dot{g}$ for a nonrenewable resource),
+at a constant rate $\dot{c}$ indefinately (remember that $\dot{c} \gg \dot{g}$ for a nonrenewable resource),
 its stock ($s(t)$) will eventually go to $0$.
 But $s \rightarrow 0$ is not the expected long-run outcome for nonrenewable resources.
 Rather, extraction will cease (and $\dot{c} \rightarrow 0$) when the cost of extraction exceeds the 
 market price for the nonrenewable energy resource.
+$\dot{c} \rightarrow 0$ will occur before $s \rightarrow 0$
+as a resource becomes increasingly scarce, because
+the extraction cost will eventually exceed the price that consumers are willing or able to pay.
+The level of $s$ at which production stops is the amount of the resource ``left in the ground.''
 The ultimately recoverable fraction~($r$) of initial resource stock~($s_0$) will be
 determined by the market price and extraction costs.
 It is very likely that society will not extract \emph{all} of any nonrenewable resource;
@@ -86,8 +127,8 @@ the hardest-to-reach deposits will remain in the ground.
 
 If sustainabilty is defined as continuing an activity indefinitely
 (see Chapter~\ref{chap:introduction}), 
-$\dot{c} > 0$ is unsustainable for any nonrenewable resource with $\dot{c} \gg \dot{g}$.
-I.e., any consumption of nonrenewable resources is, by definition, unsustainable.
+$\dot{c} > 0$ is unsustainable for any nonrenewable resource for which $\dot{c} \gg \dot{g}$.
+Any consumption of nonrenewable resources is, by definition, unsustainable.
 Thus, ongoing consumption of the nonrenewable resources coal, oil, and natural gas is unsustainable.
 But given that modern society is thoroughly dependent upon those nonrenewable energy resources,
 a reasonable question arises: 
@@ -96,15 +137,23 @@ of nonsustainable energy resources?
 To answer that question, $s$ must be calculated, implying that $s_0$ must be determined. 
 Furthermore, extraction costs as a function of $s(t)$ must be predictable, 
 meaning that price and technology forecasts are needed.
-Predicting the future is a tricky business, indeed.
+Predicting the future is a tricky business indeed.
 
-Despite the complexity,
-simple calculations can be performed to obtain estimates 
-of remaining time available for various resources,
-using coal as an example.
-\citet[p.~22]{Rutledge:2018aa} estimates the initial stock of coal to be $s_0 = 784 \; \mathrm{Gt}$,%
+
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The economic dynamics among supply, demand, 
+technology, scarcity, 
+prices and extraction costs
+are complex.
+But simple calculations which ignore the economic dynamics can be performed to obtain estimates 
+of remaining time available for various resources.
+
+Using coal as an example,
+\citet[p.~22]{Rutledge:2018aa} estimates the initial stock of coal to be $s_0 = 784 \; \mathrm{Gt}$%
 \footnote{
-The estimation approach assumes that nonrenewable resource production
+Rutledge's estimation approach assumes that nonrenewable resource production
 follows a logistic curve through time.
 See \citet{Rutledge:2011} for a description of the method.
 The estimate of $s_0 = 784 \; \mathrm{Gt}$
@@ -112,7 +161,7 @@ is from a 2018 presentation~\citep[p.~22]{Rutledge:2018aa}
 by the same author.
 }
 and the amount of coal consumed to 2017 to be $400 \; \mathrm{Gt}$, 
-leaving $384 \; \mathrm{Gt}$ in the ground.
+leaving $384 \; \mathrm{Gt}$ in the ground as of 2018.
 The world consumption rate for coal in 2017 was 
 $\dot{c} = 7549 \; \mathrm{Mt/year}$~\citep[p.~7]{International-Energy-Agency:2018a}.
 Dividing the remaining coal by today's extraction rate gives
@@ -123,26 +172,41 @@ the years of coal extraction remaining ($\Delta t$).
            = 50.9 \; \mathrm{years}
 \end{equation}
 %
-This simple calculation indicates that the world will ``run out'' of coal in 2070.
-
-As discussed above, 
-the dynamics of nonrenewable energy resource depletion
-exhibit more nuance and complexity than this simple calculation entails.
+This simple calculation indicates that the world would ``run out'' of coal in 2070,
+neglecting economic dynamics.
 In fact, extraction rates are expected to decline as nonrenewable resources
-are depleted.
+are depleted, so
+the date at which $\dot{c} \rightarrow 0$ is likely sooner.
+
+\citet[p.~22]{Rutledge:2018aa} used an analysis method
+that accounts for declining exraction rates as resources deplete.
+His more-detailed analysis 
+puts the ``end of coal'' at 2066.
 Despite its obvious shortcoming, 
-the result from this simple method nearly matches
-a more-detailed analysis by~\citet[p.~22]{Rutledge:2018aa}, which 
-puts the ``end of coal'' date at 2066.
-Indeed, simple methods can sometimes yield helpful insights.
-In this case, simple methods can provide a timeframe for planning a transition 
+the result of the simple calculation shown above (2070) is quite close to
+the result of the detailed analysis (2066).
+
+Indeed, this simple method can yield helpful insights
+when a resource extraction rate is in decline, as coal is today.
+(See Figure~\ref{fig:world_coal_production}.)
+In particular, the simple method can provide an estimate 
+for a timeframe for planning a transition 
 away from nonrenewable resources prior to their depletion.
 
+\end{mcframe}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Emissions}
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch04/world-coal-production-through-2016.png}
+\caption[World coal production.]{World coal production. **** Larisa: Obtain data from BP Statistical Review of World Energy Data. ****}
+\label{fig:world_coal_production}
+\end{figure}
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Emissions}
 \label{sec:energy:emissions}\index{emissions!greenhouse gases}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%++++++++++++++++++++++++++++++
 
 Emissions from fossil fuel
 consumption include greenhouse gases, primarily CO$_2$.
@@ -156,15 +220,42 @@ in addition to CO$_2$)
 warms the Earth and
 disrupts natural climate systems that were in balance for millennia
 before the industrial revolution\index{industrial revolution}.
+Table~\ref{tab:GWP} shows the global warming potential for several 
+greenhouse gases.%
+\footnote{
+Global warming potential\index{global warming potential}
+is ``the total energy added to the climate system by a component 
+in question relative to that added by CO$_2$''~\citep[p.~711]{Myhre:2013aa}.
+}
 To avoid irreversible effects of climate change\index{climate change}, 
-climate scientists say that we should limit global average temperature increase  
-to 1.5 \degC\ or less.
+climate scientists say that 
+global average temperature increase 
+relative to pre-industrial times
+should be limited to 1.5 \degC\ or less.
+
+\begin{table}
+\centering
+\caption{Global warming potential (GWP) of various atmospheric gases~\citep[Table~8.7, p.~714]{Myhre:2013aa}}
+\label{tab:GWP}
+\begin{tabular}{rl}
+\toprule
+          & GWP (100 years) \\
+\midrule
+CO$_2$    & 1               \\
+CH$_4$    & 34              \\
+HCFC-134a & 1550            \\
+CFC-11    & 5350            \\
+N$_2$O    & 298             \\
+CF$_4$    & 7350            \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 Figure~\ref{fig:ghg_sankey} shows 
 the proportions of GHG emissions 
 from several \emph{sources}.
-Applying the source/sink framework to GHGs in the atmosphere,
-we see that GHG emissions from fossil fuel combustion\index{combustion!fossil fuels} 
+In the source/sink framework,
+GHG emissions from fossil fuel combustion\index{combustion!fossil fuels} 
 are a significant source.
 Other sources include agricultural\index{agriculture}
 activity (especially livestock farming\index{livestock}, which  
@@ -189,8 +280,9 @@ gases (CO$_2$ and H$_2$O),
 lightweight solids (particulate matter), and
 heavy solids (ash and heavy metals).
 
-An important sink for GHGs is plants and trees, which absorb CO$_2$
+Another important sink for GHGs is plants and trees, which absorb CO$_2$
 to support their growth.
+(See Chapter~\ref{chap:land_use_and_urban_planning}.)
 However, land use changes (especially deforestation\index{deforestation}) 
 reduce the number of trees, thereby reducing the planet's
 CO$_2$ sequestration\index{sequestration!carbon dioxide} 
