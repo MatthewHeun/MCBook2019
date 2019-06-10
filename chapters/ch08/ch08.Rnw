@@ -21,7 +21,7 @@ Transport service levels are usually quantified in units of
 passenger-km and tonne-km for personal and freight transport, respectively.
 Provision of U.S.\ transportation service by various modes of travel
 is shown in Figures~\ref{fig:passengerkm_by_mode} 
-and~\ref{fig:freight_by_mode}.
+and~\ref{fig:km_freight}.
 
 
 \begin{figure}
