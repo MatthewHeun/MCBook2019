@@ -20,16 +20,16 @@ It runs the food and agricultural system (see Chapter~\ref{chap:food_and_agricul
 provides transportation for people and goods (see Chapter~\ref{chap:transportation}),
 enables habitable homes and buildings in adverse climates (see Chapter~\ref{chap:housing_and_households}), and
 assists construction of urban and rural infrastructure (see Chapter~\ref{chap:land_use_and_urban_planning}).
-In short, energy runs modern economies (see Chapter~\ref{chap:economy}).
+In short, energy runs economies (see Chapter~\ref{chap:economy}).
 
-But humans don't purchase energy for its own sake.
-Rather, humans purchase energy for the services provided
-when energy is consumed in end use devices.
+But energy is not purchased for its own sake.
+Rather, energy is purchased for the services it provides
+when consumed in end use devices.
 Liquid fuels provide transportation when burned in automobiles, trucks, and planes.
 Electicity provides illumination when consumed by electric lights.
-Coal provides heat when burned in a stove.
+Coal provides space heating when burned in a stove.
 
-Energy is quantified in joules, which represent the heat equivalent of energy.
+Energy is quantified in joules, which represent its heat equivalent.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -89,7 +89,7 @@ Deforestation occurs when $\dot{g} < \dot{c}$ due to clearcutting or other unsus
 For nonrenewable energy resources, 
 such as coal, oil, and natural gas, 
 the natural rate of generation is very low
-($\dot{g} \ll \dot{c}$), so
+($\dot{c} \gg \dot{g} \approx 0$), so
 these resources are always being depleted by consumption.
 
 For cost reasons, resources are extracted from the easiest sites first,
@@ -103,7 +103,8 @@ On the other hand,
 technological advances (including new, efficient machines and techniques for resource extraction)
 put downward pressure on extraction costs, 
 even as resources deplete.  
-In the end, extraction costs of nonrenewable energy resources is a race between depletion and technology.
+In the end, the extraction cost of nonrenewable energy resources 
+is a race between depletion and technology.
 
 On the other side of the supply--demand divide, 
 continued demand for a depleting, nonrenewable resource
@@ -121,22 +122,25 @@ as a resource becomes increasingly scarce, because
 the extraction cost will eventually exceed the price that consumers are willing or able to pay.
 The level of $s$ at which production stops is the amount of the resource ``left in the ground.''
 The ultimately recoverable fraction~($r$) of initial resource stock~($s_0$) will be
-determined by the market price and extraction costs.
-It is very likely that society will not extract \emph{all} of any nonrenewable resource;
+determined by the economic dynamics between market price and extraction costs.
+It is very likely that society will not extract \emph{all} 
+of any nonrenewable energy resource;
 the hardest-to-reach deposits will remain in the ground.
 
 If sustainabilty is defined as continuing an activity indefinitely
 (see Chapter~\ref{chap:introduction}), 
-$\dot{c} > 0$ is unsustainable for any nonrenewable resource for which $\dot{c} \gg \dot{g}$.
+$\dot{c} > 0$ is unsustainable for any nonrenewable resource for which $\dot{g} \approx 0$.
 Any consumption of nonrenewable resources is, by definition, unsustainable.
 Thus, ongoing consumption of the nonrenewable resources coal, oil, and natural gas is unsustainable.
 But given that modern society is thoroughly dependent upon those nonrenewable energy resources,
 a reasonable question arises: 
 how long can society maintain its current consumption rates
 of nonsustainable energy resources?
-To answer that question, $s$ must be calculated, implying that $s_0$ must be determined. 
+To answer that question, $s$ must be calculated, implying that $s_0$ must be determined
+at some time $t_0$. 
 Furthermore, extraction costs as a function of $s(t)$ must be predictable, 
 meaning that price and technology forecasts are needed.
+And demand for an increasingly scarce resource must be estimable.
 Predicting the future is a tricky business indeed.
 
 
@@ -220,13 +224,13 @@ in addition to CO$_2$)
 warms the Earth and
 disrupts natural climate systems that were in balance for millennia
 before the industrial revolution\index{industrial revolution}.
-Table~\ref{tab:GWP} shows the global warming potential for several 
-greenhouse gases.%
+Table~\ref{tab:GWP} shows the global warming potential%
 \footnote{
 Global warming potential\index{global warming potential}
 is ``the total energy added to the climate system by a component 
 in question relative to that added by CO$_2$''~\citep[p.~711]{Myhre:2013aa}.
 }
+for several greenhouse gases.
 To avoid irreversible effects of climate change\index{climate change}, 
 climate scientists say that 
 global average temperature increase 
@@ -301,7 +305,7 @@ Thus, deforestation both
 (Afforestation\index{afforestation}, on the other hand, 
 enhances the planet's capacity to remove CO$_2$ from the atmosphere.)
 Taken together, the continuous rise of fossil fuel consumption and the steady pace of deforestation
-have amplified the sources and reduced the sinks of atmospheric GHGs,
+have amplified the sources and diminished the sinks of atmospheric GHGs,
 leading to annual increases in CO$_2$ concentration since measurements began in the late 1950s.
 (See the Keeling curve, Figure~\ref{fig:keeling_curve}~\citep{Delorme:2019aa}.)
 The latest climate science~\citep[Fig.~SPM.1]{IPCC:2018aa} 
@@ -320,7 +324,7 @@ Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
 the largest source of GHG emissions. 
 So it is not a stretch to say that the global economy drives energy demand and 
 serves as the ultimate cause of GHG emissions.
-Figure~\ref{fig:LLNL_sankey} shows the economic sources of energy demand in the U.S.\index{United States}.
+Figure~\ref{fig:LLNL_sankey} shows the economic sources of energy demand in the U.S.\index{United States}
 Transport\index{energy demand!transport sector}
 is largest single source of demand,
 followed by the industrial sector\index{energy demand!industrial sector}, 
@@ -406,7 +410,7 @@ in one or two decades to limit global warming to less than 1.5 \degC{}?
 \label{sec:money_challenge}
 %..............................
 
-An optimistic (and often-criticized) analysis of the requirements
+An optimistic (and much-criticized) analysis of the requirements
 for a fossil-to-renewables 
 (wind, water, and solar, or WWS)\index{wind, water, and solar}
 transition\index{energy transition!to wind, water, and solar}
@@ -450,11 +454,11 @@ but at least two mechanisms are involved:
 That is, energy efficiency--GDP feedback through the wider economy ``takes back'' 
 efficiency-driven reductions in energy consumption (and associated CO$_2$ emissions), 
 a phenomenon known as the ``rebound effect''~\citep{Saunders:2015aa,Brockway:2017a}.\index{rebound effect}
-Taken to an extreme, increases in energy efficiency can lead, 
+In the extreme, increases in energy efficiency can lead, 
 counterintuitively and perversely, 
 to \emph{increased} energy consumption,
 a phenomenon known as ``backfire.''\index{backfire}
-(E.g., increases in steam engine\index{steam engine} 
+(Increases in steam engine\index{steam engine} 
 efficiency led to dramatically increased coal consumption in the UK
 at the dawn of the industrial revolution\index{industrial revolution};
 see \citet[p.~1787]{Sorrell:2010ul}.)
