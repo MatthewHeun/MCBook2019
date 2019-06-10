@@ -6,7 +6,7 @@
 %blankpage
 
 \chapter{Government and Regulations}
-\label{chap:government_and_regulstions}
+\label{chap:government_and_regulations}
 
 
 

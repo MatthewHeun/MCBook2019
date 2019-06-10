@@ -419,6 +419,7 @@ For context, the \$5 trillion annual cost is 7.2~\% of world GDP\index{gross dom
 The money challenge is this: 
 what funding source will provide the necessary monetary resources for a fossil-to-renewables transition
 in the timeframe of a decade or two?\index{energy transition!funding}
+(See Chapter~\ref{chap:government_and_regulations}.)
 
 
 %..............................
