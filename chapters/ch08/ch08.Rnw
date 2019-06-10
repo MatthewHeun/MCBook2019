@@ -27,15 +27,15 @@ and~\ref{fig:freight_by_mode}.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch08/passengerkm_by_mode.pdf}
-\caption[Personal transport by mode.]{Passenger-km of personal transport by mode.}
+\caption[Personal transport by mode.]{Passenger-km of personal transport by mode~\citep[Fig.~1]{passenger_km}.}
 \label{fig:passengerkm_by_mode}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch08/Total_US_tonne-kilometers_of_freight.pdf}
-\caption[Freight by mode.]{Tonne-kilometers of freight by transport mode.}
-\label{fig:freight_by_mode}
+\caption[Freight by mode.]{Tonne-kilometers of freight by transport mode~\citep[Fig.~1]{km_freight}.}
+\label{fig:km_freight}
 \end{figure}
 
 
@@ -62,8 +62,8 @@ Passenger cars are the greatest single cause of CO$_2$ emissions from transporta
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{chapters/ch08/CO2_and_GHG_Emissions_by_Mode.pdf}
-\caption[Emissions by transport mode.]{CO$_2$ emissions by transportation mode. **** Need referece from Larisa. Redraw graph from data? Also, is this for the U.S. or world? ****}
+\includegraphics[width=1\linewidth]{chapters/ch08/co2_emissions_by_transportation_mode.pdf}
+\caption[Emissions by transport mode.]{CO$_2$ emissions by transportation mode~\citep[Fig.~1]{bts_ghg_emissions}. **** I added the reference, if you want to use RStudio and redo the graph. The data is from the US. ****}
 \label{fig:transport_GHG_emissions}
 \end{figure}
 
@@ -90,7 +90,7 @@ Figure~\ref{fig:commuting_by_mode} shows the share of commuting distance by mode
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch08/US_Transportation_to_Work.pdf}
-\caption[Commuting by mode.]{Share of commuting distance by mode.}
+\caption[Commuting by mode.]{Share of commuting distance by mode~\citep[Table~8.14]{energy_databook}.}
 \label{fig:commuting_by_mode}
 \end{figure}
 
@@ -148,7 +148,7 @@ or 16~\% higher than the current value of 24~miles/gallon.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch08/MPGByModelYear_1975-2017.pdf}
-\caption[U.S.\ fuel economy.]{U.S.\ Fuel economy by year and vehicle type. **** Need reference. Need data. Need to redraw graph. ****}
+\caption[U.S.\ fuel economy.]{U.S.\ Fuel economy by year and vehicle type~\citep[Fig.~1]{mpg}.}
 \label{fig:US_mpg}
 \end{figure}
 
@@ -191,7 +191,7 @@ the largest portion is the last mile.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch08/Last-mile_Delivery.pdf}
-\caption[Percentages of delivery cost.]{Percentage of delivery cost by part of journey.}
+\caption[Percentages of delivery cost.]{Percentage of delivery cost by part of journey~\citep[Fig.~1]{business_insider}.}
 \label{fig:last_mile}
 \end{figure}
 
@@ -240,7 +240,7 @@ across several harvest years of the biofuel crop~\citep{Whitaker_2017}.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch08/biofuel_consumption.pdf}
-\caption[Biofuel consumption 1985-2017]{Biofuel consumption in the US 1985-2017.}
+\caption[Biofuel consumption 1985-2017]{Biofuel consumption in the US 1985-2017~\citep[Table~10.1]{eia_nov2018}.}
 \label{fig:biofuel_consumption}
 \end{figure}
 
