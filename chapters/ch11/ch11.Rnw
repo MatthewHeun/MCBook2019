@@ -6,6 +6,16 @@
 \chapter{Government and Regulations}
 \label{chap:government_and_regulstions}
 
+%Figure~\ref{fig:vehicle_miles} shows the imapct of a regulation given out 1968 (?) ~\citep[Fig.~1]{personal_transportation}.
+
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.75\linewidth]{chapters/ch11/Vehicle-Miles_of_Travel_and_Fuel_Use_by_Personal_Vehicles_1965–2014.pdf}
+%\caption[Vehicle miles of travel and fuel use by personal vehicles.]{Vehicle miles of travel and fuel use by personal vehicles~\citep[Fig.~1]{personal_transportation}.}
+%\label{fig:vehicle_miles}
+%\end{figure}
+
+
 
 
 \cleardoublepage
