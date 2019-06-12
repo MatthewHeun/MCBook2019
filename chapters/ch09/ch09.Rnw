@@ -35,15 +35,25 @@ Figure~\ref{fig:person_household} shows the percentage of single-person househol
 \label{fig:person_household}
 \end{figure}
 
-Figure~\ref{fig:water_usage} shows how water is distributed in a household~\citep[Fig.~1]{epa_water}.
+Figure~\ref{fig:water_usage} shows how water is distributed in a household~\citep[Fig.~1]{water_research_foundation
+}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch09/EPA_housold_usage.pdf}
-\caption[Indoor household use of water.]{Indoor household use of water~\citep[Fig.~1]{epa_water}.}
+\caption[Indoor household use of water.]{Indoor household use of water~\citep[Fig.~1]{water_research_foundation
+}.}
 \label{fig:water_usage}
 \end{figure}
 
+%This is the same figure, but I created it in R-studio.
+
+%\begin{figure}
+%\centering
+%\includegraphics[width=.75\linewidth]{chapters/ch09/cropped_hosuehold_water_use.pdf}
+%\caption[Indoor household use of water, R-graph.]{Indoor household use of water.}
+%\label{fig:cropped_hosuehold_water_use}
+%\end{figure}
 
 \cleardoublepage
 

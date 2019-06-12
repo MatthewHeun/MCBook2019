@@ -61,6 +61,7 @@ with a focus on fossil fuel resource depletion and greenhouse gas (GHG) emission
 Depletion of nonrenewable natural resources is a complex processes,
 involving natural phenomena, human wants and needs, and technology.
 A calculus-based model can be used to describe depletion processes succinctly.
+**** Refer to the rates and levels equation in Chapter~\ref{chap:introduction}? ****
 All resources have a generation rate~($\dot{g}$)\index{resources!generation rate}, 
 which is the speed with which the resource is re-created by natural or human processes.
 Natural resources can be consumed at a rate~($\dot{c}$)\index{resources!consumption rate},
@@ -85,7 +86,7 @@ For biomass,
 the relationship between $\dot{g}$ and $\dot{c}$ depends on local growing conditions and harvesting rates.
 Afforestation entails sustainable management of a forest such that 
 $\dot{g} > \dot{c}$. 
-Deforestation occurs when $\dot{g} < \dot{c}$ due to clearcutting or other unsustainable practices.
+Deforestation occurs when $\dot{g} < \dot{c}$.
 For nonrenewable energy resources, 
 such as coal, oil, and natural gas, 
 the natural rate of generation is very low
@@ -525,6 +526,16 @@ thereby increasing energy consumption and GHG emissions?
       Is the spending commensurate with the investment needed for a complete transition
       in the timeframe available before reaching 1.5 \degC\ climate warming?
 
+\item The source of money for a WWS transition was discussed the chapter.
+      But the source of energy for a fossil-to-renewables transition must also be considered.
+      What will be the source of the energy to develop and emplace renewable energy systems
+      on a worldwide scale? 
+      Depending on the speed of a fossil-to-energy transition
+      the renewable energy sector might not serve as a net energy provider for a time!
+      Read \citet{Dale:2013aa} and provide an assessment of whether the solar PV industry
+      is a net energy provider or a net energy consumer today.
+      What are the sustainability implications of your findings?
+      
 \end{problems}
 
 
