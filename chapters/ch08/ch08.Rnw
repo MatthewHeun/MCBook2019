@@ -290,6 +290,29 @@ because of higher electricity-related emissions.
 miss key differences associated with the production of different vehicle types and 
 could lead to misguided comparisons across technologies.''
 
+%<<Biofuel_consumption>>=
+%data_string <- "Year	Biofuels (Trillion Btu)\n1985 93\n1990  111\n1995 200\n2000 236\n2001 253\n2002 303\n2003 403\n2004 498\n2005 574\n2006 766\n2007 983\n2008 1357\n2009 1553\n2010 1821\n2011 1933\n2012	1892\n2013 2007\n2014	2067\n2015 2145\n2016 2279\n2017 2302"
+%read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE) %>%
+  
+
+
+
+@
+
+
+<<Biofuel_cons>>=
+data_string <- "Year	Biofuels (Trillion Btu)\n1985	93\n1990	111\n1995	200\n2000	236\n2001	253\n2002	303\n2003	403\n2004	498\n2005	574\n2006	766\n2007	983\n2008	1357\n2009	1553\n2010	1821\n2011	1933\n2012	1892\n2013	2007\n2014	2067\n2015	2145\n2016	2279\n2017	2302"
+
+read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE) %>%
+
+
+@
+
+
+
+
+
+
 <<auto_gwp, fig.scap = "Automobile impacts.", fig.cap = "Environmental impacts of three different automobiles. Data from~\\citet[Fig.~1]{Hawkins_2012}. GWP is global warming potential; MRD is mineral resource depletion; ICE is internal combustion engine; EV is electric vehicle; Euro indicates the European electricity mix; use phase excludes fuels.", fig.height = 3.5, echo = FALSE>>=
 
 # Add the data from file jiec532-sup-0001-S1.pdf, supplemental information for the Hawkins paper.
