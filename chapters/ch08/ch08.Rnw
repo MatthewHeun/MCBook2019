@@ -247,13 +247,19 @@ can be carbon negative, because
 GHG emissions\index{emissions!greenhouse gases}
 from energy consumed for land preparation and planting can be allocated
 across several harvest years of the biofuel crop~\citep{Whitaker_2017}.
+Biofuel consumption in the U.S.\ is shown in Figure~\ref{fig:Biofuel_cons}.
 
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch08/biofuel_consumption.pdf}
-\caption[Biofuel consumption 1985-2017]{Biofuel consumption in the US 1985-2017~\citep[Table~10.1]{eia_nov2018}.}
-\label{fig:biofuel_consumption}
-\end{figure}
+<<Biofuel_cons, fig.scap = "U.S. biofuel consumption.", fig.cap = "Biofuel consumption in the U.S., 1985--2017~\\citep[Table~10.1]{eia_nov2018}.", fig.width = 5, fig.height = 3, echo = FALSE>>=
+# Data from Table 10.1 in DOE/EIA‐0035(2018/11).
+# See https://www.eia.gov/totalenergy/data/monthly/archive/00351811.pdf
+data_string <- "Year	Biofuels [Trillion BTU]\n1985	93\n1990	111\n1995	200\n2000	236\n2001	253\n2002	303\n2003	403\n2004	498\n2005	574\n2006	766\n2007	983\n2008	1357\n2009	1553\n2010	1821\n2011	1933\n2012	1892\n2013	2007\n2014	2067\n2015	2145\n2016	2279\n2017	2302\n"
+read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>%
+  ggplot(mapping = aes(x = Year, y = `Biofuels [Trillion BTU]`)) +
+  geom_line() + 
+  labs(x = element_blank(), y = expression("U.S. biofuel consumption [" * 10^12 * " BTU]")) +
+  scale_x_continuous(breaks = c(1985, 1990, 2000, 2010, 2017)) +
+  MKHthemes::xy_theme()
+@
 
 
 %..............................
@@ -292,21 +298,13 @@ because of higher electricity-related emissions.
 miss key differences associated with the production of different vehicle types and
 could lead to misguided comparisons across technologies.''
 
-<<Biofuel_cons>>=
-data_string <- "Year	Biofuels (Trillion Btu)\n1985	93\n1990	111\n1995	200\n2000	236\n2001	253\n2002	303\n2003	403\n2004	498\n2005	574\n2006	766\n2007	983\n2008	1357\n2009	1553\n2010	1821\n2011	1933\n2012	1892\n2013	2007\n2014	2067\n2015	2145\n2016	2279\n2017	2302"
-
-read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE)
-
-
-@
-
 
 <<auto_gwp, fig.scap = "Automobile impacts.", fig.cap = "Environmental impacts of three different automobiles. Data from~\\citet[Fig.~1]{Hawkins_2012}. GWP is global warming potential; MRD is mineral resource depletion; ICE is internal combustion engine; EV is electric vehicle; Euro indicates the European electricity mix; use phase excludes fuels.", fig.height = 3.5, echo = FALSE>>=
 
 # Add the data from file jiec532-sup-0001-S1.pdf, supplemental information for the Hawkins paper.
 data_string <- "Impact	Life cycle component	Li-NCM Euro	Li-NCM Coal	ICEV Gasoline\nGWP	Base vehicle	0.11	0.11	0.11\nGWP	Engine	0.02	0.02	0.01\nGWP	Other powertrain	0.05	0.05	0.02\nGWP	Battery	0.1	0.1	0\nGWP	Use phase	0.02	0.02	0.03\nGWP	Fuel/electricity	0.31	0.68	0.65\nGWP	End of life	0.01	0.01	0.01\nMRD	Base vehicle	0.22	0.22	0.22\nMRD	Engine	0.16	0.16	0.02\nMRD	Other powertrain	0.27	0.27	0.05\nMRD	Battery	0.26	0.26	0\nMRD	Use phase	0.05	0.05	0.03\nMRD	Fuel/electricity	0.05	0.05	0.01\nMRD	End of life	0	0	0"
 
-# Assign some variables to avoid
+# Assign some variables to avoid warnings.
 read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE) %>%
   tidyr::gather(key = "car_type", value = "normalized_impact", "Li.NCM.Euro", "Li.NCM.Coal", "ICEV.Gasoline") %>%
   dplyr::mutate(
