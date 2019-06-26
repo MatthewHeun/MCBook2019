@@ -6,13 +6,57 @@
 %blankpage
 
 
-
+%#############################################################
 \chapter{Food and Agriculture}
 \label{chap:food_and_agriculture}
+%#############################################################
 
-Sustainability\index{sustainability!difficulty}
-is a difficult concept.
+Figure~\ref{fig:material_flow} illustrates how many resources are poured into the production of food~\citep[Fig.~1]{Heller_2000}.
 
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Material_Flow_in_the_US_Food_System(1995_Flows_in_Million_Pounds).pdf}
+\caption[Material flow in the US food system (1995, flows in million pounds.)]{Material flow in the US food system (1995, flows in million pounds)~\citep[Fig.~1]{Heller_2000}.}
+\label{fig:material_flow}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Food and agriculture sustainability challenges}
+\label{sec:food_sustainability_challenges}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Energy return ratios}
+\label{sec:food_energy_return_ratios}
+%++++++++++++++++++++++++++++++
+
+Figure~\ref{fig:Energy_Flow} shows the energy consumed in various fields, including the available food energy~\citep[Fig.~2]{Heller_2000}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Energy_flow_food_systems.pdf}
+\caption[Energy Flow in the US.]{Percentages of energy consumed in different industries~\citep[Fig.~2]{Heller_2000}.}
+\label{fig:Energy_Flow}
+\end{figure}
+
+
+
+%++++++++++++++++++++++++++++++
+\subsection{CO$_2$ emissions}
+\label{sec:food_CO2_emissions}
+%++++++++++++++++++++++++++++++
+
+Figure~\ref{fig:pounds_serving} shows how much carbon dioxide is released from one pound of food~\citep[Fig.~2]{Heller_2014}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Pounds_of_CO2_per_serving.pdf}
+\caption[Pounds of CO$_2$ per serving.]{Carbon dioxide (CO$_2$) eequivalent emissions per serving of various foods~\citep[Fig.~2]{Heller_2014}.}
+\label{fig:pounds_serving}
+\end{figure}
 
 Figure~\ref{fig:GHG_food} shows proportions of greenhouse gas~(GHG)
 emissions from food consumption~\citep[Fig.~2]{Heller_2014}.
@@ -26,6 +70,41 @@ by consuming food that is closer to the base of the food chain.
 \caption[GHG emissions from food.]{Percentages of greenhouse gas emissions from food~\citep[Fig.~2]{Heller_2014}.}
 \label{fig:GHG_food}
 \end{figure}
+
+
+A convenient calculator for food emissions can be found at \url{http://www.foodemissions.com}.
+
+
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Justice}
+\label{sec:food_justice}
+%++++++++++++++++++++++++++++++
+
+Figure~\ref{fig:Frac_population} shows the percentages of population around the world that are undernourisched.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch07/Fraction_of_population_undernourished_2015.pdf}
+\caption[Fraction of population undernourished 2015.]{Percentages of population undernourished in all countries 2015.}
+\label{fig:Frac_population}
+\end{figure}
+
+
+Food deserts.
+
+**** Add figure about food deserts here. ****
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Food and agriculture transitions}
+\label{sec:food_transitions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 
 
 
@@ -81,43 +160,28 @@ ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categ
   theme(plot.margin = unit(c(0,0,0,0),"mm"))
 @
 
-Figure~\ref{fig:Energy_Flow} shows the energy consumed in various fields, including the available food energy~\citep[Fig.~2]{Heller_2000}.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/Energy_flow_food_systems.pdf}
-\caption[Energy Flow in the US.]{Percentages of energy consumed in different industries~\citep[Fig.~2]{Heller_2000}.}
-\label{fig:Energy_Flow}
-\end{figure}
-
-Figure~\ref{fig:Frac_population} shows the percentages of population around the world that are undernourisched.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/Fraction_of_population_undernourished_2015.pdf}
-\caption[Fraction of population undernourished 2015.]{Percentages of population undernourished in all countries 2015.}
-\label{fig:Frac_population}
-\end{figure}
-
-Figure~\ref{fig:pounds_serving} shows how much carbopn dioxide is released from one pound of food~\citep[Fig.~2]{Heller_2014}.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/Pounds_of_CO2_per_serving.pdf}
-\caption[Pounds of CO2 per serving.]{Pounds of carbon diaoxide CO2 per serving~\citep[Fig.~2]{Heller_2014}.}
-\label{fig:pounds_serving}
-\end{figure}
-
-Figure~\ref{fig:material_flow} illustrates how many resources are poured into the production of food~\citep[Fig.~1]{Heller_2000}.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/Material_Flow_in_the_US_Food_System(1995_Flows_in_Million_Pounds).pdf}
-\caption[Material flow in the US food system (1995, flows in million pounds.)]{Material flow in the US food system (1995, flows in million pounds)~\citep[Fig.~1]{Heller_2000}.}
-\label{fig:material_flow}
-\end{figure}
 
 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Questions}\index{questions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problems}
+
+\item Use a greenhouse gas emissions calculator to estimate your personal greenhouse gas~(GHG) emissions
+      due to your dietary choices. 
+      Guided by the figures and advice in this chapter, 
+      develop an alternative diet and estimate its greenhouse gas emissions.
+      What amount of GHG emissions reductions can you obtain by changing your diet?
+
+\item 
+
+\end{problems}
 
 
 \cleardoublepage
