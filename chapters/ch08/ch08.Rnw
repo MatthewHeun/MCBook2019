@@ -374,7 +374,7 @@ the largest portion is the last mile.
 \end{figure}
 
 
-<<Last_mile, echo =FALSE, fig.cap = "Last mile costs.", fig.scap = "Percentages of delivery costs." fig.wodth =5, fig.height = 2.5>>=
+<<Last_mile, echo = FALSE, fig.cap = "Last mile costs.", fig.scap = "Percentages of delivery costs.", fig.width = 5, fig.height = 2.5>>=
 last_mile <- NULL
 percentages <- NULL
 label_ypos <- NULL
