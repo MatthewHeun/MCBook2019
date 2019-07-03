@@ -17,7 +17,7 @@ Figure~\ref{fig:average_footage} displays the average square footage of new sing
 \label{fig:average_footage}
 \end{figure}
 
-<<Average_energy, echo=False, fig.cap="Average residential consumption.", fig.scap="Percentages of energy consumption.", fig.width=5, fig.height=2.5>>=
+<<Average_energy, echo=FALSE, fig.cap="Average residential consumption.", fig.scap="Percentages of energy consumption.", fig.width=5, fig.height=2.5>>=
 domain_percentage <- NULL
 percentages <- NULL
 label_ypos <- NULL
