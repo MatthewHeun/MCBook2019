@@ -17,6 +17,37 @@ Figure~\ref{fig:average_footage} displays the average square footage of new sing
 \label{fig:average_footage}
 \end{figure}
 
+<<Average_energy, echo=False, fig.cap="Average residential consumption.", fig.scap="Percentages of energy consumption.", fig.width=5, fig.height=2.5>>=
+domain_percentage <- NULL
+percentages <- NULL
+label_ypos <- NULL
+ang <- NULL
+dom_consumption <- c("Lighting", "Refrigeration", "Televisions", "Clothes Dryers", "Cooking", "Furnace Fans", "Personal Computers", "Dishwashers", "Freezers", "Clothes Washers", "Other Uses", "Space Heating", "Water Heating", "Space Cooling")
+Avg_Consmp <- data.frame(domain_percentage = dom_consumption,
+                         percentages = c(6.6, 5.1, 4.2, 3.1, 2.8, 1.6, 1.6, 1.4, 1.1, 0.4, 23.5, 24, 13.6, 11),
+                         ang = c( 0,0,0,-35, -35, -35, -30, -35, -35, -20, 0, 0, 0, 0)) %>%
+  dplyr::mutate(
+    domain_percentage = factor(domain_percentage, levels = dom_consumption),
+    label_ypos = 100 - (cumsum(percentages) - percentages/2))
+
+Avg_Consmp %>%
+  ggplot(mapping = aes(x = "", y = percentages, fill = domain_percentage)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar("y", start = 0, direction = -1) +
+  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
+  labs(x = "", y = "", fill = "") +
+  MKHthemes::xy_theme() +
+  theme(axis.text.x = element_blank()) +
+  theme(axis.text.y = element_blank()) +
+  theme(axis.ticks = element_blank()) +
+  theme(panel.border = element_blank()) +
+  theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) +
+  theme(legend.key.size = unit(0.3, "cm")) +
+  theme(plot.margin = unit(c(0,0,0,0),"mm"))
+
+@
+
+
 Figure~\ref{fig:average_energy} shows how the energy is consumed within a residential home~\citep[Fig.~3]{EIA_2018}.
 
 \begin{figure}
