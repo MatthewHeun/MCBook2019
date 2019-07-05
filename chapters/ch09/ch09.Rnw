@@ -75,6 +75,40 @@ Figure~\ref{fig:water_usage} shows how water is distributed in a household~\cite
 \label{fig:water_usage}
 \end{figure}
 
+<<Indoor_use, echo=FALSE, fig.cap = "Indoor household use of water in the US.", fig.scap = "Percentages of water use.", fig.width = 5, fig.height = 2.5 >>=
+
+indoor_use <- NULL
+percentages <- NULL
+label_ypos <- NULL
+ang <- NULL
+use_of_water <-c("Toilet", "Shower", "Faucet", "Clothes washer", "Leak", "Other", "Bath", "Dishwasher")
+
+Indoor_Water <-data.frame(indoor_use = use_of_water,
+                          percentages = c(24, 20, 19, 17, 12, 4, 3, 1),
+                          ang = c(0, 0, 0, -30, -35, -35, -40, -40)) %>%
+  dplyr::mutate(
+    indoor_use = factor(indoor_use, levels=use_of_water),
+    label_ypos = 100 - (cumsum(percentages) - percentages/2))
+
+Indoor_Water %>%
+  ggplot(mapping = aes(x = "", y = percentages, fill = indoor_use)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar("y", start = 0, direction = -1) +
+  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
+  labs(x = "", y = "", fill = "") +
+  MKHthemes::xy_theme() +
+  theme(axis.text.x = element_blank()) +
+  theme(axis.text.y = element_blank()) +
+  theme(axis.ticks = element_blank()) +
+  theme(panel.border = element_blank()) +
+  theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) +
+  theme(legend.key.size = unit(0.3, "cm")) +
+  theme(plot.margin = unit(c(0,0,0,0),"mm"))
+
+
+@
+
+
 %This is the same figure, but I created it in R-studio.
 
 %\begin{figure}
