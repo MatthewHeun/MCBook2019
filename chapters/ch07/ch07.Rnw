@@ -95,30 +95,17 @@ Figure~\ref{fig:Frac_population} shows the percentages of population around the 
 
 library(rworldmap)
 
-theCountries <- c("AND", "AEE", "AFG", "ATG", "AIA", "ALB", "ARM", "AGO", "ATA", "ARG", "ASM", "AUT", "AUS", "ABW", "ALA", "AZE", "BIH", "BRB", "BGD", "BEL", "BFA", "BGR", "BHR", "BDI", "BEN", "BLM", "BMU", "BRN", "BOL", "BRA", "BHS", "BTN", "BVT", "BWA", "BLR", "BLZ", "CAN", "CCK", "COD", "CAF", "COG", "CHE", "CIV", "COK", "CHL", "CMR", "CHN", "COL", "CRI", "CUB", "CPV", "CUW", "CXR", "CYP", "CZE", "DEU", "DJI", "DNK", "DMA", "DOM", "DZA", "ECU", "EST", "EGY", "ESH", "ERI", "ESP", "ETH", "FIN", "FJI", "FLK", "FSM", "FRO", "FRA", "GAB", "GBR", "GRD", "GEO", "GUF", "GGY", "GHA", "GIB", "GRL", "GMB", "GIN", "GLP", "GNQ", "GRC", "SGS", "GTM", "GUM", "GNB", "GUY", "HKG", "HMD", "HND", "HRV", "HTI", "HUN", "IDN", "IRL", "ISR", "IMN", "IND", "IOT", "IRQ", "IRN", "ISL", "ITA", "JEY", "JAM", "JOR", "JPN", "KEN", "KGZ", "KHM", "KIR", "COM", "KNA", "PKR", "KOR", "KWT", "CYM", "KAZ", "LAO", "LBN", "LCA", "LIE", "LKA", "LBR", "LSO", "LTU", "LUX", "LVA", "LBY", "MAR", "MCO", "MDA", "MNE", "MAF", "MDG", "MHL", "MKD", "MLI", "MMR", "MNG", "MAC", "MNP", "MTQ", "MRT", "MSR", "MLT", "MUS", "MDV", "MWI", "MEX", "MYS", "MOZ", "NAM", "NCL", "NER", "NFK", "NGA", "NIC", "NLD", "NOR", "NPL", "NRU", "NIU", "NZL", "OMN", "PAN", "PER", "PYF", "PNG", "PHL", "PAK", "POL", "SPM", "PCN", "PRI", "PSE", "PRT", "PLW", "PRY", "QAT", "REU", "ROU", "SRB", "RUS", "RWA", "SAU", "SLB", "SYC", "SDN", "SWE", "SGP", "SHN", "SVN", "SJM", "SVK", "SLE", "SMR", "SEN", "SOM", "SUR", "SSD", "STP", "SLV", "SXM", "SYR", "SWZ", "TCA", "TCD", "ATF", "TOG", "THA", "TJK", "TKL", "TLS", "TKM", "TUN", "TON", "TUR", "TTO", "TUV", "TWN", "TZA", "UKR", "UGA", "UMI", "USA", "URY", "UZB", "VAT", "VCT", "VEN", "VGB", "VIR", "VNM", "VUT", "WLF", "WSM", "YEM", "MYT", "ZAF", "ZMB", "ZWE")
-# These are the ISO3 names of the countries you'd like to plot in red
-
-
-mapCountryData(malMap, nameColumnToPlot="Fraction of population undernourished", catMethod = "categorical",
-  missingCountryCol = gray(.8))
-# And this will plot it, with the trick that the color palette's first
-# color is red
-
 ## Create multiple color codes, with Burkina Faso in its own group
 malDF <- data.frame(country = c("AND", "AEE", "AFG", "ATG", "AIA", "ALB", "ARM", "AGO", "ATA", "ARG", "ASM", "AUT", "AUS", "ABW", "ALA", "AZE", "BIH", "BRB", "BGD", "BEL", "BFA", "BGR", "BHR", "BDI", "BEN", "BLM", "BMU", "BRN", "BOL", "BRA", "BHS", "BTN", "BVT", "BWA", "BLR", "BLZ", "CAN", "CCK", "COD", "CAF", "COG", "CHE", "CIV", "COK", "CHL", "CMR", "CHN", "COL", "CRI", "CUB", "CPV", "CUW", "CXR", "CYP", "CZE", "DEU", "DJI", "DNK", "DMA", "DOM", "DZA", "ECU", "EST", "EGY", "ESH", "ERI", "ESP", "ETH", "FIN", "FJI", "FLK", "FSM", "FRO", "FRA", "GAB", "GBR", "GRD", "GEO", "GUF", "GGY", "GHA", "GIB", "GRL", "GMB", "GIN", "GLP", "GNQ", "GRC", "SGS", "GTM", "GUM", "GNB", "GUY", "HKG", "HMD", "HND", "HRV", "HTI", "HUN", "IDN", "IRL", "ISR", "IMN", "IND", "IOT", "IRQ", "IRN", "ISL", "ITA", "JEY", "JAM", "JOR", "JPN", "KEN", "KGZ", "KHM", "KIR", "COM", "KNA", "PKR", "KOR", "KWT", "CYM", "KAZ", "LAO", "LBN", "LCA", "LIE", "LKA", "LBR", "LSO", "LTU", "LUX", "LVA", "LBY", "MAR", "MCO", "MDA", "MNE", "MAF", "MDG", "MHL", "MKD", "MLI", "MMR", "MNG", "MAC", "MNP", "MTQ", "MRT", "MSR", "MLT", "MUS", "MDV", "MWI", "MEX", "MYS", "MOZ", "NAM", "NCL", "NER", "NFK", "NGA", "NIC", "NLD", "NOR", "NPL", "NRU", "NIU", "NZL", "OMN", "PAN", "PER", "PYF", "PNG", "PHL", "PAK", "POL", "SPM", "PCN", "PRI", "PSE", "PRT", "PLW", "PRY", "QAT", "REU", "ROU", "SRB", "RUS", "RWA", "SAU", "SLB", "SYC", "SDN", "SWE", "SGP", "SHN", "SVN", "SJM", "SVK", "SLE", "SMR", "SEN", "SOM", "SUR", "SSD", "STP", "SLV", "SXM", "SYR", "SWZ", "TCA", "TCD", "ATF", "TOG", "THA", "TJK", "TKL", "TLS", "TKM", "TUN", "TON", "TUR", "TTO", "TUV", "TWN", "TZA", "UKR", "UGA", "UMI", "USA", "URY", "UZB", "VAT", "VCT", "VEN", "VGB", "VIR", "VNM", "VUT", "WLF", "WSM", "YEM", "MYT", "ZAF", "ZMB", "ZWE"),
-  malaria = c(1, 2, 4, 6, 6, 1, 1, 2, 6, 1, 6, 1, 1, 6, 6, 1, 1, 6, 3, 1, 3, 1, 1, 5, 2, 6, 6, 2, 3, 1, 6, 6, 6, 3, 1, 2, 1, 6, 6, 5, 4, 1, 2, 6, 1, 2, 2, 2, 1, 1, 1, 1, 6, 1, 1, 1, 1, 1, 6, 2, 1, 2, 1, 1, 6, 1, 1, 4, 1, 1, 6, 6, 1, 1, 1, 1, 6, 1, 6, 1, 1, 1, 1, 2, 3, 6, 2, 1, 6, 3, 6, 3, 2, 2, 6, 2, 1, 5, 1, 2, 1, 1, 1, 3, 6, 3, 1, 1, 1, 1, 2, 1, 1, 3, 4, 2, 6, 6, 6, 5, 1, 6, 6, 1, 3, 1, 6, 1, 3, 4, 3, 1, 1, 1, 6, 1, 1, 1, 1, 6, 4, 6, 1, 1, 3, 3, 2, 6, 6, 2, 6, 1, 6, 6, 5, 1, 1, 4, 5, 6, 2, 6, 2, 3, 1, 1, 2, 6, 6, 1, 1, 2, 2, 6, 6, 2, 3, 1, 6, 6, 4, 6, 1, 6, 2, 1, 6, 1, 1, 1, 5, 1, 6, 6, 6, 1, 1, 6, 1, 6, 1, 3, 6, 3, 6, 2, 6, 6, 2, 6, 6, 2, 4, 6, 4, 6, 2, 2, 4, 6, 6, 1, 1, 6, 1, 6, 6, 2, 4, 1, 4, 6, 1, 1, 1, 1, 1, 1, 1, 1, 2, 6, 6, 6, 4, 6, 1, 5, 4))
+  `Fraction of population undernourished` = c(1, 2, 4, 6, 6, 1, 1, 2, 6, 1, 6, 1, 1, 6, 6, 1, 1, 6, 3, 1, 3, 1, 1, 5, 2, 6, 6, 2, 3, 1, 6, 6, 6, 3, 1, 2, 1, 6, 6, 5, 4, 1, 2, 6, 1, 2, 2, 2, 1, 1, 1, 1, 6, 1, 1, 1, 1, 1, 6, 2, 1, 2, 1, 1, 6, 1, 1, 4, 1, 1, 6, 6, 1, 1, 1, 1, 6, 1, 6, 1, 1, 1, 1, 2, 3, 6, 2, 1, 6, 3, 6, 3, 2, 2, 6, 2, 1, 5, 1, 2, 1, 1, 1, 3, 6, 3, 1, 1, 1, 1, 2, 1, 1, 3, 2, 2, 6, 6, 6, 5, 1, 6, 6, 1, 3, 1, 6, 1, 3, 4, 3, 1, 1, 1, 6, 1, 1, 1, 1, 6, 4, 6, 1, 1, 2, 3, 2, 6, 6, 2, 6, 1, 6, 6, 5, 1, 1, 4, 5, 6, 2, 6, 2, 3, 1, 1, 2, 6, 6, 1, 1, 2, 2, 6, 6, 2, 3, 1, 6, 6, 4, 6, 1, 6, 2, 1, 6, 1, 1, 1, 5, 1, 6, 6, 6, 1, 1, 6, 1, 6, 1, 3, 6, 3, 6, 2, 6, 6, 2, 6, 6, 4, 6, 4, 6, 2, 2, 4, 6, 6, 1, 1, 6, 1, 6, 6, 2, 4, 1, 4, 6, 1, 1, 1, 1, 1, 1, 1, 1, 2, 6, 6, 6, 4, 6, 1, 5, 4), check.names = FALSE)
 
 ## Re-merge
 malMap <- joinCountryData2Map(malDF, joinCode = "ISO3",
   nameJoinColumn = "country")
 
 ## Specify the colourPalette argument
-mapCountryData(malMap, nameColumnToPlot="malaria", catMethod = "categorical",
-  missingCountryCol = gray(.8), colourPalette = c("darkseagreen2", "pink", "pink2", "indianred3", "indianred4", "gray80"))
-
-
-
-
+mapCountryData(malMap, nameColumnToPlot="Fraction of population undernourished", catMethod = "quantitative",
+  missingCountryCol = gray(.8), colourPalette = c("darkseagreen1", "mistyrose", "rosybrown2", "indianred3", "indianred4", "gray80"))
 
 @
 
