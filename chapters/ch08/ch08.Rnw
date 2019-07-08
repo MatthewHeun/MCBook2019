@@ -83,17 +83,26 @@ data_string <-
 
 read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
   dplyr::mutate(
-    `TOTAL U.S. tonne-kilometers of freight` = NULL
-  ) %>% View
+    # We don't want to have an area for the total
+    `TOTAL U.S. tonne-kilometers of freight` = NULL, 
+    # We will have an area for domestic water, but not for the subcategories.
+    Coastwise = NULL,
+    Lakewise = NULL,
+    Internal = NULL, 
+    Intraport = NULL
+  ) %>% 
+  dplyr::rename(
+    Water = `Domestic water transportation`
+  ) %>% 
   
-  tidyr::gather(key = "type", value = "value", "TOTAL U.S. tonne-kilometers of freight", 
-                "Air", "Truck", "Railroad", "Domestic water transportation", 
-                "Coastwise", "Lakewise", "Internal", "Intraport", "Pipeline") %>% 
+  tidyr::gather(key = "type", value = "value", 
+                "Air", "Truck", "Railroad", "Water", "Pipeline") %>% 
   
-  ggplot(mapping = aes(x = Year, y = value, fill = type))+
-  geom_area()+
-  labs(x=element_blank(), y = expression("Tonne-kilometers of freight by transportation mode"))+
-  scale_x_continuous(breaks = c(1980, 1990, 2000, 2010, 2016))+
+  ggplot(mapping = aes(x = Year, y = value, fill = type)) +
+  geom_area() +
+  labs(x=element_blank(), y = expression("Freight transport [tonne-km]")) +
+  scale_x_continuous(breaks = c(1980, 1990, 2000, 2010, 2016)) +
+  labs(fill = element_blank()) +
   MKHthemes::xy_theme()
 
 @
