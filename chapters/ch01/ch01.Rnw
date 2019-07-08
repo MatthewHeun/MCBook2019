@@ -46,6 +46,33 @@ lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" o
 \caption{Three areas of sustainability.}
 \label{ch01.3pillars}
 \end{figure}
+
+<<>>=
+
+add_circ <- function(.plot, r, xc, yc, n_segs = 100){
+  .plot +
+    annotate("path",
+             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))
+}
+
+ggplot() %>%
+  #Adding circles
+  add_circ(r=1, xc = 0.6667, yc = 0) %>% #Human and society
+  add_circ(r=2.5, xc = 1, yc = .5) %>% # Ecosystem services
+  add_circ(r=4, xc = 3, yc = .5) %>% #The natural world
+  add_circ(r= 5, xc = 3, yc = .75)+ #Human-created artifacts
+  annotate(geom = "text", x = 1, y = -0.5, label="Human life and society", family="Libre Caslon Text", size = 3.5 )+
+  annotate(geom="text", x = 1, y = 1, label = "Ecosystem services needed to support human life and society", family = "Libre Caslon Text", size = 3.5)+
+  annotate(geom = "text", x = 2, y = 2, label = "The natural world", family = "Libre Caslon Text", size = 3.5)+
+  annotate(geom = "text", x = 2, y = 2.3, label = "Human-created artifacts and systems", family = "Libre Caslon Text", size = 3.5)+
+
+theme_void()
+
+
+@
+
+
 The narrowest answer for what needs sustaining is human life and society, which
 perforce entails those ecosystem services necessary for human health and 
 wellbeing (see Figure \ref{ch01.fig1}. 
@@ -126,12 +153,7 @@ predictions and good enough
 #   invisible()
 
 # Adds a circle to .plot at the specified location
-add_circ <- function(.plot, r, xc, yc, n_segs = 100){
-  .plot +
-    annotate("path",
-             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))
-}
+
 
 ggplot() %>% 
   # Add circles
