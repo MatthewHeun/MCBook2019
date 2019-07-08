@@ -171,22 +171,6 @@ read.table(text = data_string, sep ="\t", header = TRUE, stringsAsFactors =  FAL
 
 @
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Transportation sustainability challenges}
 \label{sec:transportation_challenges}
@@ -214,6 +198,48 @@ Passenger cars are the greatest single cause of CO$_2$ emissions from transporta
 \caption[Emissions by transport mode.]{CO$_2$ emissions by transportation mode~\citep[Fig.~1]{bts_ghg_emissions}.}
 \label{fig:transport_GHG_emissions}
 \end{figure}
+
+<<>>=
+
+data_string <- "Year	Passenger cars 	Light-duty trucks 	Medium- and Heavy- trucks	Buses	Aircraft	Ships and boats	Rail	Other\n
+1990	629	321	230	8	187	44	39	48\n
+1991	588	348	225	8	172	40	36	44\n
+1992	595	372	235	8	170	49	37	43\n
+1993	602	385	248	9	171	47	38	45\n
+1994	607	393	264	9	178	48	41	49\n
+1995	607	407	275	9	175	58	43	50\n
+1996	615	421	287	10	187	54	43	50\n
+1997	614	436	301	10	187	39	44	53\n
+1998	634	447	314	10	191	33	44	47\n
+1999	648	467	332	11	195	29	46	48\n
+2000	645	467	346	11	198	60	46	47\n
+2001	651	473	344	10	192	42	46	46\n
+2002	664	485	358	10	188	47	45	47\n
+2003	643	520	354	11	181	37	47	43\n
+2004	640	541	366	15	189	40	50	41\n
+2005	660	504	396	12	192	45	50	42\n
+2006	636	517	406	12	185	48	52	42\n
+2007	794	326	431	17	182	54	52	44\n
+2008	755	307	414	17	175	45	48	45\n
+2009	748	310	375	16	156	38	41	45\n
+2010	742	309	(R) 386	15	153	44	43	47\n
+2011	737	295	(R) 384	16	149	46	46	47\n
+2012	736	292	(R) 384	17	145	39	43	49\n
+2013	736	(R) 293	(R) 390	18	149	39	44	55\n
+2014	738	309	402	19	150	28	46	56\n
+"
+read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
+  tidyr::gather(key = "type", value = "value",
+                "Passenger cars", "Light-duty trucks", "Medium- and Heavy- trucks", "Buses", "Aircraft", "Ships and boats", "Rail", "Other")%>%
+  
+  ggplot(mapping = aes(x = Year, y = value, linetype = type)) +
+  geom_line() +
+  labs(x=element_blank(), y = expression("CO2 by transportation mode")) +
+  scale_x_continuous(breaks = c(1990, 2000, 2010, 2014)) +
+  labs(fill = element_blank()) +
+  MKHthemes::xy_theme()
+
+@
 
 **** I added the reference for the graph above, if you want to use RStudio and redo the graph. The data is from the US. ****
 
