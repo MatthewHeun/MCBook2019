@@ -11,6 +11,26 @@
 \label{chap:food_and_agriculture}
 %#############################################################
 
+Food provides energy for humans to pursue lives of work, service, and play
+with family, friends, and co-workers.
+But food doesn't appear on plates magically, out of nowhere.
+Food arrives on plates through a network of 
+natural and human-created transformation processes 
+that convert solar energy into available, ingestible energy.
+This network is often called ``agriculture.''
+The economic value added of the the Agriculture, forestry, and fishing industry is only 1~\% of GDP for the U.S.\
+and about 3.5~\% of GDP worldwide~\cite{World-Bank-agriculture:aa}.
+But its importance goes far beyond its economic value.
+Without agriculture, none of us would be here today!
+This chapter presents key information about the food system and explores its sustainability challenges.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Features of the food and agriculture system}
+\label{sec:food_ag_features}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 Figure~\ref{fig:material_flow} illustrates how many resources are poured into the production of food~\citep[Fig.~1]{Heller_2000}.
 
 \begin{figure}
