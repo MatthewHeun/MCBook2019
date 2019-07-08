@@ -108,10 +108,15 @@ read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE
 
 @
 
+
+
+
+
+
+
 <<Paasenger_km, fig.scap = "U.S passenger_km", fig.width = 5, fig.height = 3, echo = FALSE>>=
 
-data_string <- 
- "Year	Air	Highway	Transit	 Intercity 	Commuter rail	light rail	heavy rail\n
+data_string <- "Year	Air	Highway	Transit	 Intercity 	Commuter rail	light rail	heavy rail\n
 1960	50049	2047212	0	 27461.85 	6754	0	0\n
 1965	85659	2502912	0	 21339.90 	6643	0	0\n
 1970	174520	3286284	0	 9944.14 	7390	0	0\n
@@ -150,21 +155,13 @@ data_string <-
 
 
 read.table(text = data_string, sep ="\t", header = TRUE, stringsAsFactors =  FALSE, check.names = FALSE) %>% 
-  dplyr::mutate(
-    'Air' = NULL,
-    'Highway' = NULL,
-    'Transit' = NULL,
-    'Intercity' = NULL,
-    'Commuter rail' = NULL, 
-    'light rail' = NULL,
-    'heavy rail' = NULL) %>%
   
     tidyr::gather(key="type", value = "value",
                   "Air", "Highway", "Transit", "Intercity", "Commuter rail", "light rail", "heavy rail")%>%
     
     
-  ggplot(mapping = aes(x = Year, y = value, fill = type)) +
-  geom_area() +
+  ggplot(mapping = aes(x = Year, y = value, linetype = type)) +
+  geom_line() +
   labs(x=element_blank(), y = expression("Passenger kilometers in the U.S.")) +
   scale_x_continuous(breaks = c(1960, 1970, 1980, 1990, 2000, 2010, 2017)) +
   labs(fill = element_blank()) +
