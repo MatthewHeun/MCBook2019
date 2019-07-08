@@ -91,7 +91,7 @@ Figure~\ref{fig:Frac_population} shows the percentages of population around the 
 \label{fig:Frac_population}
 \end{figure}
 
-<<include = FALSE>>= 
+<<echo = FALSE>>= 
 
 library(rworldmap)
 
