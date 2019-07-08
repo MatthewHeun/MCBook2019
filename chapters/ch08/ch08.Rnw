@@ -39,7 +39,7 @@ and~\ref{fig:km_freight}.
 \end{figure}
 
 
-<<Tonne_km, fig.scap = "U.S \\ tonne_km", fig.cap = "U.S.\\freight by transportation mode", fig.width = 5, fig.height = 3, echo = FALSE>>=
+<<Tonne_km, fig.scap = "U.S \\ tonne_km", fig.cap = "U.S.\ freight by transportation mode", fig.width = 5, fig.height = 3, echo = FALSE>>=
 
 data_string <- 
   "Year	TOTAL U.S. tonne-kilometers of freight 	Air 	Truck	Railroad	Domestic water transportation	Coastwise	Lakewise	Internal	Intraport	Pipeline\n
@@ -82,10 +82,16 @@ data_string <-
 2016	7293520.043	19209.01319	2953347.342	2314698.008	697663.6799	250689.8942	63376.50854	381903.2717	1694.005512	1308602.001\n"
 
 read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
-  tidyr::gather(key = "type", value = "value", "TOTAL U.S. tonne-kilometers of freight", "Air", "Truck", "Railroad", "Domestic water transportation", "Coastwise", "Lakewise", "Internal", "Intraport", "Pipeline") %>% 
+  dplyr::mutate(
+    `TOTAL U.S. tonne-kilometers of freight` = NULL
+  ) %>% View
   
-  ggplot(mapping = aes(x = Year, y = "Tonne-kilometers of freight by transportation mode", linetype = type))+
-  geom_line()+
+  tidyr::gather(key = "type", value = "value", "TOTAL U.S. tonne-kilometers of freight", 
+                "Air", "Truck", "Railroad", "Domestic water transportation", 
+                "Coastwise", "Lakewise", "Internal", "Intraport", "Pipeline") %>% 
+  
+  ggplot(mapping = aes(x = Year, y = value, fill = type))+
+  geom_area()+
   labs(x=element_blank(), y = expression("Tonne-kilometers of freight by transportation mode"))+
   scale_x_continuous(breaks = c(1980, 1990, 2000, 2010, 2016))+
   MKHthemes::xy_theme()
