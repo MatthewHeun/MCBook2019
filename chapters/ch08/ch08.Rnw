@@ -39,7 +39,7 @@ and~\ref{fig:km_freight}.
 \end{figure}
 
 
-<<Tonne_km, fig.scap = "U.S \\ tonne_km", fig.cap = "U.S.\ freight by transportation mode", fig.width = 5, fig.height = 3, echo = FALSE>>=
+<<Tonne_km, fig.scap = "U.S \\ tonne_km", fig.cap = "U.S.\ freight by transportation mode. **** Larisa: add reference ****", fig.width = 5, fig.height = 3, echo = FALSE>>=
 
 data_string <- 
   "Year	TOTAL U.S. tonne-kilometers of freight 	Air 	Truck	Railroad	Domestic water transportation	Coastwise	Lakewise	Internal	Intraport	Pipeline\n

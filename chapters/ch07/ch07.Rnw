@@ -111,7 +111,7 @@ Figure~\ref{fig:Frac_population} shows the percentages of population around the 
 \label{fig:Frac_population}
 \end{figure}
 
-<<malnourished_map, fig.scap = "Fraction of population undernourished (2015).", fig.cap = "Percentages of population undernourished in all countries 2015. **** Need to add citation here. ****", fig.width = 5, fig.height = 3, echo = FALSE>>= 
+<<malnourished_map, fig.scap = "Fraction of population undernourished (2015).", fig.cap = "Percentages of population undernourished in all countries 2015. **** Larisa: add citation here. ****", fig.width = 5, fig.height = 3, echo = FALSE>>= 
 
 # Reduce white space around world plot
 # (from https://stackoverflow.com/questions/29119074/how-to-reduce-the-gap-between-the-map-and-title-using-rworldmap).
