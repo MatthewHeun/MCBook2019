@@ -58,14 +58,14 @@ add_circ <- function(.plot, r, xc, yc, n_segs = 100){
 
 ggplot() %>%
   #Adding circles
-  add_circ(r=1, xc = 0.6667, yc = 0) %>% #Human and society
-  add_circ(r=2.5, xc = 1, yc = .5) %>% # Ecosystem services
-  add_circ(r=4, xc = 3, yc = .5) %>% #The natural world
-  add_circ(r= 5, xc = 3, yc = .75)+ #Human-created artifacts
-  annotate(geom = "text", x = 1, y = -0.5, label="Human life and society", family="Libre Caslon Text", size = 3.5 )+
-  annotate(geom="text", x = 1, y = 1, label = "Ecosystem services needed to support human life and society", family = "Libre Caslon Text", size = 3.5)+
-  annotate(geom = "text", x = 2, y = 2, label = "The natural world", family = "Libre Caslon Text", size = 3.5)+
-  annotate(geom = "text", x = 2, y = 2.3, label = "Human-created artifacts and systems", family = "Libre Caslon Text", size = 3.5)+
+  add_circ(r=1, xc = -.5, yc = -.5) %>% #Human and society
+  add_circ(r=1.75, xc = 0, yc = 0) %>% # Ecosystem services
+  add_circ(r=2.5, xc = .6, yc = 0) %>% #The natural world
+  add_circ(r= 3, xc = .7, yc = 0)+ #Human-created artifacts
+  annotate(geom = "text", x = .5, y = 0.5, label="Human life and society", family="Libre Caslon Text", size = 3.5 )+
+  annotate(geom="text", x = 1.4, y = 1.9, label = "Ecosystem services needed to support human life and society", family = "Libre Caslon Text", size = 3.5)+
+  annotate(geom = "text", x = 1, y = 2.6, label = "The natural world", family = "Libre Caslon Text", size = 3.5)+
+  annotate(geom = "text", x = 2.9, y = 3, label = "Human-created artifacts and systems", family = "Libre Caslon Text", size = 3.5)+
 
 theme_void()
 
