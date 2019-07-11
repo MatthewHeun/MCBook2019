@@ -93,7 +93,6 @@ are a significant source of demand for the U.S.\ agriculture system.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
 %++++++++++++++++++++++++++++++
 \subsection{Energy return ratios}
 \label{sec:food_energy_return_ratios}
@@ -113,12 +112,14 @@ by various aspects of the food delivery system~\citep[Fig.~2]{Heller_2000}.
 The energy efficiency of the food delivery system is \Sexpr{format(1.4/10.2 * 100, digits = 3)}~\%.
 A good rule of thumb is that 
 it takes roughly 7 calories of energy to provide 1 calorie of food energy.
+Thus, the energy return on investment (EROI)\index{EROI}
+for the food system is only 1/7.
 The fact that the energy efficiency of the food delivery system is less than 1
 means that the food delivery system is not a \emph{source} of energy for society. 
 Rather it is a \emph{sink} of energy for society.
 Thus, today's food system is, by definition, unsustainable.
 
-To put it another way, society spends more energy to get food than it obtains from food.  
+To put it another way, society spends more energy to \emph{get} food than it \emph{obtains} from food.  
 Animals that spend more energy to obtain food than they gain from food ultimately die from lack of energy.
 Agrarian societies that spend more energy to obtain food than they gain from food ultimately cease to exist.
 But modern society remains in existence
@@ -292,6 +293,11 @@ ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categ
 
 \item Verify the efficiency calculations in Section~\ref{sec:food_ag_features}.
       Use Figure~\ref{fig:food_and_ag_material_flow} as the basis for your calculations.
+      
+\item Verify the efficiency calculation in Section~\ref{sec:food_energy_return_ratios}.
+      Then perform your own research to find the proportions of coal, oil and natural gas consumed
+      by the food and agriculture system.
+      Are we eating coal? Are we eating coal? Or are we eating natural gas?
 
 \end{problems}
 
