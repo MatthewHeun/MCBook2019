@@ -15,10 +15,11 @@ Food provides energy for humans to pursue lives of work, service, and play
 with family, friends, and co-workers.
 But food doesn't appear on plates magically, out of nowhere.
 Food arrives on plates through a network of 
-natural and human-created transformation processes 
-that convert solar energy into available, ingestible energy.
-This network is often called ``agriculture.''
-The economic value added of the the Agriculture, forestry, and fishing industry is only 1~\% of GDP for the U.S.\
+natural and human-created transformation processes\index{transformation processes!food}
+that convert solar energy\index{energy!solar}
+into available, ingestible energy\index{energy!ingestible}.
+This network is often called ``agriculture.''\index{agriculture}
+The economic value added of the Agriculture, forestry, and fishing industry is only 1~\% of GDP for the U.S.\ 
 and about 3.5~\% of GDP worldwide~\cite{World-Bank-agriculture:aa}.
 But its importance goes far beyond its economic value.
 Without agriculture, none of us would be here today!
@@ -30,15 +31,60 @@ This chapter presents key information about the food system and explores its sus
 \label{sec:food_ag_features}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-Figure~\ref{fig:material_flow} illustrates how many resources are poured into the production of food~\citep[Fig.~1]{Heller_2000}.
-
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch07/Material_Flow_in_the_US_Food_System(1995_Flows_in_Million_Pounds).pdf}
-\caption[Material flow in the US food system (1995, flows in million pounds.)]{Material flow in the US food system (1995, flows in million pounds)~\citep[Fig.~1]{Heller_2000}.}
-\label{fig:material_flow}
+\caption[Material flow in the U.S.\ food system (1995, flows in million pounds.)]{Material flow in the U.S.\ food system (1995, flows in million pounds)~\citep[Fig.~1]{Heller_2000}.}
+\label{fig:food_and_ag_material_flow}
 \end{figure}
+
+<<ag_sys_calcs, echo = FALSE>>=
+# All numbers from Heller figure above in million pounds.
+consumed_food <- 259610 # million pounds
+total_input <- 153000 + 921590 + 13870 + 19900 + 158000 + 370000 # million pounds
+aggregate_efficiency <- consumed_food / total_input
+
+end_use_efficiency <- 259610 / (259610 + 90820 + 5450)
+
+animal_inputs <- 964000 # million pounds
+animal_products <- 51470 + 76280 + 7920 # million pounds
+animal_efficiency <- animal_products / animal_inputs * end_use_efficiency
+@
+
+Figure~\ref{fig:food_and_ag_material_flow} shows a Sankey diagram\index{Sankey diagram}
+of material flows
+in the U.S.\ agriculture system~\citep[Fig.~1]{Heller_2000}.
+Several observations can be made.
+
+First, the mass efficiency\index{efficiency!mass-based}
+of the agriculture system\index{efficiency!agriculture system}
+is low.
+Consumed food\index{food!consumed} 
+(\Sexpr{format(consumed_food, big.mark = ",")} million pounds)
+is a very small fraction of the
+total input to the system
+(\Sexpr{format(total_input, nsmall = 0, big.mark = ",")} million pounds),
+yielding a mass-based efficiency\index{efficiency!mass-based}
+of \Sexpr{format(aggregate_efficiency * 100, digits = 3)}~\%.
+
+Second, animal-based food production\index{food!animal-based}
+comprises a large and important
+intermediate processing stage.
+Animal-based food production
+is less efficient than the overall food system with
+\Sexpr{animal_inputs} million pounds as input and only
+\Sexpr{format(animal_efficiency * 100, digits = 3)}~\% efficiency on a mass basis\index{efficiency!mass-based}.
+
+Third, losses (wastage) at the final stages reduce the efficiency of the entire food system.\index{waste!food}
+In fact, final stage mass-based efficiency\index{efficiency!mass-based}
+is only \Sexpr{format(end_use_efficiency * 100, digits = 3)}~\%.
+
+Fourth, imports\index{food!imports}
+are relatively small compared to domestic production and consumption.
+Thus, the U.S.\ is reasonably self-sufficient regarding food supply. 
+However, exports\index{food!exports}
+of crops (\Sexpr{format(355560, big.mark = ",")} million pounds)
+are a significant source of demand for the U.S.\ agriculture system.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -125,10 +171,9 @@ malDF <- data.frame(country = c("AND", "AEE", "AFG", "ATG", "AIA", "ALB", "ARM",
 malMap <- rworldmap::joinCountryData2Map(malDF, nameJoinColumn = "country")
 
 ## Specify the colourPalette argument
-rworldmap::mapCountryData(malMap, nameColumnToPlot="Fraction of population undernourished", catMethod = "categorical",
+rworldmap::mapCountryData(malMap, nameColumnToPlot = "Fraction of population undernourished", catMethod = "categorical",
   missingCountryCol = gray(.8), colourPalette = c("darkseagreen1", "mistyrose", "rosybrown2", "indianred3", "indianred4", "gray80"), 
   oceanCol = "lightblue", mapTitle = "")
-
 @
 
 
@@ -219,7 +264,8 @@ ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categ
       develop an alternative diet and estimate its greenhouse gas emissions.
       What amount of GHG emissions reductions can you obtain by changing your diet?
 
-\item 
+\item Verify the efficiency calculations in Section~\ref{sec:food_ag_features}.
+      Use Figure~\ref{fig:food_and_ag_material_flow} as the basis for your calculations.
 
 \end{problems}
 
