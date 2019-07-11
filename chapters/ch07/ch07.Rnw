@@ -42,13 +42,13 @@ This chapter presents key information about the food system and explores its sus
 # All numbers from Heller figure above in million pounds.
 consumed_food <- 259610 # million pounds
 total_input <- 153000 + 921590 + 13870 + 19900 + 158000 + 370000 # million pounds
-aggregate_efficiency <- consumed_food / total_input
+aggregate_food_efficiency <- consumed_food / total_input
 
-end_use_efficiency <- 259610 / (259610 + 90820 + 5450)
+end_use_food_efficiency <- 259610 / (259610 + 90820 + 5450)
 
 animal_inputs <- 964000 # million pounds
 animal_products <- 51470 + 76280 + 7920 # million pounds
-animal_efficiency <- animal_products / animal_inputs * end_use_efficiency
+animal_efficiency <- animal_products / animal_inputs * end_use_food_efficiency
 @
 
 Figure~\ref{fig:food_and_ag_material_flow} shows a Sankey diagram\index{Sankey diagram}
@@ -65,7 +65,7 @@ is a very small fraction of the
 total input to the system
 (\Sexpr{format(total_input, nsmall = 0, big.mark = ",")} million pounds),
 yielding a mass-based efficiency\index{efficiency!mass-based}
-of \Sexpr{format(aggregate_efficiency * 100, digits = 3)}~\%.
+of \Sexpr{format(aggregate_food_efficiency * 100, digits = 3)}~\%.
 
 Second, animal-based food production\index{food!animal-based}
 comprises a large and important
@@ -77,11 +77,11 @@ is less efficient than the overall food system with
 
 Third, losses (wastage) at the final stages reduce the efficiency of the entire food system.\index{waste!food}
 In fact, final stage mass-based efficiency\index{efficiency!mass-based}
-is only \Sexpr{format(end_use_efficiency * 100, digits = 3)}~\%.
+is only \Sexpr{format(end_use_food_efficiency * 100, digits = 3)}~\%.
 
 Fourth, imports\index{food!imports}
 are relatively small compared to domestic production and consumption.
-Thus, the U.S.\ is reasonably self-sufficient regarding food supply. 
+Thus, the U.S.\ is reasonably self-sufficient regarding food supply.
 However, exports\index{food!exports}
 of crops (\Sexpr{format(355560, big.mark = ",")} million pounds)
 are a significant source of demand for the U.S.\ agriculture system.
@@ -99,15 +99,41 @@ are a significant source of demand for the U.S.\ agriculture system.
 \label{sec:food_energy_return_ratios}
 %++++++++++++++++++++++++++++++
 
-Figure~\ref{fig:Energy_Flow} shows the energy consumed in various fields, including the available food energy~\citep[Fig.~2]{Heller_2000}.
-
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch07/Energy_flow_food_systems.pdf}
-\caption[Energy Flow in the US.]{Percentages of energy consumed in different industries~\citep[Fig.~2]{Heller_2000}.}
-\label{fig:Energy_Flow}
+\caption[Energy Flow in the US.]{Percentages of energy consumed in different aspects of food delivery~\citep[Fig.~2]{Heller_2000}. 
+**** Larisa: what year is this for? what country is this for? Can we make a ggplot version of this graph?}
+\label{fig:energy_flow_in_food_system}
 \end{figure}
 
+Because food is energy, the overall energy efficiency of the food delivery system can be calculated.
+Figure~\ref{fig:energy_flow_in_food_system} shows the energy consumed and supplied
+by various aspects of the food delivery system~\citep[Fig.~2]{Heller_2000}.
+The energy efficiency of the food delivery system is \Sexpr{format(1.4/10.2 * 100, digits = 3)}~\%.
+A good rule of thumb is that 
+it takes roughly 7 calories of energy to provide 1 calorie of food energy.
+The fact that the energy efficiency of the food delivery system is less than 1
+means that the food delivery system is not a \emph{source} of energy for society. 
+Rather it is a \emph{sink} of energy for society.
+Thus, today's food system is, by definition, unsustainable.
+
+To put it another way, society spends more energy to get food than it obtains from food.  
+Animals that spend more energy to obtain food than they gain from food ultimately die from lack of energy.
+Agrarian societies that spend more energy to obtain food than they gain from food ultimately cease to exist.
+But modern society remains in existence
+because its food delivery system is supported by energy inputs from an external source:
+fossil fuels\index{fossil fuels}.
+Fossil fuels supply the energy for 
+machines in agriculture, food transportation, food processing, food packaging, 
+retail, food storage, and food preparation.
+
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+A pithy way to summarize the sustainability challenge posed by food energy is:
+``We don't eat food; we eat oil.''
+\end{mcframe}
 
 
 %++++++++++++++++++++++++++++++
