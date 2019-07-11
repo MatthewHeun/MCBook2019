@@ -257,6 +257,7 @@ CF$_4$    & 7350            \\
 \end{table}
 
 Figure~\ref{fig:ghg_sankey} shows 
+a Sankey diagram\index{Sankey diagram}
 the proportions of GHG emissions 
 from several \emph{sources}.
 In the source/sink framework,
@@ -325,7 +326,8 @@ Economic activity (see Chapter~\ref{chap:economy}) drives energy consumption,
 the largest source of GHG emissions. 
 So it is not a stretch to say that the global economy drives energy demand and 
 serves as the ultimate cause of GHG emissions.
-Figure~\ref{fig:LLNL_sankey} shows the economic sources of energy demand in the U.S.\index{United States}
+Figure~\ref{fig:LLNL_sankey} is a Sankey diagram\index{Sankey diagram} 
+that shows the economic sources of energy demand in the U.S.\index{United States}
 Transport\index{energy demand!transport sector}
 is largest single source of demand,
 followed by the industrial sector\index{energy demand!industrial sector}, 
