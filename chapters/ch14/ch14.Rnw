@@ -76,11 +76,27 @@ But at least you'll be pointed in the right direction, relative to the rest of s
 Question                                                                                      & Answer                                 \\ \midrule
 How big is your house?                                                                        & Small and used                         \\
 What car do you drive?                                                                        & Small and used                         \\
-\begin{tabular}[c]{@{}l@{}}How close do you live to \\ work, church, and stores?\end{tabular} & Close (to walk and cycle)              \\
+\begin{tabular}[c]{@{}l@{}}How close do you live to \\ work, church, and stores?\end{tabular} & Close (allowing walking and cycling)   \\
 What do you eat?                                                                              & Closer to the bottom of the food chain \\ \bottomrule
 \end{tabular}
 \label{tab:personal_actions}
 \end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Food and agriculture}
+\label{sec:personal_action_food_ag}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Chapter~\ref{chap:food_and_agriculture} showed that the animal-based portions of the 
+agriculture system are less efficient than the overall system. 
+So eating fewer animal-products and more plant-based products provides
+improved agriculture system efficiency and a net sustainability beneift.
+I.e., eating closer to the bottom of the food chain brings sustainability benefits.
+
+
+
 
 
 
