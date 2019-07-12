@@ -114,9 +114,9 @@ read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE
 
 
 
-<<Paasenger_km, fig.scap = "U.S passenger_km", fig.width = 5, fig.height = 3, echo = FALSE>>=
+<<Passenger_km, fig.scap = "U.S passenger_km", fig.width = 5, fig.height = 3, echo = FALSE>>=
 
-data_string <- "Year	Air	Highway	Transit	 Intercity 	Commuter rail	light rail	heavy rail\n
+data_string <- "Year	Air	Highway	Transit	 Intercity 	Commuter rail	Light rail	Heavy rail\n
 1960	50049	2047212	0	 27461.85 	6754	0	0\n
 1965	85659	2502912	0	 21339.90 	6643	0	0\n
 1970	174520	3286284	0	 9944.14 	7390	0	0\n
@@ -157,7 +157,7 @@ data_string <- "Year	Air	Highway	Transit	 Intercity 	Commuter rail	light rail	he
 read.table(text = data_string, sep ="\t", header = TRUE, stringsAsFactors =  FALSE, check.names = FALSE) %>% 
   
     tidyr::gather(key="type", value = "value",
-                  "Air", "Highway", "Transit", "Intercity", "Commuter rail", "light rail", "heavy rail")%>%
+                  "Air", "Highway", "Transit", "Intercity", "Commuter rail", "Light rail", "Heavy rail")%>%
     
     
   ggplot(mapping = aes(x = Year, y = value, linetype = type)) +
@@ -222,10 +222,10 @@ data_string <- "Year	Passenger cars 	Light-duty trucks 	Medium- and Heavy- truck
 2007	794	326	431	17	182	54	52	44\n
 2008	755	307	414	17	175	45	48	45\n
 2009	748	310	375	16	156	38	41	45\n
-2010	742	309	(R) 386	15	153	44	43	47\n
-2011	737	295	(R) 384	16	149	46	46	47\n
-2012	736	292	(R) 384	17	145	39	43	49\n
-2013	736	(R) 293	(R) 390	18	149	39	44	55\n
+2010	742	309	386	15	153	44	43	47\n
+2011	737	295	384	16	149	46	46	47\n
+2012	736	292	384	17	145	39	43	49\n
+2013	736	293	390	18	149	39	44	55\n
 2014	738	309	402	19	150	28	46	56\n
 "
 read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
