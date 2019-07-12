@@ -164,6 +164,54 @@ by consuming food that is closer to the base of the food chain.
 \label{fig:GHG_food}
 \end{figure}
 
+<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.scap = "Food greenhouse gas percentages.", fig.width = 5, fig.height = 2.5>>=
+# This is an R chunk embedded in the LaTeX code.
+# Assign some variables to NULL, thereby avoiding some warnings.
+food_categories <- NULL
+percentages <- NULL
+label_ypos <- NULL
+ang <- NULL
+# Define this vector of category names (in the order that we want), thereby avoiding retyping later.
+food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs", 
+                               "Vegetables", "Fruit", "Grain products", 
+                               "Sugars, sweeteners, fats, and oils", "Other")
+# Create a data frame that contains the information for the graph.
+# These data could also be read in from an external .csv file.
+Food_GHG <- data.frame(food_categories = food_cats, 
+                       percentages = c(47.6, 18.9, 13.9, 4.9, 3.6, 3.0, 7.5, 0.5), 
+                       ang = c(0, 0, 0, -35, -50, -65, -80, -90)) %>% 
+  dplyr::mutate(
+    # Sets the order of the categories in the pie chart
+    food_categories = factor(food_categories, levels = food_cats), 
+    # Calculates the location for the percentage labels
+    label_ypos = 100 - (cumsum(percentages) - percentages/2)
+  )  
+# Make the graph
+ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categories)) + 
+  # The next two lines give a pie chart
+  geom_bar(width = 1, stat = "identity") + 
+  coord_polar("y", start = 0, direction = -1) +
+  # Add percentage labels
+  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
+  # Eliminate all of the labels on the axes.
+  labs(x = "", y = "", fill = "") +
+  # Apply a consistent theme for text and label colors.
+  MKHthemes::xy_theme() + 
+  # Eliminate percentages around the outside of the pie
+  theme(axis.text.x = element_blank()) +
+  theme(axis.text.y = element_blank()) +
+  # Eliminate y axis ticks
+  theme(axis.ticks = element_blank()) +
+  # Eliminate the frame around the whole plot
+  theme(panel.border = element_blank()) + 
+  # Change size of legend text
+  theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) + 
+  # Change size of legend squares
+  theme(legend.key.size = unit(0.3, "cm")) +
+  theme(plot.margin = unit(c(0,0,0,0),"mm"))
+@
+
+
 
 A convenient calculator for food emissions can be found at \url{http://www.foodemissions.com}.
 
@@ -224,56 +272,6 @@ Food deserts.
 If we want to create the same graph in ggplot, 
 it looks like Figure~\ref{fig:GHG_from_food}.
 We can, of course, change colors and other features of the plot.
-
-<<GHG_from_food, echo = FALSE, fig.cap = "Percentages of greenhouse gas emissions from food consumption.", fig.scap = "Food greenhouse gas percentages.", fig.width = 5, fig.height = 2.5>>=
-# This is an R chunk embedded in the LaTeX code.
-# Assign some variables to NULL, thereby avoiding some warnings.
-food_categories <- NULL
-percentages <- NULL
-label_ypos <- NULL
-ang <- NULL
-# Define this vector of category names (in the order that we want), thereby avoiding retyping later.
-food_cats <- c("Meat", "Dairy products", "Poultry, fish, seafood, and eggs", 
-                               "Vegetables", "Fruit", "Grain products", 
-                               "Sugars, sweeteners, fats, and oils", "Other")
-# Create a data frame that contains the information for the graph.
-# These data could also be read in from an external .csv file.
-Food_GHG <- data.frame(food_categories = food_cats, 
-                       percentages = c(47.6, 18.9, 13.9, 4.9, 3.6, 3.0, 7.5, 0.5), 
-                       ang = c(0, 0, 0, -35, -50, -65, -80, -90)) %>% 
-  dplyr::mutate(
-    # Sets the order of the categories in the pie chart
-    food_categories = factor(food_categories, levels = food_cats), 
-    # Calculates the location for the percentage labels
-    label_ypos = 100 - (cumsum(percentages) - percentages/2)
-  )  
-# Make the graph
-ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categories)) + 
-  # The next two lines give a pie chart
-  geom_bar(width = 1, stat = "identity") + 
-  coord_polar("y", start = 0, direction = -1) +
-  # Add percentage labels
-  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
-  # Eliminate all of the labels on the axes.
-  labs(x = "", y = "", fill = "") +
-  # Apply a consistent theme for text and label colors.
-  MKHthemes::xy_theme() + 
-  # Eliminate percentages around the outside of the pie
-  theme(axis.text.x = element_blank()) +
-  theme(axis.text.y = element_blank()) +
-  # Eliminate y axis ticks
-  theme(axis.ticks = element_blank()) +
-  # Eliminate the frame around the whole plot
-  theme(panel.border = element_blank()) + 
-  # Change size of legend text
-  theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) + 
-  # Change size of legend squares
-  theme(legend.key.size = unit(0.3, "cm")) +
-  theme(plot.margin = unit(c(0,0,0,0),"mm"))
-@
-
-
-
 
 
 
