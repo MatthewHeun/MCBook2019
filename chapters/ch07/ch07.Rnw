@@ -167,6 +167,12 @@ namely that
 \end{enumerate*}
 
 
+
+
+% If we want to create the same graph in ggplot, 
+% it looks like Figure~\ref{fig:GHG_from_food}.
+% We can, of course, change colors and other features of the plot.
+
 % 
 % 
 % \begin{figure}
@@ -296,11 +302,6 @@ rworldmap::mapCountryData(malMap, nameColumnToPlot = "Fraction of population und
 
 
 
-If we want to create the same graph in ggplot, 
-it looks like Figure~\ref{fig:GHG_from_food}.
-We can, of course, change colors and other features of the plot.
-
-
 
 
 
@@ -310,24 +311,21 @@ We can, of course, change colors and other features of the plot.
 
 \begin{problems}
 
-\item Use a greenhouse gas emissions calculator to estimate your personal greenhouse gas~(GHG) emissions
-      due to your dietary choices. 
-      Guided by the figures and advice in this chapter, 
-      develop an alternative diet and estimate its greenhouse gas emissions.
-      What amount of GHG emissions reductions can you obtain by changing your diet?
-
-\item Verify the efficiency calculations in Section~\ref{sec:food_ag_features}.
+\item Verify the efficiency values in Section~\ref{sec:food_ag_features}.
       Use Figure~\ref{fig:food_and_ag_material_flow} as the basis for your calculations.
       
-\item Verify the efficiency calculation in Section~\ref{sec:food_energy_return_ratios}.
-      Then perform your own research to find the proportions of coal, oil and natural gas consumed
+\item Verify the efficiency values in Section~\ref{sec:food_energy_return_ratios}.
+      Then perform your own research to find the proportions of coal, oil, and natural gas consumed
       by the food and agriculture system.
-      Are we eating coal? Are we eating coal? Or are we eating natural gas?
+      Are we eating coal? Are we eating oil? Or are we eating natural gas?
       
-\item Use a food emissions calculator such as the one suggested in this chapter~\cite{CleanMetrics:aa}
+\item Use a food emissions calculator (such as the one suggested in this chapter~\cite{CleanMetrics:aa})
       to estimate the greenhouse emissions from your food choices over the course of a week.
       Compare to your peers.
       How do your food-related emissions compare to your emissions from transportation-related activities?
+      Guided by the figures and advice in this chapter, 
+      develop an alternative diet and estimate its greenhouse gas emissions.
+      What amount of GHG emissions reductions can you obtain by changing your diet?
       
 \item Dig deeper into the problem of food deserts. 
       Where are they most prevalent?
