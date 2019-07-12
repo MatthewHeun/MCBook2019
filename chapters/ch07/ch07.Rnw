@@ -142,7 +142,15 @@ A pithy way to summarize the sustainability challenge posed by food energy is:
 \label{sec:food_CO2_emissions}
 %++++++++++++++++++++++++++++++
 
-Figure~\ref{fig:pounds_serving} shows how much carbon dioxide is released from one pound of food~\citep[Fig.~2]{Heller_2014}.
+A second sustainabiilty challenge that arises in food and agriculture
+is the greenhouse gas\index{greenhouse gases}
+emissions that originate in the food delivery system.
+Figure~\ref{fig:pounds_serving} shows how much CO$_2$ is released 
+from the production and distribution of one serving 
+of several types of food~\citep[Fig.~2]{Heller_2014}.
+Figure~\ref{fig:pounds_serving} reinforces the facts from above,
+namely that animal-based foods have much more environmental impact than 
+plant-based foods.
 
 \begin{figure}
 \centering
@@ -151,23 +159,14 @@ Figure~\ref{fig:pounds_serving} shows how much carbon dioxide is released from o
 \label{fig:pounds_serving}
 \end{figure}
 
-Figure~\ref{fig:GHG_food} shows proportions of greenhouse gas~(GHG)
-emissions from food consumption~\citep[Fig.~2]{Heller_2014}.
-
-The obvious implication is that GHG emissions are reduced 
-by consuming food that is closer to the base of the food chain.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/GHGfromFoodConsumption.pdf}
-\caption[GHG emissions from food.]{Percentages of greenhouse gas emissions from food~\citep[Fig.~2]{Heller_2014}.}
-\label{fig:GHG_food}
-\end{figure}
-
-
-A convenient calculator for food emissions can be found at \url{http://www.foodemissions.com}.
-
-
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Convenient calculators for greenhouse emissions from food production
+can be found online \cite{CleanMetrics:aa}.
+Factors such as transport distance and wastage percentages are important
+for determining GHG emissions from food.
+\end{mcframe}
 
 
 %++++++++++++++++++++++++++++++
@@ -175,13 +174,30 @@ A convenient calculator for food emissions can be found at \url{http://www.foode
 \label{sec:food_justice}
 %++++++++++++++++++++++++++++++
 
-Figure~\ref{fig:Frac_population} shows the percentages of population around the world that are undernourisched.
+Many justice\index{justice!food}
+issues arise when considering the sustainability of the food and agriculture system.
+One issue is the spatial distribution of food availability.
+``Food deserts''\index{food deserts}
+are places where fresh food is unavailable to people without access to transportation. 
+Figure~\ref{fig:food_deserts} shows, on a county-by-country basis in the U.S., 
+the proportion of people who lack access to fresh food.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch07/FoodDesertsUS.jpg}
+\caption[Food deserts.]{Food deserts in the U.S.\index{food deserts!United States} **** Larisa: include reference here. ****}
+\label{fig:food_deserts}
+\end{figure}
+
+Lack of access to food tends to correlate with lack of access to money,
+so malnourishment tends to mirror poverty.
+Figure~\ref{fig:malnourished_map} shows the percentages of population in each country that are undernourisched\index{undernourishment}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch07/Fraction_of_population_undernourished_2015.pdf}
-\caption[Fraction of population undernourished 2015.]{Percentages of population undernourished in all countries 2015.}
-\label{fig:Frac_population}
+\caption[Fraction of population undernourished 2015.]{Percentages of population undernourished in all countries 2015. **** Larisa: add source of data here. ****}
+\label{fig:Frac_population_malnourished}
 \end{figure}
 
 <<malnourished_map, fig.scap = "Fraction of population undernourished (2015).", fig.cap = "Percentages of population undernourished in all countries 2015. **** Larisa: add citation here. ****", fig.width = 5, fig.height = 3, echo = FALSE>>= 
@@ -202,12 +218,6 @@ rworldmap::mapCountryData(malMap, nameColumnToPlot = "Fraction of population und
   missingCountryCol = gray(.8), colourPalette = c("darkseagreen1", "mistyrose", "rosybrown2", "indianred3", "indianred4", "gray80"), 
   oceanCol = "lightblue", mapTitle = "")
 @
-
-
-Food deserts.
-
-**** Add figure about food deserts here. ****
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -298,6 +308,16 @@ ggplot(data = Food_GHG, mapping = aes(x = "", y = percentages, fill = food_categ
       Then perform your own research to find the proportions of coal, oil and natural gas consumed
       by the food and agriculture system.
       Are we eating coal? Are we eating coal? Or are we eating natural gas?
+      
+\itme Use a food emissions calculator such as the one suggested in this chapter~\cite{CleanMetrics:aa}
+      to estimate the greenhouse emissions from your food choices over the course of a week.
+      Compare to your peers.
+      How do your food-related emissions compare to your emissions from transportation-related activities?
+      
+\item Dig deeper into the problem of food deserts. 
+      Where are they most prevalent?
+      What are their causes?
+      What can be done to alleviate them?
 
 \end{problems}
 
