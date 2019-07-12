@@ -47,7 +47,7 @@ lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" o
 \label{ch01.3pillars}
 \end{figure}
 
-<<Hierarchy_sust, fig.height = 3.5, fig.width = 5, fig.cap = "Hierachy in sustainability", fig.scap = "Hierarchy">>=
+<<Hierarchy_sust, echo = FALSE, fig.height = 3.5, fig.width = 5, fig.cap = "Hierachy in sustainability", fig.scap = "Hierarchy">>=
 
 add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
   .plot +
@@ -57,8 +57,7 @@ add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
              fill = fill) + 
     annotate("path",
              x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)), 
-             fill = fill)    
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))    
 }
 
 ggplot() %>%
