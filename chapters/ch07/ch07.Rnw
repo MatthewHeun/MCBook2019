@@ -227,7 +227,9 @@ namely that
 %   # Change size of legend squares
 %   theme(legend.key.size = unit(0.3, "cm")) +
 %   theme(plot.margin = unit(c(0,0,0,0),"mm"))
-% @
+% 
+
+@
 
 
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -252,6 +254,36 @@ One issue is the spatial distribution of food availability.
 are places where fresh food is unavailable to people without access to transportation. 
 Figure~\ref{fig:food_deserts} shows, on a county-by-country basis in the U.S., 
 the proportion of people who lack access to fresh food.
+
+
+<<>>=
+
+data_string <- 
+    "Pounds CO2 per Serving	Product\n
+6.61	Beef\n
+2.45	Cheese\n
+1.72	Pork\n
+1.26	Poultry\n
+0.89	Eggs\n
+0.72	Milk\n
+0.16	Rice\n
+0.11	Legumes\n
+0.07	Carrots\n
+0.03	Potatoes"
+
+
+read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
+  dplyr::mutate(
+    Product = factor(Product, levels = c("Beef", "Cheese", "Pork", "Poultry", "Eggs", "Milk", "Rice", "Legumes", "Carrots", "Potatoes"))
+  ) %>% 
+  ggplot() + 
+  geom_bar(aes(y = `Pounds CO2 per Serving`, x = Product, fill = Product), stat="identity") +
+  geom_text(aes(y = `Pounds CO2 per Serving`, x= Product, label = `Pounds CO2 per Serving`, group = Product), color = "black")
+
+
+
+@
+
 
 \begin{figure}
 \centering
