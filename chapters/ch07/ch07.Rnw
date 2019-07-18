@@ -142,12 +142,36 @@ A pithy way to summarize the sustainability challenge posed by food energy is:
 \label{sec:food_CO2_emissions}
 %++++++++++++++++++++++++++++++
 
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/Pounds_of_CO2_per_serving.pdf}
-\caption[Pounds of CO$_2$ per serving.]{Carbon dioxide (CO$_2$) eequivalent emissions per serving of various foods~\citep[Fig.~2]{Heller_2014}.}
-\label{fig:pounds_serving}
-\end{figure}
+<<pounds_serving, echo = FALSE, fig.align = "center", fig.width = 5, fig.height = 3.5, fig.scap = "Pounds of CO$_2$ per serving.", fig.cap = "Carbon dioxide (CO$_2$) equivalent emissions per serving of various foods~\\citep[Fig.~2]{Heller_2014}.">>=
+data_string <- 
+    "Pounds CO2 per Serving	Product\n
+6.61	Beef\n
+2.45	Cheese\n
+1.72	Pork\n
+1.26	Poultry\n
+0.89	Eggs\n
+0.72	Milk\n
+0.16	Rice\n
+0.11	Legumes\n
+0.07	Carrots\n
+0.03	Potatoes"
+
+read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
+  dplyr::mutate(
+    Product = factor(Product, levels = c("Beef", "Cheese", "Pork", "Poultry", "Eggs", "Milk", "Rice", "Legumes", "Carrots", "Potatoes")),
+    `kg CO2 per serving` = `Pounds CO2 per Serving` / 2.204623, # Convert lbm to kg.
+    `Pounds CO2 per Serving` = NULL
+  ) %>% 
+  ggplot() + 
+  geom_bar(aes(y = `kg CO2 per serving`, x = Product, fill = Product), stat = "identity") +
+  # geom_text(aes(y = `kg CO2 per serving` + 0.15, x = Product, label = round(`kg CO2 per serving`, 1), group = Product), 
+  #           color = "gray50") +
+  labs(x = element_blank(), y = expression("Emissions [kg " * CO[2] * "/serving]"), fill = element_blank()) +
+  guides(fill = FALSE) +
+  MKHthemes::xy_theme() + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+@
+
 
 A second sustainabiilty challenge that arises in food and agriculture
 is the greenhouse gas\index{greenhouse gases}
@@ -241,31 +265,6 @@ Factors such as transport distance and wastage percentages are important
 for determining GHG emissions from food.
 \end{mcframe}
 
-<<echo=FALSE>>=
-
-data_string <- 
-    "Pounds CO2 per Serving	Product\n
-6.61	Beef\n
-2.45	Cheese\n
-1.72	Pork\n
-1.26	Poultry\n
-0.89	Eggs\n
-0.72	Milk\n
-0.16	Rice\n
-0.11	Legumes\n
-0.07	Carrots\n
-0.03	Potatoes"
-
-
-read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
-  dplyr::mutate(
-    Product = factor(Product, levels = c("Beef", "Cheese", "Pork", "Poultry", "Eggs", "Milk", "Rice", "Legumes", "Carrots", "Potatoes"))
-  ) %>% 
-  ggplot() + 
-  geom_bar(aes(y = `Pounds CO2 per Serving`, x = Product, fill = Product), stat="identity") +
-  geom_text(aes(y = `Pounds CO2 per Serving`, x= Product, label = `Pounds CO2 per Serving`, group = Product), color = "black")
-
-@
 
 %++++++++++++++++++++++++++++++
 \subsection{Justice}
