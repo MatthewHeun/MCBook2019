@@ -12,27 +12,27 @@ or, at the very least, experieince drastic changes to our standard of living.
 This book attempts to summarize the evidence that humans are not living
 sustainably and to outline what sustainable societies would look like. We hope
 that readers will come to appreciate the complex and interconnected challenges
-associated with transitioning to a sustainable existence. 
+associated with transitioning to a sustainable existence.
 
 \section{Definitions of Sustainability}
 \label{ch01.defn}
-Sustain means to endure, to continue, and to last. 
+Sustain means to endure, to continue, and to last.
 %The etymology is from
-%Old French, by way of the Latin roots "sub," meaning from below, and 
-%"sustinere," meaning to hold up, support or endure. 
+%Old French, by way of the Latin roots "sub," meaning from below, and
+%"sustinere," meaning to hold up, support or endure.
 \index{sustainability!definition}
 Many authors have written about sustainability and it may seem that
 every publication has a unique definition of sustainability. The most commonly
-cited definition of sustainability is that sustainability means meeting 
-"the needs of the present without compromising the ability of future 
+cited definition of sustainability is that sustainability means meeting
+"the needs of the present without compromising the ability of future
 generations to meet their own needs"~\citep{Brund87}.
 
 
 \subsection{The scope of sustainability}
-When considering the meaning of sustainability, it is natural to ask 
+When considering the meaning of sustainability, it is natural to ask
 "sustaining what?" and "for how long?"
-The second of these question is perhaps easier to answer. While humans seem to 
-have difficulty planning for time scales significantly longer than the human 
+The second of these question is perhaps easier to answer. While humans seem to
+have difficulty planning for time scales significantly longer than the human
 lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" or "forever."
 \begin{figure}[hbt] % 01
 \centering
@@ -47,52 +47,53 @@ lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" o
 \label{ch01.3pillars}
 \end{figure}
 
-<<Hierarchy_sust, echo = FALSE, fig.height = 3.5, fig.width = 5, fig.cap = "Hierachy in sustainability", fig.scap = "Hierarchy">>=
-
+<<Hierarchy_sust, echo = FALSE, fig.height = 3.5, fig.width = 5, fig.cap = "Sustainability hierachy.", fig.scap = "Hierarchy">>=
 add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
   .plot +
     annotate("polygon",
              x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)), 
-             fill = fill) + 
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)),
+             fill = fill) +
     annotate("path",
              x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))    
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))
 }
 
 ggplot() %>%
   #Adding circles
-  add_circ(r= 2, xc = .6, yc = -.1, fill = "cadetblue2") %>%  #Human-created artifacts
-  add_circ(r=1.75, xc = .5, yc = -0.1, fill = "plum3") %>% #The natural world
+  add_circ(r= 2, xc = .6, yc = -.1, fill = "cadetblue2") %>%  # Human-created artifacts
+  add_circ(r=1.75, xc = .5, yc = -0.1, fill = "plum3") %>%    # The natural world
   add_circ(r=1.3, xc = .2, yc = -.3, fill = "rosybrown2") %>% # Ecosystem services
-  add_circ(r=.5, xc = -0.5, yc = -.5, fill = "khaki") + #Human and society
-  annotate(geom = "text", x = -.5, y = -.4, label="Human life\n and society", family="Libre Caslon Text", size = 3.5)+
-  annotate(geom="text", x = 0.5, y = .3, label = "Ecosystem services\n needed to support\n human life and society", family = "Libre Caslon Text", size = 3.5)+
-  annotate(geom = "text", x = 1.8, y = 0, label = "The natural\n world", family = "Libre Caslon Text", size = 3.5)+
-  annotate(geom = "text", x = 1.2, y = 2.1, label = "Human-created artifacts\n and systems", family = "Libre Caslon Text", size = 3.5)+
- 
-
-theme_void()
-
+  add_circ(r=.5, xc = -0.5, yc = -.5, fill = "khaki") +       # Human and society
+  annotate(geom = "text", x = -.5, y = -.4, label="Human life\n and society",
+           family="Libre Caslon Text", size = 3.5) +
+  annotate(geom="text", x = 0.5, y = .3, label = "Ecosystem services\n needed to support\n human life and society",
+           family = "Libre Caslon Text", size = 3.5) +
+  annotate(geom = "text", x = 1.8, y = 0, label = "The natural\n world",
+           family = "Libre Caslon Text", size = 3.5) +
+  annotate(geom = "text", x = 1.2, y = 2.1, label = "Human-created artifacts\n and systems",
+           family = "Libre Caslon Text", size = 3.5) +
+  theme_void()
 @
 
 
+
 The narrowest answer for what needs sustaining is human life and society, which
-perforce entails those ecosystem services necessary for human health and 
-wellbeing (see Figure \ref{ch01.fig1}. 
-Beyond these basics, some people view the nonhuman world as having 
+perforce entails those ecosystem services necessary for human health and
+wellbeing (see Figure \ref{ch01.fig1}.
+Beyond these basics, some people view the nonhuman world as having
 inherent worth or standing and, as such, to also be worth perserving, even if
-it has no (or negative, for example, smallpox) impact on human continuity. 
-Unfortunately,humans don't know clearly what pieces of the ecosystem are, in the long run, 
-necessary for survival and which aren't. For instance, would we be able to survive 
+it has no (or negative, for example, smallpox) impact on human continuity.
+Unfortunately,humans don't know clearly what pieces of the ecosystem are, in the long run,
+necessary for survival and which aren't. For instance, would we be able to survive
 in a world without dandelions? Maybe. On the other hand, dandelions might be necessary
 for other organisms. Environmental science views the ecosystem in its entirety as a web,
 with all parts depending on all other parts. The ecosystem is viewed then, not as a individual
-components with binary "needed" "not needed" classifications but as a whole that exists 
+components with binary "needed" "not needed" classifications but as a whole that exists
 on a continuum of "functional" to "nonfunctional."
 
 Planetary boundaries describe limits beyond which the Earth's ability to support
-human life is diminished or destroyed. 
+human life is diminished or destroyed.
 
 In the outer ring is human-created devices and systems. Humanity could survive without
 the great pyramids of Giza, although we would have lost great cultural and historical
@@ -106,33 +107,33 @@ encapsulates a useful way to conceptualize the environmental impacts of human ac
 $$ \label{eq:ipat}
 I = P \times A \times T
 $$
-where $P$ is human population, $A$ is affluence, measured in per capita consumption, 
+where $P$ is human population, $A$ is affluence, measured in per capita consumption,
 and $T$ is technology, with units of environmental impact per unit of consumption.
-Although it is not commonly written in vector form, \ref{eq:ipat} could be written 
+Although it is not commonly written in vector form, \ref{eq:ipat} could be written
 as a double summation of vector quantities.
 $$ \label{eq:vipat}
 \bar{I}= \Sigma_i \Sigma_j P_i \times A_{ij} \times \bar{T}_j
 $$
 where index $i$ refers to a country with population $P_i$ and $j$ refers to different
-categories of goods consumed. $\bar{T}_j$ is a vector of environmental impacts 
+categories of goods consumed. $\bar{T}_j$ is a vector of environmental impacts
 from producing/consuming good of type $j$ and $\bar{I}$ is the vector of global
 environmental impacts, encompassing such things as global warming potential,
 aquifer depletion, and eutrophication.
 
-The Kaya identity is similar to the IPAT equation but is specifically for 
+The Kaya identity is similar to the IPAT equation but is specifically for
 greenhouse gases.
 
 \section{Sources and sinks}
 The IPAT equation works equally well for describing environmental \emph{impacts} or
 the \emph{resources} needed to support a certain level of consumption.
 
-Human economic and social activity 
+Human economic and social activity
 
 
 \section{Mathematics of sustainability}
-Both population (see Chapter~\ref{chap:population}) and affluence (see Chapter \ref{chap:economy}) have 
+Both population (see Chapter~\ref{chap:population}) and affluence (see Chapter \ref{chap:economy}) have
 been growing exponentially. Economies are (typically) managed specifically for
-exponential growth by having a constant growth rate. 
+exponential growth by having a constant growth rate.
 Martingale
 rates and levels
 predictions and good enough
@@ -151,15 +152,15 @@ predictions and good enough
 # Thus, we assign the return value to a variable,
 # which has the effect of suppressing the text output from the function.
 # Note that cex = 0 sets the size of the area labels to 0, thereby suppressing the numbers.
-# draw.triple.venn(area1 = 20, area2 = 20, area3 = 13, n12 = 11, n23 = 4, n13 = 5, 
-#                                     n123 = 1, category = c("Social", "Economic", "Environmental"), lty = "blank", 
-#                                     fill = c("skyblue", "pink1", "mediumorchid"), cex = 0, cat.fontface = "Arial") %>% 
+# draw.triple.venn(area1 = 20, area2 = 20, area3 = 13, n12 = 11, n23 = 4, n13 = 5,
+#                                     n123 = 1, category = c("Social", "Economic", "Environmental"), lty = "blank",
+#                                     fill = c("skyblue", "pink1", "mediumorchid"), cex = 0, cat.fontface = "Arial") %>%
 #   invisible()
 
 # Adds a circle to .plot at the specified location
 
 
-ggplot() %>% 
+ggplot() %>%
   # Add circles
   add_circ(r = 1, xc = 0.66667, yc = 0) %>%  # Environmental
   add_circ(r = 1, xc = -0.66667, yc = 0) %>% # Social
