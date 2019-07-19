@@ -132,7 +132,8 @@ retail, food storage, and food preparation.
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 \begin{mcframe}[0.90\textwidth](0.85\textwidth)
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-A pithy way to summarize the sustainability challenge posed by food energy is:
+A pithy way to summarize the sustainability challenge posed 
+by today's food energy return ratios is:
 ``We don't eat food; we eat oil.''
 \end{mcframe}
 
@@ -144,7 +145,7 @@ A pithy way to summarize the sustainability challenge posed by food energy is:
 
 <<pounds_serving, echo = FALSE, fig.align = "center", fig.width = 5, fig.height = 3.5, fig.scap = "Pounds of CO$_2$ per serving.", fig.cap = "Carbon dioxide (CO$_2$) equivalent emissions per serving of various foods~\\citep[Fig.~2]{Heller_2014}.">>=
 data_string <- 
-    "Pounds CO2 per Serving	Product\n
+"Pounds CO2 per Serving	Product\n
 6.61	Beef\n
 2.45	Cheese\n
 1.72	Pork\n
@@ -176,7 +177,7 @@ read.table(text = data_string, sep = "\t", header = TRUE, stringsAsFactors = FAL
 A second sustainabiilty challenge that arises in food and agriculture
 is the greenhouse gas\index{greenhouse gases}
 emissions whose origin is the food delivery system.
-Figure~\ref{fig:pounds_serving} shows how much CO$_2$ is released 
+Figure~\ref{fig:pounds_serving} shows the amount of CO$_2$ released 
 from the production and distribution of one serving 
 of several types of food~\citep[Fig.~2]{Heller_2014}.
 Figure~\ref{fig:pounds_serving} reinforces the observations from above,
@@ -190,15 +191,6 @@ namely that
     
 \end{enumerate*}
 
-
-
-
-% If we want to create the same graph in ggplot, 
-% it looks like Figure~\ref{fig:GHG_from_food}.
-% We can, of course, change colors and other features of the plot.
-
-% 
-% 
 % \begin{figure}
 % \centering
 % \includegraphics[width=0.75\linewidth]{chapters/ch07/GHGfromFoodConsumption.pdf}
@@ -251,9 +243,7 @@ namely that
 %   # Change size of legend squares
 %   theme(legend.key.size = unit(0.3, "cm")) +
 %   theme(plot.margin = unit(c(0,0,0,0),"mm"))
-% 
-
-@
+% @
 
 
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -279,7 +269,6 @@ are places where fresh food is unavailable to people without access to transport
 Figure~\ref{fig:food_deserts} shows, on a county-by-country basis in the U.S., 
 the proportion of people who lack access to fresh food.
 
-
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch07/Food_Desert.pdf}
@@ -289,7 +278,8 @@ the proportion of people who lack access to fresh food.
 
 Lack of access to food tends to correlate with lack of access to money,
 so malnourishment tends to mirror poverty.
-Figure~\ref{fig:malnourished_map} shows the percentages of population in each country that are undernourisched\index{undernourishment}.
+Figure~\ref{fig:malnourished_map} shows the percentage of people in each country 
+who are undernourished\index{undernourishment}.
 
 \begin{figure}
 \centering
@@ -338,13 +328,29 @@ rworldmap::mapCountryData(malMap, nameColumnToPlot = "Fraction of population und
 \label{sec:food_transitions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+To achieve a more-sustainable food system,
+changes on many levels will be needed, 
+from the personal to the global.
 
+On the personal level, 
+eating closer to the base of the food chain and
+pursuing vegetarian or vegan diets are among the most effective
+ways to reduce negative environmental impacts of the food supply system.
+Participating in the slow food movement can promote sustainability, 
+as it seeks to promote traditional, regional cuisine, 
+thereby reducing the distance from farm to plate.
 
+At the global level,
+organic farming seeks to limit the use of synthetic fertilizers and pesticides
+by promoting the use of compost, manure, and natural practices.
+Practices such as crop rotation and biological (as opposed to chemical) past control 
+are encouraged.
 
-
-
-
-
+The growing problem of food waste spans the personal and global levels.
+**** Larisa: research food waste numbers over time. ****
+Actions and policies to minimize food waste provide benefits such as 
+reducing inputs to the food system and
+strain on the biosphere. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
