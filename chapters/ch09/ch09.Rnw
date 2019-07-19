@@ -5,7 +5,7 @@
 
 %blankpage
 
-\chapter{Housing and Households}
+\chapter{Housing and Households (MKH 6)}
 \label{chap:housing_and_households}
 
 Figure~\ref{fig:average_footage} displays the average square footage of new single family homes in the United States between 1970-2015~\citep[Fig.~1]{HUD_housing}.
