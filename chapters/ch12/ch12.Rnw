@@ -9,5 +9,195 @@
 \label{chap:systems_thinking}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{System definition}
+\label{sec:system_definition}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Interconnected parts.
+
+Meadows:  A coherently organized group of interacting, 
+interdependent parts that exchange energy, matter, and/or information to achieve something. 
+(Telos?)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{System characteristics}
+\label{sec:system_characteristics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Systems have structure: Holarchies.
+
+
+Emergent behavior:  The whole is greater than the sum of the parts. 
+Higher levels of the holarchy behave in ways that are completely different from lower levels of the holarchy
+
+
+
+Unpredictable.
+Unexpected (unintended) consequences.
+Benefits, 
+Drawbacks, 
+Perverse.
+
+Chaotic.
+
+Relationships matter.  Same two subsystems arranged differently can produce different outcomes.
+
+``You can never do only one thing.'' --Vernon Ehlers
+
+Preserve structure.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Implictions of systems}
+\label{sec:system_implications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Systems thinking is ``natural'' for engineers
+
+Engineers involved in large projects are themselves holons in a holarchy.
+Machine dynamics, chemical processes, thermodynamic systems, etc.\ are all analyzed as holoarchies.
+
+We need to deal with the complexities of systems
+and still create engineered objects that work.
+How do we do that?
+``Control volumes'' and ``free body diagrams'' are ways of simplifying the complexities of systems.
+
+Benefits:
+%
+\begin{itemize}
+
+  \item Small changes a lower levels can create big changes in higher levels of a holarchy
+
+  \item Specialization possible at lower levels of holarchy
+  
+  \item Large, technical projects (airlines, spacecraft, chemical plants) are possible (Directed Technological Holarchy, Graedel p. 217)
+  
+  \item Resistant to change (preserve structure).
+
+\end{itemize}
+%
+
+Drawbacks:
+%
+\begin{itemize}
+
+  \item Emergent behavior brings unintended consequences
+
+  \item Difficult to understand, because many holons need to be analyzed (complicated)
+  
+  \item Impossible to understand high-level behavior by analyzing low-level holons only (complex)
+  
+  \item Collaborative technological holarchies are difficult to manage (Graedel p. 217)
+  
+  \item We have linear minds in a non-linear world (Meadows p. 91)
+  
+  \item Resistant to change (preserve structure)
+
+\end{itemize}
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Complexity theory}
+\label{sec:complexity_theory}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Complicated: Difficult (but not impossible) to understand system by analyzing lower-level holons
+
+Complex: Can't understand system by taking it apart
+
+Systems can resist change (be resilient in the face of external perturbation)
+
+Everything is connected all the time
+
+Effects cannot be tracked deterministically
+
+Knowledge has limits (always!)
+
+Knowledge is provisional, contextual, and contingent (but not arbitrary)
+
+Intuition can be as important as rationality when dealing with complex systems
+
+One way to intervene in an established (legacy) system is to question the boundaries! Deconstruct (shift) the framework.
+
+
+Modeling is an attempt to understand/describe a system (via simplification, a reduction of complexity)
+
+Necessarily, all modeling involves drawing boundaries: Free-body-diagrams and control volumes
+
+Agents (in Agent-based modeling)
+
+All models 
+
+Amplify some aspects or behaviors of a system 
+
+Dampen others
+
+Descriptions of the world (models and theories) involve choice. 
+
+Thus, there are normative aspects to dealing with complexity (what ``ought'' to be done when constructing a model)
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Example systems}
+\label{sec:example_systems}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Two chapters already discussed systems:
+
+Energy-economy
+
+Transport system
+
+Questions to ponder about the transport system:
+
+What problems was the existing transportation system designed to solve?
+
+What problems do we have today?
+
+Is our legacy transportation system resilient (resistant to change)? Why or why not?
+
+Does the existing transportation system exacerbate or help to solve today’s problems?
+
+What should we do with ``legacy'' systems?
+
+Does the tendency to preserve structure in legacy systems 
+mean that our existing transport system sees sustainable transportation as a ``virus'' that needs to be eliminated?
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Questions}\index{questions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problems}
+
+\item Estimate the CO$_2$ emissions caused by a 1-person, 1-way trip from your town to Los Angeles via
+      foot (walking), bicycle, automobile, rail, bus, and air.
+
+      
+\item Critique the previous question
+      (both the assignment itself and your answer) 
+      from a complexity theory and systems thinking point of view.
+      Did you estimate vehicle embodied energy (and thus CO$_2$ emissions (bicycle, auto, bus, plane)?
+      Complexity Theory tells us that everything is interconnected. 
+      What other things (infrastructure) are necessary to make your trip?
+
+\end{problems}
+
+
+
+
+
+
 \cleardoublepage
 
