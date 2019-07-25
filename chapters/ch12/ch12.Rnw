@@ -30,6 +30,45 @@ interdependent parts that exchange energy, matter, and/or information to achieve
 Systems have structure: Holarchies.
 
 
+<<Holarchies_sust, echo=FALSE, fig.height = 3.5, fig.width=5, fig.cap="Holarchies", fig.scap="Holarchies">>=
+
+add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
+  .plot +
+    annotate("polygon",
+             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)),
+             fill = fill) +
+    annotate("path",
+             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))
+}
+
+ggplot() %>%
+  #Adding circles
+  add_circ(r=.25, xc=-.4, yc=-0.1, fill="lightcyan") %>% #number 4
+  add_circ(r=0.25, xc = -.3, yc = 1, fill="lightcyan") %>% #number 4
+  add_circ(r=0.25, xc = .5, yc = -0.4, fill="lightcyan") %>% #number 4
+  add_circ(r=1.5, xc = .1, yc = .2) %>% #number 3
+  add_circ(r=2, xc=.1, yc=.2) %>% #number 2
+  add_circ(r=2.3, xc=.2, yc=.2) + #number 1
+  
+  annotate(geom = "text", x = -.4, y = -.1, label="4",
+           family="Libre Caslon Text", size = 3.5) +
+   annotate(geom = "text", x = -0.3, y = 1, label="4",
+           family="Libre Caslon Text", size = 3.5) +
+   annotate(geom = "text", x = .5, y = -.4, label="4",
+           family="Libre Caslon Text", size = 3.5) +
+  annotate(geom="text", x = 1.4, y = .5, label = "3",
+           family = "Libre Caslon Text", size = 3.5) +
+  annotate(geom = "text", x = 1.9, y = 0.5, label = "2",
+           family = "Libre Caslon Text", size = 3.5) +
+  annotate(geom = "text", x = 2.3, y = 0.5, label = "1",
+           family = "Libre Caslon Text", size = 3.5) +
+
+  theme_void()
+
+@
+
 Emergent behavior:  The whole is greater than the sum of the parts. 
 Higher levels of the holarchy behave in ways that are completely different from lower levels of the holarchy
 
