@@ -9,29 +9,54 @@
 \label{chap:systems_thinking}
 
 
+Sustainability challenges are characterized 
+by sometimes-mysterious interactions among seemingly-unrealated entities.
+Many of those interactions are highlighted in previous chapters, and the entities include
+the environment (air, water, plants, animals, food, agriculture),
+transportation, cities, energy, economy, and government.
+Systems thinking is a way to conceptualize and make sense of these interactions\index{systems!interactions}.
+The purpose of this chapter is to introduce systems thinking\index{systems thinking}
+and encourage readers to adopt a systems view of the world.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{System definition}
 \label{sec:system_definition}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Interconnected parts.
+Donella Meadows defines a \emph{system}\index{system}
+as ``an interconnected set of elements that is coherently organized in a way that achieves something''~\cite[p.~11]{Meadows:2008aa}.
+Example systems are the Earth, the solar system, a volleyball team, an ant, a bacterium.
+Meadows' definition has three aspects:
+elements\index{elements!of a system}, interconnections\index{interconnections!in a system}, and a telos\index{telos}.
 
-Meadows:  A coherently organized group of interacting, 
-interdependent parts that exchange energy, matter, and/or information to achieve something. 
-(Telos?)
+Systems have elements, 
+distinct entities with their own characteristics, behaviors, and qualities.  
+Elements are sometimes known as \emph{holons}\index{holons}~\cite[p.~216]{Graedel:2010ab}.
+The elements or holons of a volleyball team include
+passers, setters, hitters, and a coach. 
+A volleyball match is another system that \emph{contains} two teams (and their holons) plus
+a net, a court, and a referee.
+The holons of the solar system include
+the sun, planets, asteroids, and meteors.
+The Milky Way galaxy is another system whose holons include many solar systems and comets.
+The universe is yet another system that includes the Milky Way and innumerable other galaxies.
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{System characteristics}
-\label{sec:system_characteristics}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Systems have structure: Holarchies.
-
+The elements of a sytem are interconnected 
+in ways that allow elements to interact to each other within the system.
+The interconnections, themselves, may have spatial, electrical, mechanical, temporal, or other characteristics.
+i.e., elements can be arranged in space and connected electrically and/or mechanically, and
+those arrangements and connections can change over time.
+Spatial interconnections can be characterized as container (parent-child) relationships
+or sibling relationships.
+A word that describes the arrangement of holons is \emph{holarchy}\index{holarchy}~\cite[p.~216]{Graedel:2010ab}.
+Figure~\ref{fig:Holarchies_sust} shows a holarchy of 6 holons.
+Elements 1, 2, and 3 exhibit parent-child (container) relationships,
+with 3 being contained by 2 and 2 being contained by 1.
+Items 4a, 4b, and 4c are contained by element 3, but
+they have siblings relationships among themselves.
 
 <<Holarchies_sust, echo=FALSE, fig.height = 3.5, fig.width=5, fig.cap="Holarchies", fig.scap="Holarchies">>=
-
 add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
   .plot +
     annotate("polygon",
@@ -45,18 +70,18 @@ add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
 
 ggplot() %>%
   #Adding circles
+  add_circ(r=2.3, xc=.2, yc=.2, fill = "lightyellow") %>% #number 1
+  add_circ(r=2, xc=.1, yc=.2, fill = "pink") %>% #number 2
+  add_circ(r=1.5, xc = .1, yc = .2, fill = "lightgreen") %>% #number 3
   add_circ(r=.25, xc=-.4, yc=-0.1, fill="lightcyan") %>% #number 4
   add_circ(r=0.25, xc = .3, yc = 1, fill="lightcyan") %>% #number 4
-  add_circ(r=0.25, xc = .5, yc = -0.4, fill="lightcyan") %>% #number 4
-  add_circ(r=1.5, xc = .1, yc = .2) %>% #number 3
-  add_circ(r=2, xc=.1, yc=.2) %>% #number 2
-  add_circ(r=2.3, xc=.2, yc=.2) + #number 1
+  add_circ(r=0.25, xc = .5, yc = -0.4, fill="lightcyan") + #number 4
   
-  annotate(geom = "text", x = -.4, y = -.1, label="4",
+  annotate(geom = "text", x = -.4, y = -.1, label="4a",
            family="Libre Caslon Text", size = 3.5) +
-   annotate(geom = "text", x = 0.3, y = 1, label="4",
+   annotate(geom = "text", x = 0.3, y = 1, label="4b",
            family="Libre Caslon Text", size = 3.5) +
-   annotate(geom = "text", x = .5, y = -.4, label="4",
+   annotate(geom = "text", x = .5, y = -.4, label="4c",
            family="Libre Caslon Text", size = 3.5) +
   annotate(geom="text", x = 1.4, y = .5, label = "3",
            family = "Libre Caslon Text", size = 3.5) +
@@ -66,8 +91,26 @@ ggplot() %>%
            family = "Libre Caslon Text", size = 3.5) +
 
   theme_void()
-
 @
+
+A volleyball team is arranged spatially on the court.
+Its players move spatially through time for each point but also from point to point in their rotation.
+Planets are arranged spatially in the solar system, and their spatial relationship to each other 
+changes in predictable ways through time.
+
+Systems have a telos\index{telos} or a purpose, an ultimate aim.
+Some sytems have multiple purposes.
+The teloi of a volleyball include
+player development, winning, and enjoyment.
+The telos for the solar system may be interpreted as providing a home for Earth and, ultimately, humans.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{System characteristics}
+\label{sec:system_characteristics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 Emergent behavior:  The whole is greater than the sum of the parts. 
 Higher levels of the holarchy behave in ways that are completely different from lower levels of the holarchy
