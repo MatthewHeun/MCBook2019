@@ -46,7 +46,7 @@ add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
 ggplot() %>%
   #Adding circles
   add_circ(r=.25, xc=-.4, yc=-0.1, fill="lightcyan") %>% #number 4
-  add_circ(r=0.25, xc = -.3, yc = 1, fill="lightcyan") %>% #number 4
+  add_circ(r=0.25, xc = .3, yc = 1, fill="lightcyan") %>% #number 4
   add_circ(r=0.25, xc = .5, yc = -0.4, fill="lightcyan") %>% #number 4
   add_circ(r=1.5, xc = .1, yc = .2) %>% #number 3
   add_circ(r=2, xc=.1, yc=.2) %>% #number 2
@@ -54,7 +54,7 @@ ggplot() %>%
   
   annotate(geom = "text", x = -.4, y = -.1, label="4",
            family="Libre Caslon Text", size = 3.5) +
-   annotate(geom = "text", x = -0.3, y = 1, label="4",
+   annotate(geom = "text", x = 0.3, y = 1, label="4",
            family="Libre Caslon Text", size = 3.5) +
    annotate(geom = "text", x = .5, y = -.4, label="4",
            family="Libre Caslon Text", size = 3.5) +
