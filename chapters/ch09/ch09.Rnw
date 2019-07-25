@@ -5,7 +5,7 @@
 
 %blankpage
 
-\chapter{Housing and Households}
+\chapter{Housing and Households (MKH 6)}
 \label{chap:housing_and_households}
 
 Figure~\ref{fig:average_footage} displays the average square footage of new single family homes in the United States between 1970-2015~\citep[Fig.~1]{HUD_housing}.
@@ -47,7 +47,33 @@ Avg_Consmp %>%
 
 @
 
+<<echo=FALSE>>=
 
+data_string <- 
+  "Percentage	Year\n
+8	1940\n
+9	1950\n
+13	1960\n
+18	1970\n
+23	1980\n
+25	1990\n
+26	2000\n
+28	2017\n
+"
+ read.table(text=data_string, sep= "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
+  # dplyr::mutate(
+   #  Year = factor(Year, levels = c(1940 1950, 1960, 1970, 1980, 1990, 2000, 2017))
+   #)%>%
+   ggplot()+
+   geom_bar(aes(y='Single-Person Household', x=Year, fill=Percentage), stat = "identity")+
+   labs(x=element_blank(), y=expression("Single-Person Households"), fill = element_blank())+
+   #scale_y_continuous(labels=percent)+
+   guides(fill = FALSE) +
+   MKHthemes::xy_theme()+
+   theme(axis.text.x = element_text(angle = 90, hjust=1))
+
+
+@
 Figure~\ref{fig:average_energy} shows how the energy is consumed within a residential home~\citep[Fig.~3]{EIA_2018}.
 
 \begin{figure}
