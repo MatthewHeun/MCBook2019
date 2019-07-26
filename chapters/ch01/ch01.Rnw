@@ -48,17 +48,6 @@ lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" o
 \end{figure}
 
 <<Hierarchy_sust, echo = FALSE, fig.height = 3.5, fig.width = 5, fig.cap = "Sustainability hierachy.", fig.scap = "Hierarchy">>=
-add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
-  .plot +
-    annotate("polygon",
-             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)),
-             fill = fill) +
-    annotate("path",
-             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))
-}
-
 ggplot() %>%
   #Adding circles
   add_circ(r= 2, xc = .6, yc = -.1, fill = "cadetblue2") %>%  # Human-created artifacts

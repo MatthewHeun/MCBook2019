@@ -60,18 +60,7 @@ they have sibling relationships among themselves.
 Two systems with identical holons will be have differently 
 if their elements are arranged differently.
 
-<<Holarchies_sust, echo=FALSE, fig.height = 3.5, fig.width=5, fig.cap="Holarchies", fig.scap="Holarchies">>=
-add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
-  .plot +
-    annotate("polygon",
-             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)),
-             fill = fill) +
-    annotate("path",
-             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
-             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))
-}
-
+<<Holarchies_sust, echo=FALSE, fig.height = 3.5, fig.width=5, fig.cap="An example holarchy.", fig.scap="A holarchy.">>=
 ggplot() %>%
   #Adding circles
   add_circ(r=2.3, xc=.2, yc=.2, fill = "lightyellow") %>% #number 1
@@ -259,10 +248,10 @@ put the systems ``back together,''
 by describing the connections among the components/elements/holons.
 
 Engineers must address the complexities of engineered systems
-to produce engineered obejects that meet performance requirements and
-fulfil their intended purposes, their teloi.
-To do so, safety factors and mass, power, volume, and cost margins are applied.
-Progress updates are delivered to master engineers who 
+to produce engineered obejects that meet performance ``requirements'' and
+fulfill their intended purposes, their teloi.
+To do so, ``safety factors'' and mass, power, volume, and cost margins are applied.
+Progress updates are delivered during ``design reviews'' reviews to master engineers who 
 find problems with and suggest solutions for designs and plans. 
 \end{mcframe}
 

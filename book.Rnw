@@ -53,6 +53,19 @@ ttf_import(paths = "Libre-Caslon-Text-master") %>% invisible()
 loadfonts() %>% invisible()
 @
 
+<<r_functions, echo=FALSE>>=
+add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
+  .plot +
+    annotate("polygon",
+             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)),
+             fill = fill) +
+    annotate("path",
+             x = xc + r*cos(seq(0, 2*pi, length.out = n_segs)),
+             y = yc + r*sin(seq(0, 2*pi, length.out = n_segs)))
+}
+@
+
 
 %
 % End author additions
