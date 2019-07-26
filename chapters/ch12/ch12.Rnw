@@ -263,16 +263,9 @@ mean that our existing transport system sees sustainable transportation as a ``v
 
 \begin{problems}
 
-\item Estimate the CO$_2$ emissions caused by a 1-person, 1-way trip from your town to Los Angeles via
-      foot (walking), bicycle, automobile, rail, bus, and air.
+\item Make a list of 3 systems. 
+      What are the the elements (holons), connections (holarchy), and teloi for each system?
 
-      
-\item Critique the previous question
-      (both the assignment itself and your answer) 
-      from a complexity theory and systems thinking point of view.
-      Did you estimate vehicle embodied energy (and thus CO$_2$ emissions (bicycle, auto, bus, plane)?
-      Complexity Theory tells us that everything is interconnected. 
-      What other things (infrastructure) are necessary to make your trip?
 
 \end{problems}
 
