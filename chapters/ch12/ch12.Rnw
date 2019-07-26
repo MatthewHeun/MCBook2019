@@ -47,6 +47,8 @@ in ways that allow elements to interact to each other within the system.
 The interconnections, themselves, may have spatial, electrical, mechanical, temporal, or other characteristics.
 i.e., elements can be arranged in space and connected electrically and/or mechanically, and
 those arrangements and connections can change over time.
+Material and information can \emph{flow}\index{flows!in a system}
+along the interconnections between the elements (holons).
 Spatial interconnections can be characterized as container (parent-child) relationships
 or sibling relationships.
 A word that describes the arrangement of holons is \emph{holarchy}\index{holarchy}~\cite[p.~216]{Graedel:2010ab}.
@@ -54,7 +56,9 @@ Figure~\ref{fig:Holarchies_sust} shows a holarchy of 6 holons.
 Elements 1, 2, and 3 exhibit parent-child (container) relationships,
 with 3 being contained by 2 and 2 being contained by 1.
 Items 4a, 4b, and 4c are contained by element 3, but
-they have siblings relationships among themselves.
+they have sibling relationships among themselves.
+Two systems with identical holons will be have differently 
+if their elements are arranged differently.
 
 <<Holarchies_sust, echo=FALSE, fig.height = 3.5, fig.width=5, fig.cap="Holarchies", fig.scap="Holarchies">>=
 add_circ <- function(.plot, r, xc, yc, fill = NA, n_segs = 100){
@@ -93,15 +97,15 @@ ggplot() %>%
   theme_void()
 @
 
-A volleyball team is arranged spatially on the court.
+A volleyball\index{volleyball} team is arranged spatially on the court.
 Its players move spatially through time for each point but also from point to point in their rotation.
-Planets are arranged spatially in the solar system, and their spatial relationship to each other 
-changes in predictable ways through time.
+Planets are arranged spatially in the solar system\index{solar system}, and
+their spatial relationships to each other change in (mostly) predictable ways through time.
 
 Systems have a telos\index{telos} or a purpose, an ultimate aim.
 Some sytems have multiple purposes.
-The teloi of a volleyball include
-player development, winning, and enjoyment.
+The teloi of a volleyball team include
+player development, winning, and fun.
 The telos for the solar system may be interpreted as providing a home for Earth and, ultimately, humans.
 
 
@@ -110,26 +114,87 @@ The telos for the solar system may be interpreted as providing a home for Earth 
 \label{sec:system_characteristics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+Humans understand system characteristics so deeply that 
+some are embedded in the proverbs and aphorisms of language. 
 
+The behavior of a system is always different from the behavior of its elements or holons, for
+interactions play a central role in the functioning of a system. 
+Put in the language of Section~\ref{sec:system_definition}, 
+the higher (enclosing) levels of a holarchy behave in ways that are 
+different from (often very different from) 
+lower (enclosed) levels of the holarchy.
+As a whole, a volleyball team behaves differently from its coach.
+The universe exhibits different characteristics from the Earth.
+Systems are said to have \emph{emergent behavior}\index{emergent behavior} 
+when system behavior is radically different from its holons.
+Indeed, for a system,
+``the whole is greater than (or at least different from) the sum of its parts!''
 
-Emergent behavior:  The whole is greater than the sum of the parts. 
-Higher levels of the holarchy behave in ways that are completely different from lower levels of the holarchy
+Because behaviors differ across levels in a system and
+because interactions play a large role in the behavior of a system,
+systems often appear to be unpredictable.
+A volleyball team that won the first set of a match handily goes into a funk, 
+losing the first 8 points of the second set.
+Weather in the Earth system cannot be forecasted, even with the best meteorology, 
+more than a few days in advance.
+A colloquial word to describe unpredictability is \emph{chaotic}.\index{chaos}
 
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+A related branch of mathematics called \emph{chaos theory}\index{chaos theory}
+studies dynamic systems whose changes in behavior are disproportionate to
+changes in initial conditions. 
+However, in chaos theory, systems are entirely predictable 
+if initial conditions are specified identically (mathematically) from one experiment to another.
+The difference between the seeming unpredictability (but actual predictability) of chaos theory and 
+the chaotic behavior of systems described here is that 
+real systems can behave differently \emph{even if} initial conditions are specified identically.
 
+The distinction is blurred when measurement uncertainty is considered.
+In chaos theory, an infinitesimally small 
+perturbation of initial conditions
+can produce wildly different system behavior.
+But in the real world, 
+the infinitesimally small perturbation is indistinguishable from zero to within finite measurement uncertainty.
+Thus, a real-world system with apparently the same initial conditions 
+(to within measurement uncertainty) 
+can exhibit wildly different behavior in the real world,
+as systems thinking predicts.
+\end{mcframe}
 
-Unpredictable.
-Unexpected (unintended) consequences.
-Benefits, 
-Drawbacks, 
-Perverse.
+The presence of connections among holons in a system means that perturbing 
+one part of a system will have effects beyond the initial perturbation site in both space and time.
+A volleyball coach can position players to thwart a hitter who sends spikes ``down the line,''
+but her team's defense will now be vulnerable to the opposing setter's ``dinks''
+to the middle of her defense.
+In the Earth system, installing a hydropower station will provide electricity, 
+but it will also 
+create an upstream lake, 
+expose downstream riverbanks, and
+change fish migration patterns.
+Former Michigan U.S.\ 3$^\mathrm{rd}$ district congressman Vernon Ehlers often said
+``You can never do only one thing.''
 
-Chaotic.
+This apparent system unpredictability extends to human actions intended to influence the behavior of systems.
+A volleyball coach can \emph{think} she is motivating a player with a stinging critique 
+but produce the opposite effect, player demoralization.
+Human efforts to ``manage'' forests have decimated old growth trees.
+Colloquially, we call this unpredictability \emph{unintended consequences}.\index{unintended consequences}
 
-Relationships matter.  Same two subsystems arranged differently can produce different outcomes.
+At times, systems appear to act to preserve their structure.
+A volleyball team that goes ``out of system'' when returning a serve
+reverts to their ``base'' positions after their scramble.
+Droughts on Earth are usually followed by a return to normal rainfall.
+The phrase ``reversion to the mean'' is often employed 
+to describe the self-correcting nature of systems.
 
-``You can never do only one thing.'' --Vernon Ehlers
-
-Preserve structure.
+Sometimes it seems that systems have a ``mind of their own.''
+People say ``larger forces are at play'' to indicate their lack of agency
+due to the self-correcting behavior of the system.
+The phrase ``rearranging the deck chairs on the Titanic'' describes how
+some human activities are meaningless in the face of 
+larger system behaviors.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -137,15 +202,9 @@ Preserve structure.
 \label{sec:system_implications}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Systems thinking is ``natural'' for engineers
+Given the above characteristics of systems, 
 
-Engineers involved in large projects are themselves holons in a holarchy.
-Machine dynamics, chemical processes, thermodynamic systems, etc.\ are all analyzed as holoarchies.
 
-We need to deal with the complexities of systems
-and still create engineered objects that work.
-How do we do that?
-``Control volumes'' and ``free body diagrams'' are ways of simplifying the complexities of systems.
 
 Benefits:
 %
@@ -180,6 +239,32 @@ Drawbacks:
 
 \end{itemize}
 %
+
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Systems thinking is natural for many engineers.
+Those involved in large projects are themselves 
+individual holons in a holarchy of supervisor/engineer relationships.
+Engineered components (e.g., spacecraft) are delivered 
+for integration into systems (e.g., launch vehicles).
+Indeed, analysis techniques for 
+machine dynamics, 
+chemical plants, 
+thermodynamic systems, etc.\ are all predicated upon holarchies.
+``Control volumes'' and ``free body diagrams'' serve to
+break down systems to analyze their elements piece-by-piece, per holon.
+Positional and electrical constraints expressed as equations 
+put the systems ``back together,''
+by describing the connections among the components/elements/holons.
+
+Engineers must address the complexities of engineered systems
+to produce engineered obejects that meet performance requirements and
+fulfil their intended purposes, their teloi.
+To do so, safety factors and mass, power, volume, and cost margins are applied.
+Progress updates are delivered to master engineers who 
+find problems with and suggest solutions for designs and plans. 
+\end{mcframe}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
