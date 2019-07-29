@@ -34,12 +34,7 @@ When considering the meaning of sustainability, it is natural to ask
 The second of these question is perhaps easier to answer. While humans seem to
 have difficulty planning for time scales significantly longer than the human
 lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" or "forever."
-\begin{figure}[hbt] % 01
-\centering
-  \includegraphics[width=3.3in]{../figures/Sustainability_heirarchy_Ch1.pdf}
-\caption{Nested scopes of sustainability.}
-\label{ch01.fig1}
-\end{figure}
+
 \begin{figure}[hbt] % 01
 \centering
   \includegraphics[width=3.3in]{../figures/TriangleDiagram.pdf}
