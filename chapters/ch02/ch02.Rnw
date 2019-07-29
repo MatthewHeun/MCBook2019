@@ -70,6 +70,13 @@ See Remark~\ref{ch02.rem1} for the key reason why.
 \label{fig:feritlity_map}
 \end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/total_fertility_rate.pdf}
+\caption[Total fertility rate.]{Total fertility rate by development level, including the UN projections through 2100.}
+\label{fig:fertility_rate}
+\end{figure}
+
 \begin{definition}
 \label{ch02.def1}
 If \(v \neq 0\) is a vector such that, for some
