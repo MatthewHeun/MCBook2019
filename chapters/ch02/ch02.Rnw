@@ -21,6 +21,55 @@ theory of Jordan Canonical Form (JCF) works
 completely.
 See Remark~\ref{ch02.rem1} for the key reason why.
 
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/Adult_Literacy_Rates_2016.pdf}
+\caption[Adult literacy rates worldwide.]{Adult literacy rates worldwide, 2016.}
+\label{fig:literacy_rates}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/population_propesct.pdf}
+\caption[UN World Population Prospects 2010: Population Development Scenarios: 1950-2100.]{UN World Population Prospects 2010: Population Development Scenarios: 1950-2100.}
+\label{fig:UN_population_prospect}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/rural_urban.pdf}
+\caption[World Population Urban and Rural.]{World Population Urban and Rural 1950-2050.}
+\label{fig:world_population}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/mortality_rate.pdf}
+\caption[Deaths from unsafe water and sanitation]{Deaths from unsafe water and sanitation, 2012.}
+\label{fig:mortality_rate}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/population_of_cities.pdf}
+\caption[Population of cities.]{Population of cities by size class, 2018.}
+\label{fig:cities_population}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/estimates_of_population_by_continents.pdf}
+\caption[Population of continents.]{Estimates of population levels in different continents between 1950 and 2050, according to the United Nations (2011 edition). The vertical axis is logarithmic and is in millions of people.}
+\label{fig:population_continents}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/map_with_fertility_rate.pdf}
+\caption[Map with fertility rate.]{Map of countries by fertility rate (2018), according to CIA World Factbook.}
+\label{fig:feritlity_map}
+\end{figure}
+
 \begin{definition}
 \label{ch02.def1}
 If \(v \neq 0\) is a vector such that, for some
