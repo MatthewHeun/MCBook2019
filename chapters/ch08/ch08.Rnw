@@ -113,7 +113,7 @@ read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE
 
 
 
-
+******* Hi Professor Heun, Can you please check this one out? The graph is not very helpful, it only shows the  highway line and the rest are too low.*********
 <<Passenger_km, fig.scap = "U.S passenger_km", fig.width = 5, fig.height = 3, echo = FALSE>>=
 
 data_string <- "Year	Air	Highway	Transit	 Intercity 	Commuter rail	Light rail	Heavy rail\n
@@ -199,7 +199,7 @@ Passenger cars are the greatest single cause of CO$_2$ emissions from transporta
 \label{fig:transport_GHG_emissions}
 \end{figure}
 
-<<>>=
+<<echo = FALSE>>=
 
 data_string <- "Year	Passenger cars 	Light-duty trucks 	Medium- and Heavy- trucks	Buses	Aircraft	Ships and boats	Rail	Other\n
 1990	629	321	230	8	187	44	39	48\n
@@ -232,7 +232,7 @@ read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE
   tidyr::gather(key = "type", value = "value",
                 "Passenger cars", "Light-duty trucks", "Medium- and Heavy- trucks", "Buses", "Aircraft", "Ships and boats", "Rail", "Other")%>%
   
-  ggplot(mapping = aes(x = Year, y = value, linetype = type)) +
+  ggplot(mapping = aes(x = Year, y = value, linetype = type, colour=type)) +
   geom_line() +
   labs(x=element_blank(), y = expression("CO2 by transportation mode")) +
   scale_x_continuous(breaks = c(1990, 2000, 2010, 2014)) +
@@ -277,6 +277,31 @@ Transp_Pct %>%
   theme(legend.key.size = unit(0.3, "cm")) +
   theme(plot.margin = unit(c(0,0,0,0),"mm"))
 @
+
+
+<<echo= FALSE>>=
+
+data_string<- 
+  "Percentage	Modes\n
+76.4	Drive alone\n
+9.3	Carpool\n
+5.2	Public transport\n
+4.6	Work from home\n
+2.8	Walk\n
+1.7	Motorcycle/bike/other"
+  read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
+  dplyr::mutate(
+    Modes = factor(Modes = c("Drive alone", "Carpool", "Public transportation", "Work from home", "Walk", "Motorcycle/bike/other"))) %>%
+    ggplot()+
+    geom_bar(aes(y=Percentage, x=Modes, fill = Modes),
+    stat="identity")+
+    geom_text(aes(y=Percentage, x=Modes, label=Percentage, group=Modes), color="black")
+
+
+@
+
+
+
 
 
 Particulate matter\index{particulate matter}
