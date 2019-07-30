@@ -77,6 +77,15 @@ See Remark~\ref{ch02.rem1} for the key reason why.
 \label{fig:fertility_rate}
 \end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/annual_number_of_births}
+\caption[Annual number of births by world region.]{Annual number of births by world region, 1950-2015.}
+\label{fig:annual_births}
+\end{figure}
+
+
+
 \begin{definition}
 \label{ch02.def1}
 If \(v \neq 0\) is a vector such that, for some
