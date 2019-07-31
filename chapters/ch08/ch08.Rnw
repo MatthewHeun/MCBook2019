@@ -110,7 +110,7 @@ read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE
 
 
 
-<<echo=FALSE>>>=
+<<echo=FALSE>>=
 
 data_string<-
   "Air 	Truck	Railroad	Domestic water transportation	Pipeline\n
