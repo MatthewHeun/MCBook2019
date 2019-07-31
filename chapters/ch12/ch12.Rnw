@@ -10,12 +10,13 @@
 
 
 Sustainability challenges are characterized 
-by sometimes-mysterious interactions among seemingly-unrealated entities.
-Many of those interactions are highlighted in previous chapters, and the entities include
-the environment (air, water, plants, animals, food, agriculture),
+by sometimes-mysterious interactions among seemingly-unrealated entities,
+such as air, water, plants, animals, food, agriculture, 
 transportation, cities, energy, economy, and government.
-Systems thinking is a way to conceptualize and make sense of these interactions\index{systems!interactions}.
-The purpose of this chapter is to introduce systems thinking\index{systems thinking}
+Many of those interactions are highlighted in previous chapters.
+Systems thinking is a way to conceptualize and make sense of these interactions\index{systems!interactions}
+and behaviors that emerge from them.
+The purposes of this chapter are to introduce systems thinking\index{systems thinking}
 and encourage readers to adopt a systems view of the world.
 
 
@@ -26,7 +27,7 @@ and encourage readers to adopt a systems view of the world.
 
 Donella Meadows defines a \emph{system}\index{system}
 as ``an interconnected set of elements that is coherently organized in a way that achieves something''~\cite[p.~11]{Meadows:2008aa}.
-Example systems are the Earth, the solar system, a volleyball team, an ant, a bacterium.
+Example systems are a volleyball team, the solar system, the Earth, an ant, a bacterium.
 Meadows' definition has three aspects:
 elements\index{elements!of a system}, interconnections\index{interconnections!in a system}, and a telos\index{telos}.
 
@@ -43,9 +44,9 @@ The Milky Way galaxy is another system whose holons include many solar systems a
 The universe is yet another system that includes the Milky Way and innumerable other galaxies.
 
 The elements of a sytem are interconnected 
-in ways that allow elements to interact to each other within the system.
-The interconnections, themselves, may have spatial, electrical, mechanical, temporal, or other characteristics.
-i.e., elements can be arranged in space and connected electrically and/or mechanically, and
+in ways that allow elements to interact.
+The interconnections, themselves, may have spatial, electrical, mechanical, temporal, or other aspects.
+I.e., elements can be arranged in space and connected electrically and/or mechanically, and
 those arrangements and connections can change over time.
 Material and information can \emph{flow}\index{flows!in a system}
 along the interconnections between the elements (holons).
@@ -55,9 +56,9 @@ A word that describes the arrangement of holons is \emph{holarchy}\index{holarch
 Figure~\ref{fig:Holarchies_sust} shows a holarchy of 6 holons.
 Elements 1, 2, and 3 exhibit parent-child (container) relationships,
 with 3 being contained by 2 and 2 being contained by 1.
-Items 4a, 4b, and 4c are contained by element 3, but
-they have sibling relationships among themselves.
-Two systems with identical holons will be have differently 
+Items 4a, 4b, and 4c are contained by element 3, with
+sibling relationships among themselves.
+Two systems with identical holons will behave differently 
 if their elements are arranged differently.
 
 <<Holarchies_sust, echo=FALSE, fig.height = 3.5, fig.width=5, fig.cap="An example holarchy.", fig.scap="A holarchy.">>=
@@ -122,8 +123,8 @@ Indeed, for a system,
 Because behaviors differ across levels in a system and
 because interactions play a large role in the behavior of a system,
 systems often appear to be unpredictable.
-A volleyball team that won the first set of a match handily goes into a funk, 
-losing the first 8 points of the second set.
+A volleyball team goes into a funk, despite handily winning the first set of a match.
+They lose the first 8 points of the second set.
 Weather in the Earth system cannot be forecasted, even with the best meteorology, 
 more than a few days in advance.
 A colloquial word to describe unpredictability is \emph{chaotic}.\index{chaos}
@@ -137,53 +138,52 @@ changes in initial conditions.
 However, in chaos theory, systems are entirely predictable 
 if initial conditions are specified identically (mathematically) from one experiment to another.
 The difference between the seeming unpredictability (but actual predictability) of chaos theory and 
-the chaotic behavior of systems described here is that 
+the chaotic behavior of real-life systems described here is that 
 real systems can behave differently \emph{even if} initial conditions are specified identically.
 
 The distinction is blurred when measurement uncertainty is considered.
 In chaos theory, an infinitesimally small 
 perturbation of initial conditions
-can produce wildly different system behavior.
+can produce wildly different outcomes.
 But in the real world, 
-the infinitesimally small perturbation is indistinguishable from zero to within finite measurement uncertainty.
+an infinitesimally small perturbation is indistinguishable from zero due to finite measurement precision.
 Thus, a real-world system with apparently the same initial conditions 
 (to within measurement uncertainty) 
-can exhibit wildly different behavior in the real world,
-as systems thinking predicts.
+can exhibit wildly different behavior,
+as a systems view of the world would predict.
 \end{mcframe}
 
 The presence of connections among holons in a system means that perturbing 
 one part of a system will have effects beyond the initial perturbation site in both space and time.
-A volleyball coach can position players to thwart a hitter who sends spikes ``down the line,''
-but her team's defense will now be vulnerable to the opposing setter's ``dinks''
-to the middle of her defense.
+A volleyball coach can position players to thwart a hitter whose spikes go ``down the line,''
+but her team's defense will now be vulnerable 
+to the opposing setter's ``dinks'' to the middle.
 In the Earth system, installing a hydropower station will provide electricity, 
 but it will also 
 create an upstream lake, 
 expose downstream riverbanks, and
 change fish migration patterns.
-Former Michigan U.S.\ 3$^\mathrm{rd}$ district congressman Vernon Ehlers often said
+Vernon Ehlers, former U.S.\ congressman for Michigan's 3$^\mathrm{rd}$ district, often said,
 ``You can never do only one thing.''
 
-This apparent system unpredictability extends to human actions intended to influence the behavior of systems.
+The apparent unpredictability of systems extends to human actions intended to influence the behavior of systems.
 A volleyball coach can \emph{think} she is motivating a player with a stinging critique 
-but produce the opposite effect, player demoralization.
-Human efforts to ``manage'' forests have decimated old growth trees.
-Colloquially, we call this unpredictability \emph{unintended consequences}.\index{unintended consequences}
+but produce the opposite effect, demoralization.
+Human efforts to ``manage'' forests decimate old growth stands.
+Colloquially, we name this unpredictability \emph{unintended consequences}.\index{unintended consequences}
 
 At times, systems appear to act to preserve their structure.
 A volleyball team that goes ``out of system'' when returning a serve
 reverts to their ``base'' positions after their scramble.
 Droughts on Earth are usually followed by a return to normal rainfall.
-The phrase ``reversion to the mean'' is often employed 
-to describe the self-correcting nature of systems.
+The phrase ``reversion to the mean''  
+describes the self-correcting nature of systems.
 
 Sometimes it seems that systems have a ``mind of their own.''
 People say ``larger forces are at play'' to indicate their lack of agency
-due to the self-correcting behavior of the system.
+in the face of a self-correcting system.
 The phrase ``rearranging the deck chairs on the Titanic'' describes how
-some human activities are meaningless in the face of 
-larger system behaviors.
+some human activities appear, at times, to be meaningless.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -192,6 +192,19 @@ larger system behaviors.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Given the above characteristics of systems, 
+opportunities and challenges can be identified.
+
+%++++++++++++++++++++++++++++++
+\subsection{System opportunities}
+\label{sec:system_opportunities}
+%++++++++++++++++++++++++++++++
+
+
+
+Because of connections between enclosed and enclosing holons in a holarchy, 
+small changes to elements in lower levels can create big changes in higher levels of a system.
+
+
 
 
 
@@ -199,7 +212,7 @@ Benefits:
 %
 \begin{itemize}
 
-  \item Small changes a lower levels can create big changes in higher levels of a holarchy
+  \item 
 
   \item Specialization possible at lower levels of holarchy
   
@@ -209,6 +222,12 @@ Benefits:
 
 \end{itemize}
 %
+
+%++++++++++++++++++++++++++++++
+\subsection{System challenges}
+\label{sec:system_challenges}
+%++++++++++++++++++++++++++++++
+
 
 Drawbacks:
 %
