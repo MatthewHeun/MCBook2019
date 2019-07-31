@@ -227,8 +227,6 @@ read.table(text = data_string, sep ="\t", header = TRUE, stringsAsFactors =  FAL
   labs(fill = element_blank()) +
   MKHthemes::xy_theme()
 
-
-
 @
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
