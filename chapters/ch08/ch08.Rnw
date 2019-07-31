@@ -110,7 +110,7 @@ read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE
 
 
 
-<<>>>=
+<<echo=FALSE>>>=
 
 data_string<-
   "Air 	Truck	Railroad	Domestic water transportation	Pipeline\n
@@ -151,10 +151,8 @@ data_string<-
 17.918	2.911.195	2.702.743	736.547	1.266.349\n
 18.277	2.919.280	2.537.845	716.301	1.279.601\n
 19.209	2.935.830	2.314.698	697.664	1.308.602\n
-21.048	2.954.189	2.445.138	713.926	1.288.344
-
-"
-read.table(text=data_string, sep="\t", header=TRUE, stringsAsFactors = FALSE, check.names=FALSE) %>%
+21.048	2.954.189	2.445.138	713.926	1.288.344"
+read.table(text=data_string, sep="\t", header=TRUE, stringsAsFactors = FALSE, check.names=FALSE) %>% 
  
  dplyr::rename(
     Water = `Domestic water transportation`
