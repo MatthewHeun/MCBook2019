@@ -192,7 +192,88 @@ some human activities appear, at times, to be meaningless.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Given the above characteristics of systems, 
-challenges and opportunities can be identified.
+opportunities and challenges can be identified.
+
+
+%++++++++++++++++++++++++++++++
+\subsection{System opportunities}
+\label{sec:system_opportunities}
+%++++++++++++++++++++++++++++++
+
+To begin identifying system opportunities, 
+consider system structure.
+Lower levels of a holarchy provide materials and information to upper levels.
+Higher levels of a holarchy often serve to organize and utilize the outputs from elements in lower levels.
+Thus, the connections between enclosed (lower-level) and enclosing (higher-level) holons in a holarchy
+enable one of the most important system opportunities: specialization.
+Such organization enables metabolisms, organisms, and manufacturing supply chains, for example.
+Large, technical projects, such as airlines, spacecraft, chemical plants, are possible in what 
+Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}.
+
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Systems thinking is natural for many engineers.
+Those involved in large projects are themselves 
+individual holons in a holarchy of supervisor/engineer relationships.
+Engineered components (e.g., spacecraft) are delivered 
+for integration into systems (e.g., launch vehicles).
+Indeed, analysis techniques for 
+machine dynamics, 
+chemical plants, 
+thermodynamic systems, etc.\ are all predicated upon holarchies.
+``Control volumes'' and ``free body diagrams'' serve to
+break down systems to analyze their elements piece-by-piece, per holon.
+Positional and electrical constraints expressed as equations 
+put the systems ``back together,''
+by describing the connections among the components/elements/holons.
+
+Engineers must address the complexities of engineered systems
+to produce engineered obejects that meet performance ``requirements'' and
+fulfill their intended purposes, their teloi.
+To do so, ``safety factors'' and mass, power, volume, and cost margins are applied.
+Progress updates are delivered during ``design reviews'' reviews to master engineers who 
+find problems with and suggest solutions for designs and plans. 
+\end{mcframe}
+
+What if one desires to change system behavior? 
+If one views, for example, Earth's climate, worldwide energy supply chains, and the worldwide economy
+as a system, what options exist for changing that system to emit less CO$_2$?
+Systems thinking points to two important places to intervene in a system to change its behavior and 
+overcome its predilection to maintain its existing structure and function:
+elements and connections.
+
+%..............................
+\paragraph{Change the elements} 
+\label{sec:change_elements}
+%..............................
+
+Small changes to some lower-level elements \emph{may} create 
+large changes in higher-level functioning of a system.
+
+
+
+%..............................
+\paragraph{Change the connections} 
+\label{sec:change_connections}
+%..............................
+
+Changing either the rates or routes of information and material flows
+among elements of a system
+can significantly alter the behavior of a system.
+In previous centuries, 
+the development of railroads allowed material to move more quickly 
+through economies.
+By stringing telegraph (and later telephone) lines, 
+economies were able to move information more quickly through economies.  
+Today, the internet enables the fastest information transfer speeds in history.
+These changes have changed society in ways that were
+unimaginable a century ago.
+Such changes have increased human well-being in many ways.
+But they also enabled unprecedented rates of economic growth and
+concomitant energy consumption as well.
+\emph{You can never do only one thing.} 
+
 
 
 %++++++++++++++++++++++++++++++
@@ -223,66 +304,6 @@ Drawbacks:
 
 
 
-%++++++++++++++++++++++++++++++
-\subsection{System opportunities}
-\label{sec:system_opportunities}
-%++++++++++++++++++++++++++++++
-
-To begin identifying system opportunities, 
-consider system structure.
-Lower levels of a holarchy provide materials and information to upper levels.
-Higher levels of a holarchy often serve to organize and utilize the outputs from elements in lower levels.
-Thus, the connections between enclosed (lower-level) and enclosing (higher-level) holons in a holarchy
-enable one of the most important system opportunities: specialization.
-Such organization enables metabolisms, organisms, and manufacturing supply chains, for example.
-Large, technical projects, such as airlines, spacecraft, chemical plants, are possible in what 
-Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}.
-
-What if one desires to change the way a system functions? 
-If one views, for example, Earth's climate, worldwide energy supply chains, and the worldwide economy
-as a system, what options exist for changing the system to emit less CO$_2$ and 
-
-
-If we want to intervene in a system to change its functioning and 
-overcome its predilection to maintain its existing structure and function,
-
-
-
-
-
-small changes to elements in lower levels can create big changes in higher levels of a system.
-
-
-Resistant to change (preserve structure).
-
-
-
-
-%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-\begin{mcframe}[0.90\textwidth](0.85\textwidth)
-%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Systems thinking is natural for many engineers.
-Those involved in large projects are themselves 
-individual holons in a holarchy of supervisor/engineer relationships.
-Engineered components (e.g., spacecraft) are delivered 
-for integration into systems (e.g., launch vehicles).
-Indeed, analysis techniques for 
-machine dynamics, 
-chemical plants, 
-thermodynamic systems, etc.\ are all predicated upon holarchies.
-``Control volumes'' and ``free body diagrams'' serve to
-break down systems to analyze their elements piece-by-piece, per holon.
-Positional and electrical constraints expressed as equations 
-put the systems ``back together,''
-by describing the connections among the components/elements/holons.
-
-Engineers must address the complexities of engineered systems
-to produce engineered obejects that meet performance ``requirements'' and
-fulfill their intended purposes, their teloi.
-To do so, ``safety factors'' and mass, power, volume, and cost margins are applied.
-Progress updates are delivered during ``design reviews'' reviews to master engineers who 
-find problems with and suggest solutions for designs and plans. 
-\end{mcframe}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
