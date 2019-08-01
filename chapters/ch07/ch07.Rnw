@@ -295,37 +295,36 @@ so malnourishment tends to mirror poverty.
 Figure~\ref{fig:malnourished_map} shows the percentage of people in each country 
 who are undernourished\index{undernourishment}.
 
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch07/Fraction_of_population_undernourished_2015.pdf}
-\caption[Fraction of population undernourished 2015.]{Percentages of population undernourished in all countries 2015. **** Larisa: add source of data here. ****}
-\label{fig:Frac_population_malnourished}
-\end{figure}
+% \begin{figure}
+% \centering
+% \includegraphics[width=0.75\linewidth]{chapters/ch07/Fraction_of_population_undernourished_2015.pdf}
+% \caption[Fraction of population undernourished 2015.]{Percentages of population undernourished in all countries 2015. **** Larisa: add source of data here. ****}
+% \label{fig:Frac_population_malnourished}
+% \end{figure}
 
-<<malnourished_map, fig.scap = "Fraction of population undernourished (2015).", fig.cap = "Percentages of population undernourished in all countries 2015. **** Larisa: add citation here. ****", fig.width = 5, fig.height = 3, echo = FALSE>>= 
+% <<malnourished_map, fig.scap = "Fraction of population undernourished (2015).", fig.cap = "Percentages of population undernourished in all countries 2015. **** Larisa: add citation here. ****", fig.width = 5, fig.height = 3, echo = FALSE, warn = FALSE, message = FALSE>>= 
+% 
+% # Reduce white space around world plot
+% # (from https://stackoverflow.com/questions/29119074/how-to-reduce-the-gap-between-the-map-and-title-using-rworldmap).
+% par(mar = c(0, 0, 0, 0)) # (bottom, left, top, right)
+% 
+% ## Create multiple color codes, with Burkina Faso in its own group
+% malDF <- data.frame(country = c("AND", "ARE", "AFG", "ATG", "AIA", "ALB", "ARM", "AGO", "ATA", "ARG", "ASM", "AUT", "AUS", "ABW", "ALA", "AZE", "BIH", "BRB", "BGD", "BEL", "BFA", "BGR", "BHR", "BDI", "BEN", "BLM", "BMU", "BRN", "BOL", "BRA", "BHS", "BTN", "BWA", "BLR", "BLZ", "CAN", "COD", "CAF", "COG", "CHE", "CIV", "COK", "CHL", "CMR", "CHN", "COL", "CRI", "CUB", "CPV", "CUW", "CYP", "CZE", "DEU", "DJI", "DNK", "DMA", "DOM", "DZA", "ECU", "EST", "EGY", "ESH", "ERI", "ESP", "ETH", "FIN", "FJI", "FLK", "FSM", "FRO", "FRA", "GAB", "GBR", "GRD", "GEO", "GUF", "GGY", "GHA", "GIB", "GRL", "GMB", "GIN", "GLP", "GNQ", "GRC", "GTM", "GUM", "GNB", "GUY", "HKG", "HND", "HRV", "HTI", "HUN", "IDN", "IRL", "ISR", "IMN", "IND", "IOT", "IRQ", "IRN", "ISL", "ITA", "JEY", "JAM", "JOR", "JPN", "KEN", "KGZ", "KHM", "KIR", "COM", "KNA", "PRK", "KOR", "KWT", "CYM", "KAZ", "LAO", "LBN", "LCA", "LIE", "LKA", "LBR", "LSO", "LTU", "LUX", "LVA", "LBY", "MAR", "MCO", "MDA", "MNE", "MAF", "MDG", "MHL", "MKD", "MLI", "MMR", "MNG", "MAC", "MNP", "MTQ", "MRT", "MSR", "MLT", "MUS", "MDV", "MWI", "MEX", "MYS", "MOZ", "NAM", "NCL", "NER", "NFK", "NGA", "NIC", "NLD", "NOR", "NPL", "NRU", "NIU", "NZL", "OMN", "PAN", "PER", "PYF", "PNG", "PHL", "PAK", "POL", "SPM", "PCN", "PRI", "PSE", "PRT", "PLW", "PRY", "QAT", "REU", "ROU", "SRB", "RUS", "RWA", "SAU", "SLB", "SYC", "SDN", "SWE", "SGP", "SHN", "SVN", "SJM", "SVK", "SLE", "SMR", "SEN", "SOM", "SUR", "SSD", "STP", "SLV", "SXM", "SYR", "SWZ", "TCA", "TCD", "ATF", "TOG", "THA", "TJK", "TKL", "TLS", "TKM", "TUN", "TON", "TUR", "TTO", "TUV", "TWN", "TZA", "UKR", "UGA", "UMI", "USA", "URY", "UZB", "VAT", "VCT", "VEN", "VGB", "VIR", "VNM", "VUT", "WLF", "WSM", "YEM", "MYT", "ZAF", "ZMB", "ZWE"),
+%   `Fraction of population undernourished` = c(1, 1, 4, 6, 6, 1, 1, 2, 6, 1, 6, 1, 1, 6, 6, 1, 1, 6, 3, 1, 3, 1, 1, 5, 2, 6, 6, 2, 3, 1, 6, 6, 3, 1, 2, 1, 6, 5, 4, 1, 2, 6, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 4, 1, 6, 2, 1, 2, 1, 1, 6, 1, 1, 4, 1, 1, 6, 6, 1, 1, 1, 1, 6, 1, 6, 1, 1, 1, 1, 2, 3, 6, 2, 1, 3, 6, 3, 2, 2, 2, 1, 5, 1, 2, 1, 1, 1, 3, 6, 3, 1, 1, 1, 1, 2, 1, 1, 3, 2, 2, 6, 6, 6, 5, 1, 6, 6, 1, 3, 1, 6, 1, 3, 4, 3, 1, 1, 1, 6, 1, 1, 1, 1, 6, 4, 6, 1, 1, 2, 3, 2, 6, 6, 2, 6, 1, 6, 6, 3, 1, 1, 4, 5, 6, 2, 6, 2, 3, 1, 1, 2, 6, 6, 1, 1, 2, 2, 6, 6, 2, 3, 1, 6, 6, 4, 6, 1, 6, 2, 1, 6, 1, 1, 1, 5, 1, 6, 6, 6, 1, 1, 6, 1, 6, 1, 3, 6, 3, 6, 2, 6, 6, 2, 6, 6, 4, 6, 4, 6, 2, 2, 4, 6, 6, 1, 1, 6, 1, 6, 6, 2, 4, 1, 4, 6, 1, 1, 1, 1, 1, 1, 1, 1, 2, 6, 6, 6, 4, 6, 1, 5, 4), check.names = FALSE)
+% 
+% ## Re-merge
+% malMap <- rworldmap::joinCountryData2Map(malDF, nameJoinColumn = "country")
+% 
+% ## Specify the colourPalette argument
+% rworldmap::mapCountryData(malMap, nameColumnToPlot = "Fraction of population undernourished", catMethod = "categorical",
+%   missingCountryCol = gray(.8), colourPalette = c("darkseagreen1", "mistyrose", "rosybrown2", "indianred3", "indianred4", "gray80"), 
+%   oceanCol = "lightblue", mapTitle = "")
+% @
 
-# Reduce white space around world plot
-# (from https://stackoverflow.com/questions/29119074/how-to-reduce-the-gap-between-the-map-and-title-using-rworldmap).
-par(mar = c(0, 0, 0, 0)) # (bottom, left, top, right)
-
-## Create multiple color codes, with Burkina Faso in its own group
-malDF <- data.frame(country = c("AND", "ARE", "AFG", "ATG", "AIA", "ALB", "ARM", "AGO", "ATA", "ARG", "ASM", "AUT", "AUS", "ABW", "ALA", "AZE", "BIH", "BRB", "BGD", "BEL", "BFA", "BGR", "BHR", "BDI", "BEN", "BLM", "BMU", "BRN", "BOL", "BRA", "BHS", "BTN", "BWA", "BLR", "BLZ", "CAN", "COD", "CAF", "COG", "CHE", "CIV", "COK", "CHL", "CMR", "CHN", "COL", "CRI", "CUB", "CPV", "CUW", "CYP", "CZE", "DEU", "DJI", "DNK", "DMA", "DOM", "DZA", "ECU", "EST", "EGY", "ESH", "ERI", "ESP", "ETH", "FIN", "FJI", "FLK", "FSM", "FRO", "FRA", "GAB", "GBR", "GRD", "GEO", "GUF", "GGY", "GHA", "GIB", "GRL", "GMB", "GIN", "GLP", "GNQ", "GRC", "GTM", "GUM", "GNB", "GUY", "HKG", "HND", "HRV", "HTI", "HUN", "IDN", "IRL", "ISR", "IMN", "IND", "IOT", "IRQ", "IRN", "ISL", "ITA", "JEY", "JAM", "JOR", "JPN", "KEN", "KGZ", "KHM", "KIR", "COM", "KNA", "PRK", "KOR", "KWT", "CYM", "KAZ", "LAO", "LBN", "LCA", "LIE", "LKA", "LBR", "LSO", "LTU", "LUX", "LVA", "LBY", "MAR", "MCO", "MDA", "MNE", "MAF", "MDG", "MHL", "MKD", "MLI", "MMR", "MNG", "MAC", "MNP", "MTQ", "MRT", "MSR", "MLT", "MUS", "MDV", "MWI", "MEX", "MYS", "MOZ", "NAM", "NCL", "NER", "NFK", "NGA", "NIC", "NLD", "NOR", "NPL", "NRU", "NIU", "NZL", "OMN", "PAN", "PER", "PYF", "PNG", "PHL", "PAK", "POL", "SPM", "PCN", "PRI", "PSE", "PRT", "PLW", "PRY", "QAT", "REU", "ROU", "SRB", "RUS", "RWA", "SAU", "SLB", "SYC", "SDN", "SWE", "SGP", "SHN", "SVN", "SJM", "SVK", "SLE", "SMR", "SEN", "SOM", "SUR", "SSD", "STP", "SLV", "SXM", "SYR", "SWZ", "TCA", "TCD", "ATF", "TOG", "THA", "TJK", "TKL", "TLS", "TKM", "TUN", "TON", "TUR", "TTO", "TUV", "TWN", "TZA", "UKR", "UGA", "UMI", "USA", "URY", "UZB", "VAT", "VCT", "VEN", "VGB", "VIR", "VNM", "VUT", "WLF", "WSM", "YEM", "MYT", "ZAF", "ZMB", "ZWE"),
-  `Fraction of population undernourished` = c(1, 1, 4, 6, 6, 1, 1, 2, 6, 1, 6, 1, 1, 6, 6, 1, 1, 6, 3, 1, 3, 1, 1, 5, 2, 6, 6, 2, 3, 1, 6, 6, 3, 1, 2, 1, 6, 5, 4, 1, 2, 6, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 4, 1, 6, 2, 1, 2, 1, 1, 6, 1, 1, 4, 1, 1, 6, 6, 1, 1, 1, 1, 6, 1, 6, 1, 1, 1, 1, 2, 3, 6, 2, 1, 3, 6, 3, 2, 2, 2, 1, 5, 1, 2, 1, 1, 1, 3, 6, 3, 1, 1, 1, 1, 2, 1, 1, 3, 2, 2, 6, 6, 6, 5, 1, 6, 6, 1, 3, 1, 6, 1, 3, 4, 3, 1, 1, 1, 6, 1, 1, 1, 1, 6, 4, 6, 1, 1, 2, 3, 2, 6, 6, 2, 6, 1, 6, 6, 3, 1, 1, 4, 5, 6, 2, 6, 2, 3, 1, 1, 2, 6, 6, 1, 1, 2, 2, 6, 6, 2, 3, 1, 6, 6, 4, 6, 1, 6, 2, 1, 6, 1, 1, 1, 5, 1, 6, 6, 6, 1, 1, 6, 1, 6, 1, 3, 6, 3, 6, 2, 6, 6, 2, 6, 6, 4, 6, 4, 6, 2, 2, 4, 6, 6, 1, 1, 6, 1, 6, 6, 2, 4, 1, 4, 6, 1, 1, 1, 1, 1, 1, 1, 1, 2, 6, 6, 6, 4, 6, 1, 5, 4), check.names = FALSE)
-
-## Re-merge
-malMap <- rworldmap::joinCountryData2Map(malDF, nameJoinColumn = "country")
-
-## Specify the colourPalette argument
-rworldmap::mapCountryData(malMap, nameColumnToPlot = "Fraction of population undernourished", catMethod = "categorical",
-  missingCountryCol = gray(.8), colourPalette = c("darkseagreen1", "mistyrose", "rosybrown2", "indianred3", "indianred4", "gray80"), 
-  oceanCol = "lightblue", mapTitle = "")
-@
-
-<<>>=
+<<malnourished_map, fig.scap = "Fraction of population undernourished (2015).", fig.cap = "Percentages of population undernourished in all countries 2015. **** Larisa: add citation here. ****", fig.width = 5, fig.height = 3, echo = FALSE, warn = FALSE, message = FALSE>>= 
 par(mar = c(0, 0, 0, 0))
-  malDF <- data.frame(country = c("USA", "CAN", "MEX",  "BLZ", "GTM", "HND", "SLV", "NIC", "CRI", "PAN", "CUB", "JAM", "HTI", "DOM", "COL", "ECU", "VEN", "GUY", "SUR", "GUF", "PER", "BRA", "BOL", "CHI", "PRY", "URY", "ARG", "NOR", "SWE", "FIN", "RUS", "EST", "LVA", "LTU", "BLR", "POL", "UKR","DNK", "CZE", "SVK", "HUN", "ROU", "DEU", "NLD", "BEL", "GBR", "IRL", "ISL", "AUT", "FRA", "ESP", "PRT", "CHE", "ITA", "HRV", "BIH", "SRB", "MNE", "ALB", "BGR", "MKD", "GRC", "CYP", "MAR", "DZA", "TUN", "MRT", "MLI", "SEN", "GMB", "GNB", "GIN", "SIE", "LBR", "CIV", "BFA", "NER", "GHA", "TGO", "BEN", "NGA", "CMR", "TCD", "EGY", "SDN", "CAF", "GAB", "ETH", "DJI", "UGA", "KEN", "RWA", "TZA", "AGO", "ZMB", "MWI", "MOZ", "ZWE", "NAM", "BWA", "ZAF", "LSO", "MDG", "ISR", "LBN", "TUR", "IRQ", "KWT", "SAU", "ARE", "OMN", "YEM", "IRN", "ARM", "AZE", "GEO", "RUS", "KAZ", "UZB", "TKM", "KGZ", "AFG", "PAK", "IND", "LKA", "BGD", "NPL", "CHN", "MNG", "MMR", "JPN", "PRK", "KOR", "VNM", "LAO", "THA", "MYS", "BRN", "IDN", "PHL", "TLS", "AUS", "NZL", "VUT", "FJI", "SLB"),
-  'Fraction of population undernourished' = c(2.5, 2.5,  2.5, 6.5, 15.8, 15.3, 10.3, 16.2, 4.4, 9.2, 2.5, 8.9, 45.8, 10.4, 6.5, 7.8, 11.7, 7.5, 7.6, 2.5, 8.8, 2.5, 19.8, 3.3, 11.2, 2.5, 3.8, 2.5, 2.5, 2.5, 2.5, 2.8, 2.5, 2.5, 2.5, 2.5, 3.3, 2.5, 2.5, 2.7, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 5.6, 2.5, 5.5, 3, 4.1, 2.5, 4.6, 3.9, 4.7, 4.9, 11.3, 6, 11.3, 9.6, 26, 19.7, 25.5, 38.8, 20.7, 21.3, 14.4, 6.1, 16.2, 10.4, 11.5, 7.3, 39.7, 4.8, 25.2, 61.8, 9.4, 21.4, 19.7, 24.2, 36.1, 32, 23.9, 44.5, 26.3, 30.5, 46.4, 25.4, 28.5, 6.1, 12.8, 43.1, 2.5, 10.9, 2.5, 27.7, 2.5, 5.5, 2.5, 5.4, 34.4, 4.9, 4.3, 2.5, 7.4, 2.5, 2.5, 7.4, 5.5, 6.5, 30.3, 20.5, 14.8, 10.9, 15.2, 9.5, 8.7, 18.7, 10.5, 2.5, 43.4, 2.5, 10.8, 16.6,  9, 2.9, 2.6, 7.7, 13.7, 27.2, 2.5, 2.5, 7.1, 4.4, 12.3), check.name = FALSE)
-
+malDF <- data.frame(country = c("USA", "CAN", "MEX",  "BLZ", "GTM", "HND", "SLV", "NIC", "CRI", "PAN", "CUB", "JAM", "HTI", "DOM", "COL", "ECU", "VEN", "GUY", "SUR", "GUF", "PER", "BRA", "BOL", "CHI", "PRY", "URY", "ARG", "NOR", "SWE", "FIN", "RUS", "EST", "LVA", "LTU", "BLR", "POL", "UKR","DNK", "CZE", "SVK", "HUN", "ROU", "DEU", "NLD", "BEL", "GBR", "IRL", "ISL", "AUT", "FRA", "ESP", "PRT", "CHE", "ITA", "HRV", "BIH", "SRB", "MNE", "ALB", "BGR", "MKD", "GRC", "CYP", "MAR", "DZA", "TUN", "MRT", "MLI", "SEN", "GMB", "GNB", "GIN", "SIE", "LBR", "CIV", "BFA", "NER", "GHA", "TGO", "BEN", "NGA", "CMR", "TCD", "EGY", "SDN", "CAF", "GAB", "ETH", "DJI", "UGA", "KEN", "RWA", "TZA", "AGO", "ZMB", "MWI", "MOZ", "ZWE", "NAM", "BWA", "ZAF", "LSO", "MDG", "ISR", "LBN", "TUR", "IRQ", "KWT", "SAU", "ARE", "OMN", "YEM", "IRN", "ARM", "AZE", "GEO", "RUS", "KAZ", "UZB", "TKM", "KGZ", "AFG", "PAK", "IND", "LKA", "BGD", "NPL", "CHN", "MNG", "MMR", "JPN", "PRK", "KOR", "VNM", "LAO", "THA", "MYS", "BRN", "IDN", "PHL", "TLS", "AUS", "NZL", "VUT", "FJI", "SLB"),
+  'Fraction of population undernourished' = c(2.5, 2.5,  2.5, 6.5, 15.8, 15.3, 10.3, 16.2, 4.4, 9.2, 2.5, 8.9, 45.8, 10.4, 6.5, 7.8, 11.7, 7.5, 7.6, 2.5, 8.8, 2.5, 19.8, 3.3, 11.2, 2.5, 3.8, 2.5, 2.5, 2.5, 2.5, 2.8, 2.5, 2.5, 2.5, 2.5, 3.3, 2.5, 2.5, 2.7, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 5.6, 2.5, 5.5, 3, 4.1, 2.5, 4.6, 3.9, 4.7, 4.9, 11.3, 6, 11.3, 9.6, 26, 19.7, 25.5, 38.8, 20.7, 21.3, 14.4, 6.1, 16.2, 10.4, 11.5, 7.3, 39.7, 4.8, 25.2, 61.8, 9.4, 21.4, 19.7, 24.2, 36.1, 32, 23.9, 44.5, 26.3, 30.5, 46.4, 25.4, 28.5, 6.1, 12.8, 43.1, 2.5, 10.9, 2.5, 27.7, 2.5, 5.5, 2.5, 5.4, 34.4, 4.9, 4.3, 2.5, 7.4, 2.5, 2.5, 7.4, 5.5, 6.5, 30.3, 20.5, 14.8, 10.9, 15.2, 9.5, 8.7, 18.7, 10.5, 2.5, 43.4, 2.5, 10.8, 16.6,  9, 2.9, 2.6, 7.7, 13.7, 27.2, 2.5, 2.5, 7.1, 4.4, 12.3), check.names = FALSE)
 
 ## Re-merge
 malMap <- rworldmap::joinCountryData2Map(malDF, nameJoinColumn = "country")
