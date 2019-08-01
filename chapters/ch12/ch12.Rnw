@@ -123,6 +123,8 @@ Indeed, for a system,
 Because behaviors differ across levels in a system and
 because interactions play a large role in the behavior of a system,
 systems often appear to be unpredictable.
+To use a mathematical term colloquially, 
+systems are ``nonlinear.''
 A volleyball team goes into a funk, despite handily winning the first set of a match.
 They lose the first 8 points of the second set.
 Weather in the Earth system cannot be forecasted, even with the best meteorology, 
@@ -208,49 +210,61 @@ Thus, the connections between enclosed (lower-level) and enclosing (higher-level
 enable one of the most important system opportunities: specialization.
 Such organization enables metabolisms, organisms, and manufacturing supply chains, for example.
 Large, technical projects, such as airlines, spacecraft, chemical plants, are possible in what 
-Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}.
+Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}\index{directed technological holarchies}.
 
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 \begin{mcframe}[0.90\textwidth](0.85\textwidth)
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Systems thinking is natural for many engineers.
+Systems thinking is natural for many engineers.\index{systems thinking!for engineers}
 Those involved in large projects are themselves 
 individual holons in a holarchy of supervisor/engineer relationships.
-Engineered components (e.g., spacecraft) are delivered 
+Engineered components (e.g., spacecraft\index{spacecraft}) are delivered 
 for integration into systems (e.g., launch vehicles).
 Indeed, analysis techniques for 
 machine dynamics, 
 chemical plants, 
 thermodynamic systems, etc.\ are all predicated upon holarchies.
-``Control volumes'' and ``free body diagrams'' serve to
-break down systems to analyze their elements piece-by-piece, per holon.
+``Control volumes''\index{control volumes} 
+and ``free body diagrams''\index{free body diagrams} 
+serve to break down systems to analyze their elements piece-by-piece, per holon.
 Positional and electrical constraints expressed as equations 
 put the systems ``back together,''
-by describing the connections among the components/elements/holons.
+and describe the connections among components/elements/holons.
 
-Engineers must address the complexities of engineered systems
-to produce engineered obejects that meet performance ``requirements'' and
-fulfill their intended purposes, their teloi.
-To do so, ``safety factors'' and mass, power, volume, and cost margins are applied.
-Progress updates are delivered during ``design reviews'' reviews to master engineers who 
+Engineers confront the complexities of engineered systems
+as they endeavor to produce engineered obejects that meet performance ``requirements'' and
+fulfill their intended purposes, their teloi.\index{teloi}
+To do so, ``safety factors''\index{safety factor}
+and mass, power, volume, and cost margins\index{engineering margins}
+are applied.
+Progress updates are delivered during ``design reviews''\index{design reviews}
+to master engineers who 
 find problems with and suggest solutions for designs and plans. 
 \end{mcframe}
 
 What if one desires to change system behavior? 
-If one views, for example, Earth's climate, worldwide energy supply chains, and the worldwide economy
-as a system, what options exist for changing that system to emit less CO$_2$?
-Systems thinking points to two important places to intervene in a system to change its behavior and 
+If one views, for example, Earth's climate,
+worldwide energy supply chains\index{supply chains!energy}, and
+the worldwide economy
+as a system, what options exist for changing that system to emit less CO$_2$?\index{emissions!CO$_2$}
+Meadows~\cite[Ch.~6]{Meadows:2008aa} gives an extensive list of 
+``leverage points''\index{leverage points!of a system}
+to change system behavior.
+A shorter list includes
+two important ways to intervene in a system to change its behavior and 
 overcome its predilection to maintain its existing structure and function:
-elements and connections.
+change the elements and change the connections.
+
 
 %..............................
 \paragraph{Change the elements} 
 \label{sec:change_elements}
 %..............................
 
-Small changes to some lower-level elements \emph{may} create 
+Small changes to some lower-level elements \emph{may} can create 
 large changes in higher-level functioning of a system.
-
+Substituting one volleyball player for another can have dramatic effect
+on the behavior and performance of the team as a system.
 
 
 %..............................
@@ -262,11 +276,14 @@ Changing either the rates or routes of information and material flows
 among elements of a system
 can significantly alter the behavior of a system.
 In previous centuries, 
-the development of railroads allowed material to move more quickly 
+the development of railroads\index{railroads}
+allowed material to move more quickly 
 through economies.
-By stringing telegraph (and later telephone) lines, 
+By stringing telegraph\index{telegraph}
+(and later telephone\index{telephone}) lines, 
 economies were able to move information more quickly through economies.  
-Today, the internet enables the fastest information transfer speeds in history.
+Today, the internet\index{internet}
+enables the fastest information transfer speeds in history.
 These changes have changed society in ways that were
 unimaginable a century ago.
 Such changes have increased human well-being in many ways.
@@ -275,35 +292,43 @@ concomitant energy consumption as well.
 \emph{You can never do only one thing.} 
 
 
-
 %++++++++++++++++++++++++++++++
 \subsection{System challenges}
 \label{sec:system_challenges}
 %++++++++++++++++++++++++++++++
 
-System challenges arise from emergent behaviors.
+Although systems present many opportunities, 
+they provide many challanges as well, especially for those who would intervene
+to change their behavior.
 
-Drawbacks:
-%
-\begin{itemize}
+First, systems are difficult to understand, because 
+many holons are present and need to be analyzed.
+(Systems are complicated.\index{systems!complicated})
+Second, even if it were possible to understand the behavior of \emph{all} holons, 
+system emergent behaviors mean that 
+higher level characteristics cannot be predicted, 
+even with complete knowledge of low-level elements.
+(Systems are complex.\index{systems!complex})
+Third, and even worse, the unpredictability of high-level system behavior
+means that unintended consequences\index{unintended consequences}
+arise from emergent behaviors\index{emergent behaviors}.
+Thus, systems are perceived as being uncontrollable.
+Fourth, all of the above can make systems, 
+including collaborative technological holarchies\index{directed technological holarchies},
+difficult to manage.
+Finally, the self-preservation characteristic of systems means that 
+they have a ``mind of their own'' and can seemingly resist attempts to change them.
+Maddeningly, for the volleyball coach,
+sometimes substitutions have little effect or make team performance worse
+due to some unexpected interactions between the holons (players).
 
-  \item Emergent behavior brings unintended consequences
 
-  \item Difficult to understand, because many holons need to be analyzed (complicated)
-  
-  \item Impossible to understand high-level behavior by analyzing low-level holons only (complex)
-  
-  \item Collaborative technological holarchies are difficult to manage (Graedel p. 217)
-  
-  \item We have linear minds in a non-linear world (Meadows p. 91)
-  
-  \item Resistant to change (preserve structure)
-
-\end{itemize}
-%
-
-
-
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Systems are challenging and difficult to manage, 
+because we have ``linear minds in a nonlinear world''~\cite[p.~91]{Meadows:2008aa}.
+\end{mcframe}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -311,28 +336,54 @@ Drawbacks:
 \label{sec:complexity_theory}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Complicated: Difficult (but not impossible) to understand system by analyzing lower-level holons
+The study of systems and their complex interactions
+is called \emph{complexity theory}\index{complexity theory}~\cite{Cilliers:1998aa}. 
+In the previous section, 
+systems were described as being both complicated and complex.
+Systems are complicated, because they are difficult
+(but not impossible) to understand system by analyzing lower-level holons.
+But systems, especially large systems with many connections,
+are also complex, meaning that they \emph{can't} be understood by taking them apart. 
+For example, a spacecraft\index{spacecraft} is complicated, because it has many parts.
+It \emph{might} be possible to learn some aspects of spacecraft behavior
+simply by studying its parts.
+But it would be impossible to predict the social, psychological, and political
+effects of Sputnik\index{Sputnik} by studying its holons.
+A spacecraft is complex.
 
-Complex: Can't understand system by taking it apart
+Many tenents of complexity theory have been discussed in preceding sections:
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item systems can't understood by taking them apart,
+  
+  \item systems are resilient to external perturbation,
+  
+  \item all modeling is an attempt to understand or describe a system 
+        via simplification, a reduction of complexity, and 
+  
+  \item necessarily, all modeling involves drawing boundaries
+        (as in free-body-diagrams and control volumes).
+  
+\end{enumerate*}
 
-Systems can resist change (be resilient in the face of external perturbation)
+But further insights emerge from complexity theory.
 
-Everything is connected all the time
+In a system, everything is connected all the time.
+Attempts to isolate parts of a system are futile.
+Emergent behavior means that 
+effects cannot be tracked or predicted deterministically.
+Thus, and importantly, human knowledge has limits, always!
+Human knowledge is not arbitrary, but it is 
+provisional, contextual, and contingent.
 
-Effects cannot be tracked deterministically
-
-Knowledge has limits (always!)
-
-Knowledge is provisional, contextual, and contingent (but not arbitrary)
-
-Intuition can be as important as rationality when dealing with complex systems
+As a result, 
+human intuition can be as important 
+as scientific rationality when dealing with complex systems.
 
 One way to intervene in an established (legacy) system is to question the boundaries! Deconstruct (shift) the framework.
 
 
-Modeling is an attempt to understand/describe a system (via simplification, a reduction of complexity)
-
-Necessarily, all modeling involves drawing boundaries: Free-body-diagrams and control volumes
 
 Agents (in Agent-based modeling)
 
