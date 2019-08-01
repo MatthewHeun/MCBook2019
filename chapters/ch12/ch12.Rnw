@@ -192,29 +192,7 @@ some human activities appear, at times, to be meaningless.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Given the above characteristics of systems, 
-opportunities and challenges can be identified.
-
-
-%++++++++++++++++++++++++++++++
-\subsection{System opportunities}
-\label{sec:system_opportunities}
-%++++++++++++++++++++++++++++++
-
-The connections between enclosed (lower-level) and enclosing (higher-level) holons in a holarchy
-allow specialization of function. 
-Higher levels of a holarchy often serve to organize and utilize the outputs from elements in lower levels of the holarchy.
-Such organization enables metabolisms, organisms, and manufacturing supply chains.
-Large, technical projects, such as airlines, spacecraft, chemical plants, are possible in what 
-Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}.
-
-
-
-
-small changes to elements in lower levels can create big changes in higher levels of a system.
-
-
-Resistant to change (preserve structure).
-
+challenges and opportunities can be identified.
 
 
 %++++++++++++++++++++++++++++++
@@ -222,6 +200,7 @@ Resistant to change (preserve structure).
 \label{sec:system_challenges}
 %++++++++++++++++++++++++++++++
 
+System challenges arise from emergent behaviors.
 
 Drawbacks:
 %
@@ -241,6 +220,43 @@ Drawbacks:
 
 \end{itemize}
 %
+
+
+
+%++++++++++++++++++++++++++++++
+\subsection{System opportunities}
+\label{sec:system_opportunities}
+%++++++++++++++++++++++++++++++
+
+To begin identifying system opportunities, 
+consider system structure.
+Lower levels of a holarchy provide materials and information to upper levels.
+Higher levels of a holarchy often serve to organize and utilize the outputs from elements in lower levels.
+Thus, the connections between enclosed (lower-level) and enclosing (higher-level) holons in a holarchy
+enable one of the most important system opportunities: specialization.
+Such organization enables metabolisms, organisms, and manufacturing supply chains, for example.
+Large, technical projects, such as airlines, spacecraft, chemical plants, are possible in what 
+Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}.
+
+What if one desires to change the way a system functions? 
+If one views, for example, Earth's climate, worldwide energy supply chains, and the worldwide economy
+as a system, what options exist for changing the system to emit less CO$_2$ and 
+
+
+If we want to intervene in a system to change its functioning and 
+overcome its predilection to maintain its existing structure and function,
+
+
+
+
+
+small changes to elements in lower levels can create big changes in higher levels of a system.
+
+
+Resistant to change (preserve structure).
+
+
+
 
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 \begin{mcframe}[0.90\textwidth](0.85\textwidth)
