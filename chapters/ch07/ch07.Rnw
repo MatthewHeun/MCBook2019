@@ -13,6 +13,11 @@
 
 Food provides energy for humans to pursue lives of work, service, and play
 with family, friends, and co-workers.
+Food consumption is rather predictable, because food energy intake (measured in food calories) 
+scales linearly with population. 
+Each healthy individual consumes about 2000 food calories per day, 
+more for teens and active people, slightly less for women than men.
+
 But food doesn't appear on plates magically, out of nowhere.
 Food arrives on plates through a network of 
 natural and human-created transformation processes\index{transformation processes!food}
@@ -85,6 +90,15 @@ Thus, the U.S.\ is reasonably self-sufficient regarding food supply.
 However, exports\index{food!exports}
 of crops (\Sexpr{format(355560, big.mark = ",")} million pounds)
 are a significant source of demand for the U.S.\ agriculture system.
+
+Fifth, relative to annual worldwide consumption, 
+there is little storage of food beyond what is needed to compensate 
+for expected seasonal weather variations. 
+I.e., the agriculture system produces what is needed now (or at least this year).  
+Given that food demand scales with population, 
+weather- and climate-related supply side disruptions are
+more significant than demand disruptions and
+lead to food price fluctuations.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
