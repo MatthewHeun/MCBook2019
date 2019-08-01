@@ -336,8 +336,8 @@ because we have ``linear minds in a nonlinear world''~\cite[p.~91]{Meadows:2008a
 \label{sec:complexity_theory}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The study of systems and their complex interactions
-is called \emph{complexity theory}\index{complexity theory}~\cite{Cilliers:1998aa}. 
+A field of study that specializes in systems and their complex interactions
+is \emph{complexity theory}\index{complexity theory}~\cite{Cilliers:1998aa}. 
 In the previous section, 
 systems were described as being both complicated and complex.
 Systems are complicated, because they are difficult
