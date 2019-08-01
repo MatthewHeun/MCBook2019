@@ -338,74 +338,89 @@ because we have ``linear minds in a nonlinear world''~\cite[p.~91]{Meadows:2008a
 
 A field of study that specializes in systems and their complex interactions
 is \emph{complexity theory}\index{complexity theory}~\cite{Cilliers:1998aa}. 
-In the previous section, 
-systems were described as being both complicated and complex.
-Systems are complicated, because they are difficult
-(but not impossible) to understand system by analyzing lower-level holons.
+Complexity theory takes system thinking in a philosophical direction
+to assist our understanding of the world and its systems.
+
+Complexity theory distinguishes between complicated and complex attributes of systems.
+Systems are complicated, because they are difficult to understand
+by analyzing lower-level holons.
 But systems, especially large systems with many connections,
-are also complex, meaning that they \emph{can't} be understood by taking them apart. 
+can also be complex, meaning that they \emph{can't} be understood by taking them apart
+to study their elements. 
 For example, a spacecraft\index{spacecraft} is complicated, because it has many parts.
-It \emph{might} be possible to learn some aspects of spacecraft behavior
-simply by studying its parts.
-But it would be impossible to predict the social, psychological, and political
+It \emph{might} be possible to predict \emph{some} aspects of spacecraft behavior
+simply by studying those parts.
+But it would be impossible to predict social, psychological, political, and other
 effects of Sputnik\index{Sputnik} by studying 
-its external form, its thrusters, and its attitude control system.
-A spacecraft is complex.
+its exterior, its thrusters, and its attitude control system.
+Sputnik is complex.
 
 Many tenents of complexity theory have been discussed in preceding sections:
 %
 \begin{enumerate*}[label={(\alph*)}]
 	
-  \item systems can't understood by taking them apart,
+  \item systems can't be fully understood by taking them apart,
   
   \item systems are resilient to external perturbation,
   
   \item all modeling is an attempt to understand or describe a system 
-        via simplification, a reduction of complexity, and 
+        via simplification, by reducing complexity, 
   
-  \item necessarily, all modeling involves drawing boundaries
-        (as in free-body-diagrams and control volumes).
+  \item all modeling necessarily involves drawing boundaries
+        (as in free-body-diagrams and control volumes), and 
+  
+  \item emergent behavior means that 
+        effects cannot be tracked or predicted deterministically.
   
 \end{enumerate*}
 
-But further insights emerge from complexity theory.
+But further insights emerge from the field.
+In a system, all elements are connected all the time, 
+either directly or indirectly via other connected elements.
+Thus, attempts to isolate parts of a real system are futile.
+Any modeling that isolates elements of a system should be undertaken with much care.
 
-In a system, everything is connected all the time.
-Attempts to isolate parts of a system are futile.
-Emergent behavior means that 
-effects cannot be tracked or predicted deterministically.
-Thus, and importantly, human knowledge has limits, always!
+Chaotic characteristics, emergent behavior, and unexpected consequences of real-world systems
+mean that human knowledge has limits, always.
+Humans are finite!
 Human knowledge is not arbitrary, but it is 
 provisional, contextual, and contingent.
+Consequently,
+human intuition can \emph{sometimes} be as important 
+as scientific rationality when confronted with complexity.
 
-As a result, 
-human intuition can be as important 
-as scientific rationality when dealing with complex systems.
+Complexity theory helps us to understand that all system models, 
+being simplified descriptions of the world developed by finite humans, 
+involve choices.
+Thus, system models necessarily 
+amplify some aspects or behaviors of a system and 
+dampen other aspects or behaviors of a system. 
+Thus, there are \emph{normative} aspects to dealing with complexity.
+It is right to ask how models \emph{ought} to be constructed and interpreted.
 
-One way to intervene in an established (legacy) system is to question the boundaries! Deconstruct (shift) the framework.
-
-
-
-Agents (in Agent-based modeling)
-
-All models 
-
-Amplify some aspects or behaviors of a system 
-
-Dampen others
-
-Descriptions of the world (models and theories) involve choice. 
-
-Thus, there are normative aspects to dealing with complexity (what ``ought'' to be done when constructing a model)
-
-
-
-
+Furthermore,
+complexity theory suggests additional ways to intervene in a system.
+In addition to changing the elements and changing the connections, 
+system behavior can be fundamentally altered by 
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item adjusting the spatial arrangement of elements, 
+  
+  \item introducing delays to the interactions between elements,
+  
+  \item adding or removing storage for materials and energy,
+  
+  \item changing the rules of interactions among elements, and 
+  
+  \item changing the telos of a system.
+    
+\end{enumerate*}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Example systems}
-\label{sec:example_systems}
+\section{System thinking for sustainability}
+\label{sec:system_thinking_for_sustainability}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Two chapters already discussed systems:
