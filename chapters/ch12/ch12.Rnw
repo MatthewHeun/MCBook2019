@@ -348,7 +348,8 @@ For example, a spacecraft\index{spacecraft} is complicated, because it has many 
 It \emph{might} be possible to learn some aspects of spacecraft behavior
 simply by studying its parts.
 But it would be impossible to predict the social, psychological, and political
-effects of Sputnik\index{Sputnik} by studying its holons.
+effects of Sputnik\index{Sputnik} by studying 
+its external form, its thrusters, and its attitude control system.
 A spacecraft is complex.
 
 Many tenents of complexity theory have been discussed in preceding sections:
