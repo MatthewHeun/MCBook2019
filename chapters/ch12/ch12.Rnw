@@ -194,34 +194,28 @@ some human activities appear, at times, to be meaningless.
 Given the above characteristics of systems, 
 opportunities and challenges can be identified.
 
+
 %++++++++++++++++++++++++++++++
 \subsection{System opportunities}
 \label{sec:system_opportunities}
 %++++++++++++++++++++++++++++++
 
+The connections between enclosed (lower-level) and enclosing (higher-level) holons in a holarchy
+allow specialization of function. 
+Higher levels of a holarchy often serve to organize and utilize the outputs from elements in lower levels of the holarchy.
+Such organization enables metabolisms, organisms, and manufacturing supply chains.
+Large, technical projects, such as airlines, spacecraft, chemical plants, are possible in what 
+Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}.
 
 
-Because of connections between enclosed and enclosing holons in a holarchy, 
+
+
 small changes to elements in lower levels can create big changes in higher levels of a system.
 
 
+Resistant to change (preserve structure).
 
 
-
-Benefits:
-%
-\begin{itemize}
-
-  \item 
-
-  \item Specialization possible at lower levels of holarchy
-  
-  \item Large, technical projects (airlines, spacecraft, chemical plants) are possible (Directed Technological Holarchy, Graedel p. 217)
-  
-  \item Resistant to change (preserve structure).
-
-\end{itemize}
-%
 
 %++++++++++++++++++++++++++++++
 \subsection{System challenges}
