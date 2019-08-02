@@ -243,10 +243,6 @@ find problems with and suggest solutions for designs and plans.
 \end{mcframe}
 
 What if one desires to change system behavior? 
-If one views, for example, Earth's climate,
-worldwide energy supply chains\index{supply chains!energy}, and
-the worldwide economy
-as a system, what options exist for changing that system to emit less CO$_2$?\index{emissions!CO$_2$}
 Meadows~\cite[Ch.~6]{Meadows:2008aa} gives an extensive list of 
 ``leverage points''\index{leverage points!of a system}
 to change system behavior.
@@ -423,17 +419,57 @@ system behavior can be fundamentally altered by
 \label{sec:system_thinking_for_sustainability}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Two chapters already discussed systems:
+Systems thinking and complexity theory are valuable
+for understanding sustainability challenges.
+Indeed, systems thinking can bring important insights 
+to some of the most difficult problems facing society today.
+To demonstrate, consider the sustainability challenge
+of reducing CO$_2$ emissions worldwide.
 
-Energy-economy
+Systems thinking indicates that focusing narrowly on, say,
+the efficiency of end-use of energy-consuming machines
+(such as cars, lights, and furnaces)
+will be insufficient to address the challenge, because 
+everything is interconnected, always.
+Focusing on end-use machines would neglect
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item economic imperatives that lead to energy consumption and
+  
+  \item the energy conversion chain that supplies energy to end users.
+    
+\end{enumerate*}
+%
+System thinking and complexity theory would suggest widening the system boundary
+to include the economy and the energy conversion chain.
+And they caution against thinking that a system comprised of
+Earth's climate,
+worldwide energy supply chains\index{supply chains!energy}, and
+the worldwide economy
+will be sufficient to find a solution to the CO$_2$ emissions challenge.
 
-Transport system
 
-Questions to ponder about the transport system:
 
-What problems was the existing transportation system designed to solve?
 
-What problems do we have today?
+
+(Note that defining system boundaries around these three entities is \emph{already} 
+a potentially-problematic move, because
+the system is a simplified version of reality that excludes other important factors, 
+such as government, education, etc.)
+
+
+
+
+
+Furthermore, assume that it is desired to change the system to significantly reduce CO$_2$ emissions.
+The following insights emerge from system thinking and complexity theory.
+
+
+
+
+
+, what options exist for changing that system to emit less CO$_2$?\index{emissions!CO$_2$}
 
 
 
