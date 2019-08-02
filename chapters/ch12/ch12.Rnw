@@ -435,14 +435,6 @@ What problems was the existing transportation system designed to solve?
 
 What problems do we have today?
 
-Is our legacy transportation system resilient (resistant to change)? Why or why not?
-
-Does the existing transportation system exacerbate or help to solve today’s problems?
-
-What should we do with ``legacy'' systems?
-
-Does the tendency to preserve structure in legacy systems 
-mean that our existing transport system sees sustainable transportation as a ``virus'' that needs to be eliminated?
 
 
 
@@ -456,7 +448,18 @@ mean that our existing transport system sees sustainable transportation as a ``v
 
 \item Make a list of 3 systems. 
       What are the the elements (holons), connections (holarchy), and teloi for each system?
-
+      
+\item Consider the existing transportation system. 
+      What problems was it designed to solve?
+      What problems do we have today?
+      Is the legacy transportation system resilient (resistant to change)? Why or why not?
+      Does our legacy transportation system exacerbate or help to solve today's sustainability problems?
+      If you want to change the ``legacy'' system, 
+      what ways to intervene in the legacy transportation system are suggested 
+      by systems thinking and complexity theory?
+      Does the tendency to preserve structure in legacy systems 
+      mean that our existing transport systems view 
+      sustainable transport as a ``virus'' that needs to be eliminated?
 
 \end{problems}
 
