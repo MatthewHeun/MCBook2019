@@ -342,7 +342,7 @@ because we have ``linear minds in a nonlinear world''~\cite[p.~91]{Meadows:2008a
 
 A field of study that specializes in systems and their complex interactions
 is \emph{complexity theory}\index{complexity theory}~\cite{Cilliers:1998aa}. 
-Complexity theory takes system thinking in a philosophical direction
+Complexity theory takes systems thinking in a philosophical direction
 to assist our understanding of the world and its systems.
 
 Complexity theory distinguishes between complicated and complex attributes of systems.
@@ -426,11 +426,11 @@ system behavior can be fundamentally altered by
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{System thinking for sustainability}
+\section{systems thinking for sustainability}
 \label{sec:system_thinking_for_sustainability}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-System thinking and complexity theory (STCT) are valuable
+Systems thinking and complexity theory (STCT) are valuable
 for understanding sustainability challenges.
 Indeed, systems thinking can bring important insights 
 to some of the most difficult problems facing society today.
@@ -439,10 +439,11 @@ of reducing CO$_2$ emissions\index{emissions!CO$_2$}
 worldwide.
 
 Systems thinking indicates that focusing narrowly on, say,
-the efficiency of end-use of energy-consuming machines
+incresing the efficiency of end-use of energy-consuming machines
 (such as cars, lights, and furnaces)
-will be insufficient to address the challenge, because 
-everything is interconnected, always.
+to reduce CO$_2$ emissions
+will be insufficient to address the challenge.
+Everything is interconnected, always.
 Focusing on end-use machines would neglect, e.g.,
 %
 \begin{enumerate*}[label={(\alph*)}]
@@ -469,8 +470,8 @@ information and computer technology\index{information and computer technology}
 remain exogeneous to the system.
 
 Furthermore, 
-STCT indicates that the boundary\index{system boundaries}
-around the CEE system will amplify some aspects of real-world behavior and
+STCT indicates that the CEE system boundary\index{system boundaries}
+will amplify some aspects of real-world behavior and
 dampen others.
 In the case of the CEE system, it is likely 
 economic effects on CO$_2$ emissions will be overemphasized, 
@@ -479,7 +480,7 @@ and there is a risk that, say, political effects will be underemphasized.
 STCT would suggest that 
 interactions among the elements in the CEE system
 would give rise to both emergent behaviors and unintended consequences.
-Indeed, the rebound effect and backfire discussed in Section~\ref{sec:energy_transitions}
+Indeed, the rebound effect and backfire (Section~\ref{sec:energy_transitions})
 are examples of unintended consequences
 that arise within the CEE system.
 Becoming more energy efficient at the point of energy consumption
@@ -492,23 +493,66 @@ An STCT mindsent and an expanded system boundary
 that includes the economy (e.g., the CEE system)
 enable consideration of the rebound effect and backfire.
 
-To those with a STCT mindset, 
-the limits to human knowledge are highlighted by
-the fact that analysis results are contingent upon boundary placement.
-I.e., a different boundary would yield different analysis results!
-Indeed, placement of the system boundary is a normative choice, and
-the correctness of boundary placement can be evaluated for each system analysis.
-For the CO$_2$ emissions example,
-redrawing the CEE system boundary to 
+In the CEE system, politics is exogenous, and 
+redrawing the system boundary to 
 endogenize the political system would likely unlock
 new possibilities for policy solutions to the CO$_2$ emissions challenge.
-The expanded boundary would give rise to 
+A system with the expanded boundary could be called
 the climate-energy-economy-policy (CEEP) system.
+
+To those with an STCT mindset, 
+developing and implementing policies are fraught.
+Limits to human knowledge mean that no policy is perfect, and 
+a large dose of humility is required for policymakers.
+In fact, the limits to human knowledge are highlighted by
+the fact that knowledge is contingent upon boundary placement.
+I.e., a different boundary would yield different analysis results!
+Indeed, placement of the system boundary is a normative choice, and
+the correctness of boundary placement can be evaluated relative to the telos for each system analysis.
+I.e., the ``right'' boundary placement is contingent upon the questions being asked
+and the problems to be solved.
+Because the CO$_2$ emissions problem is a worldwide phenomenon
+that affects every human being,
+it seems likely that solutions will have aspects at the highest levels of human society,
+namely government policies.%
+\footnote{
+  Libetarians might object to the idea that the problem of CO$_2$ emissions should be solved
+  at the governmental level,
+  instead proposing solutions at the level of economically self-interested individuals. 
+  However, the current economic system does not incentivize individuals to 
+  make choices that reduce CO$_2$ emissions. 
+  To move from today's economic environment to one in which individuals \emph{are} 
+  incentivized to pursue behaviors that reduce CO$_2$ emissions, 
+  the government must surely be involved to establish the necessary economic conditions.
+}
 
 In the face of limits to human knowledge, 
 emergent behavior, and 
 unintended consequences,
 how are we to develop policy?
+With full knowledge of unintended consequences, 
+the exhortations to 
+``change the elements'' and ``change the connections''
+can guide humble policy-making.
+For the CEEP system, 
+``changing the elements'' could mean improving the efficiency 
+of energy-consuming end-use machines,
+such as lights, cars, and washing machines.
+Efficiency improvements can be legislated via efficiency \emph{standards}
+or by economic incentives such as \emph{tax breaks} or \emph{rebates}  
+for purchasing high-efficiency machines.
+To ``change the connections,''
+policymakers might mandate that sellers  
+must provide information to buyers about the embodied CO$_2$ content 
+of product choices.
+
+To avoid the unintended consequences of rebound and backfire,
+organizations can develop policies that capture the monetary savings
+of energy efficiency interventions.
+Special accounts called \emph{green revolving funds}\index{green revolving funds}\url{http://greenbillion.org}
+require that monetary savings from energy efficiency
+be used for additional energy efficiency interventions,
+thereby ensureing that savings don't ``leak out'' to the rest of the economy.
 
 
 
@@ -524,10 +568,16 @@ how are we to develop policy?
 \item Make a list of 3 systems. 
       What are the the elements (holons), connections (holarchy), and teloi for each system?
       
-\item Consider the existing transportation system. 
-      What problems was it designed to solve?
+\item In \ref{sec:system_thinking_for_sustainability}, 
+      systems thinking and complexity theory were applied to the problem of CO$_2$ emissions.
+      Now apply systems thinking and complexity theory to the problem of CO$_2$ emissions 
+      from the existing transportation system. 
+      What problems was the existing transportation system designed to solve?
       What problems do we have today?
-      Is the legacy transportation system resilient (resistant to change)? Why or why not?
+      Is the legacy transportation system resilient (resistant to change)? 
+      Why or why not?
+      If you deem the legacy transportation system resistant to change, 
+      in what ways is that true?
       Does our legacy transportation system exacerbate or help to solve today's sustainability problems?
       If you want to change the ``legacy'' system, 
       what ways to intervene in the legacy transportation system are suggested 
