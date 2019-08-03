@@ -486,9 +486,9 @@ Becoming more energy efficient at the point of energy consumption
 leaves consumers with more money in their wallets.
 Respending that saved money in the economy leads to increasing energy demand 
 elsewhere in the energy conversion chain. 
-A narrow system boundar around end-use machines closes off the possibility 
-to observe the rebound effect or backfire.
-A STCT mindsent and an expanded system boundary
+A narrow system boundary around end-use machines closes off the possibility 
+to observe an economy-wide rebound effect or backfire.
+An STCT mindsent and an expanded system boundary
 that includes the economy (e.g., the CEE system)
 enable consideration of the rebound effect and backfire.
 
