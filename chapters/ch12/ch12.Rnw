@@ -27,9 +27,11 @@ and encourage readers to adopt a systems view of the world.
 
 Donella Meadows defines a \emph{system}\index{system}
 as ``an interconnected set of elements that is coherently organized in a way that achieves something''~\cite[p.~11]{Meadows:2008aa}.
-Example systems are a volleyball team, the solar system, the Earth, an ant, a bacterium.
-Meadows' definition has three aspects:
-elements\index{elements!of a system}, interconnections\index{interconnections!in a system}, and a telos\index{telos}.
+Example systems include a volleyball team, the solar system, the Earth, an ant, a bacterium.
+Meadows' definition has three pieces:
+elements\index{elements!of a system}, 
+interconnections\index{interconnections!in a system}, and 
+a telos\index{telos}.
 
 Systems have elements, 
 distinct entities with their own characteristics, behaviors, and qualities.  
@@ -434,12 +436,12 @@ Systems thinking and complexity theory (STCT) are valuable
 for understanding sustainability challenges.
 Indeed, systems thinking can bring important insights 
 to some of the most difficult problems facing society today.
-To demonstrate, consider the sustainability challenge
-of reducing CO$_2$ emissions\index{emissions!CO$_2$}
-worldwide.
+Many of the most difficult problems involve sustainability in one way or another. 
+To demonstrate the applicability of STCT to sustainability challenges, 
+consider the task of reducing CO$_2$ emissions\index{emissions!CO$_2$} worldwide.
 
 Systems thinking indicates that focusing narrowly on, say,
-incresing the efficiency of end-use of energy-consuming machines
+end-use of energy-consuming machines
 (such as cars, lights, and furnaces)
 to reduce CO$_2$ emissions
 will be insufficient to address the challenge.
@@ -454,14 +456,14 @@ Focusing on end-use machines would neglect, e.g.,
     
 \end{enumerate*}
 %
-STCT would suggest widening the system boundary
+STCT indicates that benefits would be found by widening the system boundary
 to include 
-worldwide energy supply chains\index{supply chains!energy}, and
-the worldwide economy
-(the climate-energy-economy system, or CEE system).
+worldwide energy supply chains\index{supply chains!energy} and
+the worldwide economy to obtain
+the climate-energy-economy system, or CEE system.
 And STCT would caution against thinking that analyzing the CEE system
 would lead to a solution to the worldwide CO$_2$ emissions challenge.
-The CEE system is \emph{still} too narrow 
+The CEE system boundary is \emph{still} too narrow 
 to encompass all factors related to CO$_2$ emissions, because, e.g.,
 individual and group phychology\index{psychology}, 
 sociological\index{sociology} factors,
@@ -484,18 +486,29 @@ Indeed, the rebound effect and backfire (Section~\ref{sec:energy_transitions})
 are examples of unintended consequences
 that arise within the CEE system.
 Becoming more energy efficient at the point of energy consumption
-leaves consumers with more money in their wallets.
-Respending that saved money in the economy leads to increasing energy demand 
+leaves consumers with more money in their wallets.\index{energy efficiency!savings from}
+Respending\index{respending}
+that saved money in the economy leads to increasing energy demand 
 elsewhere in the energy conversion chain. 
 A narrow system boundary around end-use machines closes off the possibility 
-to observe the rebound effect or backfire, because the economy is exogenous to the system.
-But an STCT mindsent and an expanded system boundary
-that includes the economy (the CEE system)
+to observe an economy-wide rebound effect or backfire.
+An STCT mindsent and an expanded system boundary
+that includes the economy (e.g., the CEE system)
 enable consideration of the rebound effect and backfire.
 
+In the CEE system, politics is exogenous, and 
+redrawing the system boundary to 
+endogenize the political system would likely unlock
+new possibilities for policy solutions to the CO$_2$ emissions challenge.
+A system with the expanded boundary could be called
+the climate-energy-economy-policy (CEEP) system.
+
 To those with an STCT mindset, 
-the limits to human knowledge are highlighted by
-the fact that analysis results are contingent upon boundary placement.
+developing and implementing policies are fraught.
+Limits to human knowledge mean that no policy is perfect, and 
+a large dose of humility is required for policymakers.
+In fact, the limits to human knowledge are highlighted by
+the fact that knowledge is contingent upon boundary placement.
 I.e., a different boundary would yield different analysis results!
 Indeed, placement of the system boundary is a normative choice, and
 the correctness of boundary placement can be evaluated relative to the telos for each system analysis.
@@ -515,17 +528,44 @@ namely government policies.%
   incentivized to pursue behaviors that reduce CO$_2$ emissions, 
   the government must surely be involved to establish the necessary economic conditions.
 }
-In the CEE system, politics is exogenous, and 
-redrawing the system boundary to 
-endogenize the political system would likely unlock
-new possibilities for policy solutions to the CO$_2$ emissions challenge.
-The expanded boundary would give rise to 
-the climate-energy-economy-policy (CEEP) system.
+
+Another way in which developing and implementing policies to fight CO$_2$ emissions is fraught
+arises when STCT leads us to understand that the existing CEEP system 
+will resist perturbations. 
+STCT predicts that entrenched interests will resist changes to the existing CEEP system.
+Reasons for resisting change include financial (maintain existing reveunes and profits)
+and social (maintain employment).
 
 In the face of limits to human knowledge, 
-emergent behavior, and 
-unintended consequences,
+emergent behavior, 
+unintended consequences, and 
+system resilience,
 how are we to develop policy?
+With full knowledge of unintended consequences and system resiliance, 
+the exhortations to 
+``change the elements'' and ``change the connections''
+can guide humble policy-making.
+For the CEEP system, 
+``changing the elements'' could mean improving the efficiency 
+of energy-consuming end-use machines,
+such as lights, cars, and washing machines.
+Efficiency improvements can be legislated via efficiency \emph{standards}
+or by economic incentives such as \emph{tax breaks} or \emph{rebates}  
+for purchasing high-efficiency machines.
+To ``change the connections,''
+policymakers might mandate that sellers  
+must provide information to buyers about the embodied CO$_2$ content 
+of product choices.
+
+To avoid the unintended consequences of rebound and backfire,
+organizations can develop policies that capture the monetary savings
+resulting from energy efficiency interventions.
+Special accounts called \emph{green revolving funds}\index{green revolving funds}\cite{green-billion:2019aa}
+require that monetary savings from energy efficiency
+be used for additional energy efficiency interventions,
+thereby ensureing that savings don't ``leak'' to the rest of the economy.
+
+
 
 
 
