@@ -91,20 +91,23 @@ However, exports\index{food!exports}
 of crops (\Sexpr{format(355560, big.mark = ",")} million pounds)
 are a significant source of demand for the U.S.\ agriculture system.
 
-Fifth, relative to annual worldwide consumption, 
+Finally, relative to annual worldwide consumption, 
 there is little storage of food beyond what is needed to compensate 
 for expected seasonal weather variations. 
 I.e., the agriculture system produces what is needed now (or at least this year).  
 Given that food demand scales with population, 
-weather- and climate-related supply side disruptions are
-more significant than demand disruptions and
-lead to food price fluctuations.
+weather- and climate-related supply-side disruptions are
+more significant than demand-side disruptions
+for determining food prices. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Food and agriculture sustainability challenges}
 \label{sec:food_sustainability_challenges}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The food system faces many sustainability challenges, including 
+energy return ratios, CO$_2$ emissions, and justice issues. 
 
 
 %++++++++++++++++++++++++++++++
@@ -131,12 +134,12 @@ for the food system is only 1/7.
 The fact that the energy efficiency of the food delivery system is less than 1
 means that the food delivery system is not a \emph{source} of energy for society. 
 Rather it is a \emph{sink} of energy for society.
-Thus, today's food system is, by definition, unsustainable.
+Thus, today's food system is unsustainable from an energy point of view.
 
 To put it another way, society spends more energy to \emph{get} food than it \emph{obtains} from food.  
-Animals that spend more energy to obtain food than they gain from food ultimately die from lack of energy.
-Agrarian societies that spend more energy to obtain food than they gain from food ultimately cease to exist.
-But modern society remains in existence
+Animals that spend more energy to obtain food than they gain from eating food ultimately die from lack of energy.
+Agrarian societies that spend more energy to obtain food than they gain from eating food ultimately cease to exist.
+But modern society remains viable
 because its food delivery system is supported by energy inputs from an external source:
 fossil fuels\index{fossil fuels}.
 Fossil fuels supply the energy for 
@@ -194,8 +197,7 @@ emissions whose origin is the food delivery system.
 Figure~\ref{fig:pounds_serving} shows the amount of CO$_2$ released 
 from the production and distribution of one serving 
 of several types of food~\citep[Fig.~2]{Heller_2014}.
-Figure~\ref{fig:pounds_serving} reinforces the observations from above,
-namely that 
+Figure~\ref{fig:pounds_serving} leads to two important observations:
 %
 \begin{enumerate*}[label={(\alph*)}]
 	
