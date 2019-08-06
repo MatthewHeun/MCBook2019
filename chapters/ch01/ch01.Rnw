@@ -3,7 +3,7 @@
 % before making the book.
 %!TEX root = ../../book.Rnw
 
-\chapter{Foundational concepts related to sustainability}%{Introductory Terms and Concepts}
+\chapter{Foundational concepts related to sustainability (JVA 1)}%{Introductory Terms and Concepts}
 \label{chap:introduction}
 
 The question of whether humanity is living "sustainably" is an existential one,

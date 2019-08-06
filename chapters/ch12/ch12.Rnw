@@ -15,9 +15,10 @@ such as air, water, plants, animals, food, agriculture,
 transportation, cities, energy, economy, and government.
 Many of those interactions are highlighted in previous chapters.
 Systems thinking is a way to conceptualize and make sense of these interactions\index{systems!interactions}
-and behaviors that emerge from them.
+and the behaviors that emerge from them.
 The purposes of this chapter are to introduce systems thinking\index{systems thinking}
-and encourage readers to adopt a systems view of the world.
+and a related philosophical field, complexity theory,\index{complexity theory}
+and to encourage readers to adopt a systems view of the world.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -45,16 +46,18 @@ the sun, planets, asteroids, and meteors.
 The Milky Way galaxy is another system whose holons include many solar systems and comets.
 The universe is yet another system that includes the Milky Way and innumerable other galaxies.
 
-The elements of a sytem are interconnected 
-in ways that allow elements to interact.
-The interconnections, themselves, may have spatial, electrical, mechanical, temporal, or other aspects.
+The elements are interconnected 
+in ways that allow them to interact.
+The interconnections, themselves, may have spatial, electrical, mechanical, temporal, or other characteristics.
 I.e., elements can be arranged in space and connected electrically and/or mechanically, and
 those arrangements and connections can change over time.
 Material and information can \emph{flow}\index{flows!in a system}
 along the interconnections between the elements (holons).
-Spatial interconnections can be characterized as container (parent-child) relationships
-or sibling relationships.
-A word that describes the arrangement of holons is \emph{holarchy}\index{holarchy}~\cite[p.~216]{Graedel:2010ab}.
+The spatial characteristics of interconnections 
+can be visualized as container (parent-child) relationships
+or as sibling relationships.
+A word that describes the arrangement of holons
+is \emph{holarchy}\index{holarchy}~\cite[p.~216]{Graedel:2010ab}.
 Figure~\ref{fig:Holarchies_sust} shows a holarchy of 6 holons.
 Elements 1, 2, and 3 exhibit parent-child (container) relationships,
 with 3 being contained by 2 and 2 being contained by 1.
@@ -90,7 +93,8 @@ ggplot() %>%
 @
 
 A volleyball\index{volleyball} team is arranged spatially on the court.
-Its players move spatially through time for each point but also from point to point in their rotation.
+Its players move spatially through time during the play for each point
+but also from point to point as they rotate between points.
 Planets are arranged spatially in the solar system\index{solar system}, and
 their spatial relationships to each other change in (mostly) predictable ways through time.
 
@@ -107,7 +111,7 @@ The telos for the solar system may be interpreted as providing a home for Earth 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Humans understand system characteristics so deeply that 
-some are embedded in the proverbs and aphorisms of language. 
+some characteristics are reflected in the proverbs and aphorisms of language. 
 
 The behavior of a system is always different from the behavior of its elements or holons, for
 interactions play a central role in the functioning of a system. 
@@ -117,18 +121,18 @@ different from (often very different from)
 lower (enclosed) levels of the holarchy.
 As a whole, a volleyball team behaves differently from its coach.
 The universe exhibits different characteristics from the Earth.
-Systems are said to have \emph{emergent behavior}\index{emergent behavior} 
-when system behavior is radically different from its holons.
+Systems are said to have \emph{emergent behavior}\index{emergent behavior}, 
+because system behavior is radically different from its holons.
 Indeed, for a system,
 ``the whole is greater than (or at least different from) the sum of its parts!''
 
-Because behaviors differ across levels in a system and
+Because behaviors differ from one level to another in a system and
 because interactions play a large role in the behavior of a system,
 systems often appear to be unpredictable.
 To use a mathematical term colloquially, 
 systems are ``nonlinear.''
-A volleyball team goes into a funk, despite handily winning the first set of a match.
-They lose the first 8 points of the second set.
+A volleyball team goes into a funk, despite handily winning the first set of a match, and 
+lose the first 8 points of the next set.
 Weather in the Earth system cannot be forecasted, even with the best meteorology, 
 more than a few days in advance.
 A colloquial word to describe unpredictability is \emph{chaotic}.\index{chaos}
@@ -143,7 +147,8 @@ However, in chaos theory, systems are entirely predictable
 if initial conditions are specified identically (mathematically) from one experiment to another.
 The difference between the seeming unpredictability (but actual predictability) of chaos theory and 
 the chaotic behavior of real-life systems described here is that 
-real systems can behave differently \emph{even if} initial conditions are specified identically.
+real-life systems can behave differently \emph{even if} 
+initial conditions are specified identically.
 
 The distinction is blurred when measurement uncertainty is considered.
 In chaos theory, an infinitesimally small 
@@ -159,14 +164,15 @@ as a systems view of the world would predict.
 
 The presence of connections among holons in a system means that perturbing 
 one part of a system will have effects beyond the initial perturbation site in both space and time.
-A volleyball coach can position players to thwart a hitter whose spikes go ``down the line,''
+A volleyball coach can position her players to thwart a opposing hitter
+whose spikes go ``down the line,''
 but her team's defense will now be vulnerable 
 to the opposing setter's ``dinks'' to the middle.
 In the Earth system, installing a hydropower station will provide electricity, 
 but it will also 
 create an upstream lake, 
 expose downstream riverbanks, and
-change fish migration patterns.
+change fish and other wildlife migration patterns.
 Vernon Ehlers, former U.S.\ congressman for Michigan's 3$^\mathrm{rd}$ district, often said,
 ``You can never do only one thing.''
 
@@ -174,9 +180,9 @@ The apparent unpredictability of systems extends to human actions intended to in
 A volleyball coach can \emph{think} she is motivating a player with a stinging critique 
 but produce the opposite effect, demoralization.
 Human efforts to ``manage'' forests decimate old growth stands.
-Colloquially, we name this unpredictability \emph{unintended consequences}.\index{unintended consequences}
+Colloquially, we name this unpredictability ``unintended consequences.''\index{unintended consequences}
 
-At times, systems appear to act to preserve their structure.
+Often, systems appear to act to preserve their structure.
 A volleyball team that goes ``out of system'' when returning a serve
 reverts to their ``base'' positions after their scramble.
 Droughts on Earth are usually followed by a return to normal rainfall.
@@ -210,8 +216,12 @@ Lower levels of a holarchy provide materials and information to upper levels.
 Higher levels of a holarchy often serve to organize and utilize the outputs from elements in lower levels.
 Thus, the connections between enclosed (lower-level) and enclosing (higher-level) holons in a holarchy
 enable one of the most important system opportunities: specialization.
-Such organization enables metabolisms, organisms, and manufacturing supply chains, for example.
-Large, technical projects, such as airlines, spacecraft, chemical plants, are made possible by what 
+Specialization enables metabolisms, organisms, and manufacturing supply chains, for example.
+Large, technical projects, such as 
+managing airlines;
+building, launching, and flying interplanetary spacecraft; and
+designing, building, and operating chemical plants;
+are made possible by what 
 Graedel and Allenby call ``directed technological holarchies''~\cite[p.~217]{Graedel:2010ab}\index{directed technological holarchies}.
 
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -230,7 +240,7 @@ thermodynamic systems, etc.\ are all predicated upon holarchies.
 and ``free body diagrams''\index{free body diagrams} 
 serve to break down systems to analyze their elements piece-by-piece, per holon.
 Positional and electrical constraints expressed as equations 
-put the systems ``back together,''
+put the systems ``back together''
 and describe the connections among components/elements/holons.
 
 Engineers confront the complexities of engineered systems
@@ -249,8 +259,9 @@ Meadows~\cite[Ch.~6]{Meadows:2008aa} gives an extensive list of
 ``leverage points''\index{leverage points!for system behavior change}
 to change system behavior.
 A shorter list includes
-two important ways to intervene in a system to change its behavior and 
-overcome its predilection to maintain its existing structure and function:
+two important ways to intervene in a system to 
+overcome its predilection to maintain structure
+and, ultimately, change its behavior:
 change the elements and change the connections.
 
 
@@ -259,10 +270,10 @@ change the elements and change the connections.
 \label{sec:change_elements}
 %..............................
 
-Small changes to some lower-level elements \emph{may} can create 
-large changes in higher-level functioning of a system.
+One way to achieve changes in higher-level function of a system is to make 
+small changes to lower-level elements.
 Substituting one volleyball player for another can have dramatic effect
-on the behavior and performance of the team as a system.
+on the behavior and performance of the team.
 
 
 %..............................
@@ -270,145 +281,32 @@ on the behavior and performance of the team as a system.
 \label{sec:change_connections}
 %..............................
 
-Changing either the rates or routes of information and material flows
-among elements of a system
-can significantly alter the behavior of a system.
+Another way to change the functioning of a system is to 
+change either the rates or routes of information and material flows among elements. 
 In previous centuries, 
 the development of railroads\index{railroads}
-allowed material to move more quickly 
-through economies.
+allowed material (goods) to move more quickly 
+through the Earth system (economies).
 By stringing telegraph\index{telegraph}
 (and later telephone\index{telephone}) lines, 
-economies were able to move information more quickly through economies.  
+humans were able to move information more quickly through economies
+and across the Earth.  
 Today, the internet\index{internet}
-enables the fastest information transfer speeds in history.
-These changes have changed society in ways that were
+enables the highest information transfer speeds in history,
+resulting in massive societal changes that were
 unimaginable a century ago.
-Such changes have increased human well-being in many ways.
-But they also enabled unprecedented rates of economic growth and
-concomitant energy consumption as well.
+Undoubtedly, increasing the material and information velocity through economies 
+has increased human well-being in many ways.
+But the velocity increases have also enabled unprecedented rates of economic growth,
+fossil fuel energy consumption, and CO$_2$ emissions.
 \emph{You can never do only one thing.} 
 
 
-%++++++++++++++++++++++++++++++
-\subsection{System challenges}
-\label{sec:system_challenges}
-%++++++++++++++++++++++++++++++
+%..............................
+\paragraph{Other ways to change system behavior} 
+\label{sec:other_ways_to_change_sysem_behavior}
+%..............................
 
-Although systems present many opportunities, 
-they provide many challanges as well, especially for those who would intervene
-to change their behavior.
-%
-\begin{enumerate*}[label={(\arabic*)}]
-	
-  \item Systems are difficult to understand, because 
-        many holons are present and need to be analyzed.
-        Systems are \emph{complicated}.\index{systems!complicated}        
-  
-  \item Even if it were possible to understand the behavior of \emph{all} holons, 
-        system emergent behaviors mean that 
-        higher level characteristics cannot be predicted, 
-        even with complete knowledge of low-level elements.
-        (Systems are \emph{complex}.\index{systems!complex})
-        
-  \item Even worse, the unpredictability of high-level system behavior
-        means that unintended consequences\index{unintended consequences}
-        arise from emergent behaviors\index{emergent behaviors}.
-        Thus, systems are perceived as being uncontrollable.
-        
-  \item All of the above can make systems, 
-        including collaborative technological holarchies\index{directed technological holarchies},
-        difficult to manage.
-        
-  \item The self-preservation characteristic of systems means that 
-        systems have a ``mind of their own'' and can seemingly resist attempts to change them.
-        Maddeningly, for the volleyball coach,
-        substitutions sometimes have little effect, even making team performance worse
-        due to some unexpected interactions among the players (holons).
-    
-\end{enumerate*}
-
-
-%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-\begin{mcframe}[0.90\textwidth](0.85\textwidth)
-%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Systems are challenging and difficult to manage, 
-because we have ``linear minds in a nonlinear world''~\cite[p.~91]{Meadows:2008aa}.
-\end{mcframe}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Complexity theory}
-\label{sec:complexity_theory}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-A field of study that specializes in systems and their complex interactions
-is \emph{complexity theory}\index{complexity theory}~\cite{Cilliers:1998aa}. 
-Complexity theory takes systems thinking in a philosophical direction
-to assist our understanding of the world and its systems.
-
-Complexity theory distinguishes between complicated and complex attributes of systems.
-Systems are complicated, because they are difficult to understand
-by analyzing lower-level holons.
-But systems, especially large systems with many connections,
-can also be complex, meaning that they \emph{can't} be understood by taking them apart
-to study their elements. 
-For example, a spacecraft\index{spacecraft} is complicated, because it has many parts.
-It \emph{might} be possible to predict \emph{some} aspects of spacecraft behavior
-simply by studying those parts.
-But it would be impossible to predict social, psychological, political, and other
-effects of Sputnik\index{Sputnik} by studying 
-its exterior, its thrusters, and its attitude control system.
-Sputnik is complex.
-
-Many tenents of complexity theory have been discussed in preceding sections:
-%
-\begin{enumerate*}[label={(\alph*)}]
-	
-  \item systems can't be fully understood by taking them apart,
-  
-  \item systems are resilient to external perturbation,
-  
-  \item all modeling is an attempt to understand or describe a system 
-        via simplification, by reducing complexity, 
-  
-  \item all modeling necessarily involves drawing boundaries
-        (as in free-body-diagrams and control volumes), and 
-  
-  \item emergent behavior means that 
-        effects cannot be tracked or predicted deterministically.
-  
-\end{enumerate*}
-
-But further insights emerge from the field.
-In a system, all elements are connected all the time, 
-either directly or indirectly via other connected elements.
-Thus, attempts to isolate parts of a real system are futile.
-Any modeling that isolates elements of a system should be undertaken with much care.
-
-Chaotic characteristics, emergent behavior, and unexpected consequences of real-world systems
-mean that human knowledge has limits, always.
-Humans are finite!
-Human knowledge is not arbitrary, but it is 
-provisional, contextual, and contingent.
-Consequently,
-human intuition can \emph{sometimes} be as important 
-as scientific rationality when confronted with complexity.
-
-Complexity theory helps us to understand that all system models, 
-being simplified descriptions of the world developed by finite humans, 
-involve choices.
-One of the most important choices in system modeling is the system boundary.
-Placement of the system boundary defines what is ``in'' the analysis (endogenous)
-and what is ``out'' of the analysis (exogenous).
-Thus, system models necessarily 
-amplify some aspects or behaviors (endogenous elements and their interactions) and 
-dampen other aspects or behaviors (exogenous elements and their interactions). 
-Thus, there are \emph{normative} aspects to dealing with complexity.
-It is right to ask how models \emph{ought} to be constructed and interpreted.
-
-Furthermore,
-complexity theory suggests additional ways to intervene in a system.
 In addition to changing the elements and changing the connections, 
 system behavior can be fundamentally altered by 
 %
@@ -427,114 +325,278 @@ system behavior can be fundamentally altered by
 \end{enumerate*}
 
 
+%++++++++++++++++++++++++++++++
+\subsection{System challenges}
+\label{sec:system_challenges}
+%++++++++++++++++++++++++++++++
+
+Although systems present many opportunities, 
+they provide many challanges as well, especially for those who would intervene
+to change their behavior.
+%
+\begin{enumerate*}[label={(\arabic*)}]
+	
+  \item Systems are difficult to understand, because 
+        many systems contain large numbers of holons, makeing thorough analysis impossible.
+        Systems are \emph{complicated}.\index{systems!complicated}        
+  
+  \item Even if it were possible to analyze the behavior of \emph{all} holons, 
+        system emergent behaviors mean that 
+        higher level characteristics cannot be predicted
+        from complete knowledge of the behavior of all lower-level elements.
+        (Systems are \emph{complex}.\index{systems!complex})
+        
+  \item Even worse, the unpredictability of high-level system behavior
+        means that unintended consequences\index{unintended consequences}
+        arise from emergent behaviors\index{emergent behaviors}.
+        Thus, systems are perceived as being uncontrollable.
+        
+  \item All of the above can make systems, 
+        including collaborative technological holarchies\index{directed technological holarchies},
+        difficult to manage.
+        
+  \item The self-preservation characteristic of systems means that 
+        systems have a ``mind of their own'' and can seemingly resist attempts to change them.
+        Maddeningly, for the volleyball coach,
+        substitutions sometimes have little effect, even making team performance worse
+        due to some unexpected interactions among the players.
+    
+\end{enumerate*}
+
+
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Systems are challenging and difficult to manage, 
+because we have ``linear minds in a nonlinear world''~\cite[p.~91]{Meadows:2008aa}.
+\end{mcframe}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{systems thinking for sustainability}
+\section{Complexity theory}
+\label{sec:complexity_theory}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A field of inquiry that studies and describes 
+systems and the interactions among their elements
+is \emph{complexity theory}\index{complexity theory}~\cite{Cilliers:1998aa}. 
+Complexity theory takes systems thinking in a philosophical direction
+to assist our understanding of the world and its systems.
+
+Complexity theory distinguishes between complicated and complex attributes of systems.
+Systems are complicated, because they big and contain many parts.
+Although large, 
+complicated systems are still solvable 
+(in the sense that their behavior can be predicted) 
+and deterministic.
+But complex systems, especially large systems with many connections,
+are neither solvable nor deterministic.
+They \emph{can't} be understood by taking them apart
+and studying their elements. 
+For example, a spacecraft\index{spacecraft} is complicated, because it has many parts.
+It \emph{might} be possible to predict, within some level of confidence,
+\emph{some} aspects of spacecraft behavior (total mass, maximum thrust, etc.)
+simply by studying its elements.
+But it would be impossible to predict social, psychological, political, and other
+effects of Sputnik\index{Sputnik} by studying 
+its exterior, its thrusters, and its attitude control system.
+Sputnik is complex.
+
+Many tenets of complexity theory emerge from systems thinking and
+have been discussed already:
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item systems can't be fully understood by taking them apart,
+  
+  \item systems are resilient to external perturbations,
+  
+  \item all modeling is an attempt to understand or describe a system 
+        via simplification, by reducing complexity, 
+  
+  \item all modeling necessarily involves drawing boundaries
+        (as in free-body-diagrams and control volumes), and 
+  
+  \item emergent behavior means that 
+        effects cannot be tracked or predicted deterministically.
+  
+\end{enumerate*}
+
+But further insights emerge from the field.
+In a system, complexity theory notes that all elements are connected all the time, 
+either directly or indirectly via other connected elements.
+Thus, attempts to isolate elements of a real system 
+as a way to understand the behavior of the system are futile.
+Any modeling or analysis that isolates elements of a system should be undertaken with much care.
+Elements outside of the system boundary should not be expected to affect
+system behavior significantly.
+
+Chaotic characteristics, emergent behavior, and unintended consequences of real-world systems
+imply that human knowledge has limits, always.
+Humans are finite!
+Human knowledge is not arbitrary, but it is 
+provisional, contextual, and contingent.
+Consequently,
+human intuition can \emph{sometimes} be as important 
+as scientific rationality when confronted with complexity.
+
+Complexity theory helps us to understand that all system models, 
+being simplified descriptions of the world developed by finite humans, 
+involve choices.
+One of the most important choices in system analysis is the system boundary.
+Placement of the system boundary defines what is ``in'' the analysis (endogenous)\index{endogenous}
+and what is ``out'' of the analysis (exogenous)\index{exogenous}.
+Thus, system models necessarily 
+amplify some aspects or behaviors (endogenous elements and their interactions) and 
+dampen other aspects or behaviors (exogenous elements and their interactions). 
+There is a ``boundary problem,''
+namely that boundary placement affects knowledge obtained from any system analysis.
+
+The ``boundary problem''\index{boundary problem}
+leads to consideration of epistemological issues such as
+how models and boundary placement mediate our understanding 
+of the complex systems being analyzed.
+In particular, complexity theory arrives at the conclusion that 
+there are \emph{normative} aspects to analyzing complex systems.
+Placement of the system boundary is a normative choice, because
+the correctness of boundary placement can be evaluated relative to the purpose of each analysis.
+I.e., the ``right'' boundary placement is contingent upon the questions being asked
+and the problems to be solved.
+Therefore, it is right to ask how models \emph{ought} to be constructed and interpreted
+for a given purpose.
+The fact that knowledge and understanding of a system are contingent upon boundary placement
+is one of the ways that human knowledge is always limited,
+provisional, contextual, and contingent.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Systems thinking for sustainability}
 \label{sec:system_thinking_for_sustainability}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Systems thinking and complexity theory (STCT) are valuable
+Systems thinking and complexity theory (STCT)%
+\footnote{
+  Systems thinking and complexity theory are so closely related
+  that the acronym STCT will be used for the remainder of this chapter.
+}
+are valuable
 for understanding sustainability challenges.
-Indeed, systems thinking can bring important insights 
-to some of the most difficult problems facing society today.
-Many of the most difficult problems involve sustainability in one way or another. 
+Indeed, STCT  
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item provides a language to talk about observed behaviors of real systems in the real world and
+  
+  \item brings important insights 
+        to some of the most difficult, sustainability-related problems facing society today.
+    
+\end{enumerate*}
+%
 To demonstrate the applicability of STCT to sustainability challenges, 
 consider the task of reducing CO$_2$ emissions\index{emissions!CO$_2$} worldwide.
 
-Systems thinking indicates that focusing narrowly on, say,
-end-use of energy-consuming machines
-(such as cars, lights, and furnaces)
-to reduce CO$_2$ emissions
-will be insufficient to address the challenge.
+Many engineers focus on the efficiency of
+end-use machines (such as cars, lights, and furnaces)
+to reduce CO$_2$ emissions.
+But STCT suggests that a narrow approach will be insufficient to reduce CO$_2$ emissions.
 Everything is interconnected, always.
 Focusing on end-use machines would neglect, e.g.,
 %
 \begin{enumerate*}[label={(\alph*)}]
 	
-  \item economic imperatives that lead to energy consumption and
-  
-  \item the energy conversion chain that extracts energy from the biosphere and delivers it to end users.
+  \item the energy conversion chain that extracts energy from the biosphere and delivers it to end users and
+
+  \item economic imperatives that give rise to energy consumption in the first place.
     
 \end{enumerate*}
 %
-STCT indicates that benefits would be found by widening the system boundary
+STCT suggests that benefits would be found by widening the system boundary
 to include 
 worldwide energy supply chains\index{supply chains!energy} and
-the worldwide economy to obtain
-the climate-energy-economy system, or CEE system.
-And STCT would caution against thinking that analyzing the CEE system
-would lead to a solution to the worldwide CO$_2$ emissions challenge.
-The CEE system boundary is \emph{still} too narrow 
-to encompass all factors related to CO$_2$ emissions, because, e.g.,
-individual and group phychology\index{psychology}, 
-sociological\index{sociology} factors,
-political parties\index{political parties} and other political considerations, and 
-information and computer technology\index{information and computer technology}
-remain exogeneous to the system.
+the worldwide economy to form
+the climate-energy-economy (CEE) system.
 
-Furthermore, 
-STCT indicates that the CEE system boundary\index{system boundaries}
-will amplify some aspects of real-world behavior and
-dampen others.
-In the case of the CEE system, it is likely 
-economic effects on CO$_2$ emissions will be overemphasized, 
-and there is a risk that, say, political effects will be underemphasized.
-
+For the CEE system, 
 STCT would suggest that 
-interactions among the elements in the CEE system
+interactions among its elements
 would give rise to both emergent behaviors and unintended consequences.
-Indeed, the rebound effect and backfire (Section~\ref{sec:energy_transitions})
-are examples of unintended consequences
-that arise within the CEE system.
-Becoming more energy efficient at the point of energy consumption
-leaves consumers with more money in their wallets.\index{energy efficiency!savings from}
+Indeed, the rebound effect and backfire
+are emergent behaviors that lead to unintended consequences
+(less energy saved than expected)
+within the CEE system.
+As discussed in Section~\ref{sec:energy_transitions},
+the rebound effect and backfire occur
+when end-use machines become more energy efficient,
+leaving consumers with more money in their wallets.\index{energy efficiency!savings from}
 Respending\index{respending}
 that saved money in the economy leads to increasing energy demand 
 elsewhere in the energy conversion chain. 
-A narrow system boundary around end-use machines closes off the possibility 
-to observe an economy-wide rebound effect or backfire.
-An STCT mindsent and an expanded system boundary
-that includes the economy (e.g., the CEE system)
+A narrow system boundary (around end-use machines only) closes off the possibility 
+of studying an economy-wide rebound effect or backfire.
+In contrast, an STCT mindsent and an expanded system boundary
+that includes the economy (i.e., the CEE system)
 enable consideration of the rebound effect and backfire.
 
-In the CEE system, politics is exogenous, and 
-redrawing the system boundary to 
-endogenize the political system would likely unlock
-new possibilities for policy solutions to the CO$_2$ emissions challenge.
-A system with the expanded boundary could be called
-the climate-energy-economy-policy (CEEP) system.
+And STCT would caution against assuming that analyzing the CEE system
+would lead to a solution to the worldwide CO$_2$ emissions challenge.
+The CEE system boundary is \emph{still} too narrow 
+to encompass all factors related to CO$_2$ emissions.
+Individual and group phychology\index{psychology}, 
+sociological\index{sociology} factors,
+political parties\index{political parties} and other political considerations, and 
+information and computer technology\index{information and computer technology}
+remain exogeneous to the CEE system.
 
-To those with an STCT mindset, 
-developing and implementing policies are fraught.
-Limits to human knowledge mean that no policy is perfect, and 
-a large dose of humility is required for policymakers.
-In fact, the limits to human knowledge are highlighted by
-the fact that knowledge is contingent upon boundary placement.
-I.e., a different boundary would yield different analysis results!
-Indeed, placement of the system boundary is a normative choice, and
-the correctness of boundary placement can be evaluated relative to the telos for each system analysis.
-I.e., the ``right'' boundary placement is contingent upon the questions being asked
-and the problems to be solved.
+Furthermore, 
+STCT indicates that the CEE system boundary\index{system boundaries}
+will amplify some real-world behaviors and
+dampen others.
+In the case of the CEE system, it is likely that
+economic effects on CO$_2$ emissions will be overemphasized.
+By virture of being exogenous to the CEE system, 
+political effects will be underemphasized
+by the CEE system.
+
 Because the CO$_2$ emissions problem is a worldwide phenomenon
 that affects every human being,
-it seems likely that solutions will have aspects at the highest levels of human society,
-namely government policies.%
+it seems likely that solutions will involve changes at the highest levels of human society,
+namely policies promulgated at the international level.%
 \footnote{
   Libetarians might object to the idea that the problem of CO$_2$ emissions should be solved
-  at the governmental level,
-  instead proposing solutions at the level of economically self-interested individuals. 
+  by governments at the international level,
+  instead of at the level of economically self-interested individuals. 
   However, the current economic system does not incentivize individuals to 
   make choices that reduce CO$_2$ emissions. 
   To move from today's economic environment to one in which individuals \emph{are} 
-  incentivized to pursue behaviors that reduce CO$_2$ emissions, 
-  the government must surely be involved to establish the necessary economic conditions.
+  economically incentivized to pursue behaviors that reduce CO$_2$ emissions, 
+  governments must surely be involved to establish the necessary economic incentives.
 }
+However, politics are exogeneous to the CEE system, and 
+analysis of the CEE system with a view to reducing CO$_2$ emissions 
+seems likely to fail. 
+
+Redrawing the system boundary to 
+endogenize politics could unlock
+new possibilities for policy solutions to the CO$_2$ emissions challenge.
+A system with the expanded boundary might be called
+the climate-energy-economy-policy (CEEP) system.
+
+However, even after endogenizing politics within the CEEP system, 
+an STCT mindset would indicate that
+developing and implementing CO$_2$-reducing policies would be fraught
+with potential problems.
+Limits to human knowledge mean that no policy can ever be perfect.
 
 Another way in which developing and implementing policies to fight CO$_2$ emissions is fraught
 arises when STCT leads us to understand that the existing CEEP system 
 will resist perturbations. 
-STCT predicts that entrenched interests will resist changes to the existing CEEP system.
+STCT predicts that entrenched interests in the fossil fuel industry
+will resist changes to the existing CEEP system.
 Reasons for resisting change include financial (maintain existing reveunes and profits)
-and social (maintain employment).
+and social (maintain employment) considerations.
+It becomes clear that a large dose of humility is needed in policymaking.
+STCT leads us to believe that all policies should be considered experiments,
+open to continued revision as more data become available.
 
 In the face of limits to human knowledge, 
 emergent behavior, 
@@ -549,13 +611,29 @@ For the CEEP system,
 ``changing the elements'' could mean improving the efficiency 
 of energy-consuming end-use machines,
 such as lights, cars, and washing machines.
-Efficiency improvements can be legislated via efficiency \emph{standards}
-or by economic incentives such as \emph{tax breaks} or \emph{rebates}  
-for purchasing high-efficiency machines.
+Efficiency improvements can be legislated via efficiency \emph{standards}\index{efficiency!standards}
+or by economic incentives such as \emph{tax breaks}\index{tax breaks}
+or \emph{rebates} for purchasing high-efficiency end-use machines.
+``Changing the elements'' could also mean providing incentives for 
+rooftop solar electricity generating systems.
+Increasing adoption of renewable energy technologies might 
+bring the unintended consequence of reduced employment in fossil fuel sectors.
+Policies should include retraining or re-skilling of displaced workers
+to avoid disruption of the social fabric in places where job losses can be expected.
+And, even as policies are put in place to incentivize renewables, 
+the fossil fuel industry would be expected to work hard 
+to maintain its structure (i.e., its dominant position in the energy industry) by
+making the application processes for household rooftop solar\index{solar!rooftop}
+arduous and complicated.
+Incentives could be provided for the fossil fuel industry 
+to adapt to changing conditions in the energy sector.
+
 To ``change the connections,''
-policymakers might mandate that sellers  
-must provide information to buyers about the embodied CO$_2$ content 
-of product choices.
+policymakers can mandate that information 
+about embodied CO$_2$ content must flow from 
+sellers of goods to potential consumers.
+To incentivize rooftop solar, policymakers can mandate that grid operators 
+buy electricity from household solar PV systems at a favorable rate.
 
 To avoid the unintended consequences of rebound and backfire,
 organizations can develop policies that capture the monetary savings
@@ -566,12 +644,6 @@ be used for additional energy efficiency interventions,
 thereby ensureing that savings don't ``leak'' to the rest of the economy.
 
 
-
-
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Questions}\index{questions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -580,24 +652,29 @@ thereby ensureing that savings don't ``leak'' to the rest of the economy.
 
 \item Make a list of 3 systems. 
       What are the the elements (holons), connections (holarchy), and teloi for each system?
+      Are they complicated or complex?
       
-\item In \ref{sec:system_thinking_for_sustainability}, 
-      systems thinking and complexity theory were applied to the problem of CO$_2$ emissions.
-      Now apply systems thinking and complexity theory to the problem of CO$_2$ emissions 
-      from the existing transportation system. 
-      What problems was the existing transportation system designed to solve?
-      What problems do we have today?
+\item In Section~\ref{sec:system_thinking_for_sustainability}, 
+      systems thinking and complexity theory~(STCT) 
+      were applied to the problem of reducing CO$_2$ emissions worldwide.
+      Now apply STCT to the more-specific problem of CO$_2$ emissions 
+      from the existing transportation system discussed \ref{chap:transportation}. 
+      Begin by assessing the problems was the existing transportation system designed to solve.
+      Continue to think about what problems we have today.
+      Then think about the ``legacy'' transportation system in light of STCT.
       Is the legacy transportation system resilient (resistant to change)? 
       Why or why not?
       If you deem the legacy transportation system resistant to change, 
       in what ways is that true?
-      Does our legacy transportation system exacerbate or help to solve today's sustainability problems?
-      If you want to change the ``legacy'' system, 
-      what ways to intervene in the legacy transportation system are suggested 
-      by systems thinking and complexity theory?
+      Does our legacy transportation system exacerbate or help to solve today's sustainability challenges?
+      If you want to change the legacy system, 
+      how would STCT suggest that interventions be made?
       Does the tendency to preserve structure in legacy systems 
-      mean that our existing transport systems view 
-      sustainable transport as a ``virus'' that needs to be eliminated?
+      mean that our existing transport system views 
+      sustainable transport as a ``virus'' that needs to be eliminated?\label{question:STCT_transport}
+      
+\item Repeat Question~\ref{question:STCT_transport} 
+      for the food and agriculture system discussed in Chapter~\ref{chap:food_and_agriculture}.
 
 \end{problems}
 
