@@ -79,12 +79,17 @@ See Remark~\ref{ch02.rem1} for the key reason why.
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{chapters/ch02/annual_number_of_births}
+\includegraphics[width=1\linewidth]{chapters/ch02/annual_number_of_births.pdf}
 \caption[Annual number of births by world region.]{Annual number of births by world region, 1950-2015.}
 \label{fig:annual_births}
 \end{figure}
 
-
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/half_world_population.pdf}
+\caption[Population living in the Valeriepiersis circle.]{As of 2015, more than half the world's population lives in the Valeriespieris circle, a circular region centered in the South China Sea.}
+\label{fig:half_population}
+\end{figure}
 
 \begin{definition}
 \label{ch02.def1}
