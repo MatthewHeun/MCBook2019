@@ -5,7 +5,7 @@
 
 %blankpage
 
-\chapter{Economy}
+\chapter{Economy (JVA 3)}
 \label{chap:economy}
 
 The navigation oriented heuristic ($h3$) considers the site topology.

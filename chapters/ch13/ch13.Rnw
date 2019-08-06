@@ -5,7 +5,7 @@
 
 %blankpage
 
-\chapter{Values and Religion}
+\chapter{Values and Religion (JVA 7)}
 \label{chap:values_and_religion}
 
 
