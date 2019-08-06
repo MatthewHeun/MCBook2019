@@ -207,6 +207,15 @@ away from nonrenewable resources prior to their depletion.
 \label{fig:world_coal_production}
 \end{figure}
 
+****this data only goes back to 1993.It is from BP Statistical Review of World Energy Data*****
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch04/world_coal_production_since_93.pdf}
+\caption[World coal production.]{World coal production 1993-2019.}
+\label{fig:world_coal_production_93}
+\end{figure}
+
 
 %++++++++++++++++++++++++++++++
 \subsection{Emissions}
