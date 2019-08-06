@@ -384,21 +384,26 @@ Complexity theory takes systems thinking in a philosophical direction
 to assist our understanding of the world and its systems.
 
 Complexity theory distinguishes between complicated and complex attributes of systems.
-Systems are complicated, because they are difficult to understand
-by analyzing lower-level holons.
-But systems, especially large systems with many connections,
-can also be complex, meaning that they \emph{can't} be understood by taking them apart
-to study their elements. 
+Systems are complicated, because they big and contain many parts.
+Although large, 
+complicated systems are still solvable 
+(in the sense that their behavior can be predicted) 
+and deterministic.
+But complex systems, especially large systems with many connections,
+are neither solvable nor deterministic.
+They \emph{can't} be understood by taking them apart
+and studying their elements. 
 For example, a spacecraft\index{spacecraft} is complicated, because it has many parts.
-It \emph{might} be possible to predict \emph{some} aspects of spacecraft behavior
-simply by studying those parts.
+It \emph{might} be possible to predict, within some level of confidence,
+\emph{some} aspects of spacecraft behavior (total mass, maximum thrust, etc.)
+simply by studying its elements.
 But it would be impossible to predict social, psychological, political, and other
 effects of Sputnik\index{Sputnik} by studying 
 its exterior, its thrusters, and its attitude control system.
 Sputnik is complex.
 
-Many tenents of complexity theory emerge from systems thinking and
-have been discussed in preceding sections:
+Many tenets of complexity theory emerge from systems thinking and
+have been discussed already:
 %
 \begin{enumerate*}[label={(\alph*)}]
 	
@@ -420,12 +425,14 @@ have been discussed in preceding sections:
 But further insights emerge from the field.
 In a system, complexity theory notes that all elements are connected all the time, 
 either directly or indirectly via other connected elements.
-Thus, attempts to isolate parts of a real system 
+Thus, attempts to isolate elements of a real system 
 as a way to understand the behavior of the system are futile.
-Any modeling that isolates elements of a system should be undertaken with much care.
+Any modeling or analysis that isolates elements of a system should be undertaken with much care.
+Elements outside of the system boundary should not be expected to affect
+system behavior significantly.
 
 Chaotic characteristics, emergent behavior, and unintended consequences of real-world systems
-mean that human knowledge has limits, always.
+imply that human knowledge has limits, always.
 Humans are finite!
 Human knowledge is not arbitrary, but it is 
 provisional, contextual, and contingent.
@@ -436,9 +443,9 @@ as scientific rationality when confronted with complexity.
 Complexity theory helps us to understand that all system models, 
 being simplified descriptions of the world developed by finite humans, 
 involve choices.
-One of the most important choices in system modeling is the system boundary.
-Placement of the system boundary defines what is ``in'' the analysis (endogenous)
-and what is ``out'' of the analysis (exogenous).
+One of the most important choices in system analysis is the system boundary.
+Placement of the system boundary defines what is ``in'' the analysis (endogenous)\index{endogenous}
+and what is ``out'' of the analysis (exogenous)\index{exogenous}.
 Thus, system models necessarily 
 amplify some aspects or behaviors (endogenous elements and their interactions) and 
 dampen other aspects or behaviors (exogenous elements and their interactions). 
@@ -447,7 +454,7 @@ namely that boundary placement affects knowledge obtained from any system analys
 
 The ``boundary problem''\index{boundary problem}
 leads to consideration of epistemological issues such as
-how models and boundary placement mediate our knowledge 
+how models and boundary placement mediate our understanding 
 of the complex systems being analyzed.
 In particular, complexity theory arrives at the conclusion that 
 there are \emph{normative} aspects to analyzing complex systems.
@@ -459,7 +466,7 @@ Therefore, it is right to ask how models \emph{ought} to be constructed and inte
 for a given purpose.
 The fact that knowledge and understanding of a system are contingent upon boundary placement
 is one of the ways that human knowledge is always limited,
-i.e.\ human knowledge is always provisional, contextual, and contingent.
+provisional, contextual, and contingent.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -470,8 +477,7 @@ i.e.\ human knowledge is always provisional, contextual, and contingent.
 Systems thinking and complexity theory (STCT)%
 \footnote{
   Systems thinking and complexity theory are so closely related
-  that the acronym STCT will be used for the remainder of this chapter
-  to refer both together.
+  that the acronym STCT will be used for the remainder of this chapter.
 }
 are valuable
 for understanding sustainability challenges.
@@ -508,7 +514,7 @@ STCT suggests that benefits would be found by widening the system boundary
 to include 
 worldwide energy supply chains\index{supply chains!energy} and
 the worldwide economy to form
-the climate-energy-economy system, or CEE system.
+the climate-energy-economy (CEE) system.
 
 For the CEE system, 
 STCT would suggest that 
@@ -516,25 +522,26 @@ interactions among its elements
 would give rise to both emergent behaviors and unintended consequences.
 Indeed, the rebound effect and backfire
 are emergent behaviors that lead to unintended consequences
+(less energy saved than expected)
 within the CEE system.
 As discussed in Section~\ref{sec:energy_transitions},
-the rebound effect and backfire are behaviors that emerge from the CEE system
+the rebound effect and backfire occur
 when end-use machines become more energy efficient,
 leaving consumers with more money in their wallets.\index{energy efficiency!savings from}
 Respending\index{respending}
 that saved money in the economy leads to increasing energy demand 
 elsewhere in the energy conversion chain. 
 A narrow system boundary (around end-use machines only) closes off the possibility 
-to observe an economy-wide rebound effect or backfire.
-An STCT mindsent and an expanded system boundary
+of studying an economy-wide rebound effect or backfire.
+In contrast, an STCT mindsent and an expanded system boundary
 that includes the economy (i.e., the CEE system)
 enable consideration of the rebound effect and backfire.
 
 And STCT would caution against assuming that analyzing the CEE system
 would lead to a solution to the worldwide CO$_2$ emissions challenge.
 The CEE system boundary is \emph{still} too narrow 
-to encompass all factors related to CO$_2$ emissions, because
-individual and group phychology\index{psychology}, 
+to encompass all factors related to CO$_2$ emissions.
+Individual and group phychology\index{psychology}, 
 sociological\index{sociology} factors,
 political parties\index{political parties} and other political considerations, and 
 information and computer technology\index{information and computer technology}
@@ -545,48 +552,51 @@ STCT indicates that the CEE system boundary\index{system boundaries}
 will amplify some real-world behaviors and
 dampen others.
 In the case of the CEE system, it is likely that
-economic effects on CO$_2$ emissions will be overemphasized, 
-and, by virture of being exogenous to the CEE system, 
-political effects will be underemphasized.
+economic effects on CO$_2$ emissions will be overemphasized.
+By virture of being exogenous to the CEE system, 
+political effects will be underemphasized
+by the CEE system.
 
 Because the CO$_2$ emissions problem is a worldwide phenomenon
 that affects every human being,
 it seems likely that solutions will involve changes at the highest levels of human society,
-namely policies at the international level.%
+namely policies promulgated at the international level.%
 \footnote{
   Libetarians might object to the idea that the problem of CO$_2$ emissions should be solved
-  at the governmental level,
-  instead proposing solutions at the level of economically self-interested individuals. 
+  by governments at the international level,
+  instead of at the level of economically self-interested individuals. 
   However, the current economic system does not incentivize individuals to 
   make choices that reduce CO$_2$ emissions. 
   To move from today's economic environment to one in which individuals \emph{are} 
-  incentivized to pursue behaviors that reduce CO$_2$ emissions, 
-  the government must surely be involved to establish the necessary economic conditions.
+  economically incentivized to pursue behaviors that reduce CO$_2$ emissions, 
+  governments must surely be involved to establish the necessary economic incentives.
 }
 However, politics are exogeneous to the CEE system, and 
 analysis of the CEE system with a view to reducing CO$_2$ emissions 
 seems likely to fail. 
 
 Redrawing the system boundary to 
-endogenize the political system could unlock
+endogenize politics could unlock
 new possibilities for policy solutions to the CO$_2$ emissions challenge.
 A system with the expanded boundary might be called
 the climate-energy-economy-policy (CEEP) system.
-After endogenizing politics within the CEEP system, 
+
+However, even after endogenizing politics within the CEEP system, 
 an STCT mindset would indicate that
-developing and implementing policies would be fraught
+developing and implementing CO$_2$-reducing policies would be fraught
 with potential problems.
-Limits to human knowledge mean that no policy is perfect.
+Limits to human knowledge mean that no policy can ever be perfect.
 
 Another way in which developing and implementing policies to fight CO$_2$ emissions is fraught
 arises when STCT leads us to understand that the existing CEEP system 
 will resist perturbations. 
-STCT predicts that entrenched interests will resist changes to the existing CEEP system.
+STCT predicts that entrenched interests in the fossil fuel industry
+will resist changes to the existing CEEP system.
 Reasons for resisting change include financial (maintain existing reveunes and profits)
-and social (maintain employment).
-It becomes clear that a large dose of humility is required for policymakers.
-STCT leads us to believe that all policies should be considered experiments
-that are open to continued revision as more data becomes available.
+and social (maintain employment) considerations.
+It becomes clear that a large dose of humility is needed in policymaking.
+STCT leads us to believe that all policies should be considered experiments,
+open to continued revision as more data become available.
 
 In the face of limits to human knowledge, 
 emergent behavior, 
@@ -606,12 +616,17 @@ or by economic incentives such as \emph{tax breaks}\index{tax breaks}
 or \emph{rebates} for purchasing high-efficiency end-use machines.
 ``Changing the elements'' could also mean providing incentives for 
 rooftop solar electricity generating systems.
-Here, again, increasing adoption of renewable energy technologies might 
+Increasing adoption of renewable energy technologies might 
 bring the unintended consequence of reduced employment in fossil fuel sectors.
+Policies should include retraining or re-skilling of displaced workers
+to avoid disruption of the social fabric in places where job losses can be expected.
 And, even as policies are put in place to incentivize renewables, 
 the fossil fuel industry would be expected to work hard 
 to maintain its structure (i.e., its dominant position in the energy industry) by
-making the application processes for household rooftop solar arduous and complicated.
+making the application processes for household rooftop solar\index{solar!rooftop}
+arduous and complicated.
+Incentives could be provided for the fossil fuel industry 
+to adapt to changing conditions in the energy sector.
 
 To ``change the connections,''
 policymakers can mandate that information 
@@ -637,24 +652,29 @@ thereby ensureing that savings don't ``leak'' to the rest of the economy.
 
 \item Make a list of 3 systems. 
       What are the the elements (holons), connections (holarchy), and teloi for each system?
+      Are they complicated or complex?
       
-\item In \ref{sec:system_thinking_for_sustainability}, 
-      systems thinking and complexity theory were applied to the problem of CO$_2$ emissions.
-      Now apply systems thinking and complexity theory to the problem of CO$_2$ emissions 
-      from the existing transportation system. 
-      What problems was the existing transportation system designed to solve?
-      What problems do we have today?
+\item In Section~\ref{sec:system_thinking_for_sustainability}, 
+      systems thinking and complexity theory~(STCT) 
+      were applied to the problem of reducing CO$_2$ emissions worldwide.
+      Now apply STCT to the more-specific problem of CO$_2$ emissions 
+      from the existing transportation system discussed \ref{chap:transportation}. 
+      Begin by assessing the problems was the existing transportation system designed to solve.
+      Continue to think about what problems we have today.
+      Then think about the ``legacy'' transportation system in light of STCT.
       Is the legacy transportation system resilient (resistant to change)? 
       Why or why not?
       If you deem the legacy transportation system resistant to change, 
       in what ways is that true?
-      Does our legacy transportation system exacerbate or help to solve today's sustainability problems?
-      If you want to change the ``legacy'' system, 
-      what ways to intervene in the legacy transportation system are suggested 
-      by systems thinking and complexity theory?
+      Does our legacy transportation system exacerbate or help to solve today's sustainability challenges?
+      If you want to change the legacy system, 
+      how would STCT suggest that interventions be made?
       Does the tendency to preserve structure in legacy systems 
-      mean that our existing transport systems view 
-      sustainable transport as a ``virus'' that needs to be eliminated?
+      mean that our existing transport system views 
+      sustainable transport as a ``virus'' that needs to be eliminated?\label{question:STCT_transport}
+      
+\item Repeat Question~\ref{question:STCT_transport} 
+      for the food and agriculture system discussed in Chapter~\ref{chap:food_and_agriculture}.
 
 \end{problems}
 
