@@ -33,7 +33,7 @@ Over the couse of the twentieth century world population grew at an average rate
 a peak growth rate of 2.1\% between 1965 and 1970 (see Figure \ref{fig:20thCentPop}). 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{chapters/ch02/20thCentPOpGrowth.pdf}
+\includegraphics[width=1\linewidth]{chapters/ch02/20thCenturyPopGrowth.pdf}
 \caption[World population in the 20th century.]
 {World population in the 20th century.}
 \label{fig:20thCentPop}
