@@ -6,13 +6,15 @@
 \chapter{Foundational concepts related to sustainability (JVA 1)}%{Introductory Terms and Concepts}
 \label{chap:introduction}
 
-The question of whether humanity is living "sustainably" is an existential one,
-in that, if we are not, then humanity will (eventyally) cease to exist as a species,
-or, at the very least, experieince drastic changes to our standard of living.
-This book attempts to summarize the evidence that humans are not living
-sustainably and to outline what sustainable societies would look like. We hope
-that readers will come to appreciate the complex and interconnected challenges
-associated with transitioning to a sustainable existence.
+Are humans living "sustainably?"
+If not, then humanity will, at some point, either cease to exist as a species
+or experience drastic reductions in our standard of living.
+Thus, the question of whether human society is living in a sustainable manner is 
+a question of utmost importance.
+The purpose of this book is to summarize the evidence that humans are not living
+sustainably and to show the characteristics of sustainable societies.
+The challenges associated with transitioning to a sustainable existence
+are complex and interconnected.
 
 \section{Definitions of Sustainability}
 \label{ch01.defn}
@@ -22,18 +24,16 @@ Sustain means to endure, to continue, and to last.
 %"sustinere," meaning to hold up, support or endure.
 \index{sustainability!definition}
 Many authors have written about sustainability and it may seem that
-every publication has a unique definition of sustainability. The most commonly
+each has a unique definition of sustainability. The most commonly
 cited definition of sustainability is that sustainability means meeting
 "the needs of the present without compromising the ability of future
 generations to meet their own needs"~\citep{Brund87}.
-
-
-\subsection{The scope of sustainability}
-When considering the meaning of sustainability, it is natural to ask
-"sustaining what?" and "for how long?"
-The second of these question is perhaps easier to answer. While humans seem to
-have difficulty planning for time scales significantly longer than the human
-lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" or "forever."
+Sustainability has three components, called the three pillars of sustainability (see Figure \ref{ch01.3pillars}),
+which are environmental sustainability, economic sustainability, and social sustainability. 
+Environmental sustainability inlcudes issues such as pollution, resource depletion, habitat loss, and biodiversity.
+Economic sustainability involves questions of profit and loss, wealth management, and macroeconomic policy.
+Social sustainbility comprises human and civil rights, suffering, and personal freedom. 
+This book will discuss issues associated with each of these three areas of sustainability.
 
 \begin{figure}[hbt] % 01
 \centering
@@ -41,6 +41,13 @@ lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" o
 \caption{Three areas of sustainability.}
 \label{ch01.3pillars}
 \end{figure}
+
+\subsection{The scope of sustainability}
+When considering the meaning of sustainability, the two most important questions are
+"sustaining what?" and "for how long?"
+The second of these question is perhaps easier to answer. While humans seem to
+have difficulty planning for time scales significantly longer than the human
+lifespan, true sustainaibilty is acheived only if the answer is "indefinitely" or "forever."
 
 <<Hierarchy_sust, echo = FALSE, fig.height = 3.5, fig.width = 5, fig.cap = "Sustainability hierachy.", fig.scap = "Hierarchy">>=
 ggplot() %>%
@@ -60,24 +67,22 @@ ggplot() %>%
   theme_void()
 @
 
-
-
-The narrowest answer for what needs sustaining is human life and society, which
+The narrowest answer for \emph{what} needs sustaining is human life and society, which
 perforce entails those ecosystem services necessary for human health and
-wellbeing (see Figure \ref{ch01.fig1}.
+wellbeing (see Figure \ref{fig:Hierarchy_sust}).
 Beyond these basics, some people view the nonhuman world as having
 inherent worth or standing and, as such, to also be worth perserving, even if
 it has no (or negative, for example, smallpox) impact on human continuity.
-Unfortunately,humans don't know clearly what pieces of the ecosystem are, in the long run,
+Unfortunately, humans don't know clearly what pieces of the ecosystem are, in the long run,
 necessary for survival and which aren't. For instance, would we be able to survive
 in a world without dandelions? Maybe. On the other hand, dandelions might be necessary
-for other organisms. Environmental science views the ecosystem in its entirety as a web,
+for other organisms we depend on. Environmental science views the ecosystem in its entirety as a web,
 with all parts depending on all other parts. The ecosystem is viewed then, not as a individual
 components with binary "needed" "not needed" classifications but as a whole that exists
 on a continuum of "functional" to "nonfunctional."
 
-Planetary boundaries describe limits beyond which the Earth's ability to support
-human life is diminished or destroyed.
+% Planetary boundaries describe limits beyond which the Earth's ability to support
+% human life is diminished or destroyed.
 
 In the outer ring is human-created devices and systems. Humanity could survive without
 the great pyramids of Giza, although we would have lost great cultural and historical

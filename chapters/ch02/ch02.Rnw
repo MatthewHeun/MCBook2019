@@ -5,64 +5,61 @@
 
 %blankpage
 
-\chapter{Population (JVA 2)}
+\chapter{Population}
 \label{chap:population}
+This chapter deals with human and nonhuman populations.
 
-\section{The Diagonalizable Case}
+\section{Human population: past and present}
 
-Although, for simplicity, most of our examples
-will be over the real numbers
-(and indeed over the rational numbers), we will consider that
-\textit{all of our vectors and matrices
-are defined over the complex numbers} $\mathbb{C}$.
-It is only with this assumption that the
-theory of Jordan Canonical Form (JCF) works
-\index{jcf@JCF}%
-completely.
-See Remark~\ref{ch02.rem1} for the key reason why.
+As shown in \ref{eq:ipat}, human population has a major effect in determining our impact on the planet. 
+It has been said, "It is difficult to make predictions, especially about the future." 
+Predictions about future human popluations vary considerably.
+As it turns out, it is also difficult to make predictions about the past. 
+Although scientists have estimated historical population levels, reliable data are limited.
+In April 2019, the population of humans was estimated to be 7,7 billion \{cite:PopClock}
+with a growth in 2019-2020 of 1.08\%. %% https://www.worldometers.info/world-population/
 
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch02/Adult_Literacy_Rates_2016.pdf}
-\caption[Adult literacy rates worldwide.]{Adult literacy rates worldwide, 2016.}
-\label{fig:literacy_rates}
-\end{figure}
+\subsection{Populations of the past}
+\textit{Homo sapiens} emerged as a species 100,000 to 200,00 years ago, although estimates vary considerably.
+Population grew slowly. By 9000 BC there were 5 to 10 million humans. Around the 
+year 1 AD there were around 300 million people, an average growth rate of about 0.1\%.
+By 1650 AD the world population was around 500 million. Average growth was slowed 
+by the trade and urbanization enabling infectious diseases to kill large numbers.
+For instance, the Black Death killed 75 to 200 million people in the 1300s.
+World population reached 1 billion (1000 million) around 1800 AD. 
+% Table 1. World population milestones. Source: United Nations Secretariat, Department of Economic and Social Affairs, The World At Six Billion (1999), p. 8.
+% https://www.learner.org/courses/envsci/unit/text.php?unit=5&secNum=4
+Over the couse of the twentieth century world population grew at an average rate of 1.55\% per year with 
+a peak growth rate of 2.1\% between 1965 and 1970. 
 
+Population changes come from the birth rate and the death rate.
+Estimating the populations of antiquity is difficult because these rates are somewhat conjectural.
+However, estimates of the total number of humans to have lived are 100-110 billion.
+
+\subsection{World population projections}
+Figure \ref{fig:UN_population_prospect} shows projections made by the United Nations in 2010 about future human population.
+Future population depends on current population (known more-or-less accurately)
+and the birth rate and death rate. 
+The wide range of uncertainty in the predicted population is indicative of the uncertainty surrounding 
+future birth and death rates.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch02/population_propesct.pdf}
 \caption[UN World Population Prospects 2010: Population Development Scenarios: 1950-2100.]{UN World Population Prospects 2010: Population Development Scenarios: 1950-2100.}
 \label{fig:UN_population_prospect}
 \end{figure}
-
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{chapters/ch02/rural_urban.pdf}
-\caption[World Population Urban and Rural.]{World Population Urban and Rural 1950-2050.}
-\label{fig:world_population}
+\includegraphics[width=1\linewidth]{figures/LimitsToGrowth_ModelFigure1-3_Large.png}
+\caption[Causal loop diagram of several important feedback loops in the World3 population model.]
+{Causal loop diagram of several important feedback loops in the World3 population model.}
+\label{fig:World3loops}
 \end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch02/mortality_rate.pdf}
-\caption[Deaths from unsafe water and sanitation]{Deaths from unsafe water and sanitation, 2012.}
-\label{fig:mortality_rate}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch02/population_of_cities.pdf}
-\caption[Population of cities.]{Population of cities by size class, 2018.}
-\label{fig:cities_population}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=1\linewidth]{chapters/ch02/estimates_of_population_by_continents.pdf}
-\caption[Population of continents.]{Estimates of population levels in different continents between 1950 and 2050, according to the United Nations (2011 edition). The vertical axis is logarithmic and is in millions of people.}
-\label{fig:population_continents}
-\end{figure}
-
+Birth and death rates are dependent on many other variables. Figure \ref{fig:World3loops} shows a schematic of the causal loops
+used in the World3 population model. Notice the number of variables (24!) and the many ways those variables
+(are thought to) interact. No model is perfact and, indeed, the World3 model is controversial (all predictions are).
+The point isn't to say that one model is right and another is wrong, but instead to point out the many variables that 
+effect population. In fact, another population model produced around the same time used 200,000 equations.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch02/map_with_fertility_rate.pdf}
@@ -84,52 +81,101 @@ See Remark~\ref{ch02.rem1} for the key reason why.
 \label{fig:annual_births}
 \end{figure}
 
+% \begin{figure}
+% \centering
+% \includegraphics[width=1\linewidth]{chapters/ch02/mortality_rate.pdf}
+% \caption[Deaths from unsafe water and sanitation]{Deaths from unsafe water and sanitation, 2012.}
+% \label{fig:mortality_rate}
+% \end{figure}
+ 
+\subsection{Demographic transition theory}
+%% https://pages.uwc.edu/keith.montgomery/Demotrans/demtran.htm
+In an undeveloped society, both birth rates and death rates are high, resulting in a low population growth rate.
+Demographic transition theory says that development leads to a decrease in mortality 
+followed some time later by a falling birth rate. 
+Thus, the population will grow rapidly and then stabilize. 
+Figure \ref{fig:dtt} illustrates schematically demographic transition theory.
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{figures/DTTstages.gif}
+\caption[Annual number of births by world region.]{Schematic of demographic transition theory. Crude birth rate (CBR) and crude death rate (CDR) are defined as births or deaths per year per 1000 people in the total population (uncorrected for sex or age cohorts).}
+\label{fig:dtt}
+\end{figure}
+
+\subsection{Distribution of population}
+Where do people live? Given our goal of a sustainable society, where do we \textit{want} people to live?
+In 2015, about half of the world's people live in an area, shown in Figure \ref{fig:half_population}, known as the Valeriepieris circle.
+This circle has a radius of about 4,000km. Other researchers have since defined a more compact region (radius 3300km) with the same fraction of Earth's population.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch02/half_world_population.pdf}
-\caption[Population living in the Valeriepiersis circle.]{As of 2015, more than half the world's population lives in the Valeriespieris circle, a circular region centered in the South China Sea.}
+\caption[Population living in the Valeriepieris  circle.]{As of 2015, more than half the world's population lives in the Valeriepieris circle, a circular region centered in the South China Sea.}
 \label{fig:half_population}
 \end{figure}
 
-\begin{definition}
-\label{ch02.def1}
-If \(v \neq 0\) is a vector such that, for some
-$\lambda$,
-\[
-A v = \lambda v,
-\]
-then $v$ is an \textit{eigenvector} of $A$ associated
-\index{eigenvector}%
-to the \textit{eigenvalue} $\lambda$.
-\index{eigenvalue}%
-\end{definition}
+Since the industrial revolution, humans have been increasinly living in urban environments.
+In 1973 there were only 3 cities (Mexico City, Tokyo, and New York City) with populations of more than 10 million people (megacities).
+Since 2005-2006 more than half of the world's population live in urban areas. 
+Now there are 21 cities with populations of 10 million or more (see Figure \ref{fig:cities_population} for more detail).
+The percent living in urban areas is projected to grow to 68\% by 2050. %%https://ourworldindata.org/urbanization
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/rural_urban.pdf}
+\caption[World Population Urban and Rural.]{World Population Urban and Rural 1950-2050.}
+\label{fig:world_population}
+\end{figure}
 
-\begin{example}
-\label{ch02.ex1}
-Let $A$ be the matrix $A =$
-Then, as you can check, if $v_1 =$ 
-then $A v_1 = 3 v_1$, so $v_1$ is an eigenvector of $A$ with associated
-eigenvalue $3$, and if $v_2 =$ 
-then $A v_2 = -2 v_2$, so $v_2$ is
-an eigenvector of $A$ with associated eigenvalue $-2$.
-\end{example}
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch02/population_of_cities.pdf}
+\caption[Population of cities.]{Population of cities by size class, 2018.}
+\label{fig:cities_population}
+\end{figure}
 
-\begin{remark}
-\label{ch02.rem1}
-This is the customary definition of the characteristic
-\index{characteristic polynomial}%
-polynomial.
-But note that, if $A$ is an $n$-by-$n$ matrix, then the matrix
-$\lambda I - A$ is obtained from the matrix $A - \lambda I$ by multiplying
-each of its $n$ rows by $-1$, and hence
-In practice, it is most convenient
-to work with $A -\lambda I$ in finding eigenvectors---this minimizes
-arithmetic---and when we come to find
-chains of generalized eigenvectors in
-Section~1.2,
-it is (almost) essential to use $A -\lambda I$, as using
-$\lambda I - A$ would introduce lots of spurious minus signs.
-\end{remark}
+Urban living is correlated with wealth and higher GDP. High population density means mass transit is practical and, in fact,
+widely used. David Owens argues that Manhattan, being very dense, is the most ecological place to live. 
+%% https://www.newyorker.com/magazine/2004/10/18/green-manhattan
+However, higher wealth partially offsets this.
+
+\begin{quote}
+Cities are one of the big issues facing the planet. Hundreds of new cities are expected to be created across Africa and Asia in the course of the next century. Researchers believe that, if current population trends continue, Lagos, the largest city in Nigeria, could develop into a vast, sprawling metropolis of over eighty-five million people. Niger has the highest birth rate in Africa; Niamey, its capital, is expected to explode in size, from less than one million people to forty-six million by 2100. Unfortunately, the urban expansion that has already taken place across the developing world has been ramshackle. Much of it has taken the form of shanty towns, where groups of shacks are crowded together with little sanitation or governance. This is brewing an obvious problem. The example of the West is, alas, little more encouraging. Much new development takes the form of suburban sprawl, which is wasteful of precious land, and has little character of its own. Young people are frustrated because they cannot break out of parental nests; the elderly feel isolated. And yet the pressure to build more housing—for reasons of immigration, increased life expectancy, and the creation of more households due to divorce—will increase, not abate. The need for master-planning has never been greater.
+\end{quote} %%https://www.newcriterion.com/issues/2018/6/the-future-of-classicism-9861
+
+\section{Animal populations}
+Populations of insects are down 80\% in the last 30-40 years.
+Pollution plays a role. Pesticides have been hard on insects.
+Mostly these losses seem to be due to habitat loss and growing human populations.
+Where do we put the wilderness?
+%% https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/
+The United Nations Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services
+summary report says 1 million animal and plant species are threatened with extinction.
+"In 2015, 33\% of marine fish stocks were being harvested at unsustainable levels; 60\% were maximally sustainably fished, with just 7\% harvested at levels lower than what can be sustainably fished."
+
+\begin{quote}
+In “The Once and Future World,” the journalist J.B. MacKinnon cites records from recent centuries that hint at what has only just been lost: “In the North Atlantic, a school of cod stalls a tall ship in midocean; off Sydney, Australia, a ship’s captain sails from noon until sunset through pods of sperm whales as far as the eye can see. ... Pacific pioneers complain to the authorities that splashing salmon threaten to swamp their canoes.” There were reports of lions in the south of France, walruses at the mouth of the Thames, flocks of birds that took three days to fly overhead, as many as 100 blue whales in the Southern Ocean for every one that’s there now. “These are not sights from some ancient age of fire and ice,” MacKinnon writes. “We are talking about things seen by human eyes, recalled in human memory.”
+
+What we’re losing is not just the diversity part of biodiversity, but the bio part: life in sheer quantity. While I was writing this article, scientists learned that the world’s largest king penguin colony shrank by 88 percent in 35 years, that more than 97 percent of the bluefin tuna that once lived in the ocean are gone. The number of Sophie the Giraffe toys sold in France in a single year is nine times the number of all the giraffes that still live in Africa.
+
+Scientists have begun to speak of functional extinction (as opposed to the more familiar kind, numerical extinction). Functionally extinct animals and plants are still present but no longer prevalent enough to affect how an ecosystem works. Some phrase this as the extinction not of a species but of all its former interactions with its environment — an extinction of seed dispersal and predation and pollination and all the other ecological functions an animal once had, which can be devastating even if some individuals still persist. The more interactions are lost, the more disordered the ecosystem becomes. 
+
+It is estimated that, since 1970, Earth’s various populations of wild land animals have lost, on average, 60 percent of their members. Zeroing in on the category we most relate to, mammals, scientists believe that for every six wild creatures that once ate and burrowed and raised young, only one remains. What we have instead is ourselves. A study published this year in the Proceedings of the National Academy of Sciences found that if you look at the world’s mammals by weight, 96 percent of that biomass is humans and livestock; just 4 percent is wild animals.
+\end{quote} (from the New York times https://www.nytimes.com/2018/11/27/magazine/insect-apocalypse.html)
+
+University of Cincinnati geographers used satellite images to show that
+"22 percent of the Earth’s habitable surface has been altered in measurable ways, primarily from forest to agriculture, 
+between 1992 and 2015." %% https://www.uc.edu/news/articles/2018/11/n2048465.html
+
+\section{Discussion Questions}
+\begin{enumerate}
+\item How does wealth influence birth and death rates? Do different forms of wealth have different effects?
+\item Why are birth rates falling? Falling birthrates are correlated with economic development. Attempt to explain the mechanism.
+\item what things have a \textit{higher} environmental impact as populations urbanize?
+\item What do you like about living in "the city" or "the country?"
+\item How do we manage Earth's total population? Is it feasible to do so? Ethical?
+\item Migration of people from rural to urban environments and especially across national borders is an emotionally charged political issue. How does it look in terms of long-term sustainability?
+\item What is a socially equitable way to allocate access to wilderness areas and experiences?
+\end{enumerate}
+
 
 
 \cleardoublepage
