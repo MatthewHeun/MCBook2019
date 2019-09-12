@@ -8,6 +8,60 @@
 \chapter{Housing and Households (MKH 6)}
 \label{chap:housing_and_households}
 
+
+Households are site of energy and material consumption.
+
+Often, people have little control over sustainability practices at work, school, or church,
+because other people (physical plant, custodial staff, supervisors) 
+make decisions about energy, material, and other resource consumption.
+
+But, households are one place where many people can exercise control over 
+decision that affect sustainability. 
+Households are the site where sustainability meets everyday life.
+
+
+Purchasing a home or renting an apartment 
+(how close to work, school, grocery store, church, entertainment;
+how large)
+
+laundry (energy, water, clothing choices, line drying.)
+
+energy (heating, cooling, lights, refrigeration)
+
+water (toilets, sinks, dishwashing, showers)
+
+food (purchases, waste, See Chapter~\ref{chap:food_and_agriculture}.)
+
+clothing
+
+furnishings
+
+recycling
+
+waste (everyday, food scraps, subscriptions, hazardous, )
+
+
+Focus on a few things:
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item location        
+  
+  \item heating and cooling (furnace, A/C, insulation)
+  
+  \item hygeine (showers, dishes, toilet, laundry)
+  
+  \item lighting (incandescent vs.\ LED)
+    
+\end{enumerate*}
+%
+
+Choices made in each arena have energy and material implications.
+
+
+
+
+
 Figure~\ref{fig:average_footage} displays the average square footage of new single family homes in the United States between 1970-2015~\citep[Fig.~1]{HUD_housing}.
 
 \begin{figure}
@@ -107,13 +161,13 @@ indoor_use <- NULL
 percentages <- NULL
 label_ypos <- NULL
 ang <- NULL
-use_of_water <-c("Toilet", "Shower", "Faucet", "Clothes washer", "Leak", "Other", "Bath", "Dishwasher")
+use_of_water <- c("Toilet", "Shower", "Faucet", "Clothes washer", "Leak", "Other", "Bath", "Dishwasher")
 
-Indoor_Water <-data.frame(indoor_use = use_of_water,
+Indoor_Water <- data.frame(indoor_use = use_of_water,
                           percentages = c(24, 20, 19, 17, 12, 4, 3, 1),
                           ang = c(0, 0, 0, -30, -35, -35, -40, -40)) %>%
   dplyr::mutate(
-    indoor_use = factor(indoor_use, levels=use_of_water),
+    indoor_use = factor(indoor_use, levels = use_of_water),
     label_ypos = 100 - (cumsum(percentages) - percentages/2))
 
 Indoor_Water %>%
@@ -143,6 +197,25 @@ Indoor_Water %>%
 %\caption[Indoor household use of water, R-graph.]{Indoor household use of water.}
 %\label{fig:cropped_hosuehold_water_use}
 %\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Questions}\index{questions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problems}
+
+\item This chapter covered  
+
+\item If you are a college or university student, 
+      write a letter to yourself that describes 
+      the future household in which you want to live.
+      What is the size of the dwelling?
+      What are its sustainability features?
+      
+\end{problems}
+
 
 \cleardoublepage
 
