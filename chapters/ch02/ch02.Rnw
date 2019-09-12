@@ -104,7 +104,7 @@ Thus, the population will grow rapidly and then stabilize.
 Figure \ref{fig:dtt} illustrates schematically demographic transition theory.
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth]{figures/DTTstages.gif}
+\includegraphics[width=1\linewidth]{figures/DTTstages.pdf}
 \caption[Annual number of births by world region.]{Schematic of demographic transition theory. Crude birth rate (CBR) and crude death rate (CDR) are defined as births or deaths per year per 1000 people in the total population (uncorrected for sex or age cohorts).}
 \label{fig:dtt}
 \end{figure}
