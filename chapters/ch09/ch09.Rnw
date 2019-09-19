@@ -8,44 +8,251 @@
 \chapter{Housing and Households (MKH 6)}
 \label{chap:housing_and_households}
 
-Figure~\ref{fig:average_footage} displays the average square footage of new single family homes in the United States between 1970-2015~\citep[Fig.~1]{HUD_housing}.
+
+Households are sites of energy and material consumption.
+For example, Figure~\ref{fig:LLNL_sankey} shows that 
+11.9~quads of energy are consumed in U.S.\ residences%
+\footnote{
+A quad is 1 short quadrillion BTUs, or $10^{15}$~BTU.
+},
+%
+predominantly electricity, natural gas, and petroleum.
+This 11.9~quads represents 16\% of final energy consumption.
+As Chapter~\ref{chap:energy} shows, 
+energy consumption is the source of sustainability impacts
+(CO$_2$ emissions and resource depletion, for example)
+far beyond the site 
+at which useable energy is converted to heat.
+In addition to energy, sustainability impacts arise 
+from household decisions about food and material consumption, too.
+Thus, decisions made in households have sustainability implications
+far beyond the walls of each abode.
+
+Often, people have little power to make decisions 
+with sustainability implications
+at work, school, or church.
+Others (physical plant employees, custodial staff, or supervisors) 
+control buildings and appliances
+that consume energy, material, and other resources.
+In contrast, households are the only place where 
+some people have agency to make
+decisions that have sustainability implications.
+
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Households are the site where sustainability meets everyday life.
+\end{mcframe}
+
+Figure~\ref{fig:average_residential_energy} shows how the average U.S.\ resident
+exercises their agency in the realm of energy consumption,
+showing the percentages of energy consumption 
+for several end uses~\citep[Fig.~3]{EIA_2018}.
+The end use categories in Figure~\ref{fig:average_residential_energy} illustrate
+how choices made in households 
+intersect with sustainability topics covered in other chapters, including
+energy (Chapter~\ref{chap:energy}),
+water (Chapter~\ref{chap:air_and_water}), and
+food (Chapter~\ref{chap:food_and_agriculture}).
+Clearly,
+population (Chapter~\ref{chap:population}),
+the economy (Chapter~\ref{chap:economy}),
+land use and urban planning (Chapter~\ref{chap:land_use_and_urban_planning}),
+government and regulations (Chapter~\ref{chap:government_and_regulations}),
+values (Chapter~\ref{chap:values_and_religion}), and
+personal action (Chapter~\ref{chap:personal_actions})
+also affect household sustainability.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/Average_US_Residential_Energy_Consumption.pdf}
+\caption[Average residential energy consumption.]{Average U.S.\ residential energy consumption by end use~\citep[Fig.~3]{EIA_2018}.}
+\label{fig:average_residential_energy}
+\end{figure}
+
+% 
+% <<Average_energy, echo=FALSE, fig.cap="Average residential consumption.", fig.scap="Percentages of energy consumption.", fig.width=5, fig.height=2.5>>=
+% domain_percentage <- NULL
+% percentages <- NULL
+% label_ypos <- NULL
+% ang <- NULL
+% dom_consumption <- c("Lighting", "Refrigeration", "Televisions", "Clothes Dryers", "Cooking", "Furnace Fans", "Personal Computers", "Dishwashers", "Freezers", "Clothes Washers", "Other Uses", "Space Heating", "Water Heating", "Space Cooling")
+% Avg_Consmp <- data.frame(domain_percentage = dom_consumption,
+%                          percentages = c(6.6, 5.1, 4.2, 3.1, 2.8, 1.6, 1.6, 1.4, 1.1, 0.4, 23.5, 24, 13.6, 11),
+%                          ang = c( 0,0,0,-35, -35, -35, -30, -35, -35, -20, 0, 0, 0, 0)) %>%
+%   dplyr::mutate(
+%     domain_percentage = factor(domain_percentage, levels = dom_consumption),
+%     label_ypos = 100 - (cumsum(percentages) - percentages/2))
+% 
+% Avg_Consmp %>%
+%   ggplot(mapping = aes(x = "", y = percentages, fill = domain_percentage)) +
+%   geom_bar(width = 1, stat = "identity") +
+%   coord_polar("y", start = 0, direction = -1) +
+%   geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
+%   labs(x = "", y = "", fill = "") +
+%   MKHthemes::xy_theme() +
+%   theme(axis.text.x = element_blank()) +
+%   theme(axis.text.y = element_blank()) +
+%   theme(axis.ticks = element_blank()) +
+%   theme(panel.border = element_blank()) +
+%   theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) +
+%   theme(legend.key.size = unit(0.3, "cm")) +
+%   theme(plot.margin = unit(c(0,0,0,0),"mm"))
+% @
+% 
+
+
+The end uses in Figure~\ref{fig:average_residential_energy}
+can be aggregated to form fewer major categories 
+of residential energy consumption.
+Space heating and cooling 
+comprise 36.6\% of all energy household energy consumption
+(including furnace fans).
+Hygeine (including water heaters, clothes dryers, dishwashers, and clothes washers)
+consumes 18.5\% of household energy. 
+Lighting consumes 6.6\% of total household energy use.
+
+Guided by the aggregation above, 
+this chapter focuses attention on four important sustainability topics
+that intersect with household life, namely
+purchasing or renting a home or apartment,
+heating and cooling,
+hygeine, and 
+lighting.
+This focus narrows the scope of this chapter and
+avoids repeating material from others.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Purchasing and renting}
+\label{sec:purchasing_and_renting}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Many aspects of purchasing or renting a residence
+have sustainability implications, size and location chief among them.
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Dwelling size}
+\label{sec:dwelling_size}
+%++++++++++++++++++++++++++++++
+
+Figure~\ref{fig:residential_elect_vs_home_size} shows the trend of 
+electricity consumption with respect to home size and
+confirms intuition that dwelling size is positively correlated with energy consumption. 
+However, significant variation in annual electricity consumption
+is observed between the $20^{\mathrm{th}}$ and $80^{\mathrm{th}}$ percentiles at any home size.
+These variations indicate that decisions about \emph{how} a dwelling is used 
+are nearly important as the \emph{size} of a dwelling 
+for predicting residential electricity consumption.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch09/Electricity_vs_Home_size.png}
+\caption[Electricity consumption vs.\ home size.]{Annual electricity consumption vs.\ U.S.\ home size. 
+**** Need to find reference. Found at \url{http://www.doomsteaddiner.net/forum/index.php?topic=9830.0}. ****}
+\label{fig:residential_elect_vs_home_size}
+\end{figure}
+
+**** Find data on natural gas consumption vs. size of home. 
+80--20 variations on that graph are likely due to
+climate and insulation differences. 
+See the EIA's Residential Energy Consumption Survey (RECS),
+which may have the required information. 
+May need to look at the ``microdata'' available from RECS. ****
+
+Figure~\ref{fig:average_square_footage} shows the average floor space
+of new single family homes in the United States between 1970-2015~\citep[Fig.~1]{HUD_housing}.
+Taken together, Figures~\ref{fig:residential_elect_vs_home_size} and~\ref{fig:average_square_footage} 
+would suggest that residential energy consumption per dwellling is rising through time.
+However, per-dwelling energy consumption seems to be falling slowly in the U.S.,
+with increased energy efficiency of appliances and building envelope improvements 
+offsetting rising home sizes.
+However, total residential energy consumption is increasing,
+driven by increasing numbers of dwellings. 
+Figures~\ref{fig:average_household_consumption} and~\ref{fig:total_household_consumption}
+show these trends.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch09/Average_Square_Footage_of_New_Single_Family_Homes_in_the_US.pdf}
 \caption[Average square footage of new single family homes.]{Average square footage of new single family homes~\citep[Fig.~1]{HUD_housing}.}
-\label{fig:average_footage}
+\label{fig:average_square_footage}
 \end{figure}
 
-<<Average_energy, echo=FALSE, fig.cap="Average residential consumption.", fig.scap="Percentages of energy consumption.", fig.width=5, fig.height=2.5>>=
-domain_percentage <- NULL
-percentages <- NULL
-label_ypos <- NULL
-ang <- NULL
-dom_consumption <- c("Lighting", "Refrigeration", "Televisions", "Clothes Dryers", "Cooking", "Furnace Fans", "Personal Computers", "Dishwashers", "Freezers", "Clothes Washers", "Other Uses", "Space Heating", "Water Heating", "Space Cooling")
-Avg_Consmp <- data.frame(domain_percentage = dom_consumption,
-                         percentages = c(6.6, 5.1, 4.2, 3.1, 2.8, 1.6, 1.6, 1.4, 1.1, 0.4, 23.5, 24, 13.6, 11),
-                         ang = c( 0,0,0,-35, -35, -35, -30, -35, -35, -20, 0, 0, 0, 0)) %>%
-  dplyr::mutate(
-    domain_percentage = factor(domain_percentage, levels = dom_consumption),
-    label_ypos = 100 - (cumsum(percentages) - percentages/2))
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/average_household_energy_consumption.pdf}
+\caption[Average household energy consumption]{Average household energy consumption trend 1980--2009~\citep[Fig.~1]{EIA:2012aa}.}
+\label{fig:average_household_consumption}
+\end{figure}
 
-Avg_Consmp %>%
-  ggplot(mapping = aes(x = "", y = percentages, fill = domain_percentage)) +
-  geom_bar(width = 1, stat = "identity") +
-  coord_polar("y", start = 0, direction = -1) +
-  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
-  labs(x = "", y = "", fill = "") +
-  MKHthemes::xy_theme() +
-  theme(axis.text.x = element_blank()) +
-  theme(axis.text.y = element_blank()) +
-  theme(axis.ticks = element_blank()) +
-  theme(panel.border = element_blank()) +
-  theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) +
-  theme(legend.key.size = unit(0.3, "cm")) +
-  theme(plot.margin = unit(c(0,0,0,0),"mm"))
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/total_us_household_energy_consumption_trend.pdf}
+\caption[Total household energy consumption]{Total U.S.\ household energy consumption trend 1980--2009~\citep[Fig.~2]{EIA:2012aa}.}
+\label{fig:total_household_consumption}
+\end{figure}
 
-@
+One might think that increasing dwelling sizes are driven by more occupants per dwelling.
+However, Figure~\ref{fig:person_household} shows that
+the percentage of single-person households is increasing through time~\citep[Fig.~2]{US_census}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch09/US_single-person_household.pdf}
+\caption[Percentage of single-person households 1940-2017.]{Percentage of single-person households 1940-2017~\citep[Fig.~2]{US_census}.}
+\label{fig:person_household}
+\end{figure}
+
+From a sustainability point of view, 
+smaller, more-efficient homes with larger numbers of occupants
+are preferred. 
+However, trends suggest that homes are becoming more efficient, 
+but they are becoming larger and have fewer occupants
+through time.
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Dwelling location}
+\label{sec:dwelling_location}
+%++++++++++++++++++++++++++++++
+
+Location of a dwelling is also an important determiner of energy consumption,
+not for the dwelling itself, but for energy consumed by the residents for transportation.
+Proximity to work, school, shops, church, and entertainment
+makes a significant difference to transportation energy demand.
+(See Chapter~\ref{chap:transportation} for more information on sustainability issues 
+related to transportation.)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Heating and cooling}
+\label{sec:heating_and_cooling}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+furnace, A/C, insulation, windows
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hygiene}
+\label{sec:hygiene}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+showers, dishes, toilet, laundry
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lighting}
+\label{sec:lighting}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+incandescent vs.\ LED
+ 
+ 
+
+
+
 
 <<echo=FALSE>>=
 
@@ -74,23 +281,7 @@ data_string <-
 
 
 @
-Figure~\ref{fig:average_energy} shows how the energy is consumed within a residential home~\citep[Fig.~3]{EIA_2018}.
 
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch09/Average_US_Residential_Energy_Consumption.pdf}
-\caption[Average residential energy consumption.]{Average residential energy consumption~\citep[Fig.~3]{EIA_2018}.}
-\label{fig:average_energy}
-\end{figure}
-
-Figure~\ref{fig:person_household} shows the percentage of single-person households throughout the years~\citep[Fig.~2]{US_census}.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch09/US_single-person_household.pdf}
-\caption[Percentage of single-person households 1940-2017.]{Percentage of single-person households 1940-2017~\citep[Fig.~2]{US_census}.}
-\label{fig:person_household}
-\end{figure}
 
 Figure~\ref{fig:water_usage} shows how water is distributed in a household~\citep[Fig.~1]{water_research_foundation}.
 
@@ -107,13 +298,13 @@ indoor_use <- NULL
 percentages <- NULL
 label_ypos <- NULL
 ang <- NULL
-use_of_water <-c("Toilet", "Shower", "Faucet", "Clothes washer", "Leak", "Other", "Bath", "Dishwasher")
+use_of_water <- c("Toilet", "Shower", "Faucet", "Clothes washer", "Leak", "Other", "Bath", "Dishwasher")
 
-Indoor_Water <-data.frame(indoor_use = use_of_water,
+Indoor_Water <- data.frame(indoor_use = use_of_water,
                           percentages = c(24, 20, 19, 17, 12, 4, 3, 1),
                           ang = c(0, 0, 0, -30, -35, -35, -40, -40)) %>%
   dplyr::mutate(
-    indoor_use = factor(indoor_use, levels=use_of_water),
+    indoor_use = factor(indoor_use, levels = use_of_water),
     label_ypos = 100 - (cumsum(percentages) - percentages/2))
 
 Indoor_Water %>%
@@ -143,6 +334,33 @@ Indoor_Water %>%
 %\caption[Indoor household use of water, R-graph.]{Indoor household use of water.}
 %\label{fig:cropped_hosuehold_water_use}
 %\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Questions}\index{questions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problems}
+
+\item This chapter covered four important aspects of household sustainability
+      (purchasing, heating and cooling, hygeine, and lighting).
+      What additional areas of household living are important 
+      from a sustinability point of view? (recycling, waste)
+      
+\item What tradeoffs do you observe in daily household living?
+      I.e., in what areas of household living does sustainability become worse
+      as a result of improved sustainabiltiy elsewhere?
+      (E.g., )
+
+\item If you are a college or university student, 
+      write a letter to yourself that describes 
+      the future household in which you want to live.
+      What is the size of the dwelling?
+      What are its sustainability features?
+      
+\end{problems}
+
 
 \cleardoublepage
 
