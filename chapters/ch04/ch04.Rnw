@@ -360,8 +360,10 @@ relative to the amount of energy that is wasted.
 For example, the efficiency~($\eta $) of the U.S.\ electricity generation sector is
 %
 \begin{equation} \label{eq:eff_elec_sect}
-  \eta = \frac{12.9 \; \mathrm{Quads}}{38.2 \; \mathrm{Quads}} = 34 \; \% \; .
+  \eta = \frac{12.9 \; \mathrm{quads}}{38.2 \; \mathrm{quads}} = 34 \; \% \; .
 \end{equation}
+%
+(A quad is 1 short quadrillion BTUs, or $10^{15}$~BTU.)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
