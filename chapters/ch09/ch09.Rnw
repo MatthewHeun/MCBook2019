@@ -133,7 +133,7 @@ have sustainability implications, size and location chief among them.
 
 
 %++++++++++++++++++++++++++++++
-\subsection{Dwelling size}
+\subsection{Size}
 \label{sec:dwelling_size}
 %++++++++++++++++++++++++++++++
 
@@ -214,7 +214,7 @@ through time.
 
 
 %++++++++++++++++++++++++++++++
-\subsection{Dwelling location}
+\subsection{Location}
 \label{sec:dwelling_location}
 %++++++++++++++++++++++++++++++
 
@@ -231,7 +231,52 @@ related to transportation.)
 \label{sec:heating_and_cooling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-furnace, A/C, insulation, windows
+In most locations, 
+daily and seasonal temperature variations are wide
+relative to the range of temperatures required for human comfort 
+(approximately 20--23~\degC, depending on humidity and clothing).
+Residential heating and cooling reduces the temperature variation
+inside the dwelling compared to the outside, 
+providing thermal comfort to the occupants and 
+enabling work, play, and entertainment.
+As shown in Figure~\ref{fig:average_residential_energy}, 
+on average across the U.S.,
+thermal comfort is provided 
+by 36.6\% of all residential energy consumption.
+Like all energy consumption,
+energy consumption for heating and cooling has sustainability implications.
+(See Chapter~\ref{chap:energy}.)
+Greater efficiency can provide the same thermal comfort
+with less energy consumption.
+Increased residential heating and cooling efficiency can be obtained
+by improving the building envelope or 
+by improving the efficiency of furnaces and air conditioners.
+
+%++++++++++++++++++++++++++++++
+\subsection{Building envelope}
+\label{sec:building_envelope}
+%++++++++++++++++++++++++++++++
+
+Insulation
+Windows
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Furnaces}
+\label{sec:furnaces}
+%++++++++++++++++++++++++++++++
+
+AFUE
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Air-conditioners}
+\label{sec:air_conditioners}
+%++++++++++++++++++++++++++++++
+
+SEER
+
+
  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -241,6 +286,10 @@ furnace, A/C, insulation, windows
 
 showers, dishes, toilet, laundry
 
+Intersects with water.
+
+Kitchen and bathroom.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Lighting}
@@ -249,6 +298,10 @@ showers, dishes, toilet, laundry
 
 incandescent vs.\ LED
  
+ 
+Light harvesting.
+
+Natural lighting.
  
 
 
