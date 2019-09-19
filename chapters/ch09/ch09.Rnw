@@ -261,12 +261,13 @@ The building envelope consists of the roof, walls, windows, and base
 of a dwelling.
 The purpose of the envelope is to shield occupants from outisde weather and
 to maintain dry and comfortable conditions inside the dwelling.
-A perfect building envelope would 
-eliminate both heat loss in the winter and heat gain in the summer
-via roof and wall insulation and non-thermally-conductive windows.
-But perfect insulation is not possible, and windows leak heat.
-So furnaces and air-conditioners must make up lost heat in the winter and
-remove gained heat in the summer.
+The ideal building envelope would 
+eliminate both heat loss in the winter and heat gain in the summer via
+perfect roof and wall insulation and
+windows that neither conduct heat nor allow radiation to pass through.
+But perfect insulation is not possible, and all windows conduct heat and are transparent to thermal radiation.
+So furnaces and air-conditioners must make up heat lost in the winter and
+remove heat gained in the summer.
 
 The effectiveness of roof and wall insulation is quantified by its R value, 
 a measure of the resistance to heat transfer through the insulation material.
@@ -277,6 +278,8 @@ The Energy Star program recommends levels of roof, wall, and floor insulation at
 
 
 Windows
+
+**** Matt ended here. ****
 
 
 %++++++++++++++++++++++++++++++
