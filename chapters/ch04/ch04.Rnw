@@ -9,7 +9,11 @@
 \label{chap:energy}
 %#############################################################
 
-Something added.
+As demonstated in the previous chapter, energy is a major driver of the economy.
+Different sources of energy have different environmental impacts.
+Physical laws govern the conversion and use of energy.
+This chapter examines the role energy and energy systems play in sustainability.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
