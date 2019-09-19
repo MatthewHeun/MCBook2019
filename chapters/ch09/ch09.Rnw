@@ -95,10 +95,39 @@ avoids repeating material from others.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Purchasing and renting}
 \label{sec:purchasing_and_renting}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ti
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-how close to work, school, grocery store, church, entertainment;
-        how large
+Many aspects of purchasing or renting a residence
+have sustainability implications, size and location chief among them.
+
+
+Figure~\ref{fig:residential_elect_vs_home_size} shows the general trend of 
+electricity consumption with respect to home size.
+Figure~\ref{fig:residential_elect_vs_home_size} confirms intuition that
+dwelling size matters for energy consumption. 
+However, significant variation in annual electricity consumption
+is observed between the $20^{\mathrm{th}}$ and $80^{\mathrm{th}}$ percentiles at any home size.
+These variations indicate that decisions about \emph{how} a dwelling is used 
+are nearly important as the \emph{size} of a dwelling 
+for predicting residential electricity consumption.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\linewidth]{chapters/ch09/Electricity_vs_Home_size.png}
+\caption[Electricity consumption vs.\ home size.]{Annual electricity consumption vs.\ U.S.\ home size. 
+**** Need to find reference. Found at \url{http://www.doomsteaddiner.net/forum/index.php?topic=9830.0}. ****}
+\label{fig:residential_elect_vs_home_size}
+\end{figure}
+
+**** Find data on natural gas consumption vs. size of home. 
+80--20 variations on that graph are likely due to
+climate and insulation differences. ****
+
+Location of a dwelling is also an important determiner of energy consumption,
+not for the dwelling itself, but for energy consumed by the residents for transportation.
+Proximity to work, school, shops, church, and entertainment
+makes a significant difference to transportation energy demand.
+(See Chapter~\ref{chap:transportation}.)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
