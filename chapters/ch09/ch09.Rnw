@@ -257,7 +257,25 @@ by improving the efficiency of furnaces and air conditioners.
 \label{sec:building_envelope}
 %++++++++++++++++++++++++++++++
 
-Insulation
+The building envelope consists of the roof, walls, windows, and base
+of a dwelling.
+The purpose of the envelope is to shield occupants from outisde weather and
+to maintain dry and comfortable conditions inside the dwelling.
+A perfect building envelope would 
+eliminate both heat loss in the winter and heat gain in the summer
+via roof and wall insulation and non-thermally-conductive windows.
+But perfect insulation is not possible, and windows leak heat.
+So furnaces and air-conditioners must make up lost heat in the winter and
+remove gained heat in the summer.
+
+The effectiveness of roof and wall insulation is quantified by its R value, 
+a measure of the resistance to heat transfer through the insulation material.
+High R values are achieved with 
+thicker insulation constructed from low-thermal-condictivity materials.
+The Energy Star program recommends levels of roof, wall, and floor insulation at
+\url{https://www.energystar.gov/index.cfm?c=home_sealing.hm_improvement_insulation_table}.
+
+
 Windows
 
 
@@ -266,7 +284,33 @@ Windows
 \label{sec:furnaces}
 %++++++++++++++++++++++++++++++
 
-AFUE
+Furnaces provide space heating, 
+often from an out-of-the-way location in the dwelling (e.g., basement).
+Furnaces convert a fuel (typically natural gas or heating oil)
+into heat by combustion.
+The heat is delivered to the dwelling via circulating water or air.
+
+Furnace efficiency is quantified as
+Annual Fuel Utilization Efficiency~(AFUE), 
+the percentage of useful heat output 
+to fuel energy input, 
+accounting for transient effects during operation 
+across the year.
+The maximum AFUE rating is 100\%.
+Heat that leaves with the exhaust products serves to reduce AFUE.
+AFUE is different from and lower than steady-state thermal efficiency.
+The American Society for Heating, Refrigerating, and Air-conditioning Engineers
+publishes Standard 103, 
+which specifies how AFUE is to be measured.
+
+All furnaces sold in the U.S.\ have an AFUE rating, and 
+a minimum AFUE rating of 80\% is required
+for gas-fired furnaces. (\url{https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/appendix-a.pdf})
+High-efficiency furnaces recover heat from exhaust gases, 
+and some reach AFUE values of 98\% or higher.
+A tradeoff exists between efficiency and initial cost.
+Models with high AFUE are more expensive, initially,
+but save money on fuel costs over time. 
 
 
 %++++++++++++++++++++++++++++++
@@ -405,6 +449,14 @@ Indoor_Water %>%
       I.e., in what areas of household living does sustainability become worse
       as a result of improved sustainabiltiy elsewhere?
       (E.g., )
+
+\item Locate the furnace in your dwelling, and find its AFUE rating. 
+      If you were to replace your existing furnace with a furnace with a 98\% AFUE rating,
+      how much energy would you save annually?
+      What is the price of that saved energy? 
+      What is the annual cost savings from this energy efficiency intervention?  
+      Assuming that the 98\% AFUE furnace lasts 20 years and that you want to break even financially,
+      what is the maximum price you should pay for a 98\% AFUE furnace?
 
 \item If you are a college or university student, 
       write a letter to yourself that describes 
