@@ -357,11 +357,36 @@ In other parts of the U.S., a minimum SEER value of 13 BTU/W-hr is mandated.
 \label{sec:hygiene}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-showers, dishes, toilet, laundry
+Hygiene is a significant consumer of household energy and water
+for showers, dish washers, toilets, and clothes washers and dryers.
 
-Intersects with water.
+To minimize environmental impacts of showering and dish washing, 
+low-flow showerheads can be installed.
+Low-flow showerheads provide the obvious cost benefit of 
+reducing water bills.
+But if less water is consumed, 
+low-flow showerheads also reduce energy consumption for water heating.
+Furthermore, sewerage costs are reduced, because low-flow showerheads 
+decrease the amount of gray water released into the sewer system.
 
-Kitchen and bathroom.
+Saving water and energy in dish washing can be accomplished by purchasing an automatic dishwasher.
+At 
+\url{https://www.energystar.gov/products/appliances/dishwashers}, 
+the Energy Star program shows that 
+automatic dishwashers save water and energy costs
+relative to hand washing of dishes.
+
+To save water consumed by toilets, 
+displacement and dual-flush systems are recommended.
+A displacement system occupies volume in the tank, 
+reducing the amount of water used for each flush.
+Dual-flush systems provide half- and full-flush 
+for disposal of liquids and solids, respectively.
+
+Clothes washers and dryers consume both water and energy.
+Purchasing washers and dryers with Energy Star ratings can reduce
+energy and water consumption by 25\% and 33\%, respectively 
+(\url{https://www.energystar.gov/products/appliances/clothes_dryers}).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -369,14 +394,25 @@ Kitchen and bathroom.
 \label{sec:lighting}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-incandescent vs.\ LED
- 
- 
-Light harvesting.
+Indoor lighting provides illumination for rooms, 
+typically by consuming electricity.
+Since Edison's invention of the electric light, 
+filament-based incandescent lighting technology 
+dominated household lighting.
+However, in recent years, 
+Compact Fluorescent Lights (CFLs) and 
+Light Emitting Diode (LED) lights have revolutioninzed
+the lighting industry and improved lighting efficiency significantly. 
+LED bulbs are 6--10 times more efficient than incandescent lighting.
+In addition, LED bulbs promise much longer lifetimes,
+with more than 10 times longer service per bulb than incandescents.
+Both higher efficiency and longer life reduce total cost of ownership 
+of LED bulbs compared to incandescent bulbs by nearly two orders of magnitude.
 
-Natural lighting.
- 
-
+Of course, the least expensive light is the one you don't have to use at all.
+Building design techniques such as light harvesting
+utilize natural light to the greatest extent possible, 
+eliminating the need to consume electricty for artificial indoor lighting.
 
 
 
