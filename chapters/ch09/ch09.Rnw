@@ -133,7 +133,7 @@ have sustainability implications, size and location chief among them.
 
 
 %++++++++++++++++++++++++++++++
-\subsection{Dwelling size}
+\subsection{Size}
 \label{sec:dwelling_size}
 %++++++++++++++++++++++++++++++
 
@@ -214,7 +214,7 @@ through time.
 
 
 %++++++++++++++++++++++++++++++
-\subsection{Dwelling location}
+\subsection{Location}
 \label{sec:dwelling_location}
 %++++++++++++++++++++++++++++++
 
@@ -231,7 +231,125 @@ related to transportation.)
 \label{sec:heating_and_cooling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-furnace, A/C, insulation, windows
+In most locations, 
+daily and seasonal temperature variations are wide
+relative to the range of temperatures required for human comfort 
+(approximately 20--23~\degC, depending on humidity and clothing).
+Residential heating and cooling reduces the temperature variation
+inside the dwelling compared to the outside, 
+providing thermal comfort to the occupants and 
+enabling work, play, and entertainment.
+As shown in Figure~\ref{fig:average_residential_energy}, 
+on average across the U.S.,
+thermal comfort is provided 
+by 36.6\% of all residential energy consumption.
+Like all energy consumption,
+energy consumption for heating and cooling has sustainability implications.
+(See Chapter~\ref{chap:energy}.)
+Greater efficiency can provide the same thermal comfort
+with less energy consumption.
+Increased residential heating and cooling efficiency can be obtained
+by improving the building envelope or 
+by improving the efficiency of furnaces and air conditioners.
+
+%++++++++++++++++++++++++++++++
+\subsection{Building envelope}
+\label{sec:building_envelope}
+%++++++++++++++++++++++++++++++
+
+The building envelope consists of the roof, walls, windows, and base
+of a dwelling.
+The purpose of the envelope is to shield occupants from outisde weather and
+to maintain dry and comfortable conditions inside the dwelling.
+The ideal building envelope would 
+eliminate both heat loss in the winter and heat gain in the summer via
+perfect roof and wall insulation and
+windows that neither conduct heat nor allow radiation to pass through.
+But perfect insulation is not possible, and all windows conduct heat and are transparent to thermal radiation.
+So furnaces and air-conditioners must make up heat lost in the winter and
+remove heat gained in the summer.
+
+The effectiveness of roof and wall insulation is quantified by its R-value, 
+a measure of the resistance to heat transfer through the insulation material, 
+quantified by the R-value in units of hr-ft$^2$-\degree{}F/BTU.
+Higher R-values are better.
+Large R-values are achieved with 
+thicker insulation constructed from low-thermal-condictivity materials.
+The Energy Star program recommends levels of roof, wall, and floor insulation at
+\url{https://www.energystar.gov/index.cfm?c=home_sealing.hm_improvement_insulation_table}.
+In Northern US climates, R-values of 49--60 hr-ft$^2$-\degree{}F/BTU are recommended.
+
+Windows are an important part of any building's envelope.
+They provide natural illumination while shielding occupants from weather.
+Like walls and roofs, it is desireable that windows eliminate 
+heat loss in the winter and heat gain the summer.
+However, windows are typically worse insulators than walls and roofs, 
+owing to thin glazing.
+
+The insulative properties of windows are quantified by the U-Factor. 
+The U-Factor is the inverse of an R-value.
+Typical U-Factors for windows are 0.2--1.2 BTU/hr-ft$^2$-\degree{}F.
+(Corresponding window R-values are 5--0.83 hr-ft$^2$-\degree{}F/BTU.)
+Lower U values are more insulative.
+Heat gain from solar radiation is quantified by the 
+solar heat gain coefficient (SHGC),
+the ratio of solar energy that enters the room to 
+solar energy incident upon the window.
+SHGC values range from 0 to 1, 
+and lower SHGC values indicate better insulative properties.
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Furnaces}
+\label{sec:furnaces}
+%++++++++++++++++++++++++++++++
+
+Furnaces provide space heating, 
+often from an out-of-the-way location in the dwelling (e.g., basement).
+Furnaces convert a fuel (typically natural gas or heating oil)
+into heat by combustion.
+The heat is delivered to the dwelling via circulating water or air.
+
+Furnace efficiency is quantified as
+Annual Fuel Utilization Efficiency~(AFUE), 
+the percentage of useful heat output 
+to fuel energy input, 
+accounting for transient effects during operation 
+across the year.
+The maximum AFUE rating is 100\%.
+Heat that leaves with the exhaust products serves to reduce AFUE.
+AFUE is different from and lower than steady-state thermal efficiency.
+The American Society for Heating, Refrigerating, and Air-conditioning Engineers
+publishes Standard 103, 
+which specifies how AFUE is to be measured.
+
+All furnaces sold in the U.S.\ have an AFUE rating, and 
+a minimum AFUE rating of 80\% is required
+for gas-fired furnaces. (\url{https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/appendix-a.pdf})
+High-efficiency furnaces recover heat from exhaust gases, 
+and some reach AFUE values of 98\% or higher.
+A tradeoff exists between efficiency and initial cost.
+Models with high AFUE are more expensive, initially,
+but save money on fuel costs over time. 
+
+
+%++++++++++++++++++++++++++++++
+\subsection{Air-conditioners}
+\label{sec:air_conditioners}
+%++++++++++++++++++++++++++++++
+
+Air-conditioners cool and dehumidify indoor air
+to provide thermal comfort to building occupants.
+Air-conditioners use electricity to achieve their objectives.
+The energy efficiency of air-conditioners is quantified by the 
+Seasonal Energy Efficiency Ratio (SEER),
+the ratio of cooling provided (in BTU)
+to electricity consumed (in W-hr) throughout the season.
+Larger SEER values indicate higher efficiency.
+
+As of 2015, U.S.\ air-conditioners must adhere to regionally-dependent efficiency standards.
+In the southwest, a minimum SEER value of 14 BTU/W-hr is required.
+In other parts of the U.S., a minimum SEER value of 13 BTU/W-hr is mandated.
  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -239,7 +357,36 @@ furnace, A/C, insulation, windows
 \label{sec:hygiene}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-showers, dishes, toilet, laundry
+Hygiene is a significant consumer of household energy and water
+for showers, dish washers, toilets, and clothes washers and dryers.
+
+To minimize environmental impacts of showering and dish washing, 
+low-flow showerheads can be installed.
+Low-flow showerheads provide the obvious cost benefit of 
+reducing water bills.
+But if less water is consumed, 
+low-flow showerheads also reduce energy consumption for water heating.
+Furthermore, sewerage costs are reduced, because low-flow showerheads 
+decrease the amount of gray water released into the sewer system.
+
+Saving water and energy in dish washing can be accomplished by purchasing an automatic dishwasher.
+At 
+\url{https://www.energystar.gov/products/appliances/dishwashers}, 
+the Energy Star program shows that 
+automatic dishwashers save water and energy costs
+relative to hand washing of dishes.
+
+To save water consumed by toilets, 
+displacement and dual-flush systems are recommended.
+A displacement system occupies volume in the tank, 
+reducing the amount of water used for each flush.
+Dual-flush systems provide half- and full-flush 
+for disposal of liquids and solids, respectively.
+
+Clothes washers and dryers consume both water and energy.
+Purchasing washers and dryers with Energy Star ratings can reduce
+energy and water consumption by 25\% and 33\%, respectively 
+(\url{https://www.energystar.gov/products/appliances/clothes_dryers}).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -247,83 +394,98 @@ showers, dishes, toilet, laundry
 \label{sec:lighting}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-incandescent vs.\ LED
- 
- 
+Indoor lighting provides illumination for rooms, 
+typically by consuming electricity.
+Since Edison's invention of the electric light, 
+filament-based incandescent lighting technology 
+dominated household lighting.
+However, in recent years, 
+Compact Fluorescent Lights (CFLs) and 
+Light Emitting Diode (LED) lights have revolutioninzed
+the lighting industry and improved lighting efficiency significantly. 
+LED bulbs are 6--10 times more efficient than incandescent lighting.
+In addition, LED bulbs promise much longer lifetimes,
+with more than 10 times longer service per bulb than incandescents.
+Both higher efficiency and longer life reduce total cost of ownership 
+of LED bulbs compared to incandescent bulbs by nearly two orders of magnitude.
+
+Of course, the least expensive light is the one you don't have to use at all.
+Building design techniques such as light harvesting
+utilize natural light to the greatest extent possible, 
+eliminating the need to consume electricty for artificial indoor lighting.
 
 
-
-
-<<echo=FALSE>>=
-
-data_string <- 
-  "Percentage	Year\n
-8	1940\n
-9	1950\n
-13	1960\n
-18	1970\n
-23	1980\n
-25	1990\n
-26	2000\n
-28	2017\n
-"
- read.table(text=data_string, sep= "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
-  # dplyr::mutate(
-   #  Year = factor(Year, levels = c(1940 1950, 1960, 1970, 1980, 1990, 2000, 2017))
-   #)%>%
-   ggplot()+
-   geom_bar(aes(y='Single-Person Household', x=Year, fill=Percentage), stat = "identity")+
-   labs(x=element_blank(), y=expression("Single-Person Households"), fill = element_blank())+
-   #scale_y_continuous(labels=percent)+
-   guides(fill = FALSE) +
-   MKHthemes::xy_theme()+
-   theme(axis.text.x = element_text(angle = 90, hjust=1))
-
-
-@
-
-
-Figure~\ref{fig:water_usage} shows how water is distributed in a household~\citep[Fig.~1]{water_research_foundation}.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch09/EPA_housold_usage.pdf}
-\caption[Indoor household use of water.]{Indoor household use of water~\citep[Fig.~1]{water_research_foundation}.}
-\label{fig:water_usage}
-\end{figure}
-
-<<Indoor_use, echo=FALSE, fig.cap = "Indoor household use of water in the US.", fig.scap = "Percentages of water use.", fig.width = 5, fig.height = 2.5 >>=
-
-indoor_use <- NULL
-percentages <- NULL
-label_ypos <- NULL
-ang <- NULL
-use_of_water <- c("Toilet", "Shower", "Faucet", "Clothes washer", "Leak", "Other", "Bath", "Dishwasher")
-
-Indoor_Water <- data.frame(indoor_use = use_of_water,
-                          percentages = c(24, 20, 19, 17, 12, 4, 3, 1),
-                          ang = c(0, 0, 0, -30, -35, -35, -40, -40)) %>%
-  dplyr::mutate(
-    indoor_use = factor(indoor_use, levels = use_of_water),
-    label_ypos = 100 - (cumsum(percentages) - percentages/2))
-
-Indoor_Water %>%
-  ggplot(mapping = aes(x = "", y = percentages, fill = indoor_use)) +
-  geom_bar(width = 1, stat = "identity") +
-  coord_polar("y", start = 0, direction = -1) +
-  geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
-  labs(x = "", y = "", fill = "") +
-  MKHthemes::xy_theme() +
-  theme(axis.text.x = element_blank()) +
-  theme(axis.text.y = element_blank()) +
-  theme(axis.ticks = element_blank()) +
-  theme(panel.border = element_blank()) +
-  theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) +
-  theme(legend.key.size = unit(0.3, "cm")) +
-  theme(plot.margin = unit(c(0,0,0,0),"mm"))
-
-
-@
+% 
+% <<echo=FALSE>>=
+% 
+% data_string <- 
+%   "Percentage	Year\n
+% 8	1940\n
+% 9	1950\n
+% 13	1960\n
+% 18	1970\n
+% 23	1980\n
+% 25	1990\n
+% 26	2000\n
+% 28	2017\n
+% "
+%  read.table(text=data_string, sep= "\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
+%   # dplyr::mutate(
+%    #  Year = factor(Year, levels = c(1940 1950, 1960, 1970, 1980, 1990, 2000, 2017))
+%    #)%>%
+%    ggplot()+
+%    geom_bar(aes(y='Single-Person Household', x=Year, fill=Percentage), stat = "identity")+
+%    labs(x=element_blank(), y=expression("Single-Person Households"), fill = element_blank())+
+%    #scale_y_continuous(labels=percent)+
+%    guides(fill = FALSE) +
+%    MKHthemes::xy_theme()+
+%    theme(axis.text.x = element_text(angle = 90, hjust=1))
+% 
+% 
+% @
+% 
+% 
+% Figure~\ref{fig:water_usage} shows how water is distributed in a household~\citep[Fig.~1]{water_research_foundation}.
+% 
+% \begin{figure}
+% \centering
+% \includegraphics[width=0.75\linewidth]{chapters/ch09/EPA_housold_usage.pdf}
+% \caption[Indoor household use of water.]{Indoor household use of water~\citep[Fig.~1]{water_research_foundation}.}
+% \label{fig:water_usage}
+% \end{figure}
+% 
+% <<Indoor_use, echo=FALSE, fig.cap = "Indoor household use of water in the US.", fig.scap = "Percentages of water use.", fig.width = 5, fig.height = 2.5 >>=
+% 
+% indoor_use <- NULL
+% percentages <- NULL
+% label_ypos <- NULL
+% ang <- NULL
+% use_of_water <- c("Toilet", "Shower", "Faucet", "Clothes washer", "Leak", "Other", "Bath", "Dishwasher")
+% 
+% Indoor_Water <- data.frame(indoor_use = use_of_water,
+%                           percentages = c(24, 20, 19, 17, 12, 4, 3, 1),
+%                           ang = c(0, 0, 0, -30, -35, -35, -40, -40)) %>%
+%   dplyr::mutate(
+%     indoor_use = factor(indoor_use, levels = use_of_water),
+%     label_ypos = 100 - (cumsum(percentages) - percentages/2))
+% 
+% Indoor_Water %>%
+%   ggplot(mapping = aes(x = "", y = percentages, fill = indoor_use)) +
+%   geom_bar(width = 1, stat = "identity") +
+%   coord_polar("y", start = 0, direction = -1) +
+%   geom_text(mapping = aes(y = label_ypos, label = paste(percentages, "%"), angle = ang), color = "white", size = 3, family = "Libre Caslon Text") +
+%   labs(x = "", y = "", fill = "") +
+%   MKHthemes::xy_theme() +
+%   theme(axis.text.x = element_blank()) +
+%   theme(axis.text.y = element_blank()) +
+%   theme(axis.ticks = element_blank()) +
+%   theme(panel.border = element_blank()) +
+%   theme(legend.text = element_text(size = 9, family = "Libre Caslon Text")) +
+%   theme(legend.key.size = unit(0.3, "cm")) +
+%   theme(plot.margin = unit(c(0,0,0,0),"mm"))
+% 
+% 
+% @
 
 
 %This is the same figure, but I created it in R-studio.
@@ -346,12 +508,33 @@ Indoor_Water %>%
 \item This chapter covered four important aspects of household sustainability
       (purchasing, heating and cooling, hygeine, and lighting).
       What additional areas of household living are important 
-      from a sustinability point of view? (recycling, waste)
+      from a sustinability point of view?
       
 \item What tradeoffs do you observe in daily household living?
       I.e., in what areas of household living does sustainability become worse
       as a result of improved sustainabiltiy elsewhere?
-      (E.g., )
+
+\item Locate the furnace in your dwelling, and find its AFUE rating. 
+      If you were to replace your existing furnace with a furnace with a 98\% AFUE rating,
+      how much energy would you save annually?
+      What is the price of that saved energy? 
+      What is the annual cost savings from this energy efficiency intervention?  
+      Assuming that the 98\% AFUE furnace lasts 20 years and that you want to break even financially,
+      what is the maximum price you should pay for a 98\% AFUE furnace?
+      
+\item Locate the air-conditioner in you dwelling, and find its SEER.
+      If you were to replace your existing air-conditioner with an air-conditioner with a SEER of 40
+      (near the maximum SEER rating as of this writing),
+      how much energy would you save annually?
+      What is the price of that saved energy? 
+      What is the annual cost savings from this energy efficiency intervention?  
+      Assuming that the 40 SEER air-conditioner lasts 15 years and that you want to break even financially,
+      what is the maximum price you should pay for a 40 SEER air-conditioner?
+
+\item Rank the U-Factor and solar heat gain coefficient (SHGC)
+      for single-, double-, and triple-paned windows.
+      Does the ranking make sense?
+      Rank the costs of the windows.
 
 \item If you are a college or university student, 
       write a letter to yourself that describes 
