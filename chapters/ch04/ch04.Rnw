@@ -488,6 +488,8 @@ can energy efficiency be deployed to reduce energy-related GHG emissions
 \emph{without} inadvertantly stimulating the economy,
 thereby increasing energy consumption and GHG emissions?
 
+% https://en.wikipedia.org/wiki/Energy_returned_on_energy_invested
+ERIO - is it covered? See the link to solar breeders.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Questions}\index{questions}
