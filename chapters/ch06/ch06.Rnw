@@ -8,7 +8,10 @@
 \chapter{Plants and Animals (JVA 5)}
 \label{chap:plants_and_animals}
 
-
+% https://www.woodtv.com/news/national/where-have-the-wild-birds-gone-3-billion-fewer-than-1970
+Humans are animals too: %https://www.mostwatchedtoday.com/nature-valley-rediscover-nature
+% https://www.nytimes.com/2019/09/29/opinion/three-billion-canaries-in-the-coal-mine.html
+More.
 
 
 

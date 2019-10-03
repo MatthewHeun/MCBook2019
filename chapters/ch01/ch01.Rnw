@@ -166,7 +166,8 @@ ggplot() %>%
 
 
 
-
+% https://sci-techmaven.io/superposition/tech/companies-like-the-boring-company-may-be-the-solution-to-human-overpopulation
+Things we can do: go to space. dig tunnels.
 
 
 

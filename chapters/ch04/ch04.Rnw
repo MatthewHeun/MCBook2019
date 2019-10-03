@@ -5,7 +5,7 @@
 
 
 %#############################################################
-\chapter{Energy (MKH 1)}
+\chapter{Energy}
 \label{chap:energy}
 %#############################################################
 
@@ -67,7 +67,7 @@ with a focus on fossil fuel resource depletion and greenhouse gas (GHG) emission
 Depletion of nonrenewable natural resources is a complex processes,
 involving natural phenomena, human wants and needs, and technology.
 A calculus-based model can be used to describe depletion processes succinctly.
-**** Refer to the rates and levels equation in Chapter~\ref{chap:introduction}? ****
+%%**** Refer to the rates and levels equation in Chapter~\ref{chap:introduction}? ****
 All resources have a generation rate~($\dot{g}$)\index{resources!generation rate}, 
 which is the speed with which the resource is re-created by natural or human processes.
 Natural resources can be consumed at a rate~($\dot{c}$)\index{resources!consumption rate},
@@ -209,11 +209,12 @@ away from nonrenewable resources prior to their depletion.
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch04/world-coal-production-through-2016.png}
-\caption[World coal production.]{World coal production. **** Larisa: Obtain data from BP Statistical Review of World Energy Data. ****}
+\caption[World coal production.]{World coal production.}
+%%**** Larisa: Obtain data from BP Statistical Review of World Energy Data. ****}
 \label{fig:world_coal_production}
 \end{figure}
 
-****this data only goes back to 1993.It is from BP Statistical Review of World Energy Data*****
+%%****this data only goes back to 1993.It is from BP Statistical Review of World Energy Data*****
 
 \begin{figure}
 \centering

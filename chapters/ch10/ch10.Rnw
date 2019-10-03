@@ -8,6 +8,10 @@
 \chapter{Land Use and Urban Planning (JVA 4)}
 \label{chap:land_use_and_urban_planning}
 
+% https://www.ozy.com/fast-forward/the-latest-quick-fix-for-the-housing-crisis-granny-flats
+Why is there a "housing shortage"? This points to alternative LAWS to circumvent(?) economic and demographic trends.
+
+
 Figure~\ref{fig:urban_density} shows the relation between urban denisty and transport-related energy consumption~\citep[Fig~2]{US_cities}.
 
 \begin{figure}

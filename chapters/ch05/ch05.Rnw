@@ -8,6 +8,27 @@
 \chapter{Air and Water (JVA 6)}
 \label{chap:air_and_water}
 
+Air pollution: EPA categories
+Air as a sink,
+GHG table
+EPA scorecard.
+Emissions by producer? Cement is 8\% of world GHG emissions.
+
+% https://science.sciencemag.org/content/361/6406/1019
+Climate model shows large-scale wind and solar farms in the Sahara increase rain and vegetation
+
+Water pollution.
+% https://www.telegraph.co.uk/news/2017/10/26/shocking-photo-shows-caribbean-sea-choked-death-human-waste/
+Ocean plastic.
+
+
+
+
+
+
+
+
+
 \section{Bold Math}
 Sometimes you have a math symbol in bold to indicate, for example,
 a vector or special functions. Use \verb+\mathbf{x}+ for letters

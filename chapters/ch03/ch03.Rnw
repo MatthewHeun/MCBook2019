@@ -8,17 +8,9 @@
 \chapter{Economy (JVA 3)}
 \label{chap:economy}
 
-The navigation oriented heuristic ($h3$) considers the site topology.
-Accesses to cached pages are not recorded in the
-Web log due to the browser or proxy cache.
-Therefore, references to those pages are missed.
-The missing references in the log file can be found using a set of
-assumptions.
-The referrer field of the Web log or the Web site structure can be used
-to infer cached pages.
-If a requested Web page $p_i$ is not reachable
-from previously visited pages in a
-session, then a new session is constructed starting with page $p_i$.
+% https://en.wikipedia.org/wiki/Thermoeconomics
+% https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Domestic_material_consumption_%28DMC%29
+Domestic material consumption.
 
 \begin{algorithm}
 \hrulefill

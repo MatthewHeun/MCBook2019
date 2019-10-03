@@ -17,8 +17,27 @@
 %\label{fig:vehicle_miles}
 %\end{figure}
 
+% https://www.theatlantic.com/ideas/archive/2018/09/whose-farm-is-this-anyway/569227/
+% https://amrank.info/2018/09/06/a-glimpse-into-how-modern-agriculture-actually-works/
+The Atlantic article about the monopsony of chicken farming.
+"Economists and policy experts believe that Goliath controlling, contracting, 
+and acquiring David is a key factor driving the country’s anemic growth rates, 
+sluggish productivity numbers, and stark income inequality."
 
+"The top four players account for more than 90 percent of overall revenue in a wide variety of market sectors and for a wide variety of consumer goods: web search, toilet paper, wireless services, arcade operations, soda, light bulbs, tires. An estimated three-quarters of industries have seen a substantial increase in market concentration in the past two decades. There were about half as many publicly traded companies in 2014 as there were in 1997, a decline “so dramatic that the number of firms these days is lower than it was in the early 1970s, when the real gross domestic product in the U.S. was just one third of what it is today,” researchers have found. Those public companies are three times as big as they were in the 1990s."
 
+% https://www.citylab.com/equity/2019/09/racial-wealth-gap-history-slavery-black-white-family-income/597100/?utm_source=pocket-newtab&fbclid=IwAR270ZqtPmspU_EPh8EAFuoTA4X9Le1z_GY9afAEY9315xZQpPU1XLLIQjQ
+On the relationship between wealth and regulations. Capture or Rent seeking needs to be a topic of this chapter.
+tie in the social justice issue.
+
+% https://www.michiganradio.org/post/building-economy-not-bottom-line-common-good
+The Common Good Balance Sheet.
+
+% https://benefitcorp.net/businesses/benefit-corporations-and-certified-b-corps
+Benefit corporation vs. Certified B corp.
+
+Change Everything (book)
+% https://www.press.uchicago.edu/ucp/books/book/distributed/C/bo23073339.html
 
 \cleardoublepage
 

@@ -41,11 +41,12 @@ decisions that have sustainability implications.
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 \begin{mcframe}[0.90\textwidth](0.85\textwidth)
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Households are the site where sustainability meets everyday life.
+Households are a (the) site where sustainability meets everyday life.
 \end{mcframe}
 
 Figure~\ref{fig:average_residential_energy} shows how the average U.S.\ resident
-exercises their agency in the realm of energy consumption,
+%%exercises their agency in the realm of
+allocates their energy consumption, by
 showing the percentages of energy consumption 
 for several end uses~\citep[Fig.~3]{EIA_2018}.
 The end use categories in Figure~\ref{fig:average_residential_energy} illustrate
@@ -266,7 +267,7 @@ eliminate both heat loss in the winter and heat gain in the summer via
 perfect roof and wall insulation and
 windows that neither conduct heat nor allow radiation to pass through.
 But perfect insulation is not possible, and all windows conduct heat and are transparent to thermal radiation.
-So furnaces and air-conditioners must make up heat lost in the winter and
+So furnaces and air conditioners are used to replace the heat lost in winter and
 remove heat gained in the summer.
 
 The effectiveness of roof and wall insulation is quantified by its R-value, 
@@ -319,7 +320,7 @@ across the year.
 The maximum AFUE rating is 100\%.
 Heat that leaves with the exhaust products serves to reduce AFUE.
 AFUE is different from and lower than steady-state thermal efficiency.
-The American Society for Heating, Refrigerating, and Air-conditioning Engineers
+The American Society for Heating, Refrigerating, and Air conditioning Engineers
 publishes Standard 103, 
 which specifies how AFUE is to be measured.
 
@@ -334,20 +335,20 @@ but save money on fuel costs over time.
 
 
 %++++++++++++++++++++++++++++++
-\subsection{Air-conditioners}
+\subsection{Air conditioners}
 \label{sec:air_conditioners}
 %++++++++++++++++++++++++++++++
 
-Air-conditioners cool and dehumidify indoor air
+Air conditioners cool and dehumidify indoor air
 to provide thermal comfort to building occupants.
-Air-conditioners use electricity to achieve their objectives.
-The energy efficiency of air-conditioners is quantified by the 
-Seasonal Energy Efficiency Ratio (SEER),
+Air conditioners use electricity to achieve their objectives.
+The energy efficiency of air conditioners is quantified by the 
+Seasonal Energy Efficiency Ratio (SEER), which is
 the ratio of cooling provided (in BTU)
 to electricity consumed (in W-hr) throughout the season.
 Larger SEER values indicate higher efficiency.
 
-As of 2015, U.S.\ air-conditioners must adhere to regionally-dependent efficiency standards.
+As of 2015, U.S.\ air conditioners must adhere to regionally dependent efficiency standards.
 In the southwest, a minimum SEER value of 14 BTU/W-hr is required.
 In other parts of the U.S., a minimum SEER value of 13 BTU/W-hr is mandated.
  
@@ -374,7 +375,7 @@ At
 \url{https://www.energystar.gov/products/appliances/dishwashers}, 
 the Energy Star program shows that 
 automatic dishwashers save water and energy costs
-relative to hand washing of dishes.
+relative to hand washing dishes.
 
 To save water consumed by toilets, 
 displacement and dual-flush systems are recommended.
@@ -387,7 +388,8 @@ Clothes washers and dryers consume both water and energy.
 Purchasing washers and dryers with Energy Star ratings can reduce
 energy and water consumption by 25\% and 33\%, respectively 
 (\url{https://www.energystar.gov/products/appliances/clothes_dryers}).
-
+The most energy can be saved by washing clothes less frequently,
+using a cold-water cycle, and line drying clothes.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Lighting}
@@ -511,7 +513,7 @@ eliminating the need to consume electricty for artificial indoor lighting.
       from a sustinability point of view?
       
 \item What tradeoffs do you observe in daily household living?
-      I.e., in what areas of household living does sustainability become worse
+      That is, in what areas of household living does sustainability become worse
       as a result of improved sustainabiltiy elsewhere?
 
 \item Locate the furnace in your dwelling, and find its AFUE rating. 
@@ -522,14 +524,14 @@ eliminating the need to consume electricty for artificial indoor lighting.
       Assuming that the 98\% AFUE furnace lasts 20 years and that you want to break even financially,
       what is the maximum price you should pay for a 98\% AFUE furnace?
       
-\item Locate the air-conditioner in you dwelling, and find its SEER.
-      If you were to replace your existing air-conditioner with an air-conditioner with a SEER of 40
+\item Locate the air conditioner in you dwelling, and find its SEER.
+      If you were to replace your existing air conditioner with an air conditioner with a SEER of 40
       (near the maximum SEER rating as of this writing),
       how much energy would you save annually?
       What is the price of that saved energy? 
       What is the annual cost savings from this energy efficiency intervention?  
-      Assuming that the 40 SEER air-conditioner lasts 15 years and that you want to break even financially,
-      what is the maximum price you should pay for a 40 SEER air-conditioner?
+      Assuming that the 40 SEER air conditioner lasts 15 years and that you want to break even financially,
+      what is the maximum price you should pay for a 40 SEER air conditioner?
 
 \item Rank the U-Factor and solar heat gain coefficient (SHGC)
       for single-, double-, and triple-paned windows.

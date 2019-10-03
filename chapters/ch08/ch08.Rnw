@@ -24,6 +24,9 @@ is shown in Figures~\ref{fig:passengerkm_by_mode}
 and~\ref{fig:km_freight}.
 
 
+% https://www.caranddriver.com/news/a28806069/worlds-largest-electric-vehicle-dump-truck
+World's largest electric vehcile is a dump truch that never needs recharging.
+
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{chapters/ch08/passengerkm_by_mode.pdf}
