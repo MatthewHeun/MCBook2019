@@ -7,7 +7,7 @@
 
 
 %#############################################################
-\chapter{Food and Agriculture (MKH 3)}
+\chapter{Food and Agriculture}%% (MKH 3)
 \label{chap:food_and_agriculture}
 %#############################################################
 
@@ -24,7 +24,7 @@ natural and human-created transformation processes\index{transformation processe
 that convert solar energy\index{energy!solar}
 into available, ingestible energy\index{energy!ingestible}.
 This network is often called ``agriculture.''\index{agriculture}
-The economic value added of the Agriculture, forestry, and fishing industry is only 1~\% of GDP for the U.S.\ 
+The economic value added of the agriculture, forestry, and fishing industry is only 1~\% of GDP for the U.S.\ 
 and about 3.5~\% of GDP worldwide~\cite{World-Bank-agriculture:aa}.
 But its importance goes far beyond its economic value.
 Without agriculture, none of us would be here today!
@@ -94,7 +94,7 @@ are a significant source of demand for the U.S.\ agriculture system.
 Finally, relative to annual worldwide consumption, 
 there is little storage of food beyond what is needed to compensate 
 for expected seasonal weather variations. 
-I.e., the agriculture system produces what is needed now (or at least this year).  
+In other words, the agriculture system produces what is needed now (or at least this year).  
 Given that food demand scales with population, 
 weather- and climate-related supply-side disruptions are
 more significant than demand-side disruptions
@@ -362,7 +362,7 @@ Practices such as crop rotation and biological (as opposed to chemical) past con
 are encouraged.
 
 The growing problem of food waste spans the personal and global levels.
-**** Larisa: research food waste numbers over time. ****
+%**** Larisa: research food waste numbers over time. ****
 Actions and policies to minimize food waste provide benefits such as 
 reducing inputs to the food system and
 strain on the biosphere. 
