@@ -350,13 +350,14 @@ data_string<-
 4.6	Work from home\n
 2.8	Walk\n
 1.7	Motorcycle/bike/other"
-  read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
+read.table(text = data_string, sep="\t", header = TRUE, stringsAsFactors = FALSE, check.names = FALSE) %>% 
   dplyr::mutate(
-    Modes = factor(Modes = c("Drive alone", "Carpool", "Public transportation", "Work from home", "Walk", "Motorcycle/bike/other"))) %>%
-    ggplot()+
-    geom_bar(aes(y=Percentage, x=Modes, fill = Modes),
-    stat="identity")+
-    geom_text(aes(y=Percentage, x=Modes, label=Percentage, group=Modes), color="black")
+    Modes = factor(Modes, levels = c("Drive alone", "Carpool", "Public transportation", "Work from home", "Walk", "Motorcycle/bike/other"))
+  ) %>%
+  ggplot()+
+  geom_bar(aes(y=Percentage, x=Modes, fill = Modes),
+           stat="identity")+
+  geom_text(aes(y=Percentage, x=Modes, label=Percentage, group=Modes), color="black")
 
 
 @
