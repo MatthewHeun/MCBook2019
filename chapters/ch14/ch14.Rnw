@@ -9,18 +9,37 @@
 \label{chap:personal_actions}
 
 
-% \begin{table}[]
-% \begin{tabular}{@{}ll@{}}
-% \toprule
-% Question                                           & Answer                                 \\ 
-% \midrule
-% How big is your house?                             & Small and used                         \\
-% What car do you drive?                             & Small and used                         \\
-% How close do you live to work, church, and stores? & Close (to walk and cycle)              \\
-% What do you eat?                                   & Closer to the bottom of the food chain \\ 
-% \bottomrule
-% \end{tabular}
-% \end{table}
+If you have read this far, 
+you have been confronted with the knowledge that the planet is not in good shape.
+You may be overwhealmed by the sustainabilty challenges that confront us.
+It is difficult, if not impossible, 
+to be both fully aware of the state of the planet and know precisely what to do.
+If that conundrum leads to lament, that's OK.
+Lament occupies the space between the way we want things to be and they way they are
+when we don't know how to make things right.
+
+**** Reference my Beyond Stewardship here. ****
+
+But working through the lament 
+At its best, lament can lead to meaningful action and recommitment to do better.
+
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Live like the crisis is urgent. 
+Embrace the pain, but don’t stop there. 
+Seek out a spiritual path to forge gratitude, compassion, and acceptance, 
+because operating out of denial, anger or fear only hurts us in the end.
+\ldots
+[L]iving like climate change is real and that we can do something about it are signals to others---and
+can help shift cultural norms''~\cite{Buckley:2019aa}.
+\end{mcframe}
+
+
+To that end, this chapter collects and summarizes 
+steps to be taken by individuals to improve the state of the planet.
+
 
 Student question:
 I know you drive a car. 
