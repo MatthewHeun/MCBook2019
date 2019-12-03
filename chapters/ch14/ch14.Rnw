@@ -9,36 +9,70 @@
 \label{chap:personal_actions}
 
 
-If you have read this far, 
-you have been confronted with the knowledge that the planet is not in good shape.
-You may be overwhealmed by the sustainabilty challenges that confront us.
-It is difficult, if not impossible, 
-to be both fully aware of the state of the planet and know precisely what to do.
-If that conundrum leads to lament, that's OK.
-Lament occupies the space between the way we want things to be and they way they are
-when we don't know how to make things right.
+Previous chapters provide readers with the knowledge that planet Earth is not in good shape.
+That knowledge implies responsibility 
+for doing something to make the planet a better place.
 
-**** Reference my Beyond Stewardship chapter here. ****
+But as shown in Chapter~\ref{chap:systems_thinking},
+human beings are finite creatures, and 
+we have limited capacity to foresee all the consequences of our actions.
+Thus it is difficult, if not impossible, 
+to be both 
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item fully aware of the state of the planet and
+  
+  \item confident about what should be done.
+    
+\end{enumerate*}
+%
+Furthermore, because the sustainability challenges are so large, 
+we can become anxious and overwhealmed.
+Eco-anxiety and climate anxiety are names for those feelings.
 
-But working through the lament 
-At its best, lament can lead to meaningful action and recommitment to do better.
+If being overwhelmed leads to lament, that's OK.
+Lament occupies the space between the way things are and the way things ought to be.
+Lament happens when we aren't certain how to make things right~\cite{Heun:2019ab}.
+
+At its best, lament can lead to recommitment to do better via meaningful action.
+In fact, some people engender feelings of eco- and climate anxiety to spur action.
+One example is young activist Greta Thunburg who said,
+``[a]dults keep saying, we owe it to the young people to give them hope. 
+But I don't want your hope, I don't want you to be hopeful, I want you to panic''~\cite{Fawbert:2019aa}.
+
+If knowledge about the state of the planet is spurring you to action, 
+this chapter provides helpful but small suggestions 
+to improve the state of the planet. 
+In isolation, implemented by one person, 
+none of the steps is sufficient to solve the problems faced by our planet.
+But taking personal action, however small,
+shows that you are aware of the environmental challenges we face
+and indicates that you are committed to
+heading in a helpful direction.
 
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 \begin{mcframe}[0.90\textwidth](0.85\textwidth)
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``Live like the crisis is urgent. 
+Journalist Cara Buckley 
+attended a workshop entitled \emph{Cultivating Active Hope: Living With Joy Amidst the Climate Crisis}.
+She learned to address climate grief by 
+
+\begin{quote}
+Liv[ing] like the crisis is urgent. 
 Embrace the pain, but don’t stop there. 
 Seek out a spiritual path to forge gratitude, compassion, and acceptance, 
-because operating out of denial, anger or fear only hurts us in the end.
+because operating out of denial, anger, or fear only hurts us in the end.
 \ldots
 [L]iving like climate change is real and that we can do something about it are signals to others---and
-can help shift cultural norms''~\cite{Buckley:2019aa}.
+can help shift cultural norms~\cite{Buckley:2019aa}.
+\end{quote}
+
 \end{mcframe}
 
 
-To that end, this chapter collects and summarizes 
-steps to be taken by individuals to improve the state of the planet.
+
 
 
 Student question:
@@ -88,7 +122,7 @@ But at least you'll be pointed in the right direction, relative to the rest of s
 
 
 \begin{table}
-\caption[Personal Q\&A]{Personal Q\&A}
+\caption[Personal Q\&A]{Personal action  Q\&A}
 \centering
 \begin{tabular}{@{}ll@{}}
 \toprule
