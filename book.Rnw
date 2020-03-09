@@ -98,7 +98,6 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 \makeindex{}                     % if you are creating an index for your book
 
 \begin{document}
-\SweaveOpts{concordance=TRUE}
 % \SweaveOpts{concordance=TRUE}  % Commented on 17 Oct 2019 to eliminate some errors.
 
  \frontmatter                   % we'll produce the fm for you; 
