@@ -25,7 +25,7 @@ and~\ref{fig:km_freight}.
 
 
 % https://www.caranddriver.com/news/a28806069/worlds-largest-electric-vehicle-dump-truck
-World's largest electric vehcile is a dump truch that never needs recharging.
+World's largest electric vehicle is a dump truck that never needs recharging.
 
 \begin{figure}
 \centering
