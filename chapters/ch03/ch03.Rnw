@@ -5,41 +5,170 @@
 
 %blankpage
 
-\chapter{Economy (JVA 3)}
+\chapter{Economics}
 \label{chap:economy}
+
+% Can we do an epigraph? Flag Day lyrics by The Housemartins.
 
 % https://en.wikipedia.org/wiki/Thermoeconomics
 % https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Domestic_material_consumption_%28DMC%29
-Domestic material consumption.
 
-\begin{algorithm}
-\hrulefill
 
- \textit{Input :} Web server logs \newline
- \textit {Output :} set of user sessions
-$\mathcal{S}=\{s_{1},...,s_{M}\}$
+This chapter explores notions of wellbeing and the effect of affluence on environmental and social sustainability. 
+\section{Review of Basic Economics}
+\subsection{Microeconomics}
+Among the relevant tenets of basic microeconomics is the idea that wellbeing (“value function”) of (rational) consumers is always
+increased by more consumption. Our wants are limitless. What the IPAT equation calls affluence, wellbeing, happiness, and value
+function are all basically the same idea. Consumers are always better off with more. 
 
-\hrulefill
+“Consumption” may mean literal consumption, as in the case with food, or it could be consuming a service, such as education or 
+getting a haircut. In many cases, what is “consumed” is ancillary to what the consumer actually desires. An example is travel. 
+The consumer wants to travel from point A to point B. Exactly how they do it doesn’t really matter to them. The fact that they 
+drive a car the burns gasoline isn’t – for the consumer – the important part. In economic terms, travel uses and energy service. 
+The energy consumed is just a means to the and end. (In this case, that end is travel.)
 
-\begin{algorithmic}[1]
- \STATE $\mathcal{S}=\{\emptyset\}$
- \STATE Order all Web logs by user IDs ($u_k$) and time increasingly
- \FORALL {user ID $u_k$}
-    \STATE Create a new user session in $\mathcal{S}$ for user $u_k$
-    \FOR {i=1 to the number of records of this $u_k$}
-    	\IF {$t_{i+1} - t_i < \triangle t$}
-    		\STATE insert this record into user session
-    	\ELSE
-    		\STATE Create a new user session in $\mathcal{S}$ for user $u_k$
-    	\ENDIF
-    \ENDFOR
- \ENDFOR
-\end{algorithmic}
-\hrulefill
- \caption{Construction of user sessions from Web server logs using $h1$
- heuristic}
-\label{alg:visitingTimeAlg}
-\end{algorithm}
+The value functions of different individuals may be different and so free trade allows each party to maximize their own 
+value function. The opportunity cost is the value (to them) of what they give up, be it money or a good or service. 
+If I’m a barber and I would prefer to have \$15 rather than 20 minutes of free time and you would rather have a haircut than \$15, 
+then we can arrange a trade. I’ll trade you \$15 for a haircut. You’re happier with the \$15 and I’m happier with the haircut.
+
+\subsection{Macroeconomics}
+Discussing sustainability also requires some ideas from macroeconomic theory. Gross domestic product (GDP) is the idea of 
+the amount of wealth created by an economy (usually national) in a year. There are various ways to measure or estimate GDP, 
+usually denominated in units of money (see, for example, bea.gov). 
+$$ \label{eq:GDP}
+GDP\ =\ C+G+I+NX
+$$
+C is consumption and represents purchases made by individuals. Consumption makes up about two thirds of GDP for developed 
+economies and is generally divided into three categories: durable goods, nondurable goods, and services. Services represent 
+nontangible things. Examples include the aforementioned haircut, legal advice, education, and concert tickets. Durable goods 
+defined as things that last longer than 3 years. Examples include appliances, automobiles, but don’t include fabrics (like clothes 
+or carpet) even if those things happen to last more than three years. Nondurable goods are things that are consumed immediately, 
+like food, paper, or fuel. Durable goods spending is more sensitive to economic conditions than nondurable good spending because
+consumers can choose to postpone spending on durable goods until their circumstances are better. 
+
+G is government spending, divided between government consumption (e.g., wages to government workers and equipment) and 
+net investment (e.g., infrastructure improvements).
+
+I is not money put into a bank account. Investment “consists of goods purchased for use in the future … [and] is divided into 
+three subcategories: nonresidential fixed investment, residential fixed investment, and inventory investment” (Mankiw, 1990). 
+Nonresidential fixed investment is equipment and plants (factories) purchased by firms. In contrast, residential fixed investment
+is the purchase of housing stock by households and landlords. Inventory investment is the purchase, by firms, of goods for later 
+sale and could be negative (inventory is falling) or positive (inventory is increasing).
+
+NX is net exports; here “net” is the difference between the value of exports and imports. Thus, NX could be a negative number.
+
+GDP, because it represents consumption, is only a partial indication of wealth. For instance, owning an asset, like land or a 
+valuable painting, doesn’t factor into GDP calculations. Thus, GDP may be less useful than other measures of wealth for discussions 
+of social sustainability. However, GDP does more accurately capture the impact on the environment because it directly correlated 
+with resources that a used up (sources) and emissions (sinks). 
+
+\section{Economic History}
+Comparing the present to the past is often difficult. We have limited economic data from the past and, generally speaking, 
+the data is poorer the farther back you go in time. There are several reasons for this. Most basically, ancient societies didn’t 
+have economic theories compatible with modern notions. Next, their ability to collect data was more limited. Finally, much of the
+data that was collected has either been lost or destroyed. Nevertheless, just because we don’t have exact data doesn’t mean we can’t
+make meaningful comparisons. Our estimates are often good enough. 
+
+Somewhere in the range of 1500 AD to 1850 AD is when we might begin to think of humanity as “modern” and make economic comparisons 
+to the present. Particularly as we get into the 1800s there is some data to make meaningful comparisons. However, the data that is
+available needs some corrections or adjustments. 
+
+\begin{quote}
+A large proportion of our high standard of living today derives not just from our ability to more cheaply and productively
+manufacture the commodities of 1800, but from our ability to manufacture whole new types of commodities, some of which do a
+better job of meeting needs that we knew we had back in 1800, and some of which meet needs that were unimagined back in 1800.
+How much has this change—the fact that we make not just the same goods, but new goods and new types of goods—enhanced our
+material prosperity? Nordhaus (1997) provides perhaps the most eloquent and sophisticated argument that standard measures—like
+those of Maddison—that do not take explicit account of these factors grossly understate the rate of economic growth over the
+past two centuries.
+
+I know that I at least would be extremely unhappy if I were handed my current income, told that I could spend it on goods at
+current prices, but that I was prohibited from buying anything that was not made before 1800. Yet Maddison’s procedures would
+implicitly take such a reduction in the range of goods I could purchase as having no effect on my real income or real material
+standard of living.
+
+But by how much has our power to make new things—not just the same things more efficiently—amplified our material prosperity?
+In at least some models of growth in which the set of goods that can be produced expands, the correct measure of real output
+is proportional to the product of purchasing power (income divided by the average price of a good) and the number of goods
+that can be produced. As best as I can determine, about three-quarters of world expenditure today is spent on commodities
+that simply did not exist back in 1800. So I—somewhat arbitrarily—use this to assign an additional fourfold multiplication
+to output per capita since 1800 in addition to the increases in output per capita calculated by Maddison.
+
+But since this—large—extra adjustment is not to everyone’s taste, I also report the “ex-Nordhaus” series without the
+“new kinds of goods” adjustment.
+\end{quote}
+% [https://www.bradford-delong.com/2014/05/estimates-of-world-gdp-one-million-bc-present-1998-my-view-as-of-1998-the-honest-broker-for-the-week-of-may-24-2014.html]
+
+Figure 1 presents Bradford’s historical estimates of average, World, per-capita, GDP. Note that this notion of 
+“average, World, per-capita, GDP” is directly compatible with the IPAT equation’s notion of “affluence.”
+
+%Insert figure.
+
+\section{Embeddedness, Secondary Emissions, and Economic Activity}
+Online carbon calculators (for instance, \url{https://www.carbonfootprint.com/calculator.aspx}) estimate the direct 
+impact of your activities as well as the indirect impact of your activities. For instance, owning and using a telephone 
+contributes relatively little to atmospheric CO2 – at least directly. Here direct emissions are understood as the 
+emissions directly the result of using the product. In the case of a telephone, the emissions would be those resulting 
+from the electricity consumed by your phone. However, the indirect emissions are greater than this. They are the
+emissions resulting from operating the electronic communications network(s) you’re using when you use your phone.
+
+The main idea here is that all of your economic activity contributes the effects your economy has on the environment,
+to the extent that you participate in the economy.
+
+\section{IPAT Revisited}
+We’ve seen that both Population (chapter 2) and Affluence (this chapter) are increasing exponentially. 
+Technological improvements can offset this (to some degree) but we have already seen indications in the 
+previous chapters (and will see more in the coming chapters) that human impacts on the environment are reaching critical levels.
+
+How high can impact go and still be “sustainable?”
+
+Technology in the IPAT equation has units of impact per consumption, which in this chapter we could think of as impact per GDP. 
+(GDP is actually the demand (what we’ve been calling consumption) side of the supply-equals-demand equation. However, since 
+supply equals demand IPAT captures impacts that arise from either/both production and consumption.) Technology is a measure 
+of efficiency – how efficiently can resources be converted to goods and services – that is, how can we convert resources to 
+goods and services with as little impact as possible. In the 1970s, automobiles could provide transportation service with an
+efficiency in the range of 10-15 miles per gallon of gasoline. Modern vehicles are able to provide the same transportation
+service (that is, a mile traveled) far more efficiently. (Also note that in addition to burning less gasoline per mile, 
+modern vehicles also emit other emissions (such as unburned hydrocarbons, SoX, NoX, carbon monoxide, and soot) at far lower 
+rates than older vehicles. 
+
+\section{Technology and the “law” of diminishing returns}
+The law of diminishing returns is a general observation that successively continuing improvements become harder and harder to make.
+When I ran high school track, my time for the mile dropped from 6:36 to 5:00 my freshman year. 
+It would have been very difficult to get my time down to 3:24 my sophomore year. 
+
+On the other hand, Moore’s Law has continued to hold – the rate of technological improvement has been constant for a long time,
+which is part of what makes Moore’s Law so remarkable. We generally would expect the rate of increase to slow because of 
+diminishing returns. 
+
+Because of the law of diminishing returns, we would expect technological reductions in impact would not keep pace with 
+increasing population and affluence. 
+
+\section{Planetary Boundaries}
+One important notion of sustainability is how high can “impacts” go? What is a safe limit? For instance, 
+we can put some CO2 into the atmosphere because CO2 is removed by plants and ocean coral. Thus if humans put less CO2 
+into the atmosphere than natural systems remove, the levels of CO2 in the atmosphere won’t increase. On the other hand, 
+if we put more CO2 into the atmosphere than can be removed CO2 will increase without limit – by definition unsustainable.
+We call ecosystem services those benefits to humans provided by the ecosystem, for example, removal of CO2 from the atmosphere. 
+
+In 2009 scientists suggested nine possible boundaries (see table 1), at least three of which have been exceeded. 
+Table 1. Planetary Boundaries (\url{https://en.wikipedia.org/wiki/Planetary_boundaries}) Red indicates the limit has been exceeded.
+
+Planetary boundaries are not, in most cases, constant. They are functions of multiple variables and many involve feedback loops. 
+For instance, the ability of coral to remove CO2 from the atmosphere is degraded by higher concentrations of CO2 in the atmosphere
+because of increasing ocean acidification. The recovery of boundaries after limits have been exceeded is an important area of ongoing
+research.
+
+There may be multiple solutions to exceeding planetary boundaries. Ecosystem services could be enhanced so allow increased impacts.
+Impacts could be reduced, either through increasing technology or reducing affluence. Or humanity could move to space so that planet
+Earth is not a limiting factor. 
+
+\section{Mathusian or not?}
+\section{Bauml's cost disease}
+\section{Wealth inequality}
+\section{Homework problems}
+\section{Discussion Questions}
 
 \cleardoublepage
 

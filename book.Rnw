@@ -98,7 +98,6 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
 \makeindex{}                     % if you are creating an index for your book
 
 \begin{document}
-\SweaveOpts{concordance=TRUE}
 % \SweaveOpts{concordance=TRUE}  % Commented on 17 Oct 2019 to eliminate some errors.
 
  \frontmatter                   % we'll produce the fm for you; 
@@ -121,7 +120,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     \Sexpr{knit_child("chapters/ch13/ch13.Rnw")} % \ref{chap:values_and_religion}
     \Sexpr{knit_child("chapters/ch14/ch14.Rnw")} % \ref{chap:personal_actions}
 
-    % \input{biblio}              % bibliography
+ %   \input{biblio}              % bibliography
 
     \bibliographystyle{unsrtnat}
     \bibliography{MCBook2019}   %chktex 11
