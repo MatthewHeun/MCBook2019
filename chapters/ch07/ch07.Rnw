@@ -10,6 +10,8 @@
 \chapter{Food and Agriculture}%% (MKH 3)
 \label{chap:food_and_agriculture}
 %#############################################################
+% Quote by Vladimir Lenin: “Every society is three meals away from chaos”
+%
 
 Food provides energy for humans to pursue lives of work, service, and play
 with family, friends, and co-workers.
