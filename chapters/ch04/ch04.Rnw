@@ -15,6 +15,9 @@ Physical laws govern the conversion and use of energy.
 This chapter examines the role energy and energy systems play in sustainability.
 
 
+**** See \url{https://www.mdpi.com/1996-1073/12/24/4723/htm}
+for potential material for this chapter. ****
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Demand for energy services}
