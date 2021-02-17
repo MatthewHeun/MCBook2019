@@ -8,6 +8,78 @@
 \chapter{Government and Regulations (MKH 7)}
 \label{chap:government_and_regulations}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{What are government and regulations?}
+\label{sec:what_are_government_and_regulations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Government sets the laws and regulations that organize societies.
+Laws and regs affect (and sometimes define) relationships among individuals, 
+collectives (such as unions and religious organizations), corporations, 
+markets, and the natural world (plants, animals, inanimate beings, etc.).
+
+Furthermore, the governments themselves are often one of the largest players in national economies.
+(Show data on government spending as a fraction of GDP.)
+
+Laws and regulations are not neutral; they affect relationships on many levels.
+Those relationships have sustainability implications.
+
+Laws and regulations can be seen as interventions in societal systems.
+In some cases, laws and regs define what citizens and corporations \emph{cannot} do.  
+(Pollution, )
+In other cases, laws and regulations define \emph{what} must be done.
+(x \% of electricity from renewables by 2030.)
+In still other cases, governments pass laws and regulations to define \emph{how} things must be done.
+(Establish markets for carbon trading.)
+
+Different levels of law- and regulation-making bodies:
+In the US, laws and regulations are made at
+federal, state, county, and local levels simultaneously.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Sustainability challenges associated with laws and regulations}
+\label{sec:challenges_government}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Challenges associated with making laws and regulations:
+
+Complexity theory tells us that it is impossible to know all outcomes of system interventions.
+Thus, it is impossible to know the outcomes of laws and regulations.
+
+Complexity theory tells us that all interventions select winners and losers.
+Which aspects of society do we want to win? 
+Which do we want to lose?
+
+Complexity theory tells us that the outcomes of interventions are difficult to predict up front.
+That means sometimes winners and losers will be not who or what we expect at the outset.
+
+Different levels of law- and regulation-making mean that conflicts may arise. 
+But this can also be seen 
+
+In short, governmental laws and regulations obey the law of unintended consequences.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The role of government in sustainability transitions}
+\label{sec:government_transitions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+How can government assist transition to a more sustainable future?
+
+Energy: renewable energy mandates, establish CO2 trading markets, subsidies for building renewable electricity production capacity, rebates for electric vehicles.
+
+Role of government and regulations in assisting transitions
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Bonepile}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %Figure~\ref{fig:vehicle_miles} shows the imapct of a regulation given out 1968 (?) ~\citep[Fig.~1]{personal_transportation}.
 
 %\begin{figure}

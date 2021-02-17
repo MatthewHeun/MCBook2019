@@ -9,6 +9,11 @@
 \label{chap:systems_thinking}
 
 
+
+**** Idea: Every challenge that emerges from complexity
+is often also an opportunity for system intervention. ****
+
+
 Sustainability challenges are characterized 
 by sometimes-mysterious interactions among seemingly-unrealated entities,
 such as air, water, plants, animals, food, agriculture, 
