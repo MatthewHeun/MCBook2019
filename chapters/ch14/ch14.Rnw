@@ -150,6 +150,12 @@ Limit family size?
 
 Adoption?
 
+Spatial population distribution. Are people where they want to be?
+Urban vs.\ rural, international distribution.
+(Connections to land use. 
+Is population growth or migration driving this?)
+Biggest predictor of happiness is the length of your commute (find source).
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Economics}
@@ -159,7 +165,19 @@ Adoption?
 Spend money on low-energy intensity goods and services.
 
 Don't be a billionaire 
-(See \url{https://theconversation.com/private-planes-mansions-and-superyachts-what-gives-billionaires-like-musk-and-abramovich-such-a-massive-carbon-footprint-152514}.)
+(See \url{https://theconversation.com/private-planes-mansions-and-superyachts-what-gives-billionaires-like-musk-and-abramovich-such-a-massive-carbon-footprint-152514}.)  
+Check per-dollar or per-person footprints.
+
+Does adoption need to be expensive?
+What are implications in economy of money spent on adoption?
+Does adoption increase the velocity of money?
+
+Is there such a thing as a steady-state economy?
+
+Spend money on foolish things that take money out of the economy.
+Example: buy forest land that does nothing. 
+(Preserve habitat.)
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -189,6 +207,20 @@ What do you eat?                                                                
 
 All of the above questions are cross-cutting, to some extent.
 Each addresses topics covered in other chapters.
+
+Buy energy-star appliances.
+
+Install insulation in your home.
+
+Seal drafts in windows and walls in your home.
+
+Install solar panels on your home.
+
+Use biofuels?
+
+Buy green energy from your electric utility.
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
