@@ -9,7 +9,9 @@
 \label{chap:personal_actions}
 
 
-Previous chapters provide readers with the knowledge that planet Earth is not in good shape.
+Previous chapters provide readers with the knowledge that planet Earth is not in good shape
+and identify challenges associated with becoming more sustainable.
+
 That knowledge implies responsibility 
 for doing something to make the planet a better place.
 
@@ -35,14 +37,14 @@ If being overwhelmed leads to lament, that's OK.
 Lament occupies the space between the way things are and the way things ought to be.
 Lament happens when we aren't certain how to make things right~\cite{Heun:2019ab}.
 
-At its best, lament can lead to recommitment to do better via meaningful action.
+At its best, lament can lead to re-commitment to do better via meaningful action.
 In fact, some people engender feelings of eco- and climate anxiety to spur action.
 One example is young activist Greta Thunburg who said,
 ``[a]dults keep saying, we owe it to the young people to give them hope. 
 But I don't want your hope, I don't want you to be hopeful, I want you to panic''~\cite{Fawbert:2019aa}.
 
 If knowledge about the state of the planet is spurring you to action, 
-this chapter provides helpful but small suggestions 
+this chapter provides helpful, personal suggestions 
 to improve the state of the planet. 
 In isolation, implemented by one person, 
 none of the steps is sufficient to solve the problems faced by our planet.
@@ -111,15 +113,65 @@ And by minimizing my impact in other areas.
 You're right that I drive a car.  
 But I bought it used, it’s tiny, and it gets over 40 mpg.
 You’re right that I consume electricity, 
-but I am converting all my lights to LEDs, 
-one by one, as the incandescents reach end of life.  
+but I am converting all my lamps to LEDs, 
+one by one, as incandescent lamps reach end of life.  
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Genearl issues}
+\label{sec:personal_action_general}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Be aware of interconnected nature of sustainability challenges.
+
+Try your best to avoid problem shifting.
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Population}
+\label{sec:personal_action_population}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Personal action for population.
+
+Support things that correlate with fertility rate reduction:
+
+Education for young girls, especially in poor countries.
+
+Economic development in lower HDI countries (tradeoff: increased energy consumption)
+
+Limit family size?
+
+Adoption?
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Economics}
+\label{sec:personal_action_economics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Spend money on low-energy intensity goods and services.
+
+Don't be a billionaire 
+(See \url{https://theconversation.com/private-planes-mansions-and-superyachts-what-gives-billionaires-like-musk-and-abramovich-such-a-massive-carbon-footprint-152514}.)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Energy}
+\label{sec:personal_action_energy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Table~\ref{tab:personal_actions} gives four questions to consider as you make choices that affect the rest of your life. 
 Answers that go in the direction of sustainability and make a difference without moving to an agrarian, pre-1900s lifestyle
 are also given in the table.  
 If you do those things, you haven’t solved any sustainability problems.  
 But at least you'll be pointed in the right direction, relative to the rest of society.
-
 
 \begin{table}
 \caption[Personal Q\&A]{Personal action  Q\&A}
@@ -135,6 +187,28 @@ What do you eat?                                                                
 \label{tab:personal_actions}
 \end{table}
 
+All of the above questions are cross-cutting, to some extent.
+Each addresses topics covered in other chapters.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Air and water}
+\label{sec:personal_action_air_water}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Drive an efficient, low-polluting vehicle. 
+
+More here.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Plants and animals}
+\label{sec:personal_action_plants_animals}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Learn the names of plants and animals in your area.
+
+More here.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -147,6 +221,45 @@ agriculture system are less efficient than the overall system.
 So eating fewer animal-products and more plant-based products provides
 improved agriculture system efficiency and a net sustainability beneift.
 I.e., eating closer to the bottom of the food chain brings sustainability benefits.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Transportation}
+\label{sec:personal_action_transport}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Live close to work, school, grocery store, and church.
+
+Walk and ride bike when possible.
+
+Buy used vehicles.
+
+Drive an electric vehicle, but only if the electric grid in your area
+has significant renewables penetration.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Housing and households}
+\label{sec:personal_action_housing_households}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Buy a small, used house.
+
+Buy energy-star appliances.
+
+Convert to LED lighting everywhere.
+
+Do not use a gasoline-powered lawn mower.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Land use and urban planning}
+\label{sec:personal_action_land_use}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Live in a city.
+
+
 
 
 
