@@ -16,12 +16,13 @@
 
 
 Government sets the laws and regulations that organize societies.
-Laws and regs affect (and sometimes define) relationships among individuals, 
+Laws and regs affect (and sometimes define and sometimes effect) relationships among individuals, 
 collectives (such as unions and religious organizations), corporations, 
-markets, and the natural world (plants, animals, inanimate beings, etc.).
+markets, and the natural world (plants, animals, inanimate things, energy resources, etc.).
 
-Furthermore, the governments themselves are often one of the largest players in national economies.
-(Show data on government spending as a fraction of GDP.)
+Furthermore, the governments themselves are often one of the largest spenders in national economies.
+(Show data on government spending as a fraction of GDP.
+See \url{https://tradingeconomics.com/united-states/government-spending-to-gdp}.)
 
 Laws and regulations are not neutral; they affect relationships on many levels.
 Those relationships have sustainability implications.
