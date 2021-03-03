@@ -8,14 +8,41 @@
 \chapter{Personal Actions (MKH 5)}
 \label{chap:personal_actions}
 
+The preceding chapters document many ways in which planet Earth
+is not in good shape;
+we are not on a sustainable trajectory.
+Previous chapters also document many challenges inherent in
+transitioning to a sustainable path.
+The earlier chapters have also noted that both 
+the planet's problems and
+our sustainability challenges 
+occur on many levels:
+world, national, state, municipal, and personal.
+That knowledge implies individual responsibility to act in ways that are more sustainable
+at the personal level while keeping the other levels 
+(municipal, state, national, and world),
+system interactions, and 
+unintended consequences in mind.
 
-Previous chapters provide readers with the knowledge that planet Earth is not in good shape
-and identify challenges associated with becoming more sustainable.
+This chapter focuses on the personal level and 
+discusses actions that could be taken by individuals 
+to a more-sustainable world.
+Most personal actions identified here were discussed in previous chapters, 
+but some are discussed for the first time here.
+This chapter is organized by the topics of previous chapters.
 
-That knowledge implies responsibility 
-for doing something to make the planet a better place.
 
-But as shown in Chapter~\ref{chap:systems_thinking},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Sustainability challenges associated with personal actions}
+\label{sec:challenges_personal_actions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+There are several challenges to personal actions related to sustainability, including
+human finitude, 
+the enormity of the problems facing the planet Earth, and 
+eco and climate anxiety.
+
+As discussed in Chapter~\ref{chap:systems_thinking},
 human beings are finite creatures, and 
 we have limited capacity to foresee all the consequences of our actions.
 Thus it is difficult, if not impossible, 
@@ -25,33 +52,29 @@ to be both
 	
   \item fully aware of the state of the planet and
   
-  \item confident about what should be done.
+  \item confident about what should be done to improve matters.
     
 \end{enumerate*}
 %
-Furthermore, because the sustainability challenges are so large, 
-we can become anxious and overwhealmed.
-Eco-anxiety and climate anxiety are names for those feelings.
+Unfortunately, even with the best intentions,
+we will sometimes act unwittingly in ways that harm the natural environment,
+often in the course of daily life. 
 
-If being overwhelmed leads to lament, that's OK.
-Lament occupies the space between the way things are and the way things ought to be.
-Lament happens when we aren't certain how to make things right~\cite{Heun:2019ab}.
+In isolation, the actions of one individual will never be sufficient 
+to solve the problems faced by our planet.
+The problems are enormous. 
 
-At its best, lament can lead to re-commitment to do better via meaningful action.
-In fact, some people engender feelings of eco- and climate anxiety to spur action.
-One example is young activist Greta Thunburg who said,
-``[a]dults keep saying, we owe it to the young people to give them hope. 
-But I don't want your hope, I don't want you to be hopeful, I want you to panic''~\cite{Fawbert:2019aa}.
-
-If knowledge about the state of the planet is spurring you to action, 
-this chapter provides helpful, personal suggestions 
-to improve the state of the planet. 
-In isolation, implemented by one person, 
-none of the steps is sufficient to solve the problems faced by our planet.
-But taking personal action, however small,
-shows that you are aware of the environmental challenges we face
-and indicates that you are committed to
-heading in a helpful direction.
+Because the sustainability challenges are so large, 
+we can become anxious and overwhelmed.
+Eco-anxiety and climate anxiety can become oppressive and debilitating. 
+Often, feeling anxious overwhelmed can lead to lament 
+for the state of the planet
+and for our seeming powerlessness to make meaningful improvements.
+Such lament occupies the space between the way things are and the way things ought to be.
+Lament happens when we see problems and 
+understand that the challenges are too big to overcome.
+At that moment, we aren't certain how to make things right~\cite{Heun:2019ab}, 
+and we don't know what to do.
 
 %^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 \begin{mcframe}[0.90\textwidth](0.85\textwidth)
@@ -72,6 +95,17 @@ can help shift cultural norms~\cite{Buckley:2019aa}.
 \end{quote}
 
 \end{mcframe}
+
+At its best, lament can lead to re-commitment to do better via meaningful action.
+In fact, some people engender feelings of eco- and climate anxiety to spur action.
+One example is young activist Greta Thunburg who said,
+``[a]dults keep saying, we owe it to the young people to give them hope. 
+But I don't want your hope, I don't want you to be hopeful, I want you to panic''~\cite{Fawbert:2019aa}.
+
+If knowledge about the state of the planet is spurring you to action, 
+this chapter provides helpful, personal suggestions 
+to improve the state of the planet. 
+
 
 
 
