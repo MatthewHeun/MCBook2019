@@ -21,40 +21,61 @@ Figure~\ref{fig:urban_density} shows the relation between urban denisty and tran
 \label{fig:urban_density}
 \end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch10/Bloomberg2018landuse.jpg}
+\captionUSA land use.{Major cateogries of how US land is used.~\citep[Fig.~1]{USlanduse}.}
+\label{fig:USAlanduse}
+\end{figure}
+
 \section(Land and how it is used)
 Of the three means of production (land, labor, capital), economists generally consider only land to be a fixed quantity.
-This is approximately true. There are ways of creating more land. The Dutch system of building dykes to reclaim land from the ocean is one example. Planetary colonization could be another. Structures such as multi-story parking garages, high-rise apartment buildings, and off-shore oil platforms are also ways to multiply the {\i effective use} of the land. 
+This is approximately true. There are ways of creating more land. 
+The Dutch system of building dykes to reclaim land from the ocean is one example. Planetary colonization could be another. 
+Structures such as multi-story parking garages, high-rise apartment buildings, and off-shore oil platforms are also ways to 
+multiply the {\i effective use} of the land. 
 % Change in efficiency. but land is constant. 
-Techniques that increase agricultural productivity {\i per acre} are effectively equivalent to creating more farm land. But, all these aside, it remains true that the surface area of planet Earth is a fixed quantity and that the various methods described above have very little relative effect on the total land available for human use.
+Techniques that increase agricultural productivity {\i per acre} are effectively equivalent to creating more farm land. 
+But, all these aside, it remains true that the surface area of planet Earth is a fixed quantity and that the various methods 
+described above have very little relative effect on the total land available for human use.
 
-Get the content from the Powerpoint on Moodle.
+so the amount of land is basically fixed and we want to look at how to use land effectively and efficiently. Figure \ref{fig:USlanduse}
+shows to what uses land in the United States is currently being put. %revise.
+Related to sustainability, three questions related to land use are "Is this the right use?" "How efficient is this?" "
+How do we transition?"
 
-Moodle links:
-Green Metropolis (David Owens, TedX, Berlin)
-Walk score -- how walkable is your city?
-Planet Earth episode on cities.
-Land use to counter climate change (NYT article on Iowa farmers)
-The new urbanism
-Outcast Capetown
-Cooperative housing -- pocket neighborhood, how housing affects friendship.
+Figure \ref{fig:USlanduse} shows that land in the US is largely used for agriculture in one form or another. Forestry, grazing, and
+crop production are the three largest uses. Refer to chapter on Food and Agriculture for the outputs from this sector.
+%note splitting up the picture this way give a fractured presentation.
 
-\subsection{Land as source and sink}
-Minerals. forest and agricultural products. solar (and wind) energy.
-
-% sinks
-Landfill AND litter. What ends up in the ocean? Lots of carbon. 
-
-Interconnections (air, land, water), pollution dispersion, and rates of pollution persistance. 
-
-\subsection{Interconnections}
-\subsubsection{Air} The carbon cycle. Albedo (do we have an explicit {\i climate} focus to the book?) Wind-bourne soils.
-\subsubsection{Water} Agricultural runoff (in the water chapter?). Kent County drain commission. 
-\subsubsection{Transportation} Location, location, location
-\subsubsection{Policy?} Who owns what. who has access. culture and history play into these questions. Zoning as an implementation of social policy. Why 1-acre suburban lots? Leon, France vs. Grand Rapids -- much more concentrated. Why?
-
-\section{Tradeoffs}
-Can land be used for only one thing? See land use map. There are tradeoffs between those uses. Location vs. transportation. What is the purpose of wilderness?
-
+ 
+% Get the content from the Powerpoint on Moodle.
+% Moodle links:
+% Green Metropolis (David Owens, TedX, Berlin)
+% Walk score -- how walkable is your city?
+% Planet Earth episode on cities.
+% Land use to counter climate change (NYT article on Iowa farmers)
+% The new urbanism
+% Outcast Capetown
+% Cooperative housing -- pocket neighborhood, how housing affects friendship.
+% 
+% \subsection{Land as source and sink}
+% Minerals. forest and agricultural products. solar (and wind) energy.
+% 
+% % sinks
+% Landfill AND litter. What ends up in the ocean? Lots of carbon. 
+% 
+% Interconnections (air, land, water), pollution dispersion, and rates of pollution persistance. 
+% 
+% \subsection{Interconnections}
+% \subsubsection{Air} The carbon cycle. Albedo (do we have an explicit {\i climate} focus to the book?) Wind-bourne soils.
+% \subsubsection{Water} Agricultural runoff (in the water chapter?). Kent County drain commission. 
+% \subsubsection{Transportation} Location, location, location
+% \subsubsection{Policy?} Who owns what. who has access. culture and history play into these questions. Zoning as an implementation of social policy. Why 1-acre suburban lots? Leon, France vs. Grand Rapids -- much more concentrated. Why?
+% 
+% \section{Tradeoffs}
+% Can land be used for only one thing? See land use map. There are tradeoffs between those uses. Location vs. transportation. What is the purpose of wilderness?
+% 
 
 \cleardoublepage
 
