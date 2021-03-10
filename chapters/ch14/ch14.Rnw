@@ -185,7 +185,7 @@ In fact, people who commute an hour each way
 would need an additional 40~\% of their monthly wage to 
 be as satisfied with their life as people who walk to the office. 
 Try to find a job in your neighborhood within an easy, fast commute, 
-and you will set yourself up for minimal angst.
+and you will set yourself up for minimal angst~\cite{Buettner:2010wi}.
 \end{quote}
 
 \end{mcframe}

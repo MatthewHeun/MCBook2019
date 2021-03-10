@@ -24,11 +24,16 @@ Figure~\ref{fig:urban_density} shows the relation between urban denisty and tran
 \begin{figure}
 \centering
 \includegraphics[width=0.75\linewidth]{chapters/ch10/Bloomberg2018landuse.jpg}
-\captionUSA land use.{Major cateogries of how US land is used.~\citep[Fig.~1]{USlanduse}.}
+\caption[USA land use.]{Major cateogries of how US land is used.~\citep[Fig.~1]{USlanduse}.}
 \label{fig:USAlanduse}
 \end{figure}
 
-\section(Land and how it is used)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Land and how it is used}
+\label{sec:land_and_how_it_is_used}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Of the three means of production (land, labor, capital), economists generally consider only land to be a fixed quantity.
 This is approximately true. There are ways of creating more land. 
 The Dutch system of building dykes to reclaim land from the ocean is one example. Planetary colonization could be another. 
