@@ -57,7 +57,7 @@ to be both
 \end{enumerate*}
 %
 Unfortunately, even with the best intentions,
-we will sometimes act unwittingly in ways that harm the natural environment,
+we will sometimes act in ways that unwittingly harm the natural environment,
 often in the course of daily life. 
 
 In isolation, the actions of one individual will never be sufficient 
@@ -105,51 +105,8 @@ But I don't want your hope, I don't want you to be hopeful, I want you to panic'
 If knowledge about the state of the planet is spurring you to action, 
 this chapter provides helpful, personal suggestions 
 to improve the state of the planet. 
-
-
-
-
-
-
-Student question:
-I know you drive a car. 
-If fossil fuel consumption is the end of society, 
-how do you find that justifiable? 
-Or if you ever fly or eat anything that you don't produce or use any product that uses metals or petroleum, 
-how do you justify that consumption?
-
-Answer:
-If everyone (including me) decided today to stop using fossil fuels (FFs), 
-a large portion of our sustainability challenges would evaporate.  
-However, the world I was born into requires the consumption of electricity and the need for high-speed transport.
-(By ``high speed,'' I mean automobile speed.)  
-You can't live life in today’s society without access to refrigeration, lighting, and transport.  
-At present, those needs (refrigeration, lighting, and transport) are provided by FF consumption.  
-And even worse, if I, personally, would decide to never drive a car again, 
-I’m still not with out guilt.  
-The food I eat is enabled by FF energy sources.  
-So I would also need to grow, harvest, and preserve all my own food.  
-I don't have those skills!  
-The lights I use and the refrigerator both require coal consumption to provide the electricity they need.  
-We live in a FF web.  
-And it can get quite depressing.  
-
-There is plenty to lament.
-And there is a corporate guilt that we all face, 
-which is why I like to think at a very broad level, 
-at the societal level.  
-
-Even worse, many people don’t know about the sustainability challenges we face.  
-That's why I’ve dedicated my professional life to exploring and educating on these issues.  
-I have come to understand that I can contribute to a way forward by doing so.
-And by minimizing my impact in other areas. 
-(I think it is impossible to eliminate our environmental impacts because of the way the world is structured.)  
-You're right that I drive a car.  
-But I bought it used, it’s tiny, and it gets over 40 mpg.
-You’re right that I consume electricity, 
-but I am converting all my lamps to LEDs, 
-one by one, as incandescent lamps reach end of life.  
-
+Its organization is aligned to the previous challenges chapters, 
+starting with some general observations.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -172,23 +129,71 @@ Try your best to avoid problem shifting.
 \label{sec:personal_action_population}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Personal action for population.
+Chapter~\ref{chap:population} discusses sustainability aspects
+related to population, 
+particularly unsustainable features of exponential population growth.
+This section summarizes several things to address the negative aspects of population growth.
 
-Support things that correlate with fertility rate reduction:
+First, become knowledgeable about and supportive of factors that correlate with both
+human development and declining fertility rates.
+Specific examples include
+%
+\begin{enumerate*}[label={(\alph*)}]
+	
+  \item education for young girls, especially in low HDI countries,
+  
+  \item economic development in lower HDI countries,
+  
+  \item **** more here. ****
+    
+\end{enumerate*}
+%
+These factors improve quality of life, 
+limit population growth, and
+reduce the burden on the environment.
 
-Education for young girls, especially in poor countries.
+More young adults should carefully consider family size
+in the context of planetary limits and boundaries.
+Not everyone can or will choose to have a smaller family, but 
+if some do, exponential growth of population may be slowed.
 
-Economic development in lower HDI countries (tradeoff: increased energy consumption)
+More young adults could consider adoption as an alternative way to expand a family. 
+Adoption may not be for everyone, but if more people pursue it,
+population growth may be slowed.
 
-Limit family size?
+**** Do we want to say anything about limiting family size? 
+China's experiment failed. ****
 
-Adoption?
+The issue of population has other less-expected aspects related to sustainability.
+For example, spatial distribution of population is important
+to the sustainability of cities and urban areas, particularly. 
+If people are not where they need to be 
+for work, school, grocery shopping, and church, 
+their commutes are long, energy-consuming, and arduous.
 
-Spatial population distribution. Are people where they want to be?
-Urban vs.\ rural, international distribution.
-(Connections to land use. 
-Is population growth or migration driving this?)
-Biggest predictor of happiness is the length of your commute (find source).
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\begin{mcframe}[0.90\textwidth](0.85\textwidth)
+%^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In \emph{Thrive: Finding Happiness the Blue Zones Way}, 
+author Dan Buettner says,
+
+\begin{quote}
+Avoid long commutes. 
+Commuting is the least favorite activity people do on a daily basis.
+In fact, people who commute an hour each way
+would need an additional 40~\% of their monthly wage to 
+be as satisfied with their life as people who walk to the office. 
+Try to find a job in your neighborhood within an easy, fast commute, 
+and you will set yourself up for minimal angst.
+\end{quote}
+
+\end{mcframe}
+
+To that, we would add that a shorter commute reduces impact on the planet
+due to less energy consumption, less carbon emissions, 
+less automotive maintenance, less wear-and-tear on roads, and 
+longer automobile replacement cycles. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -222,7 +227,7 @@ Example: buy forest land that does nothing.
 Table~\ref{tab:personal_actions} gives four questions to consider as you make choices that affect the rest of your life. 
 Answers that go in the direction of sustainability and make a difference without moving to an agrarian, pre-1900s lifestyle
 are also given in the table.  
-If you do those things, you haven’t solved any sustainability problems.  
+If you do those things, you haven't solved any sustainability problems.  
 But at least you'll be pointed in the right direction, relative to the rest of society.
 
 \begin{table}
@@ -330,6 +335,63 @@ Live in a city.
 
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Bonepile}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Student question:
+I know you drive a car. 
+If fossil fuel consumption is the end of society, 
+how do you find that justifiable? 
+Or if you ever fly or eat anything that you don't produce or use any product that uses metals or petroleum, 
+how do you justify that consumption?
+
+Answer:
+If everyone (including me) decided today to stop using fossil fuels (FFs), 
+a large portion of our sustainability challenges would evaporate.  
+However, the world I was born into requires the consumption of electricity and the need for high-speed transport.
+(By ``high speed,'' I mean automobile speed.)  
+You can't live life in today’s society without access to refrigeration, lighting, and transport.  
+At present, those needs (refrigeration, lighting, and transport) are provided by FF consumption.  
+And even worse, if I, personally, would decide to never drive a car again, 
+I’m still not without guilt.  
+The food I eat is enabled by FF energy sources.  
+So I would also need to grow, harvest, and preserve all my own food.  
+I don't have those skills!  
+The lights I use and the refrigerator both require coal consumption to provide the electricity they need.  
+We live in a FF web.  
+And it can get quite depressing.  
+
+There is plenty to lament.
+And there is a corporate guilt that we all face, 
+which is why I like to think at a very broad level, 
+at the societal level.  
+
+Even worse, many people don’t know about the sustainability challenges we face.  
+That's why I’ve dedicated my professional life to exploring and educating on these issues.  
+I have come to understand that I can contribute to a way forward by doing so.
+And by minimizing my impact in other areas. 
+(I think it is impossible to eliminate our environmental impacts because of the way the world is structured.)  
+You're right that I drive a car.  
+But I bought it used, it’s tiny, and it gets over 40 mpg.
+You’re right that I consume electricity, 
+but I am converting all my lamps to LEDs, 
+one by one, as incandescent lamps reach end of life.  
+
+
+
+
+
+
+
+
+Spatial population distribution. Are people where they want to be?
+Urban vs.\ rural, international distribution.
+(Connections to land use. 
+Is population growth or migration driving this?)
+Biggest predictor of happiness is the length of your commute (find source).
 
 
 \cleardoublepage
