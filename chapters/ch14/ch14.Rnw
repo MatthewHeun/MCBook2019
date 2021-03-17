@@ -195,7 +195,7 @@ Each of us can take specific actions to reduce the burden on the planet
 that comes from our economic life.
 
 First, we should spend money on low-carbon-intensity goods and services.
-Resources such as \emph{How bad are bananas?} by \citet{Berners-Lee:2011}
+Resources such as \emph{How bad are bananas?} by Mike \citet{Berners-Lee:2011}
 provide helpful guides for purchasing decisions.
 Even better would be a mandatory carbon labeling scheme
 (like nutrition labels)
