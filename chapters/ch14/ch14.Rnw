@@ -63,16 +63,15 @@ often in the course of daily life.
 In isolation, the actions of one individual will never be sufficient 
 to solve the problems faced by our planet.
 The problems are enormous. 
-
 Because the sustainability challenges are so large, 
 we can become anxious and overwhelmed.
 Eco-anxiety and climate anxiety can become oppressive and debilitating. 
-Often, feeling anxious overwhelmed can lead to lament 
+Often, feeling anxious and overwhelmed can lead to lament 
 for the state of the planet
 and for our seeming powerlessness to make meaningful improvements.
 Such lament occupies the space between the way things are and the way things ought to be.
 Lament happens when we see problems and 
-understand that the challenges are too big to overcome.
+understand that the challenges are too big to overcome by ourselves.
 At that moment, we aren't certain how to make things right~\cite{Heun:2019ab}, 
 and we don't know what to do.
 
@@ -106,22 +105,9 @@ If knowledge about the state of the planet is spurring you to action,
 this chapter provides helpful, personal suggestions 
 to improve the state of the planet. 
 Its organization is aligned to the previous challenges chapters, 
-starting with some general observations.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Genearl issues}
-\label{sec:personal_action_general}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Be aware of interconnected nature of sustainability challenges.
-
-Try your best to avoid problem shifting.
-
-
-
-
-
+ending with some general observations.
+Its tone is imperative ``should'' rather than optional ``could,''
+indicating the urgent nature of sustainability challenges.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -131,21 +117,24 @@ Try your best to avoid problem shifting.
 
 Chapter~\ref{chap:population} discusses sustainability aspects
 related to population, 
-particularly unsustainable features of exponential population growth.
-This section summarizes several things to address the negative aspects of population growth.
+including the unsustainable features of exponential population growth.
+There are several things individuals should do 
+to address the negative aspects of population growth.
 
-First, become knowledgeable about and supportive of factors that correlate with both
-human development and declining fertility rates.
+First, become knowledgeable about and supportive of policies
+that correlate with both human development and declining fertility rates.
 Specific examples include
 %
 \begin{enumerate*}[label={(\alph*)}]
 	
   \item education for young girls, especially in low HDI countries,
   
-  \item economic development in lower HDI countries,
+  \item universal access to safe and effective contraception for both women and men,
   
-  \item **** more here. ****
-    
+  \item ending all social benefit programs that provide financial rewards for having more children, and
+  
+  \item economic development in lower HDI countries \citep{Engelman:2012uy}.
+
 \end{enumerate*}
 %
 These factors improve quality of life, 
@@ -155,18 +144,15 @@ reduce the burden on the environment.
 More young adults should carefully consider family size
 in the context of planetary limits and boundaries.
 Not everyone can or will choose to have a smaller family, but 
-if some do, exponential growth of population may be slowed.
+if some do, population growth may be slowed.
 
-More young adults could consider adoption as an alternative way to expand a family. 
+More young families could consider adoption as an alternative way to grow. 
 Adoption may not be for everyone, but if more people pursue it,
 population growth may be slowed.
 
-**** Do we want to say anything about limiting family size? 
-China's experiment failed. ****
-
-The issue of population has other less-expected aspects related to sustainability.
+The issue of population has other aspects related to other sustainability challenges.
 For example, spatial distribution of population is important
-to the sustainability of cities and urban areas, particularly. 
+to the sustainability of cities and urban areas. 
 If people are not where they need to be 
 for work, school, grocery shopping, and church, 
 their commutes are long, energy-consuming, and arduous.
@@ -188,12 +174,14 @@ Try to find a job in your neighborhood within an easy, fast commute,
 and you will set yourself up for minimal angst~\cite{Buettner:2010wi}.
 \end{quote}
 
-\end{mcframe}
-
-To that, we would add that a shorter commute reduces impact on the planet
+To the job satisfaction and mental health benefits of a short commute,
+we add reduced impact on the planet
 due to less energy consumption, less carbon emissions, 
 less automotive maintenance, less wear-and-tear on roads, and 
 longer automobile replacement cycles. 
+
+\end{mcframe}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -201,10 +189,28 @@ longer automobile replacement cycles.
 \label{sec:personal_action_economics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Spend money on low-energy intensity goods and services.
+Chapter~\ref{chap:economy} identifies sustainability challenges
+associated with participation in modern economies.
+Each of us can take specific actions to reduce the burden on the planet
+that comes from our economic life.
 
-Don't be a billionaire 
-(See \url{https://theconversation.com/private-planes-mansions-and-superyachts-what-gives-billionaires-like-musk-and-abramovich-such-a-massive-carbon-footprint-152514}.)  
+First, we should spend money on low-carbon-intensity goods and services.
+Resources such as \emph{How bad are bananas?} by \citet{Berners-Lee:2011}
+provide helpful guides for purchasing decisions.
+Even better would be a mandatory carbon labeling scheme
+(like nutrition labels)
+to inform consumers at the point of purchase
+of the relative carbon intensity of goods~\citep{Zhao_2012}.
+
+Next, don't be a billionaire~\citep{Wilk:2021vg}!
+Yachts, mansions, and private jets contribute significant CO$_2$ emissions
+both in use and on standby.
+
+
+
+***** Ended here. *****
+
+
 Check per-dollar or per-person footprints.
 
 Does adoption need to be expensive?
@@ -332,6 +338,14 @@ Live in a city.
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Genearl issues}
+\label{sec:personal_action_general}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Be aware of interconnected nature of sustainability challenges.
+
+Try your best to avoid problem shifting.
 
 
 
