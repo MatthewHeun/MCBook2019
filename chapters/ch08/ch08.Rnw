@@ -9,6 +9,23 @@
 \label{chap:transportation}
 %#############################################################
 
+
+****
+
+Make sure we discuss the last mile problem.
+
+Electric truck calculation? 
+
+$W = Fd$ Rolling friction resistance to get force. Multiply by distance. LCA for Diesel truck vs.\ electric truck. 
+
+Find a paper that has already done this?
+
+Maybe discuss LCA for trucking (don't get bogged down in details.)
+
+****
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Demand for transportation services}
 \label{sec:transportation_demand}

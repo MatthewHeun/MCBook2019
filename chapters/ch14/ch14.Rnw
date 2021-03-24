@@ -147,8 +147,10 @@ Not everyone can or will choose to have a smaller family, but
 if some do, population growth may be slowed.
 
 More young families could consider adoption as an alternative way to grow. 
+Adoption could be encouraged by making it less expensive.
 Adoption may not be for everyone, but if more people pursue it,
 population growth may be slowed.
+
 
 The issue of population has other aspects related to other sustainability challenges.
 For example, spatial distribution of population is important
@@ -191,8 +193,8 @@ longer automobile replacement cycles.
 
 Chapter~\ref{chap:economy} identifies sustainability challenges
 associated with participation in modern economies.
-Each of us can take specific actions to reduce the burden on the planet
-that comes from our economic life.
+Each of us can take specific actions to reduce the burden 
+that our economic life places on the planet.
 
 First, we should spend money on low-carbon-intensity goods and services.
 Resources such as \emph{How bad are bananas?} by Mike \citet{Berners-Lee:2011}
@@ -202,26 +204,21 @@ Even better would be a mandatory carbon labeling scheme
 to inform consumers at the point of purchase
 of the relative carbon intensity of goods~\citep{Zhao_2012}.
 
-Next, don't be a billionaire~\citep{Wilk:2021vg}!
-Yachts, mansions, and private jets contribute significant CO$_2$ emissions
+Second, if you can afford to do so, 
+purchase things that take money out of the economy. 
+For example, buy forest land that provides little economic value,
+thereby preserving the land and breaking the cycle of economic growth.
+
+Third, don't be a billionaire~\citep{Wilk:2021vg}!
+On a per-person basis, 
+yachts, mansions, and private jets contribute significant CO$_2$ emissions
 both in use and on standby.
 
+Fourth, consider adopting a de-growth 
 
-
-***** Ended here. *****
-
-
-Check per-dollar or per-person footprints.
-
-Does adoption need to be expensive?
-What are implications in economy of money spent on adoption?
-Does adoption increase the velocity of money?
 
 Is there such a thing as a steady-state economy?
 
-Spend money on foolish things that take money out of the economy.
-Example: buy forest land that does nothing. 
-(Preserve habitat.)
 
 
 
