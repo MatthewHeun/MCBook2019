@@ -217,19 +217,21 @@ Second, if you can afford to do so,
 purchase things that take money out of the economy and slow down economic development. 
 For example, buy forest land and spend no additional money on it for development purposes.
 Doing so will preserve the land and break the cycle of economic growth.
+Tracking your personal carbon emissions is easy to do
+via any number of online carbon calculators~\cite{Padgett:2008ws}.
 
 Third, don't be a billionaire~\citep{Wilk:2021vg}!
 On a per-person basis, 
 yachts, mansions, and private jets contribute significant CO$_2$ emissions
 both when in use and when on standby.
 
-Fourth, adopt a de-growth mindset. 
+Fourth, live in a city. 
+On a per-person basis, cities emit 
+
+Finally, adopt a de-growth mindset. 
 We should all strive to live simpler lives
 in smaller spaces 
 with less stuff.
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
