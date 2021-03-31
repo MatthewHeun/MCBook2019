@@ -26,7 +26,7 @@ unintended consequences in mind.
 
 This chapter focuses on the personal level and 
 discusses actions that could be taken by individuals 
-to a more-sustainable world.
+to bring about a more-sustainable world.
 Most personal actions identified here were discussed in previous chapters, 
 but some are discussed for the first time here.
 This chapter is organized by the topics of previous chapters.
@@ -60,15 +60,13 @@ Unfortunately, even with the best intentions,
 we will sometimes act in ways that unwittingly harm the natural environment,
 often in the course of daily life. 
 
-In isolation, the actions of one individual will never be sufficient 
-to solve the problems faced by our planet.
-The problems are enormous. 
-Because the sustainability challenges are so large, 
-we can become anxious and overwhelmed.
+In isolation, one individual's actions of  will never be sufficient 
+to solve the problems faced by our planet---the problems are too big. 
+We can become anxious and overwhelmed.
 Eco-anxiety and climate anxiety can become oppressive and debilitating. 
 Often, feeling anxious and overwhelmed can lead to lament 
 for the state of the planet
-and for our seeming powerlessness to make meaningful improvements.
+and for our individual powerlessness to make meaningful improvements.
 Such lament occupies the space between the way things are and the way things ought to be.
 Lament happens when we see problems and 
 understand that the challenges are too big to overcome by ourselves.
@@ -96,7 +94,7 @@ can help shift cultural norms~\cite{Buckley:2019aa}.
 \end{mcframe}
 
 At its best, lament can lead to re-commitment to do better via meaningful action.
-In fact, some people engender feelings of eco- and climate anxiety to spur action.
+In fact, some people engender feelings of eco- and climate anxiety to spur such action.
 One example is young activist Greta Thunburg who said,
 ``[a]dults keep saying, we owe it to the young people to give them hope. 
 But I don't want your hope, I don't want you to be hopeful, I want you to panic''~\cite{Fawbert:2019aa}.
@@ -146,13 +144,13 @@ in the context of planetary limits and boundaries.
 Not everyone can or will choose to have a smaller family, but 
 if some do, population growth may be slowed.
 
-More young families could consider adoption as an alternative way to grow. 
-Adoption could be encouraged by making it less expensive.
+More young families should consider adoption as an alternative way to grow a family. 
+Adoption should be encouraged by making it less expensive.
 Adoption may not be for everyone, but if more people pursue it,
 population growth may be slowed.
 
 
-The issue of population has other aspects related to other sustainability challenges.
+The issue of population has aspects related to other sustainability challenges.
 For example, spatial distribution of population is important
 to the sustainability of cities and urban areas. 
 If people are not where they need to be 
@@ -176,13 +174,13 @@ Try to find a job in your neighborhood within an easy, fast commute,
 and you will set yourself up for minimal angst~\cite{Buettner:2010wi}.
 \end{quote}
 
+\end{mcframe}
+
 To the job satisfaction and mental health benefits of a short commute,
 we add reduced impact on the planet
 due to less energy consumption, less carbon emissions, 
 less automotive maintenance, less wear-and-tear on roads, and 
 longer automobile replacement cycles. 
-
-\end{mcframe}
 
 
 
@@ -193,31 +191,43 @@ longer automobile replacement cycles.
 
 Chapter~\ref{chap:economy} identifies sustainability challenges
 associated with participation in modern economies.
-Each of us can take specific actions to reduce the burden 
+Each of us should take specific actions to reduce the burden 
 that our economic life places on the planet.
+
+The basis for these actions is the knowledge that every 
+dollar spent in the economy implies energy and material consumption.
+Every dollar spent requires energy to make, use, and dispose of devices, machines, and goods. 
+Every dollar spent requires raw materials to be extracted from nature
+and, eventually, returned to nature as waste.
+A growing economy only serves to increase the energy and material 
+implications of our economic lives.
+Awareness of these linkages among economic spending, energy consumption, and material extraction
+leads to several personal actions.
 
 First, we should spend money on low-carbon-intensity goods and services.
 Resources such as \emph{How bad are bananas?} by Mike \citet{Berners-Lee:2011}
 provide helpful guides for purchasing decisions.
-Even better would be a mandatory carbon labeling scheme
+A mandatory carbon labeling scheme 
 (like nutrition labels)
+should be implemented
 to inform consumers at the point of purchase
 of the relative carbon intensity of goods~\citep{Zhao_2012}.
 
 Second, if you can afford to do so, 
-purchase things that take money out of the economy. 
-For example, buy forest land that provides little economic value,
-thereby preserving the land and breaking the cycle of economic growth.
+purchase things that take money out of the economy and slow down economic development. 
+For example, buy forest land and spend no additional money on it for development purposes.
+Doing so will preserve the land and break the cycle of economic growth.
 
 Third, don't be a billionaire~\citep{Wilk:2021vg}!
 On a per-person basis, 
 yachts, mansions, and private jets contribute significant CO$_2$ emissions
-both in use and on standby.
+both when in use and when on standby.
 
-Fourth, consider adopting a de-growth 
+Fourth, adopt a de-growth mindset. 
+We should all strive to live simpler lives
+in smaller spaces 
+with less stuff.
 
-
-Is there such a thing as a steady-state economy?
 
 
 

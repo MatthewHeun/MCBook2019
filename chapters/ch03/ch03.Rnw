@@ -14,6 +14,17 @@
 % https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Domestic_material_consumption_%28DMC%29
 
 
+****
+In the Personal Actions chapter, I had included this question:
+``Is there such a thing as a steady-state economy?''
+I don't think it belongs in teh Personal Actions chapter.
+It may fit better in the economics chapter. ---MKH
+****
+
+
+
+
+
 This chapter explores notions of wellbeing and the effect of affluence on environmental and social sustainability. 
 \section{Review of Basic Economics}
 \subsection{Microeconomics}
