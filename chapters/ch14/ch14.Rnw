@@ -216,8 +216,8 @@ Tracking your personal carbon emissions is easy to do
 via any number of online carbon calculators~\cite{Padgett:2008ws}.
 
 Second, if you can afford to do so, 
-purchase things that take money out of the economy and slow down economic growth 
-For example, buy forest land and spend no additional money for development purposes.
+purchase things that take money out of the economy to slow down economic growth.
+For example, buy forest land and spend no additional money for its development.
 Doing so will preserve the land and slow economic growth.
 
 Third, don't be a billionaire~\citep{Wilk:2021vg}!
@@ -239,14 +239,25 @@ with less stuff.
 \label{sec:personal_action_energy}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Table~\ref{tab:personal_actions} gives four questions to consider as you make choices that affect the rest of your life. 
-Answers that go in the direction of sustainability and make a difference without moving to an agrarian, pre-1900s lifestyle
+Chapter~\ref{chap:energy} identifies sustainability challenges
+that arise from energy consumption, 
+in particular CO$_2$ emissions.
+Related to energy consumption, 
+Table~\ref{tab:personal_energy_actions} gives four questions to consider 
+as you make important personal choices.
+These questions involve infrastructure choices
+(home, car, location) 
+and daily choices (food). 
+Answers that more in the direction of a more-sustainable world 
+and make a difference to the planet
+(without requiring an agrarian, pre-1900s lifestyle)
 are also given in the table.  
-If you do those things, you haven't solved any sustainability problems.  
-But at least you'll be pointed in the right direction, relative to the rest of society.
+Each question and answer has links
+to topics covered in other chapters
+besides the energy chapter.
 
 \begin{table}
-\caption[Personal Q\&A]{Personal action  Q\&A}
+\caption[Personal Q\&A]{Personal energy actions Q\&A}
 \centering
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -256,25 +267,24 @@ What car do you drive?                                                          
 \begin{tabular}[c]{@{}l@{}}How close do you live to \\ work, church, and stores?\end{tabular} & Close (allowing walking and cycling)   \\
 What do you eat?                                                                              & Closer to the bottom of the food chain \\ \bottomrule
 \end{tabular}
-\label{tab:personal_actions}
+\label{tab:personal_energy_actions}
 \end{table}
 
-All of the above questions are cross-cutting, to some extent.
-Each addresses topics covered in other chapters.
+Other actions that should be undertaken include
+%
+\begin{itemize}
 
-Buy energy-star appliances.
+  \item buy Energy Star appliances~\cite{U.S.-Department-of-Energy:ux}, 
 
-Install insulation in your home.
+  \item install more insulation in your home,
+  
+  \item seal drafts in windows and walls in your home,
+  
+  \item install solar panel on your home, and
+  
+  \item buy green energy from your electric utility.
 
-Seal drafts in windows and walls in your home.
-
-Install solar panels on your home.
-
-Use biofuels?
-
-Buy green energy from your electric utility.
-
-
+\end{itemize}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
