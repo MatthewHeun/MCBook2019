@@ -8,18 +8,18 @@
 \chapter{Land Use and Urban Planning (JVA 4)}
 \label{chap:land_use_and_urban_planning}
 
-% https://www.ozy.com/fast-forward/the-latest-quick-fix-for-the-housing-crisis-granny-flats
-Why is there a "housing shortage"? This points to alternative LAWS to circumvent(?) economic and demographic trends.
-
-
-Figure~\ref{fig:urban_density} shows the relation between urban denisty and transport-related energy consumption~\citep[Fig~2]{US_cities}.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.75\linewidth]{chapters/ch10/Urban_Density_and_Transportation-Related_Energy_Consumption.pdf}
-\caption[Relation between urban denisty and transport-related energy consumption.]{Relation between urban denisty and transport-related energy consumption~\citep[Fig.~2]{US_cities}.}
-\label{fig:urban_density}
-\end{figure}
+% % https://www.ozy.com/fast-forward/the-latest-quick-fix-for-the-housing-crisis-granny-flats
+% Why is there a "housing shortage"? This points to alternative LAWS to circumvent(?) economic and demographic trends.
+% 
+% 
+% Figure~\ref{fig:urban_density} shows the relation between urban denisty and transport-related energy consumption~\citep[Fig~2]{US_cities}.
+% 
+% \begin{figure}
+% \centering
+% \includegraphics[width=0.75\linewidth]{chapters/ch10/Urban_Density_and_Transportation-Related_Energy_Consumption.pdf}
+% \caption[Relation between urban denisty and transport-related energy consumption.]{Relation between urban denisty and transport-related energy consumption~\citep[Fig.~2]{US_cities}.}
+% \label{fig:urban_density}
+% \end{figure}
 
 \begin{figure}
 \centering
@@ -42,16 +42,52 @@ multiply the {\i effective use} of the land.
 % Change in efficiency. but land is constant. 
 Techniques that increase agricultural productivity {\i per acre} are effectively equivalent to creating more farm land. 
 But, all these aside, it remains true that the surface area of planet Earth is a fixed quantity and that the various methods 
-described above have very little relative effect on the total land available for human use.
+described above have very little {\i relative effect} on the total land available for human use.
 
-so the amount of land is basically fixed and we want to look at how to use land effectively and efficiently. Figure \ref{fig:USlanduse}
-shows to what uses land in the United States is currently being put. %revise.
+Figure \ref{fig:USlanduse} how land is used in the United States. Although proportions may be different in other economies,
+the categories are the same. Land is a place to live. It is a primary input in agriculture, and so is basically the source of
+most of humanity's food supply. Land is the primary source of energy, be it fossil fuel, biomass, or renewable. Land can also be a
+major carbon sink. Land use affects and is affected by climate change. This chapter gives an overview of how land use 
+% need better language.
+intersects sustainability challenges discussed in other chapters. % What's the "sustainability tool" in this chapter?
+
+
+
+
 Related to sustainability, three questions related to land use are "Is this the right use?" "How efficient is this?" "
 How do we transition?"
 
 Figure \ref{fig:USlanduse} shows that land in the US is largely used for agriculture in one form or another. Forestry, grazing, and
 crop production are the three largest uses. Refer to chapter on Food and Agriculture for the outputs from this sector.
 %note splitting up the picture this way give a fractured presentation.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The carbon storage capacity of land}
+\label{sec:carbon_storage_capacity}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\linewidth]{chapters/ch10/LandCarbonStorage.jpg}
+\caption[Biome specific carbon storage capacity.]
+{Specific carbon storage capacity of different biomes.~\citep[Fig.~1]{LandCStorage}.}
+\label{fig:LandCStorage}
+\end{figure}
+% Need a source for this figure.
+% https://link.springer.com/chapter/10.1007/978-94-017-3089-1_2 ??
+% https://www.researchgate.net/publication/255994189_Terrestrial_ecosystem_responses_to_global_change_a_research_strategy
+% https://carbon2018.globalchange.gov/chapter/13/
+% https://www.google.com/search?q=willraap.org%3A+carbon+storage&rlz=1C1GCEA_enUS774US774&oq=willraap.org%3A+carbon+storage&aqs=chrome..69i57.5629j0j4&sourceid=chrome&ie=UTF-8
+% THE SOURCE OF THE IMAGE IS THE PDF IN THIS FOLDER. BUT THE LINK TO WILLRAAP.ORG IS NOTHING.
+
+Need to modify this figure to reconcile with Duke report (see also other publications by the same authors)
+% https://nicholasinstitute.duke.edu/sites/default/files/publications/blue-carbon-report-paper.pdf
+%
+% https://www.google.com/search?q=Murray+Linwood+Pendleton+Jenkins+Sifleet+2011&rlz=1C1GCEA_enUS774US774&oq=Murray+Linwood+Pendleton+Jenkins+Sifleet+2011&aqs=chrome..69i57.34130j0j7&sourceid=chrome&ie=UTF-8
+%
+include oceans.
+Note that this data is a specific intensity. That is, it shows how much carbon is stored per meter squared but we need to know how many square meters of each terrain is available.
 
  
 % Get the content from the Powerpoint on Moodle.
