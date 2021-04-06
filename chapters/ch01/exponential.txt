@@ -1,0 +1,23 @@
+One more email from Calvin University but this one is better than most
+
+
+Dear 
+
+I am encouraging you to attend Calvin University and to contact me if you have questions about Calvin, engineering, or both.
+
+Calvin is unique because it is Christian, offers five areas of emphasis within engineering (chemical, civil and environmental, electrical and computer, mechanical, as well as a biomedical engineering minor), has international opportunities for engineering students, and has a sustainability designation within the engineering curriculum.
+
+This summer, Professor Heun and I, with help from a couple of student research assistants, are finishing a new textbook on sustainability. The book takes a quantitative approach to describe the many aspects of sustainability and why sustainability is challenging to achieve. At Calvin University, all students take at least one course that highlights why sustainability is an important aspect of living out our common Christian mission. Our book is intended to support this general education component of Calvin’s mission and the brief illustrative excerpt from the introductory chapter at the end of this email is intended to give you a taste of why sustainability is interesting and challenging.
+
+Please email me with any questions you might have. I look forward to seeing you in person on campus in the fall.
+
+Sincerely,
+Jeremy VanAntwerp, PhD. Chemical Engineering,
+Engineering Department @ Calvin University
+
+Things that grow at a constant rate double in a fixed amount of time. An example with a negative growth rate is radioactive decay, where the corresponding time is called the half-life because the amount of time for half of the radioactivity to decay away is constant. Populations are modeled as having constant growth rates. We actively manage the economy have a constant growth rate (say a target of 3% GDP growth per year). When growth rate is constant, the amount of time to double is approximately 70 divided by the growth rate. With a fixed 3% growth rate, GDP doubles every 23 years. If your investment portfolio has a 7% return, your assets will double every 10 years. 
+
+Consider a series of doubling numbers: 1, 2, 4, 8, 16, 32, … The sum of all the numbers in the series is always one less than the next number in the series. 1+2+4+8 is 15, which is one less than 16. 1+2+4+8+16 is 31, which is one less than 32. 
+
+The result for sustainability is that the resources needed by the economy in the next 23 years – for instance, energy – will be more than the total resources (energy) used in all of history. [We go on to explain that technological improvements can improve efficiency, but that efficiency is subject to diminishing returns.]
+
