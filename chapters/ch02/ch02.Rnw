@@ -9,6 +9,8 @@
 \label{chap:population}
 This chapter deals with human and nonhuman populations.
 
+%%% UPDATE with data from https://www.youtube.com/watch?v=nzBAxcJDSsc
+
 \section{Human population: past and present}
 
 As shown in equation \ref{eq:ipat}, human population has a major effect in determining our impact on the planet. 

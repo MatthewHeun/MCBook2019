@@ -127,6 +127,20 @@ Martingale
 rates and levels
 predictions and good enough
 
+Things that grow at a constant rate double in a fixed amount of time. 
+An example with a negative growth rate is radioactive decay, 
+where the corresponding time is called the half-life because the amount of time for half of the radioactivity to decay away is constant. 
+Populations are modeled as having constant growth rates. 
+We actively manage the economy have a constant growth rate (say a target of 3\% GDP growth per year). 
+When growth rate is constant, the amount of time to double is approximately 70 divided by the growth rate. 
+With a fixed 3\% growth rate, GDP doubles every 23 years. 
+If your investment portfolio has a 7\% return, your assets will double every 10 years. 
+
+Consider a series of doubling numbers: 1, 2, 4, 8, 16, 32, … The sum of all the numbers in the series is always one less than the next number in the series. 1+2+4+8 is 15, which is one less than 16. 1+2+4+8+16 is 31, which is one less than 32. 
+
+The result for sustainability is that the resources needed by the economy in the next 23 years – for instance, energy – will be more than the total resources (energy) used in all of history. [We go on to explain that technological improvements can improve efficiency, but that efficiency is subject to diminishing returns.]
+
+
 \section{What makes sustainability challenging}
 \paragraph*{Complexity} Our understanding of systems, natural as well as social, is limited.
 \paragraph*{Interconnectedness} Everything relates to everything else.
