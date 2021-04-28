@@ -5,7 +5,7 @@
 
 %blankpage
 
-\chapter{Plants and Animals (JVA 5)}
+\chapter{The Planet-- New Chapter 3 (JVA 5)}
 \label{chap:plants_and_animals}
 
 % https://www.woodtv.com/news/national/where-have-the-wild-birds-gone-3-billion-fewer-than-1970
@@ -14,9 +14,21 @@ Humans are animals too: %https://www.mostwatchedtoday.com/nature-valley-rediscov
 More.
 
 
+Let's move the "plants and animals" chapter to be a section of the population chapter. 
+I think we need a new chapter that covers the concepts of source and sink, carrying capacity (that is, planetary boundaries),
+ecosystem services, resource depletion (move section 4.2.1 to here), and the concept of modeling uncertainty versus "being wrong."
 
+\section{Sources and Sinks}
+In a biophysical system, every material and energy flow has a source (or sources?) and a sink. The concepts of source and sink 
+are extremely useful for considering sustainability challenges.
 
+\subsection{Sources}
+We get oxygen from the atmosphere by breathing, but atmosphere is also the {\i source} for many industrial gases such as argon and
+nitrogen. Water comes from wells, surface water, desalination, or chemical reactions. Energy is generated from fossil fuels or by renewable sources such as solar, wind, and hydro. Everything we have comes from somewhere.
 
+\subsection{Sinks}
+Likewise, every product (and byproduct) ends up somewhere. When fossil fuels are burned to produce energy, the products of combustion, which are mostly water vapor, carbon dioxide, and heat, end up in the atmosphere (with heat being further radiated to space). Some products are recycled but many end up in a landfill. Waterways, and ultimately the oceans, are also the recipients for many of the 
+products (and byproducts) of human civilization.
 
 
 
