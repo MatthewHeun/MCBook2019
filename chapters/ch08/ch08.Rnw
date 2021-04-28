@@ -42,11 +42,7 @@ and~\ref{fig:km_freight}.
 
 
 % https://www.caranddriver.com/news/a28806069/worlds-largest-electric-vehicle-dump-truck
-<<<<<<< HEAD
-The world's largest electric vehcile is a dump truck that never needs recharging.
-=======
 World's largest electric vehicle is a dump truck that never needs recharging.
->>>>>>> b8b21f6bd1d0e38fb3d53acb90a930e247194388
 
 \begin{figure}
 \centering
@@ -585,7 +581,7 @@ two broad options exist:
 \label{sec:transportation_efficiency}
 %++++++++++++++++++++++++++++++
 
-Vehicle efficiency is usually quantified in distance travelled per volume
+Vehicle efficiency is usually quantified in distance traveled per volume
 of fuel consumed.\index{efficiency!fuel}\index{efficiency!vehicle}
 Figure~\ref{fig:US_mpg} shows U.S.\ fleet average fuel economy
 over time for cars, trucks, and the overall vehicle fleet.
