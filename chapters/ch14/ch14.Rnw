@@ -363,7 +363,7 @@ Do not use a gasoline-powered lawn mower.
 
 In the book \emph{Green Metropolis: 
 Why Living Smaller, Living Closer, and Driving Less Are the Keys to Sustainability}~\cite{Owen:2009ub},
-David Owen argues that people who live in cities
+author David Owen argues that people who live in cities
 drive less, walk more, discard less garbage, and
 emit less greenhouse gases than any other people in the U.S.
 
