@@ -195,10 +195,11 @@ The phrase ``reversion to the mean''
 describes the self-correcting nature of systems.
 
 Sometimes it seems that systems have a ``mind of their own.''
-People say ``larger forces are at play'' to indicate their lack of agency
-in the face of a self-correcting system.
+People say ``larger forces are at play'' to suggest their lack of agency
+in the face of self-correcting systems.
 The phrase ``rearranging the deck chairs on the Titanic'' describes how
-some human activities appear, at times, to be meaningless.
+some human activities appear, at times, to be meaningless
+in the face of large, dominant systems.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
