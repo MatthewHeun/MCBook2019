@@ -265,7 +265,7 @@ Other actions that should be undertaken include
 
 Drive an efficient, low-polluting vehicle. 
 
-More here.
+**** More here from JVA. ****
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -275,7 +275,7 @@ More here.
 
 Learn the names of plants and animals in your area.
 
-More here.
+**** More here from JVA. ****
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -347,13 +347,35 @@ to reduce life cycle emissions~\cite{Hawkins_2012}.
 \label{sec:personal_action_housing_households}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Buy a small, used house.
+Houses and households are the source of both sustainability problems and sustainability opportunities, 
+as discussed in Chapter~\ref{chap:housing_and_households}.
+Homes are a significant piece of infrastructure that
+require large amounts of energy and materials to construct and
+determine energy use patterns for decades to come.
+When choosing a home, people should 
+buy smaller and used homes rather than 
+constructing large, new homes.  
+Used homes avoid the energy and material cost of construction.
+Small homes reduce ongoing energy consumption for heating and cooling.
+Purchasing a well-insulated home (or retrofitting with improved insulation) reduces
+ongoing energy costs for heating and cooling.
 
-Buy energy-star appliances.
+At home, people can make decisions to reduce energy and material consumption in their daily lives, too.
+Homes should be filled with Energy Star appliances, where possible,
+to minimize energy consumption in daily life.
+Be especially concerned about energy efficiency when appliances need to be replaced.
+The energy cost of manufacturing, transporting, and disposing appliances 
+often outweighs energy savings from using new appliances.
+So replacing low-efficiency devices with high-efficiency devices is almost always beneficial to sustainability.
+For example, homeowners should replace all incandescent and compact fluorescent lamps
+with LED lamps when replacement is necessary.
+And low-efficiency gasoline-powered lawnmowers should be eschewed in favor of 
+native plantings that need little care.
+When needed, reel mowers are preferred to gasoline powered mowers.
 
-Convert to LED lighting everywhere.
-
-Do not use a gasoline-powered lawn mower.
+As with all energy efficiency measures, the rebound effect should be considered.
+Money saved by being more efficient should be used for additional energy efficient appliances
+rather than other purchases in the economy (which themselves demand more energy consumption).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -367,14 +389,14 @@ author David Owen argues that people who live in cities
 drive less, walk more, discard less garbage, and
 emit less greenhouse gases than any other people in the U.S.
 
-**** More here ****
+**** More here from JVA. ****
 
 In short, more people should live in cities, and 
 every city should be more like Manhattan.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Genearl issues}
+\section{General issues}
 \label{sec:personal_action_general}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
