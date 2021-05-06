@@ -68,8 +68,9 @@ Figure \ref{fig:USlanduse} shows that
 forestry (28\%), grazing (34\%), and crop production (20.6\%) are the three largest uses. 
 % Need global numbers too!
 In other words, land in the US is largely used for agriculture in one form or another. 
-Refer to chapter on Food and Agriculture for the outputs from this sector. % Insert Reference.
+Refer to chapter on Food and Agriculture for the outputs from this sector % Insert Reference.
 %note splitting up the picture this way give a fractured presentation.
+and measures of agricultural productivity and efficiency.
 
 Since land limited resource, it makes sense to maximize the productivity of that resource. 
 Various metrics could be used to gauge the productivity of the land, for example, calories per acre, pounds of food per acre,
