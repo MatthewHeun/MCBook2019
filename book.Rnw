@@ -115,7 +115,7 @@ citecolor=MyDarkBlue,filecolor=MyDarkBlue,urlcolor=MyDarkBlue]{hyperref}
     \Sexpr{knit_child("chapters/ch08/ch08.Rnw")} % \ref{chap:transportation}
     \Sexpr{knit_child("chapters/ch09/ch09.Rnw")} % \ref{chap:housing_and_households}
     \Sexpr{knit_child("chapters/ch10/ch10.Rnw")} % \ref{chap:land_use_and_urban_planning}
-    \Sexpr{knit_child("chapters/ch11/ch11.Rnw")} % \ref{chap:government_and_regulations} %% for tragedy of the commons? https://www.cfra.org/news/131022/water-overcoming-tragedy-commons
+    \Sexpr{knit_child("chapters/ch11/ch11.Rnw")} % \ref{chap:government_and_regulations} % for tragedy of the commons? https://www.cfra.org/news/131022/water-overcoming-tragedy-commons
     \Sexpr{knit_child("chapters/ch12/ch12.Rnw")} % \ref{chap:systems_thinking}
     \Sexpr{knit_child("chapters/ch13/ch13.Rnw")} % \ref{chap:values_and_religion}
     \Sexpr{knit_child("chapters/ch14/ch14.Rnw")} % \ref{chap:personal_actions}
