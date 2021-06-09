@@ -14,7 +14,7 @@ a question of utmost importance.
 The purpose of this book is to summarize the evidence that humans are not living
 sustainably and to show the characteristics of sustainable societies.
 The challenges associated with transitioning to a sustainable existence
-are complex and interconnected.
+are complex and interconnected. \citep{Bereiter}.
 
 \section{Definitions of Sustainability}
 \label{ch01.defn}
